@@ -1,0 +1,272 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "version": "1.0.0",
+  "fontVersion": "1.000",
+  "canonicalOrigin": "https://opentransitinformation.org",
+  "repository": "https://github.com/uningeniero/opentransitinformation-fonts",
+  "cuts": [
+    {
+      "role": "screen",
+      "family": "Tavrenel Screen",
+      "style": "Regular",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelScreen-Regular",
+      "weight": 400,
+      "italic": false,
+      "glyphs": 2892,
+      "encodedScalars": 1730,
+      "ttf": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-Regular.ttf",
+        "bytes": 475884,
+        "sha256": "4f3b52fece9c52995a85a3e59518309b093bcb401870a29489519c655039a10a"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-Regular.woff2",
+        "bytes": 150248,
+        "sha256": "ffad5197493ff76bb4a04474b92a6f6769b8e8cf95f41775572f67d0237f4999"
+      }
+    },
+    {
+      "role": "screen",
+      "family": "Tavrenel Screen",
+      "style": "Medium",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelScreen-Medium",
+      "weight": 500,
+      "italic": false,
+      "glyphs": 2892,
+      "encodedScalars": 1730,
+      "ttf": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-Medium.ttf",
+        "bytes": 477480,
+        "sha256": "bf1e0cfaf18c4471fa69786d349562ed9bf4fed530582bd5b209ed7a665f0b6b"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-Medium.woff2",
+        "bytes": 154632,
+        "sha256": "f3f8f734e059f329ef98cb1e023dbda3bfd96c1f8145322e44451b28a10d5bed"
+      }
+    },
+    {
+      "role": "screen",
+      "family": "Tavrenel Screen",
+      "style": "SemiBold",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelScreen-SemiBold",
+      "weight": 600,
+      "italic": false,
+      "glyphs": 2892,
+      "encodedScalars": 1730,
+      "ttf": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-SemiBold.ttf",
+        "bytes": 509432,
+        "sha256": "e54b3649b58f6bb26da12a0efc78370e9396916173203d0a5319fbf5fb85530f"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-SemiBold.woff2",
+        "bytes": 161384,
+        "sha256": "15ea6abcfd2c131f70518dbcd52c9d0279d6b1f64bc9cb3b482035037887b661"
+      }
+    },
+    {
+      "role": "screen",
+      "family": "Tavrenel Screen",
+      "style": "Bold",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelScreen-Bold",
+      "weight": 700,
+      "italic": false,
+      "glyphs": 2892,
+      "encodedScalars": 1730,
+      "ttf": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-Bold.ttf",
+        "bytes": 509768,
+        "sha256": "1b13b5c3ed922279b50f8c0a82df94a2480c0d3db20c4e1c92a26d21344748d0"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-Bold.woff2",
+        "bytes": 161132,
+        "sha256": "b06cd5f95db0aa8c52c9156e6e5d0ddf7ea8de8eda3e346f45b7cf1d9d40afe7"
+      }
+    },
+    {
+      "role": "screen",
+      "family": "Tavrenel Screen",
+      "style": "Italic",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelScreen-Italic",
+      "weight": 400,
+      "italic": true,
+      "glyphs": 2897,
+      "encodedScalars": 1730,
+      "ttf": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-Italic.ttf",
+        "bytes": 481012,
+        "sha256": "e6f81bcd8c1ac71e7ebf8683f8b6e38786d3ea85b031c10825ac2a8c7d8d6ddf"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-Italic.woff2",
+        "bytes": 157016,
+        "sha256": "4cb0da9a38247b0e6ce9b92a95b1db775bd685c4e5c970fbafed990e4874fc69"
+      }
+    },
+    {
+      "role": "screen",
+      "family": "Tavrenel Screen",
+      "style": "Medium Italic",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelScreen-MediumItalic",
+      "weight": 500,
+      "italic": true,
+      "glyphs": 2897,
+      "encodedScalars": 1730,
+      "ttf": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-MediumItalic.ttf",
+        "bytes": 483112,
+        "sha256": "7020adf15538959df8bd983271a7db56c82740d0535d02ea211215a49555e0e7"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-MediumItalic.woff2",
+        "bytes": 161052,
+        "sha256": "c00e7699b87740aef8e1407263ef0db388de91e1f236cbe74e5f373c3d89cb89"
+      }
+    },
+    {
+      "role": "screen",
+      "family": "Tavrenel Screen",
+      "style": "SemiBold Italic",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelScreen-SemiBoldItalic",
+      "weight": 600,
+      "italic": true,
+      "glyphs": 2897,
+      "encodedScalars": 1730,
+      "ttf": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-SemiBoldItalic.ttf",
+        "bytes": 515220,
+        "sha256": "fbd97b3a7012bfdd3bb226664f2d75b5d7a7bb9afee9003e97df95fc80e5110f"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-SemiBoldItalic.woff2",
+        "bytes": 168272,
+        "sha256": "5c011622e257a3a546e42ebb74d2e0cce29758f998341c5c80f2e858bd6adb70"
+      }
+    },
+    {
+      "role": "screen",
+      "family": "Tavrenel Screen",
+      "style": "Bold Italic",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelScreen-BoldItalic",
+      "weight": 700,
+      "italic": true,
+      "glyphs": 2897,
+      "encodedScalars": 1730,
+      "ttf": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-BoldItalic.ttf",
+        "bytes": 515044,
+        "sha256": "e657679a86fbd3dcad2d92ebffdc18656eec642048e7e0a99830137139dad1a4"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelscreen/TavrenelScreen-BoldItalic.woff2",
+        "bytes": 168672,
+        "sha256": "cc08019db249501a8d928a438712b64c5271a79056e0c47c498c5ca4f65842e2"
+      }
+    },
+    {
+      "role": "sign",
+      "family": "Tavrenel Sign",
+      "style": "Regular",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelSign-Regular",
+      "weight": 400,
+      "italic": false,
+      "glyphs": 869,
+      "encodedScalars": 791,
+      "ttf": {
+        "path": "fonts/tavrenelsign/TavrenelSign-Regular.ttf",
+        "bytes": 152200,
+        "sha256": "ec8d3f71798e9941b6d6cea4f1e7680be3c91813cf0e6617b404cf467e2e26ad"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelsign/TavrenelSign-Regular.woff2",
+        "bytes": 53672,
+        "sha256": "3a742b062284efbc5ada9fafbf131026d1fa678fd0278f1396295962b9aeba29"
+      }
+    },
+    {
+      "role": "sign",
+      "family": "Tavrenel Sign",
+      "style": "Medium",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelSign-Medium",
+      "weight": 500,
+      "italic": false,
+      "glyphs": 869,
+      "encodedScalars": 791,
+      "ttf": {
+        "path": "fonts/tavrenelsign/TavrenelSign-Medium.ttf",
+        "bytes": 153224,
+        "sha256": "cb308d88bad3807f80f7e7f5ceaa8c17d2cd577b23977322bc6d69f325baac6c"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelsign/TavrenelSign-Medium.woff2",
+        "bytes": 55748,
+        "sha256": "626561d753e7cd7955090da5c7f38aa14584f56d36a11b4bfa090a8d20b95028"
+      }
+    },
+    {
+      "role": "sign",
+      "family": "Tavrenel Sign",
+      "style": "SemiBold",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelSign-SemiBold",
+      "weight": 600,
+      "italic": false,
+      "glyphs": 869,
+      "encodedScalars": 791,
+      "ttf": {
+        "path": "fonts/tavrenelsign/TavrenelSign-SemiBold.ttf",
+        "bytes": 153768,
+        "sha256": "0f8bf3e3c99bb3de705291b9342751cda68daccf686894b5d90ac657219f357c"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelsign/TavrenelSign-SemiBold.woff2",
+        "bytes": 55556,
+        "sha256": "da7ae03b9496515988420269e6ee096f6ace57687f1863a3f043b784b3ee9892"
+      }
+    },
+    {
+      "role": "sign",
+      "family": "Tavrenel Sign",
+      "style": "Bold",
+      "fontVersion": "1.000",
+      "postScriptName": "TavrenelSign-Bold",
+      "weight": 700,
+      "italic": false,
+      "glyphs": 869,
+      "encodedScalars": 791,
+      "ttf": {
+        "path": "fonts/tavrenelsign/TavrenelSign-Bold.ttf",
+        "bytes": 151252,
+        "sha256": "cf520719fd8175c0fdad486ccc5c0d3dc6c47faa79bd65e6e16151dbe2280d1f"
+      },
+      "woff2": {
+        "path": "fonts/tavrenelsign/TavrenelSign-Bold.woff2",
+        "bytes": 53412,
+        "sha256": "a7152a3364fe3f8f0e34e6fc3d546b6f2d84f3223cc1bb9aab236d1302628a44"
+      }
+    }
+  ],
+  "nativeCompanion": {
+    "family": "Source Sans 3",
+    "version": "3.052",
+    "provenance": "companions/source-sans-3/provenance.json"
+  },
+  "licences": [
+    "licenses/fira/OFL.txt",
+    "licenses/fira/OFL-mozilla-source.txt",
+    "licenses/cabin/OFL.txt",
+    "companions/source-sans-3/LICENSE.md"
+  ]
+}

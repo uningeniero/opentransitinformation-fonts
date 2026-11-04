@@ -1,0 +1,2729 @@
+{
+  "id": "OTI-SIGN-YORUBA-NATIVE-TONE-ROUTES-2026-11-04",
+  "revision": 1,
+  "spdxLicense": "OFL-1.1; preserve exact original Cabin and current source notices",
+  "scope": "Append one separate own-class MarkBase lookup for four native e/o dotbelow bases and four actual acute/grave mark forms. Retain all native drawings, metrics, hints, old lookup definitions and the separate accepted Lithuanian/kerning rules. No new glyph or scalar.",
+  "rule": {
+    "baseAnchor": "otRound of actual full-ink x centre, yMax+90",
+    "markAnchor": "otRound of actual native mark-ink x centre, yMin",
+    "gap": 90,
+    "upm": 2000,
+    "lookup": "Separate bounded MarkBase appended to the native mark feature; no generic global mark coverage and no accidental extra grave coverage on the Lithuanian base set."
+  },
+  "caseBank": "Join the eight stated YO IDs to the lead-owned canonical bank once its append is complete. The actual source strings and executed yo/script/direction are already explicit below; no second reader/virtual scenario bank is created.",
+  "newGlyphCount": 0,
+  "newScalarCount": 0,
+  "caseCount": 32,
+  "cuts": [
+    {
+      "style": "Regular",
+      "baseCoverage": [
+        {
+          "unicode": 7865,
+          "glyph": "uni1EB9",
+          "sourceGid": 291,
+          "inkBounds": [
+            62,
+            -342,
+            964,
+            1000
+          ],
+          "advance": 1024,
+          "anchor": [
+            513,
+            1090
+          ]
+        },
+        {
+          "unicode": 7885,
+          "glyph": "uni1ECD",
+          "sourceGid": 372,
+          "inkBounds": [
+            64,
+            -342,
+            1036,
+            1000
+          ],
+          "advance": 1100,
+          "anchor": [
+            550,
+            1090
+          ]
+        },
+        {
+          "unicode": 7864,
+          "glyph": "uni1EB8",
+          "sourceGid": 58,
+          "inkBounds": [
+            160,
+            -342,
+            1032,
+            1400
+          ],
+          "advance": 1108,
+          "anchor": [
+            596,
+            1490
+          ]
+        },
+        {
+          "unicode": 7884,
+          "glyph": "uni1ECC",
+          "sourceGid": 136,
+          "inkBounds": [
+            80,
+            -342,
+            1460,
+            1428
+          ],
+          "advance": 1540,
+          "anchor": [
+            770,
+            1518
+          ]
+        }
+      ],
+      "markCoverage": [
+        {
+          "glyph": "acutecomb",
+          "sourceGid": 680,
+          "inkBounds": [
+            -186,
+            1152,
+            188,
+            1494
+          ],
+          "anchor": [
+            1,
+            1152
+          ]
+        },
+        {
+          "glyph": "gravecomb",
+          "sourceGid": 679,
+          "inkBounds": [
+            -188,
+            1152,
+            186,
+            1494
+          ],
+          "anchor": [
+            -1,
+            1152
+          ]
+        },
+        {
+          "glyph": "acutecomb.case",
+          "sourceGid": 705,
+          "inkBounds": [
+            -186,
+            1108,
+            188,
+            1414
+          ],
+          "anchor": [
+            1,
+            1108
+          ]
+        },
+        {
+          "glyph": "gravecomb.case",
+          "sourceGid": 704,
+          "inkBounds": [
+            -188,
+            1108,
+            186,
+            1414
+          ],
+          "anchor": [
+            -1,
+            1108
+          ]
+        }
+      ],
+      "cases": [
+        {
+          "caseId": "YO-edotbelow-acute-lower",
+          "text": "\u1eb9\u0301",
+          "nfd": "e\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1024,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1024,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB9",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            513,
+            1090
+          ],
+          "markAnchor": [
+            1,
+            1152
+          ],
+          "proposedMarkOrigin": [
+            512,
+            -62
+          ],
+          "proposedAdvance": 1024,
+          "proposedInkBounds": [
+            62,
+            -342,
+            964,
+            1432
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-grave-lower",
+          "text": "\u1eb9\u0300",
+          "nfd": "e\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1024,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb",
+              "gid": 679,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1024,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB9",
+          "markGlyph": "gravecomb",
+          "baseAnchor": [
+            513,
+            1090
+          ],
+          "markAnchor": [
+            -1,
+            1152
+          ],
+          "proposedMarkOrigin": [
+            514,
+            -62
+          ],
+          "proposedAdvance": 1024,
+          "proposedInkBounds": [
+            62,
+            -342,
+            964,
+            1432
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-acute-lower",
+          "text": "\u1ecd\u0301",
+          "nfd": "o\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1100,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1100,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECD",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            550,
+            1090
+          ],
+          "markAnchor": [
+            1,
+            1152
+          ],
+          "proposedMarkOrigin": [
+            549,
+            -62
+          ],
+          "proposedAdvance": 1100,
+          "proposedInkBounds": [
+            64,
+            -342,
+            1036,
+            1432
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-grave-lower",
+          "text": "\u1ecd\u0300",
+          "nfd": "o\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1100,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb",
+              "gid": 679,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1100,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECD",
+          "markGlyph": "gravecomb",
+          "baseAnchor": [
+            550,
+            1090
+          ],
+          "markAnchor": [
+            -1,
+            1152
+          ],
+          "proposedMarkOrigin": [
+            551,
+            -62
+          ],
+          "proposedAdvance": 1100,
+          "proposedInkBounds": [
+            64,
+            -342,
+            1036,
+            1432
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-acute-upper",
+          "text": "\u1eb8\u0301",
+          "nfd": "E\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB8",
+              "gid": 58,
+              "cluster": 0,
+              "advance": 1108,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1108,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB8",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            596,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1108
+          ],
+          "proposedMarkOrigin": [
+            595,
+            382
+          ],
+          "proposedAdvance": 1108,
+          "proposedInkBounds": [
+            160,
+            -342,
+            1032,
+            1796
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-grave-upper",
+          "text": "\u1eb8\u0300",
+          "nfd": "E\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB8",
+              "gid": 58,
+              "cluster": 0,
+              "advance": 1108,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb.case",
+              "gid": 704,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1108,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB8",
+          "markGlyph": "gravecomb.case",
+          "baseAnchor": [
+            596,
+            1490
+          ],
+          "markAnchor": [
+            -1,
+            1108
+          ],
+          "proposedMarkOrigin": [
+            597,
+            382
+          ],
+          "proposedAdvance": 1108,
+          "proposedInkBounds": [
+            160,
+            -342,
+            1032,
+            1796
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-acute-upper",
+          "text": "\u1ecc\u0301",
+          "nfd": "O\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECC",
+              "gid": 136,
+              "cluster": 0,
+              "advance": 1540,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1540,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECC",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            770,
+            1518
+          ],
+          "markAnchor": [
+            1,
+            1108
+          ],
+          "proposedMarkOrigin": [
+            769,
+            410
+          ],
+          "proposedAdvance": 1540,
+          "proposedInkBounds": [
+            80,
+            -342,
+            1460,
+            1824
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-grave-upper",
+          "text": "\u1ecc\u0300",
+          "nfd": "O\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECC",
+              "gid": 136,
+              "cluster": 0,
+              "advance": 1540,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb.case",
+              "gid": 704,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1540,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECC",
+          "markGlyph": "gravecomb.case",
+          "baseAnchor": [
+            770,
+            1518
+          ],
+          "markAnchor": [
+            -1,
+            1108
+          ],
+          "proposedMarkOrigin": [
+            771,
+            410
+          ],
+          "proposedAdvance": 1540,
+          "proposedInkBounds": [
+            80,
+            -342,
+            1460,
+            1824
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "e\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "eacute",
+              "gid": 278,
+              "cluster": 0,
+              "advance": 1024,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1024,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "o\u0300",
+          "beforeGlyphs": [
+            {
+              "glyph": "ograve",
+              "gid": 373,
+              "cluster": 0,
+              "advance": 1100,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1100,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "\u1eb9",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1024,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1024,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "\u1ecd",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1100,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1100,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "q\u0323",
+          "beforeGlyphs": [
+            {
+              "glyph": "q",
+              "gid": 396,
+              "cluster": 0,
+              "advance": 1114,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "dotbelowcomb",
+              "gid": 694,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1114,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "h\u0302\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "hcircumflex",
+              "gid": 312,
+              "cluster": 0,
+              "advance": 1084,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1084,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "n\u0323\u0331",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1E47",
+              "gid": 354,
+              "cluster": 0,
+              "advance": 1118,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0331",
+              "gid": 700,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1118,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "baseCoverage": [
+        {
+          "unicode": 7865,
+          "glyph": "uni1EB9",
+          "sourceGid": 291,
+          "inkBounds": [
+            59,
+            -348,
+            969,
+            1007
+          ],
+          "advance": 1027,
+          "anchor": [
+            514,
+            1097
+          ]
+        },
+        {
+          "unicode": 7885,
+          "glyph": "uni1ECD",
+          "sourceGid": 372,
+          "inkBounds": [
+            61,
+            -348,
+            1056,
+            1008
+          ],
+          "advance": 1117,
+          "anchor": [
+            559,
+            1098
+          ]
+        },
+        {
+          "unicode": 7864,
+          "glyph": "uni1EB8",
+          "sourceGid": 58,
+          "inkBounds": [
+            157,
+            -348,
+            1048,
+            1400
+          ],
+          "advance": 1120,
+          "anchor": [
+            603,
+            1490
+          ]
+        },
+        {
+          "unicode": 7884,
+          "glyph": "uni1ECC",
+          "sourceGid": 136,
+          "inkBounds": [
+            76,
+            -348,
+            1456,
+            1428
+          ],
+          "advance": 1532,
+          "anchor": [
+            766,
+            1518
+          ]
+        }
+      ],
+      "markCoverage": [
+        {
+          "glyph": "acutecomb",
+          "sourceGid": 680,
+          "inkBounds": [
+            -190,
+            1147,
+            192,
+            1506
+          ],
+          "anchor": [
+            1,
+            1147
+          ]
+        },
+        {
+          "glyph": "gravecomb",
+          "sourceGid": 679,
+          "inkBounds": [
+            -192,
+            1147,
+            190,
+            1506
+          ],
+          "anchor": [
+            -1,
+            1147
+          ]
+        },
+        {
+          "glyph": "acutecomb.case",
+          "sourceGid": 705,
+          "inkBounds": [
+            -190,
+            1104,
+            192,
+            1419
+          ],
+          "anchor": [
+            1,
+            1104
+          ]
+        },
+        {
+          "glyph": "gravecomb.case",
+          "sourceGid": 704,
+          "inkBounds": [
+            -192,
+            1104,
+            190,
+            1419
+          ],
+          "anchor": [
+            -1,
+            1104
+          ]
+        }
+      ],
+      "cases": [
+        {
+          "caseId": "YO-edotbelow-acute-lower",
+          "text": "\u1eb9\u0301",
+          "nfd": "e\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1027,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1027,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB9",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            514,
+            1097
+          ],
+          "markAnchor": [
+            1,
+            1147
+          ],
+          "proposedMarkOrigin": [
+            513,
+            -50
+          ],
+          "proposedAdvance": 1027,
+          "proposedInkBounds": [
+            59,
+            -348,
+            969,
+            1456
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-grave-lower",
+          "text": "\u1eb9\u0300",
+          "nfd": "e\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1027,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb",
+              "gid": 679,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1027,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB9",
+          "markGlyph": "gravecomb",
+          "baseAnchor": [
+            514,
+            1097
+          ],
+          "markAnchor": [
+            -1,
+            1147
+          ],
+          "proposedMarkOrigin": [
+            515,
+            -50
+          ],
+          "proposedAdvance": 1027,
+          "proposedInkBounds": [
+            59,
+            -348,
+            969,
+            1456
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-acute-lower",
+          "text": "\u1ecd\u0301",
+          "nfd": "o\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1117,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1117,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECD",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            559,
+            1098
+          ],
+          "markAnchor": [
+            1,
+            1147
+          ],
+          "proposedMarkOrigin": [
+            558,
+            -49
+          ],
+          "proposedAdvance": 1117,
+          "proposedInkBounds": [
+            61,
+            -348,
+            1056,
+            1457
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-grave-lower",
+          "text": "\u1ecd\u0300",
+          "nfd": "o\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1117,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb",
+              "gid": 679,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1117,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECD",
+          "markGlyph": "gravecomb",
+          "baseAnchor": [
+            559,
+            1098
+          ],
+          "markAnchor": [
+            -1,
+            1147
+          ],
+          "proposedMarkOrigin": [
+            560,
+            -49
+          ],
+          "proposedAdvance": 1117,
+          "proposedInkBounds": [
+            61,
+            -348,
+            1056,
+            1457
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-acute-upper",
+          "text": "\u1eb8\u0301",
+          "nfd": "E\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB8",
+              "gid": 58,
+              "cluster": 0,
+              "advance": 1120,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1120,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB8",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            603,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1104
+          ],
+          "proposedMarkOrigin": [
+            602,
+            386
+          ],
+          "proposedAdvance": 1120,
+          "proposedInkBounds": [
+            157,
+            -348,
+            1048,
+            1805
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-grave-upper",
+          "text": "\u1eb8\u0300",
+          "nfd": "E\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB8",
+              "gid": 58,
+              "cluster": 0,
+              "advance": 1120,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb.case",
+              "gid": 704,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1120,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB8",
+          "markGlyph": "gravecomb.case",
+          "baseAnchor": [
+            603,
+            1490
+          ],
+          "markAnchor": [
+            -1,
+            1104
+          ],
+          "proposedMarkOrigin": [
+            604,
+            386
+          ],
+          "proposedAdvance": 1120,
+          "proposedInkBounds": [
+            157,
+            -348,
+            1048,
+            1805
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-acute-upper",
+          "text": "\u1ecc\u0301",
+          "nfd": "O\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECC",
+              "gid": 136,
+              "cluster": 0,
+              "advance": 1532,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1532,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECC",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            766,
+            1518
+          ],
+          "markAnchor": [
+            1,
+            1104
+          ],
+          "proposedMarkOrigin": [
+            765,
+            414
+          ],
+          "proposedAdvance": 1532,
+          "proposedInkBounds": [
+            76,
+            -348,
+            1456,
+            1833
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-grave-upper",
+          "text": "\u1ecc\u0300",
+          "nfd": "O\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECC",
+              "gid": 136,
+              "cluster": 0,
+              "advance": 1532,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb.case",
+              "gid": 704,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1532,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECC",
+          "markGlyph": "gravecomb.case",
+          "baseAnchor": [
+            766,
+            1518
+          ],
+          "markAnchor": [
+            -1,
+            1104
+          ],
+          "proposedMarkOrigin": [
+            767,
+            414
+          ],
+          "proposedAdvance": 1532,
+          "proposedInkBounds": [
+            76,
+            -348,
+            1456,
+            1833
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "e\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "eacute",
+              "gid": 278,
+              "cluster": 0,
+              "advance": 1027,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1027,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "o\u0300",
+          "beforeGlyphs": [
+            {
+              "glyph": "ograve",
+              "gid": 373,
+              "cluster": 0,
+              "advance": 1117,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1117,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "\u1eb9",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1027,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1027,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "\u1ecd",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1117,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1117,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "q\u0323",
+          "beforeGlyphs": [
+            {
+              "glyph": "q",
+              "gid": 396,
+              "cluster": 0,
+              "advance": 1127,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "dotbelowcomb",
+              "gid": 694,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1127,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "h\u0302\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "hcircumflex",
+              "gid": 312,
+              "cluster": 0,
+              "advance": 1092,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1092,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "n\u0323\u0331",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1E47",
+              "gid": 354,
+              "cluster": 0,
+              "advance": 1112,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0331",
+              "gid": 700,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1112,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "baseCoverage": [
+        {
+          "unicode": 7865,
+          "glyph": "uni1EB9",
+          "sourceGid": 291,
+          "inkBounds": [
+            58,
+            -351,
+            972,
+            1010
+          ],
+          "advance": 1028,
+          "anchor": [
+            515,
+            1100
+          ]
+        },
+        {
+          "unicode": 7885,
+          "glyph": "uni1ECD",
+          "sourceGid": 372,
+          "inkBounds": [
+            59,
+            -351,
+            1067,
+            1013
+          ],
+          "advance": 1125,
+          "anchor": [
+            563,
+            1103
+          ]
+        },
+        {
+          "unicode": 7864,
+          "glyph": "uni1EB8",
+          "sourceGid": 58,
+          "inkBounds": [
+            156,
+            -351,
+            1056,
+            1400
+          ],
+          "advance": 1126,
+          "anchor": [
+            606,
+            1490
+          ]
+        },
+        {
+          "unicode": 7884,
+          "glyph": "uni1ECC",
+          "sourceGid": 136,
+          "inkBounds": [
+            74,
+            -351,
+            1454,
+            1428
+          ],
+          "advance": 1527,
+          "anchor": [
+            764,
+            1518
+          ]
+        }
+      ],
+      "markCoverage": [
+        {
+          "glyph": "acutecomb",
+          "sourceGid": 680,
+          "inkBounds": [
+            -192,
+            1144,
+            194,
+            1512
+          ],
+          "anchor": [
+            1,
+            1144
+          ]
+        },
+        {
+          "glyph": "gravecomb",
+          "sourceGid": 679,
+          "inkBounds": [
+            -194,
+            1144,
+            192,
+            1512
+          ],
+          "anchor": [
+            -1,
+            1144
+          ]
+        },
+        {
+          "glyph": "acutecomb.case",
+          "sourceGid": 705,
+          "inkBounds": [
+            -192,
+            1102,
+            194,
+            1422
+          ],
+          "anchor": [
+            1,
+            1102
+          ]
+        },
+        {
+          "glyph": "gravecomb.case",
+          "sourceGid": 704,
+          "inkBounds": [
+            -194,
+            1102,
+            192,
+            1422
+          ],
+          "anchor": [
+            -1,
+            1102
+          ]
+        }
+      ],
+      "cases": [
+        {
+          "caseId": "YO-edotbelow-acute-lower",
+          "text": "\u1eb9\u0301",
+          "nfd": "e\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1028,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1028,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB9",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            515,
+            1100
+          ],
+          "markAnchor": [
+            1,
+            1144
+          ],
+          "proposedMarkOrigin": [
+            514,
+            -44
+          ],
+          "proposedAdvance": 1028,
+          "proposedInkBounds": [
+            58,
+            -351,
+            972,
+            1468
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-grave-lower",
+          "text": "\u1eb9\u0300",
+          "nfd": "e\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1028,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb",
+              "gid": 679,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1028,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB9",
+          "markGlyph": "gravecomb",
+          "baseAnchor": [
+            515,
+            1100
+          ],
+          "markAnchor": [
+            -1,
+            1144
+          ],
+          "proposedMarkOrigin": [
+            516,
+            -44
+          ],
+          "proposedAdvance": 1028,
+          "proposedInkBounds": [
+            58,
+            -351,
+            972,
+            1468
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-acute-lower",
+          "text": "\u1ecd\u0301",
+          "nfd": "o\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1125,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1125,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECD",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            563,
+            1103
+          ],
+          "markAnchor": [
+            1,
+            1144
+          ],
+          "proposedMarkOrigin": [
+            562,
+            -41
+          ],
+          "proposedAdvance": 1125,
+          "proposedInkBounds": [
+            59,
+            -351,
+            1067,
+            1471
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-grave-lower",
+          "text": "\u1ecd\u0300",
+          "nfd": "o\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1125,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb",
+              "gid": 679,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1125,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECD",
+          "markGlyph": "gravecomb",
+          "baseAnchor": [
+            563,
+            1103
+          ],
+          "markAnchor": [
+            -1,
+            1144
+          ],
+          "proposedMarkOrigin": [
+            564,
+            -41
+          ],
+          "proposedAdvance": 1125,
+          "proposedInkBounds": [
+            59,
+            -351,
+            1067,
+            1471
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-acute-upper",
+          "text": "\u1eb8\u0301",
+          "nfd": "E\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB8",
+              "gid": 58,
+              "cluster": 0,
+              "advance": 1126,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1126,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB8",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            606,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1102
+          ],
+          "proposedMarkOrigin": [
+            605,
+            388
+          ],
+          "proposedAdvance": 1126,
+          "proposedInkBounds": [
+            156,
+            -351,
+            1056,
+            1810
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-grave-upper",
+          "text": "\u1eb8\u0300",
+          "nfd": "E\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB8",
+              "gid": 58,
+              "cluster": 0,
+              "advance": 1126,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb.case",
+              "gid": 704,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1126,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB8",
+          "markGlyph": "gravecomb.case",
+          "baseAnchor": [
+            606,
+            1490
+          ],
+          "markAnchor": [
+            -1,
+            1102
+          ],
+          "proposedMarkOrigin": [
+            607,
+            388
+          ],
+          "proposedAdvance": 1126,
+          "proposedInkBounds": [
+            156,
+            -351,
+            1056,
+            1810
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-acute-upper",
+          "text": "\u1ecc\u0301",
+          "nfd": "O\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECC",
+              "gid": 136,
+              "cluster": 0,
+              "advance": 1527,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1527,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECC",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            764,
+            1518
+          ],
+          "markAnchor": [
+            1,
+            1102
+          ],
+          "proposedMarkOrigin": [
+            763,
+            416
+          ],
+          "proposedAdvance": 1527,
+          "proposedInkBounds": [
+            74,
+            -351,
+            1454,
+            1838
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-grave-upper",
+          "text": "\u1ecc\u0300",
+          "nfd": "O\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECC",
+              "gid": 136,
+              "cluster": 0,
+              "advance": 1527,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb.case",
+              "gid": 704,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1527,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECC",
+          "markGlyph": "gravecomb.case",
+          "baseAnchor": [
+            764,
+            1518
+          ],
+          "markAnchor": [
+            -1,
+            1102
+          ],
+          "proposedMarkOrigin": [
+            765,
+            416
+          ],
+          "proposedAdvance": 1527,
+          "proposedInkBounds": [
+            74,
+            -351,
+            1454,
+            1838
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "e\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "eacute",
+              "gid": 278,
+              "cluster": 0,
+              "advance": 1028,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1028,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "o\u0300",
+          "beforeGlyphs": [
+            {
+              "glyph": "ograve",
+              "gid": 373,
+              "cluster": 0,
+              "advance": 1125,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1125,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "\u1eb9",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1028,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1028,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "\u1ecd",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1125,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1125,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "q\u0323",
+          "beforeGlyphs": [
+            {
+              "glyph": "q",
+              "gid": 396,
+              "cluster": 0,
+              "advance": 1133,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "dotbelowcomb",
+              "gid": 694,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1133,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "h\u0302\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "hcircumflex",
+              "gid": 312,
+              "cluster": 0,
+              "advance": 1095,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1095,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "n\u0323\u0331",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1E47",
+              "gid": 354,
+              "cluster": 0,
+              "advance": 1109,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0331",
+              "gid": 700,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1109,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "baseCoverage": [
+        {
+          "unicode": 7865,
+          "glyph": "uni1EB9",
+          "sourceGid": 291,
+          "inkBounds": [
+            56,
+            -356,
+            976,
+            1016
+          ],
+          "advance": 1030,
+          "anchor": [
+            516,
+            1106
+          ]
+        },
+        {
+          "unicode": 7885,
+          "glyph": "uni1ECD",
+          "sourceGid": 372,
+          "inkBounds": [
+            56,
+            -356,
+            1084,
+            1020
+          ],
+          "advance": 1140,
+          "anchor": [
+            570,
+            1110
+          ]
+        },
+        {
+          "unicode": 7864,
+          "glyph": "uni1EB8",
+          "sourceGid": 58,
+          "inkBounds": [
+            154,
+            -356,
+            1070,
+            1400
+          ],
+          "advance": 1136,
+          "anchor": [
+            612,
+            1490
+          ]
+        },
+        {
+          "unicode": 7884,
+          "glyph": "uni1ECC",
+          "sourceGid": 136,
+          "inkBounds": [
+            70,
+            -356,
+            1450,
+            1428
+          ],
+          "advance": 1520,
+          "anchor": [
+            760,
+            1518
+          ]
+        }
+      ],
+      "markCoverage": [
+        {
+          "glyph": "acutecomb",
+          "sourceGid": 680,
+          "inkBounds": [
+            -196,
+            1140,
+            198,
+            1522
+          ],
+          "anchor": [
+            1,
+            1140
+          ]
+        },
+        {
+          "glyph": "gravecomb",
+          "sourceGid": 679,
+          "inkBounds": [
+            -198,
+            1140,
+            196,
+            1522
+          ],
+          "anchor": [
+            -1,
+            1140
+          ]
+        },
+        {
+          "glyph": "acutecomb.case",
+          "sourceGid": 705,
+          "inkBounds": [
+            -196,
+            1098,
+            198,
+            1426
+          ],
+          "anchor": [
+            1,
+            1098
+          ]
+        },
+        {
+          "glyph": "gravecomb.case",
+          "sourceGid": 704,
+          "inkBounds": [
+            -198,
+            1098,
+            196,
+            1426
+          ],
+          "anchor": [
+            -1,
+            1098
+          ]
+        }
+      ],
+      "cases": [
+        {
+          "caseId": "YO-edotbelow-acute-lower",
+          "text": "\u1eb9\u0301",
+          "nfd": "e\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1030,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1030,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB9",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            516,
+            1106
+          ],
+          "markAnchor": [
+            1,
+            1140
+          ],
+          "proposedMarkOrigin": [
+            515,
+            -34
+          ],
+          "proposedAdvance": 1030,
+          "proposedInkBounds": [
+            56,
+            -356,
+            976,
+            1488
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-grave-lower",
+          "text": "\u1eb9\u0300",
+          "nfd": "e\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1030,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb",
+              "gid": 679,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1030,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB9",
+          "markGlyph": "gravecomb",
+          "baseAnchor": [
+            516,
+            1106
+          ],
+          "markAnchor": [
+            -1,
+            1140
+          ],
+          "proposedMarkOrigin": [
+            517,
+            -34
+          ],
+          "proposedAdvance": 1030,
+          "proposedInkBounds": [
+            56,
+            -356,
+            976,
+            1488
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-acute-lower",
+          "text": "\u1ecd\u0301",
+          "nfd": "o\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1140,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1140,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECD",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            570,
+            1110
+          ],
+          "markAnchor": [
+            1,
+            1140
+          ],
+          "proposedMarkOrigin": [
+            569,
+            -30
+          ],
+          "proposedAdvance": 1140,
+          "proposedInkBounds": [
+            56,
+            -356,
+            1084,
+            1492
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-grave-lower",
+          "text": "\u1ecd\u0300",
+          "nfd": "o\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1140,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb",
+              "gid": 679,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1140,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECD",
+          "markGlyph": "gravecomb",
+          "baseAnchor": [
+            570,
+            1110
+          ],
+          "markAnchor": [
+            -1,
+            1140
+          ],
+          "proposedMarkOrigin": [
+            571,
+            -30
+          ],
+          "proposedAdvance": 1140,
+          "proposedInkBounds": [
+            56,
+            -356,
+            1084,
+            1492
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-acute-upper",
+          "text": "\u1eb8\u0301",
+          "nfd": "E\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB8",
+              "gid": 58,
+              "cluster": 0,
+              "advance": 1136,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1136,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB8",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            612,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1098
+          ],
+          "proposedMarkOrigin": [
+            611,
+            392
+          ],
+          "proposedAdvance": 1136,
+          "proposedInkBounds": [
+            154,
+            -356,
+            1070,
+            1818
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-edotbelow-grave-upper",
+          "text": "\u1eb8\u0300",
+          "nfd": "E\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB8",
+              "gid": 58,
+              "cluster": 0,
+              "advance": 1136,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb.case",
+              "gid": 704,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1136,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1EB8",
+          "markGlyph": "gravecomb.case",
+          "baseAnchor": [
+            612,
+            1490
+          ],
+          "markAnchor": [
+            -1,
+            1098
+          ],
+          "proposedMarkOrigin": [
+            613,
+            392
+          ],
+          "proposedAdvance": 1136,
+          "proposedInkBounds": [
+            154,
+            -356,
+            1070,
+            1818
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-acute-upper",
+          "text": "\u1ecc\u0301",
+          "nfd": "O\u0323\u0301",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECC",
+              "gid": 136,
+              "cluster": 0,
+              "advance": 1520,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1520,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECC",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            760,
+            1518
+          ],
+          "markAnchor": [
+            1,
+            1098
+          ],
+          "proposedMarkOrigin": [
+            759,
+            420
+          ],
+          "proposedAdvance": 1520,
+          "proposedInkBounds": [
+            70,
+            -356,
+            1450,
+            1846
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        },
+        {
+          "caseId": "YO-odotbelow-grave-upper",
+          "text": "\u1ecc\u0300",
+          "nfd": "O\u0323\u0300",
+          "language": "yo",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECC",
+              "gid": 136,
+              "cluster": 0,
+              "advance": 1520,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "gravecomb.case",
+              "gid": 704,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1520,
+          "nativeAnchorAvailable": false,
+          "baseGlyph": "uni1ECC",
+          "markGlyph": "gravecomb.case",
+          "baseAnchor": [
+            760,
+            1518
+          ],
+          "markAnchor": [
+            -1,
+            1098
+          ],
+          "proposedMarkOrigin": [
+            761,
+            420
+          ],
+          "proposedAdvance": 1520,
+          "proposedInkBounds": [
+            70,
+            -356,
+            1450,
+            1846
+          ],
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Actual source observation and proposed native attachment, pending compiled readback."
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "e\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "eacute",
+              "gid": 278,
+              "cluster": 0,
+              "advance": 1030,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1030,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "o\u0300",
+          "beforeGlyphs": [
+            {
+              "glyph": "ograve",
+              "gid": 373,
+              "cluster": 0,
+              "advance": 1140,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1140,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "\u1eb9",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1EB9",
+              "gid": 291,
+              "cluster": 0,
+              "advance": 1030,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1030,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "\u1ecd",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1ECD",
+              "gid": 372,
+              "cluster": 0,
+              "advance": 1140,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1140,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "q\u0323",
+          "beforeGlyphs": [
+            {
+              "glyph": "q",
+              "gid": 396,
+              "cluster": 0,
+              "advance": 1144,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "dotbelowcomb",
+              "gid": 694,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1144,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "h\u0302\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "hcircumflex",
+              "gid": 312,
+              "cluster": 0,
+              "advance": 1102,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1102,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        },
+        {
+          "text": "n\u0323\u0331",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1E47",
+              "gid": 354,
+              "cluster": 0,
+              "advance": 1104,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0331",
+              "gid": 700,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1104,
+          "scope": "Required-unchanged source control outside this four-base acute/grave coverage."
+        }
+      ]
+    }
+  ],
+  "limits": "Dotbelow and tone attachment in the selected eight Unicode strings only. The CLDR49/GF orthography-method question does not authorise U0329 or a universal language-support claim.",
+  "engineeringChecks": [
+    "Actual eight NFC/NFD text pairs in all four cuts and TTF/WOFF2, same source base/mark contours and advances, exact integer mark origins/gaps.",
+    "Required-unchanged native controls and accepted Lithuanian/kerning routes.",
+    "Retained old definitions, source glyph/GID remapping, common family ink envelope and independent reproduction."
+  ]
+}

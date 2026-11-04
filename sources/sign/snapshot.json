@@ -1,0 +1,52 @@
+{
+  "sourceFiles": {
+    "physical-cabin-source.json": {
+      "frozen": {
+        "path": "sources/sign/profile.json",
+        "bytes": 211,
+        "sha256": "9133b94116a358c54b2e36cf3dfb2274d6a1800956d9a101498a69b223a70131"
+      }
+    },
+    "source/physical-cabin-additions-0.015-r2.json": {
+      "frozen": {
+        "path": "sources/sign/additions.json",
+        "bytes": 1123973,
+        "sha256": "9801b530c8dc55612448a510333cb3ddc310f97935b0f2119845db1c5362a102"
+      }
+    }
+  },
+  "canonicalOriginalFonts": [
+    {
+      "style": "Regular",
+      "font": {
+        "path": "build/inputs/cabin/Cabin-Regular.ttf",
+        "bytes": 103092,
+        "sha256": "000cb4e6208ed687cc7f8a2ed6cdda5f9e2dcb84ac3eeba4818e1b985516fe6f"
+      }
+    },
+    {
+      "style": "Medium",
+      "font": {
+        "path": "build/inputs/cabin/Cabin-Medium.ttf",
+        "bytes": 104148,
+        "sha256": "8822f5a2e10bc413439a89febb59f601d13dd717f83ab453f094c7924613bd3d"
+      }
+    },
+    {
+      "style": "Semibold",
+      "font": {
+        "path": "build/inputs/cabin/Cabin-SemiBold.ttf",
+        "bytes": 104580,
+        "sha256": "9a3be8c046ed10bd29ef6390c337d95e9d9a0688baf53ed40843e8733250c4c5"
+      }
+    },
+    {
+      "style": "Bold",
+      "font": {
+        "path": "build/inputs/cabin/Cabin-Bold.ttf",
+        "bytes": 102512,
+        "sha256": "6a88be627ca9fd44fa011aada32f5207c3149f026fcaef04bf3ebce2e9798fd9"
+      }
+    }
+  ]
+}

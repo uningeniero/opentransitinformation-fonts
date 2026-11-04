@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "cuts": [
+    {
+      "family": "screen",
+      "style": "Regular",
+      "ttf": {
+        "filename": "ReferenceScreenFull-Regular.ttf",
+        "bytes": 485452,
+        "sha256": "454845cf275a75c3ed5851fea65a6de41978f61c16c96505781585af015f8e7e"
+      },
+      "woff2": {
+        "filename": "ReferenceScreenFull-Regular.woff2",
+        "bytes": 150772,
+        "sha256": "e47aeeb878f8180470a643f0ac453c19572124c58c18802699726b45a2810188"
+      }
+    },
+    {
+      "family": "screen",
+      "style": "Medium",
+      "ttf": {
+        "filename": "ReferenceScreenFull-Medium.ttf",
+        "bytes": 486908,
+        "sha256": "eaae8dfa78b37a3c7d418041f599aeccbcf99c65ebc75c35f0f6545662ad4a68"
+      },
+      "woff2": {
+        "filename": "ReferenceScreenFull-Medium.woff2",
+        "bytes": 154996,
+        "sha256": "29ff05191c6c5a178fa176a520a24d0155c980a969083f0a1132c5b257b7c8a6"
+      }
+    },
+    {
+      "family": "screen",
+      "style": "Semibold",
+      "ttf": {
+        "filename": "ReferenceScreenFull-Semibold.ttf",
+        "bytes": 518840,
+        "sha256": "0da0aec1474e91fff00f1bcc8c3abdef25724872bdc495fc9ade160d10f43ab3"
+      },
+      "woff2": {
+        "filename": "ReferenceScreenFull-Semibold.woff2",
+        "bytes": 162068,
+        "sha256": "de83f6819b230b2e166cfa5cfca1673ae1cb79e04c6de2daa4f0514db6f40c67"
+      }
+    },
+    {
+      "family": "screen",
+      "style": "Bold",
+      "ttf": {
+        "filename": "ReferenceScreenFull-Bold.ttf",
+        "bytes": 519292,
+        "sha256": "0d29637b5f1c8ce7a508dc84c1791fbfb0c474480c2dac4bbd2bd5b29f09620c"
+      },
+      "woff2": {
+        "filename": "ReferenceScreenFull-Bold.woff2",
+        "bytes": 161592,
+        "sha256": "61faabf71925ba13d51d0a93fb3545e3194bcba5735a868dff16a7cb48c36eeb"
+      }
+    },
+    {
+      "family": "screen",
+      "style": "RegularItalic",
+      "ttf": {
+        "filename": "ReferenceScreenFull-RegularItalic.ttf",
+        "bytes": 490508,
+        "sha256": "132143e5fcbb08d7e60073c1c4fa49f3e3504c02d466ae64c63af294b692c5b5"
+      },
+      "woff2": {
+        "filename": "ReferenceScreenFull-RegularItalic.woff2",
+        "bytes": 158120,
+        "sha256": "fe730b96a5d53edea845944a31af0aed42363c88e582d1883c62b1a82826b853"
+      }
+    },
+    {
+      "family": "screen",
+      "style": "MediumItalic",
+      "ttf": {
+        "filename": "ReferenceScreenFull-MediumItalic.ttf",
+        "bytes": 492412,
+        "sha256": "de88a7f5fac147cb6c5451c4604dd03e4d50733f5b23924ae06a1d0cccffa464"
+      },
+      "woff2": {
+        "filename": "ReferenceScreenFull-MediumItalic.woff2",
+        "bytes": 162340,
+        "sha256": "85929981e10fc1c983bad8211e6b9bd0cf5dedf25b53135ea89378a5ce4a5614"
+      }
+    },
+    {
+      "family": "screen",
+      "style": "SemiboldItalic",
+      "ttf": {
+        "filename": "ReferenceScreenFull-SemiboldItalic.ttf",
+        "bytes": 524448,
+        "sha256": "446ca9bd3eb2d814068b84ea98d4223ed6c3e7858cf1592e0766a7e2b96c5a2a"
+      },
+      "woff2": {
+        "filename": "ReferenceScreenFull-SemiboldItalic.woff2",
+        "bytes": 168996,
+        "sha256": "e9939352415b27ad2c8b23dae0dddd068818a4f64c78bc889a5dccbace9220f9"
+      }
+    },
+    {
+      "family": "screen",
+      "style": "BoldItalic",
+      "ttf": {
+        "filename": "ReferenceScreenFull-BoldItalic.ttf",
+        "bytes": 524252,
+        "sha256": "fe5b9a06eb9d6bd8db8cbf6f97c45d667519b4742fc425cf1ee3b9af2493f88c"
+      },
+      "woff2": {
+        "filename": "ReferenceScreenFull-BoldItalic.woff2",
+        "bytes": 169200,
+        "sha256": "f52f6acd991cf98bc56a5be353358d1a4578ae08f2f7e73da9ee09d3eb34e483"
+      }
+    },
+    {
+      "family": "sign",
+      "style": "Regular",
+      "ttf": {
+        "filename": "ReferenceSignStudy-Regular.ttf",
+        "bytes": 145820,
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "woff2": {
+        "filename": "ReferenceSignStudy-Regular.woff2",
+        "bytes": 50980,
+        "sha256": "2467e43d9a51e9565f037f97094bf5d2723e68737464aa61a42bda2b08e8776a"
+      }
+    },
+    {
+      "family": "sign",
+      "style": "Medium",
+      "ttf": {
+        "filename": "ReferenceSignStudy-Medium.ttf",
+        "bytes": 146864,
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "woff2": {
+        "filename": "ReferenceSignStudy-Medium.woff2",
+        "bytes": 52516,
+        "sha256": "acd0df869f0476ed6b0ca677473c100adaa897806a517b5ab9f8f00e6135cf6e"
+      }
+    },
+    {
+      "family": "sign",
+      "style": "Semibold",
+      "ttf": {
+        "filename": "ReferenceSignStudy-Semibold.ttf",
+        "bytes": 147416,
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "woff2": {
+        "filename": "ReferenceSignStudy-Semibold.woff2",
+        "bytes": 52808,
+        "sha256": "1ab812036758342b135989c6443b817a1193aa01ecfd32b4e41daa039cf0e919"
+      }
+    },
+    {
+      "family": "sign",
+      "style": "Bold",
+      "ttf": {
+        "filename": "ReferenceSignStudy-Bold.ttf",
+        "bytes": 145020,
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "woff2": {
+        "filename": "ReferenceSignStudy-Bold.woff2",
+        "bytes": 50700,
+        "sha256": "498309d133042b4a925d227bd82674112b0b2296dc6d67d9156d6527dd7d1da2"
+      }
+    }
+  ]
+}

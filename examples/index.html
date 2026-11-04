@@ -1,0 +1,60 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: CC-BY-4.0 -->
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tavrenel Sign and Tavrenel Screen - Open Transit Information</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; color: #152b3a; background: #f4f6f7; font: 1rem/1.5 system-ui, sans-serif; }
+  main { max-width: 1120px; margin: auto; padding: 32px 24px 56px; }
+  h1 { font-size: clamp(2rem, 5vw, 3.6rem); line-height: 1.05; margin: 16px 0 24px; }
+  h2 { font-size: 1.2rem; margin: 28px 0 12px; }
+  a { color: #005f8f; text-underline-offset: 3px; }
+  .panel { background: white; border: 1px solid #d4dce1; border-radius: 8px; padding: 24px; margin: 16px 0; }
+  .sign { color: white; background: #163e52; }
+  .line { font-size: clamp(1.7rem, 4.5vw, 3.25rem); line-height: 1.55; overflow-wrap: anywhere; }
+  .screen { font-family: "Tavrenel Screen", sans-serif; }
+  .latin-sign { font-family: "Tavrenel Sign", sans-serif; }
+  .native-sign { font-family: "Source Sans 3", sans-serif; }
+  .numerals { font-feature-settings: "ss20" 1; }
+  .caption { font-size: .9rem; margin: 6px 0; }
+  .weights { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 16px; }
+  .weights p { margin: 0; font-size: 1.6rem; line-height: 1.5; }
+  footer { margin-top: 40px; border-top: 1px solid #d4dce1; padding-top: 20px; }
+</style>
+<main>
+  <a href="https://opentransitinformation.org">Open Transit Information</a>
+  <h1>Tavrenel Sign<br>and Tavrenel Screen</h1>
+  <h2>Sign - Latin</h2>
+  <section class="panel sign" aria-label="Latin sign specimen">
+    <div class="line latin-sign" data-resource="sign-latin" lang="eu">Bilbao - Donostia</div>
+    <div class="line latin-sign" data-resource="sign-latin" lang="lt">Ą́ ę̃ į̇́ Ū́ - 08:45</div>
+    <div class="line latin-sign" data-resource="sign-latin" lang="yo">Ẹ́ ẹ̀ Ọ́ ọ̀ - 10:30</div>
+  </section>
+  <h2>Sign - separate native script resource</h2>
+  <p class="caption">These complete rows use the original Source Sans 3 resource, including figures and punctuation.</p>
+  <section class="panel sign" aria-label="Native Greek and Cyrillic sign specimens">
+    <div class="line native-sign" data-resource="sign-greek-cyrillic-companion" lang="el">Αθήνα - 08:45</div>
+    <div class="line native-sign" data-resource="sign-greek-cyrillic-companion" lang="bg">София - 10:30</div>
+    <div class="line latin-sign" data-resource="sign-latin" lang="sr-Latn">Beograd - 12:15</div>
+  </section>
+  <h2>Screen</h2>
+  <section class="panel screen" aria-label="Screen specimen">
+    <div class="line">Bilbao - London - Αθήνα</div>
+    <div class="line numerals">Il1 - O0 - 08:45 - 0123456789</div>
+    <p class="caption">The second row enables the optional ss20 numeral profile.</p>
+    <div class="weights">
+      <p style="font-weight:400">Regular<br><i>Regular Italic</i></p>
+      <p style="font-weight:500">Medium<br><i>Medium Italic</i></p>
+      <p style="font-weight:600">SemiBold<br><i>SemiBold Italic</i></p>
+      <p style="font-weight:700">Bold<br><i>Bold Italic</i></p>
+    </div>
+  </section>
+  <footer>
+    <p>Type specimens from Open Transit Information, coordinated by Álvaro Marín Abril. These rows illustrate typeface resources and do not represent an operator's service or timetable.</p>
+    <p>Tavrenel Sign is adapted from Cabin with selected Fira Sans supplements. Tavrenel Screen is adapted from Fira Sans. The separate Source Sans 3 resource retains its original Adobe attribution. See the repository README, source provenance and accompanying OFL notices.</p>
+  </footer>
+</main>
+</html>

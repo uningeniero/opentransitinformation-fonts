@@ -1,0 +1,13 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "scope": "Only the eight inherited unencoded Apple-logo-shaped records in the public digital successor. Do not remove other unencoded alternates, helpers, script forms or the required restored mathematical fence.",
+  "sourceRecordSHA256": "38a5a22d70a583ebe44ea4d6b32064481d7c6080239570cd1afeef950cff00c2",
+  "glyph": "uniF8FF",
+  "encodedScalars": [],
+  "sourceGlyphAliases": {
+    "Ustrait-cy": "Ustrait_cy",
+    "Ustraitstroke-cy": "Ustraitstroke_cy",
+    "ustrait-cy": "ustrait_cy",
+    "ustraitstroke-cy": "ustraitstroke_cy"
+  }
+}

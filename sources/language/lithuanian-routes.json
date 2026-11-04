@@ -1,0 +1,7269 @@
+{
+  "spdxLicense": "OFL-1.1",
+  "schema": 1,
+  "upstreamRecordSHA256": "a545d1483ed9221ee9e2d1dcfa69caf91bea05cdbb27311f9a41a84a23905bc3",
+  "sourceRule": {
+    "baseAnchor": "otRound of actual full-ink x centre, yMax+90",
+    "markAnchor": "otRound of actual mark-ink x centre, yMin",
+    "gap": 90,
+    "upm": 2000,
+    "rounding": "fontTools otRound, nearest integer with positive infinity for ties",
+    "lookup": "Append own MarkBase class to existing appropriate native mark feature. Preserve all original definitions; explicit coverage can affect only these bases and marks. Keep case substitution native. Retained definitions and all other named source routes require negative controls.",
+    "noContourEdit": true
+  },
+  "languageBoundary": "Native iogonek dot remains intact; accents are placed above complete existing dot/macron ink. The one exact LTH IogonekMoreAbove acute context also consumes the redundant shaped dot through scoped contextual ccmp. The actually functioning native Iacute/Itilde dot stacks stay unchanged. Application casing and all other arbitrary explicit-dot stacks remain distinct; no complete Lithuanian case-mapping claim.",
+  "primaryCharacterMethod": {
+    "url": "https://www.unicode.org/Public/18.0.0/ucd/SpecialCasing.txt",
+    "fact": "Lithuanian lowercase i retains the dot with accents; language-aware case mapping is separate from font positioning. No Unicode font outlines copied."
+  },
+  "cuts": [
+    {
+      "style": "Regular",
+      "baseCoverage": [
+        {
+          "unicode": 261,
+          "glyph": "aogonek",
+          "sourceGid": 256,
+          "inkBounds": [
+            48,
+            -416,
+            994,
+            1000
+          ],
+          "advance": 960,
+          "anchor": [
+            521,
+            1090
+          ]
+        },
+        {
+          "unicode": 281,
+          "glyph": "eogonek",
+          "sourceGid": 298,
+          "inkBounds": [
+            62,
+            -360,
+            1016,
+            1000
+          ],
+          "advance": 1024,
+          "anchor": [
+            539,
+            1090
+          ]
+        },
+        {
+          "unicode": 303,
+          "glyph": "iogonek",
+          "sourceGid": 329,
+          "inkBounds": [
+            30,
+            -416,
+            398,
+            1400
+          ],
+          "advance": 424,
+          "anchor": [
+            214,
+            1490
+          ]
+        },
+        {
+          "unicode": 371,
+          "glyph": "uogonek",
+          "sourceGid": 444,
+          "inkBounds": [
+            112,
+            -416,
+            1022,
+            980
+          ],
+          "advance": 1048,
+          "anchor": [
+            567,
+            1070
+          ]
+        },
+        {
+          "unicode": 363,
+          "glyph": "umacron",
+          "sourceGid": 442,
+          "inkBounds": [
+            112,
+            -20,
+            926,
+            1324
+          ],
+          "advance": 1048,
+          "anchor": [
+            519,
+            1414
+          ]
+        },
+        {
+          "unicode": 279,
+          "glyph": "edotaccent",
+          "sourceGid": 290,
+          "inkBounds": [
+            62,
+            -20,
+            964,
+            1362
+          ],
+          "advance": 1024,
+          "anchor": [
+            513,
+            1452
+          ]
+        },
+        {
+          "unicode": 260,
+          "glyph": "Aogonek",
+          "sourceGid": 22,
+          "inkBounds": [
+            14,
+            -416,
+            1276,
+            1400
+          ],
+          "advance": 1232,
+          "anchor": [
+            645,
+            1490
+          ]
+        },
+        {
+          "unicode": 280,
+          "glyph": "Eogonek",
+          "sourceGid": 65,
+          "inkBounds": [
+            160,
+            -416,
+            1128,
+            1400
+          ],
+          "advance": 1108,
+          "anchor": [
+            644,
+            1490
+          ]
+        },
+        {
+          "unicode": 302,
+          "glyph": "Iogonek",
+          "sourceGid": 94,
+          "inkBounds": [
+            78,
+            -416,
+            446,
+            1400
+          ],
+          "advance": 510,
+          "anchor": [
+            262,
+            1490
+          ]
+        },
+        {
+          "unicode": 370,
+          "glyph": "Uogonek",
+          "sourceGid": 208,
+          "inkBounds": [
+            144,
+            -416,
+            1304,
+            1400
+          ],
+          "advance": 1448,
+          "anchor": [
+            724,
+            1490
+          ]
+        },
+        {
+          "unicode": 362,
+          "glyph": "Umacron",
+          "sourceGid": 206,
+          "inkBounds": [
+            144,
+            -28,
+            1304,
+            1722
+          ],
+          "advance": 1448,
+          "anchor": [
+            724,
+            1812
+          ]
+        },
+        {
+          "unicode": 278,
+          "glyph": "Edotaccent",
+          "sourceGid": 57,
+          "inkBounds": [
+            160,
+            0,
+            1032,
+            1762
+          ],
+          "advance": 1108,
+          "anchor": [
+            596,
+            1852
+          ]
+        }
+      ],
+      "markCoverage": [
+        {
+          "glyph": "acutecomb",
+          "sourceGid": 680,
+          "inkBounds": [
+            -186,
+            1152,
+            188,
+            1494
+          ],
+          "anchor": [
+            1,
+            1152
+          ]
+        },
+        {
+          "glyph": "tildecomb",
+          "sourceGid": 687,
+          "inkBounds": [
+            -332,
+            1160,
+            332,
+            1398
+          ],
+          "anchor": [
+            0,
+            1160
+          ]
+        },
+        {
+          "glyph": "acutecomb.case",
+          "sourceGid": 705,
+          "inkBounds": [
+            -186,
+            1108,
+            188,
+            1414
+          ],
+          "anchor": [
+            1,
+            1108
+          ]
+        },
+        {
+          "glyph": "tildecomb.case",
+          "sourceGid": 711,
+          "inkBounds": [
+            -312,
+            1156,
+            312,
+            1366
+          ],
+          "anchor": [
+            0,
+            1156
+          ]
+        }
+      ],
+      "cases": [
+        {
+          "caseId": "LT-aogonek-acute-lower",
+          "text": "\u0105\u0301",
+          "nfd": "a\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "aogonek",
+              "gid": 256,
+              "cluster": 0,
+              "advance": 960,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 960,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "aogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            521,
+            1090
+          ],
+          "markAnchor": [
+            1,
+            1152
+          ],
+          "proposedMarkOrigin": [
+            520,
+            -62
+          ],
+          "proposedAdvance": 960,
+          "proposedInkBounds": [
+            48,
+            -416,
+            994,
+            1432
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-tilde-lower",
+          "text": "\u0105\u0303",
+          "nfd": "a\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "aogonek",
+              "gid": 256,
+              "cluster": 0,
+              "advance": 960,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 960,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "aogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            521,
+            1090
+          ],
+          "markAnchor": [
+            0,
+            1160
+          ],
+          "proposedMarkOrigin": [
+            521,
+            -70
+          ],
+          "proposedAdvance": 960,
+          "proposedInkBounds": [
+            48,
+            -416,
+            994,
+            1328
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-acute-lower",
+          "text": "\u0119\u0301",
+          "nfd": "e\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "eogonek",
+              "gid": 298,
+              "cluster": 0,
+              "advance": 1024,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1024,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "eogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            539,
+            1090
+          ],
+          "markAnchor": [
+            1,
+            1152
+          ],
+          "proposedMarkOrigin": [
+            538,
+            -62
+          ],
+          "proposedAdvance": 1024,
+          "proposedInkBounds": [
+            62,
+            -360,
+            1016,
+            1432
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-tilde-lower",
+          "text": "\u0119\u0303",
+          "nfd": "e\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "eogonek",
+              "gid": 298,
+              "cluster": 0,
+              "advance": 1024,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1024,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "eogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            539,
+            1090
+          ],
+          "markAnchor": [
+            0,
+            1160
+          ],
+          "proposedMarkOrigin": [
+            539,
+            -70
+          ],
+          "proposedAdvance": 1024,
+          "proposedInkBounds": [
+            62,
+            -360,
+            1016,
+            1328
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-acute-lower",
+          "text": "\u012f\u0301",
+          "nfd": "i\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 424,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 424,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "iogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            214,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1152
+          ],
+          "proposedMarkOrigin": [
+            213,
+            338
+          ],
+          "proposedAdvance": 424,
+          "proposedInkBounds": [
+            27,
+            -416,
+            401,
+            1832
+          ],
+          "nativeDotRetained": true,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-tilde-lower",
+          "text": "\u012f\u0303",
+          "nfd": "i\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 424,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 424,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "iogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            214,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1160
+          ],
+          "proposedMarkOrigin": [
+            214,
+            330
+          ],
+          "proposedAdvance": 424,
+          "proposedInkBounds": [
+            -118,
+            -416,
+            546,
+            1728
+          ],
+          "nativeDotRetained": true,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-acute-lower",
+          "text": "\u0173\u0301",
+          "nfd": "u\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uogonek",
+              "gid": 444,
+              "cluster": 0,
+              "advance": 1048,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1048,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "uogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            567,
+            1070
+          ],
+          "markAnchor": [
+            1,
+            1152
+          ],
+          "proposedMarkOrigin": [
+            566,
+            -82
+          ],
+          "proposedAdvance": 1048,
+          "proposedInkBounds": [
+            112,
+            -416,
+            1022,
+            1412
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-tilde-lower",
+          "text": "\u0173\u0303",
+          "nfd": "u\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uogonek",
+              "gid": 444,
+              "cluster": 0,
+              "advance": 1048,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1048,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "uogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            567,
+            1070
+          ],
+          "markAnchor": [
+            0,
+            1160
+          ],
+          "proposedMarkOrigin": [
+            567,
+            -90
+          ],
+          "proposedAdvance": 1048,
+          "proposedInkBounds": [
+            112,
+            -416,
+            1022,
+            1308
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-acute-lower",
+          "text": "\u016b\u0301",
+          "nfd": "u\u0304\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "umacron",
+              "gid": 442,
+              "cluster": 0,
+              "advance": 1048,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1048,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "umacron",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            519,
+            1414
+          ],
+          "markAnchor": [
+            1,
+            1152
+          ],
+          "proposedMarkOrigin": [
+            518,
+            262
+          ],
+          "proposedAdvance": 1048,
+          "proposedInkBounds": [
+            112,
+            -20,
+            926,
+            1756
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-tilde-lower",
+          "text": "\u016b\u0303",
+          "nfd": "u\u0304\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "umacron",
+              "gid": 442,
+              "cluster": 0,
+              "advance": 1048,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1048,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "umacron",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            519,
+            1414
+          ],
+          "markAnchor": [
+            0,
+            1160
+          ],
+          "proposedMarkOrigin": [
+            519,
+            254
+          ],
+          "proposedAdvance": 1048,
+          "proposedInkBounds": [
+            112,
+            -20,
+            926,
+            1652
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-acute-lower",
+          "text": "\u0117\u0301",
+          "nfd": "e\u0307\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1024,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1024,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "edotaccent",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            513,
+            1452
+          ],
+          "markAnchor": [
+            1,
+            1152
+          ],
+          "proposedMarkOrigin": [
+            512,
+            300
+          ],
+          "proposedAdvance": 1024,
+          "proposedInkBounds": [
+            62,
+            -20,
+            964,
+            1794
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-tilde-lower",
+          "text": "\u0117\u0303",
+          "nfd": "e\u0307\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1024,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1024,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "edotaccent",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            513,
+            1452
+          ],
+          "markAnchor": [
+            0,
+            1160
+          ],
+          "proposedMarkOrigin": [
+            513,
+            292
+          ],
+          "proposedAdvance": 1024,
+          "proposedInkBounds": [
+            62,
+            -20,
+            964,
+            1690
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-acute-upper",
+          "text": "\u0104\u0301",
+          "nfd": "A\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Aogonek",
+              "gid": 22,
+              "cluster": 0,
+              "advance": 1232,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1232,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Aogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            645,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1108
+          ],
+          "proposedMarkOrigin": [
+            644,
+            382
+          ],
+          "proposedAdvance": 1232,
+          "proposedInkBounds": [
+            14,
+            -416,
+            1276,
+            1796
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-tilde-upper",
+          "text": "\u0104\u0303",
+          "nfd": "A\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Aogonek",
+              "gid": 22,
+              "cluster": 0,
+              "advance": 1232,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1232,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Aogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            645,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            645,
+            334
+          ],
+          "proposedAdvance": 1232,
+          "proposedInkBounds": [
+            14,
+            -416,
+            1276,
+            1700
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-acute-upper",
+          "text": "\u0118\u0301",
+          "nfd": "E\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Eogonek",
+              "gid": 65,
+              "cluster": 0,
+              "advance": 1108,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1108,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Eogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            644,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1108
+          ],
+          "proposedMarkOrigin": [
+            643,
+            382
+          ],
+          "proposedAdvance": 1108,
+          "proposedInkBounds": [
+            160,
+            -416,
+            1128,
+            1796
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-tilde-upper",
+          "text": "\u0118\u0303",
+          "nfd": "E\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Eogonek",
+              "gid": 65,
+              "cluster": 0,
+              "advance": 1108,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1108,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Eogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            644,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            644,
+            334
+          ],
+          "proposedAdvance": 1108,
+          "proposedInkBounds": [
+            160,
+            -416,
+            1128,
+            1700
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-acute-upper",
+          "text": "\u012e\u0301",
+          "nfd": "I\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Iogonek",
+              "gid": 94,
+              "cluster": 0,
+              "advance": 510,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 510,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Iogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            262,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1108
+          ],
+          "proposedMarkOrigin": [
+            261,
+            382
+          ],
+          "proposedAdvance": 510,
+          "proposedInkBounds": [
+            75,
+            -416,
+            449,
+            1796
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-tilde-upper",
+          "text": "\u012e\u0303",
+          "nfd": "I\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Iogonek",
+              "gid": 94,
+              "cluster": 0,
+              "advance": 510,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 510,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Iogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            262,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            262,
+            334
+          ],
+          "proposedAdvance": 510,
+          "proposedInkBounds": [
+            -50,
+            -416,
+            574,
+            1700
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-acute-upper",
+          "text": "\u0172\u0301",
+          "nfd": "U\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Uogonek",
+              "gid": 208,
+              "cluster": 0,
+              "advance": 1448,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1448,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Uogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            724,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1108
+          ],
+          "proposedMarkOrigin": [
+            723,
+            382
+          ],
+          "proposedAdvance": 1448,
+          "proposedInkBounds": [
+            144,
+            -416,
+            1304,
+            1796
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-tilde-upper",
+          "text": "\u0172\u0303",
+          "nfd": "U\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Uogonek",
+              "gid": 208,
+              "cluster": 0,
+              "advance": 1448,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1448,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Uogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            724,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            724,
+            334
+          ],
+          "proposedAdvance": 1448,
+          "proposedInkBounds": [
+            144,
+            -416,
+            1304,
+            1700
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-acute-upper",
+          "text": "\u016a\u0301",
+          "nfd": "U\u0304\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Umacron",
+              "gid": 206,
+              "cluster": 0,
+              "advance": 1448,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1448,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Umacron",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            724,
+            1812
+          ],
+          "markAnchor": [
+            1,
+            1108
+          ],
+          "proposedMarkOrigin": [
+            723,
+            704
+          ],
+          "proposedAdvance": 1448,
+          "proposedInkBounds": [
+            144,
+            -28,
+            1304,
+            2118
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-tilde-upper",
+          "text": "\u016a\u0303",
+          "nfd": "U\u0304\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Umacron",
+              "gid": 206,
+              "cluster": 0,
+              "advance": 1448,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1448,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Umacron",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            724,
+            1812
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            724,
+            656
+          ],
+          "proposedAdvance": 1448,
+          "proposedInkBounds": [
+            144,
+            -28,
+            1304,
+            2022
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-acute-upper",
+          "text": "\u0116\u0301",
+          "nfd": "E\u0307\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Edotaccent",
+              "gid": 57,
+              "cluster": 0,
+              "advance": 1108,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1108,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Edotaccent",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            596,
+            1852
+          ],
+          "markAnchor": [
+            1,
+            1108
+          ],
+          "proposedMarkOrigin": [
+            595,
+            744
+          ],
+          "proposedAdvance": 1108,
+          "proposedInkBounds": [
+            160,
+            0,
+            1032,
+            2158
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-tilde-upper",
+          "text": "\u0116\u0303",
+          "nfd": "E\u0307\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Edotaccent",
+              "gid": 57,
+              "cluster": 0,
+              "advance": 1108,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1108,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Edotaccent",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            596,
+            1852
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            596,
+            696
+          ],
+          "proposedAdvance": 1108,
+          "proposedInkBounds": [
+            160,
+            0,
+            1032,
+            2062
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        }
+      ],
+      "dotRetentionCases": [
+        {
+          "caseId": "LT-dot-retention-Iacute",
+          "text": "i\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "dotlessi",
+              "gid": 315,
+              "cluster": 0,
+              "advance": 424,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -212,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -212,
+              "yOffset": 332
+            }
+          ],
+          "advance": 424,
+          "action": "Preserve the actually attached native dotless-i + dot + accent sequence.",
+          "proposedInkBounds": [
+            26,
+            0,
+            400,
+            1746
+          ]
+        },
+        {
+          "caseId": "LT-dot-retention-Itilde",
+          "text": "i\u0307\u0303",
+          "beforeGlyphs": [
+            {
+              "glyph": "dotlessi",
+              "gid": 315,
+              "cluster": 0,
+              "advance": 424,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -212,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -212,
+              "yOffset": 332
+            }
+          ],
+          "advance": 424,
+          "action": "Preserve the actually attached native dotless-i + dot + accent sequence.",
+          "proposedInkBounds": [
+            -100,
+            0,
+            524,
+            1698
+          ]
+        },
+        {
+          "caseId": "LT-dot-retention-IogonekMoreAbove",
+          "text": "\u012f\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 424,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 332
+            }
+          ],
+          "advance": 424,
+          "action": "In LTH ccmp only, a three-input contextual lookup invokes a two-glyph ligature substitution: iogonek + uni0307.case becomes the same existing iogonek, only when followed by acutecomb.case. The native iogonek dot remains; the redundant explicit-dot glyph is consumed from the shaped stream. The original text and cmap remain unchanged. The accent then uses the new exact MarkBase anchor.",
+          "contextInputGlyphs": [
+            "iogonek",
+            "uni0307.case",
+            "acutecomb.case"
+          ],
+          "replacementFirstTwo": [
+            "iogonek"
+          ],
+          "outputGlyphSequence": [
+            "iogonek",
+            "acutecomb.case"
+          ],
+          "proposedMarkOrigin": [
+            213,
+            382
+          ],
+          "gap": 90,
+          "nativeIogonekDotRetained": true,
+          "newGlyphCount": 0,
+          "scope": "Exactly the canonical IogonekMoreAbove acute route. Other explicit-dot stacks are not silently covered.",
+          "proposedInkBounds": [
+            27,
+            -416,
+            401,
+            1796
+          ]
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "q\u0323",
+          "beforeGlyphs": [
+            {
+              "glyph": "q",
+              "gid": 396,
+              "cluster": 0,
+              "advance": 1114,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "dotbelowcomb",
+              "gid": 694,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1114,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "h\u0302\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "hcircumflex",
+              "gid": 312,
+              "cluster": 0,
+              "advance": 1084,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1084,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "n\u0323\u0331",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1E47",
+              "gid": 354,
+              "cluster": 0,
+              "advance": 1118,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0331",
+              "gid": 700,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1118,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "a\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "aacute",
+              "gid": 236,
+              "cluster": 0,
+              "advance": 960,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 960,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u0117",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1024,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1024,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u012f",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 424,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 424,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u012f\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 424,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 332
+            }
+          ],
+          "beforeAdvance": 424,
+          "scope": "Intended-change regression control: this exact LTH IogonekMoreAbove acute context consumes the redundant shaped dot and repositions its accent through the declared route. Compare the recorded before with the successor; do not assert it unchanged."
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "baseCoverage": [
+        {
+          "unicode": 261,
+          "glyph": "aogonek",
+          "sourceGid": 256,
+          "inkBounds": [
+            45,
+            -419,
+            1013,
+            1007
+          ],
+          "advance": 975,
+          "anchor": [
+            529,
+            1097
+          ]
+        },
+        {
+          "unicode": 281,
+          "glyph": "eogonek",
+          "sourceGid": 298,
+          "inkBounds": [
+            59,
+            -363,
+            1021,
+            1007
+          ],
+          "advance": 1027,
+          "anchor": [
+            540,
+            1097
+          ]
+        },
+        {
+          "unicode": 303,
+          "glyph": "iogonek",
+          "sourceGid": 329,
+          "inkBounds": [
+            52,
+            -419,
+            424,
+            1400
+          ],
+          "advance": 448,
+          "anchor": [
+            238,
+            1490
+          ]
+        },
+        {
+          "unicode": 371,
+          "glyph": "uogonek",
+          "sourceGid": 444,
+          "inkBounds": [
+            109,
+            -419,
+            1048,
+            988
+          ],
+          "advance": 1072,
+          "anchor": [
+            579,
+            1078
+          ]
+        },
+        {
+          "unicode": 363,
+          "glyph": "umacron",
+          "sourceGid": 442,
+          "inkBounds": [
+            109,
+            -20,
+            952,
+            1340
+          ],
+          "advance": 1072,
+          "anchor": [
+            531,
+            1430
+          ]
+        },
+        {
+          "unicode": 279,
+          "glyph": "edotaccent",
+          "sourceGid": 290,
+          "inkBounds": [
+            59,
+            -20,
+            969,
+            1377
+          ],
+          "advance": 1027,
+          "anchor": [
+            514,
+            1467
+          ]
+        },
+        {
+          "unicode": 260,
+          "glyph": "Aogonek",
+          "sourceGid": 22,
+          "inkBounds": [
+            11,
+            -419,
+            1275,
+            1400
+          ],
+          "advance": 1240,
+          "anchor": [
+            643,
+            1490
+          ]
+        },
+        {
+          "unicode": 280,
+          "glyph": "Eogonek",
+          "sourceGid": 65,
+          "inkBounds": [
+            157,
+            -419,
+            1144,
+            1400
+          ],
+          "advance": 1120,
+          "anchor": [
+            651,
+            1490
+          ]
+        },
+        {
+          "unicode": 302,
+          "glyph": "Iogonek",
+          "sourceGid": 94,
+          "inkBounds": [
+            99,
+            -419,
+            471,
+            1400
+          ],
+          "advance": 533,
+          "anchor": [
+            285,
+            1490
+          ]
+        },
+        {
+          "unicode": 370,
+          "glyph": "Uogonek",
+          "sourceGid": 208,
+          "inkBounds": [
+            141,
+            -419,
+            1301,
+            1400
+          ],
+          "advance": 1443,
+          "anchor": [
+            721,
+            1490
+          ]
+        },
+        {
+          "unicode": 362,
+          "glyph": "Umacron",
+          "sourceGid": 206,
+          "inkBounds": [
+            141,
+            -28,
+            1301,
+            1729
+          ],
+          "advance": 1443,
+          "anchor": [
+            721,
+            1819
+          ]
+        },
+        {
+          "unicode": 278,
+          "glyph": "Edotaccent",
+          "sourceGid": 57,
+          "inkBounds": [
+            157,
+            0,
+            1048,
+            1769
+          ],
+          "advance": 1120,
+          "anchor": [
+            603,
+            1859
+          ]
+        }
+      ],
+      "markCoverage": [
+        {
+          "glyph": "acutecomb",
+          "sourceGid": 680,
+          "inkBounds": [
+            -190,
+            1147,
+            192,
+            1506
+          ],
+          "anchor": [
+            1,
+            1147
+          ]
+        },
+        {
+          "glyph": "tildecomb",
+          "sourceGid": 687,
+          "inkBounds": [
+            -336,
+            1158,
+            336,
+            1405
+          ],
+          "anchor": [
+            0,
+            1158
+          ]
+        },
+        {
+          "glyph": "acutecomb.case",
+          "sourceGid": 705,
+          "inkBounds": [
+            -190,
+            1104,
+            192,
+            1419
+          ],
+          "anchor": [
+            1,
+            1104
+          ]
+        },
+        {
+          "glyph": "tildecomb.case",
+          "sourceGid": 711,
+          "inkBounds": [
+            -317,
+            1155,
+            317,
+            1371
+          ],
+          "anchor": [
+            0,
+            1155
+          ]
+        }
+      ],
+      "cases": [
+        {
+          "caseId": "LT-aogonek-acute-lower",
+          "text": "\u0105\u0301",
+          "nfd": "a\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "aogonek",
+              "gid": 256,
+              "cluster": 0,
+              "advance": 975,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 975,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "aogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            529,
+            1097
+          ],
+          "markAnchor": [
+            1,
+            1147
+          ],
+          "proposedMarkOrigin": [
+            528,
+            -50
+          ],
+          "proposedAdvance": 975,
+          "proposedInkBounds": [
+            45,
+            -419,
+            1013,
+            1456
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-tilde-lower",
+          "text": "\u0105\u0303",
+          "nfd": "a\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "aogonek",
+              "gid": 256,
+              "cluster": 0,
+              "advance": 975,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 975,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "aogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            529,
+            1097
+          ],
+          "markAnchor": [
+            0,
+            1158
+          ],
+          "proposedMarkOrigin": [
+            529,
+            -61
+          ],
+          "proposedAdvance": 975,
+          "proposedInkBounds": [
+            45,
+            -419,
+            1013,
+            1344
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-acute-lower",
+          "text": "\u0119\u0301",
+          "nfd": "e\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "eogonek",
+              "gid": 298,
+              "cluster": 0,
+              "advance": 1027,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1027,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "eogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            540,
+            1097
+          ],
+          "markAnchor": [
+            1,
+            1147
+          ],
+          "proposedMarkOrigin": [
+            539,
+            -50
+          ],
+          "proposedAdvance": 1027,
+          "proposedInkBounds": [
+            59,
+            -363,
+            1021,
+            1456
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-tilde-lower",
+          "text": "\u0119\u0303",
+          "nfd": "e\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "eogonek",
+              "gid": 298,
+              "cluster": 0,
+              "advance": 1027,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1027,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "eogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            540,
+            1097
+          ],
+          "markAnchor": [
+            0,
+            1158
+          ],
+          "proposedMarkOrigin": [
+            540,
+            -61
+          ],
+          "proposedAdvance": 1027,
+          "proposedInkBounds": [
+            59,
+            -363,
+            1021,
+            1344
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-acute-lower",
+          "text": "\u012f\u0301",
+          "nfd": "i\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 448,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 448,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "iogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            238,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1147
+          ],
+          "proposedMarkOrigin": [
+            237,
+            343
+          ],
+          "proposedAdvance": 448,
+          "proposedInkBounds": [
+            47,
+            -419,
+            429,
+            1849
+          ],
+          "nativeDotRetained": true,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-tilde-lower",
+          "text": "\u012f\u0303",
+          "nfd": "i\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 448,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 448,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "iogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            238,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1158
+          ],
+          "proposedMarkOrigin": [
+            238,
+            332
+          ],
+          "proposedAdvance": 448,
+          "proposedInkBounds": [
+            -98,
+            -419,
+            574,
+            1737
+          ],
+          "nativeDotRetained": true,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-acute-lower",
+          "text": "\u0173\u0301",
+          "nfd": "u\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uogonek",
+              "gid": 444,
+              "cluster": 0,
+              "advance": 1072,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1072,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "uogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            579,
+            1078
+          ],
+          "markAnchor": [
+            1,
+            1147
+          ],
+          "proposedMarkOrigin": [
+            578,
+            -69
+          ],
+          "proposedAdvance": 1072,
+          "proposedInkBounds": [
+            109,
+            -419,
+            1048,
+            1437
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-tilde-lower",
+          "text": "\u0173\u0303",
+          "nfd": "u\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uogonek",
+              "gid": 444,
+              "cluster": 0,
+              "advance": 1072,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1072,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "uogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            579,
+            1078
+          ],
+          "markAnchor": [
+            0,
+            1158
+          ],
+          "proposedMarkOrigin": [
+            579,
+            -80
+          ],
+          "proposedAdvance": 1072,
+          "proposedInkBounds": [
+            109,
+            -419,
+            1048,
+            1325
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-acute-lower",
+          "text": "\u016b\u0301",
+          "nfd": "u\u0304\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "umacron",
+              "gid": 442,
+              "cluster": 0,
+              "advance": 1072,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1072,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "umacron",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            531,
+            1430
+          ],
+          "markAnchor": [
+            1,
+            1147
+          ],
+          "proposedMarkOrigin": [
+            530,
+            283
+          ],
+          "proposedAdvance": 1072,
+          "proposedInkBounds": [
+            109,
+            -20,
+            952,
+            1789
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-tilde-lower",
+          "text": "\u016b\u0303",
+          "nfd": "u\u0304\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "umacron",
+              "gid": 442,
+              "cluster": 0,
+              "advance": 1072,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1072,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "umacron",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            531,
+            1430
+          ],
+          "markAnchor": [
+            0,
+            1158
+          ],
+          "proposedMarkOrigin": [
+            531,
+            272
+          ],
+          "proposedAdvance": 1072,
+          "proposedInkBounds": [
+            109,
+            -20,
+            952,
+            1677
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-acute-lower",
+          "text": "\u0117\u0301",
+          "nfd": "e\u0307\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1027,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1027,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "edotaccent",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            514,
+            1467
+          ],
+          "markAnchor": [
+            1,
+            1147
+          ],
+          "proposedMarkOrigin": [
+            513,
+            320
+          ],
+          "proposedAdvance": 1027,
+          "proposedInkBounds": [
+            59,
+            -20,
+            969,
+            1826
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-tilde-lower",
+          "text": "\u0117\u0303",
+          "nfd": "e\u0307\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1027,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1027,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "edotaccent",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            514,
+            1467
+          ],
+          "markAnchor": [
+            0,
+            1158
+          ],
+          "proposedMarkOrigin": [
+            514,
+            309
+          ],
+          "proposedAdvance": 1027,
+          "proposedInkBounds": [
+            59,
+            -20,
+            969,
+            1714
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-acute-upper",
+          "text": "\u0104\u0301",
+          "nfd": "A\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Aogonek",
+              "gid": 22,
+              "cluster": 0,
+              "advance": 1240,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1240,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Aogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            643,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1104
+          ],
+          "proposedMarkOrigin": [
+            642,
+            386
+          ],
+          "proposedAdvance": 1240,
+          "proposedInkBounds": [
+            11,
+            -419,
+            1275,
+            1805
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-tilde-upper",
+          "text": "\u0104\u0303",
+          "nfd": "A\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Aogonek",
+              "gid": 22,
+              "cluster": 0,
+              "advance": 1240,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1240,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Aogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            643,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            643,
+            335
+          ],
+          "proposedAdvance": 1240,
+          "proposedInkBounds": [
+            11,
+            -419,
+            1275,
+            1706
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-acute-upper",
+          "text": "\u0118\u0301",
+          "nfd": "E\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Eogonek",
+              "gid": 65,
+              "cluster": 0,
+              "advance": 1120,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1120,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Eogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            651,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1104
+          ],
+          "proposedMarkOrigin": [
+            650,
+            386
+          ],
+          "proposedAdvance": 1120,
+          "proposedInkBounds": [
+            157,
+            -419,
+            1144,
+            1805
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-tilde-upper",
+          "text": "\u0118\u0303",
+          "nfd": "E\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Eogonek",
+              "gid": 65,
+              "cluster": 0,
+              "advance": 1120,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1120,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Eogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            651,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            651,
+            335
+          ],
+          "proposedAdvance": 1120,
+          "proposedInkBounds": [
+            157,
+            -419,
+            1144,
+            1706
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-acute-upper",
+          "text": "\u012e\u0301",
+          "nfd": "I\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Iogonek",
+              "gid": 94,
+              "cluster": 0,
+              "advance": 533,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 533,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Iogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            285,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1104
+          ],
+          "proposedMarkOrigin": [
+            284,
+            386
+          ],
+          "proposedAdvance": 533,
+          "proposedInkBounds": [
+            94,
+            -419,
+            476,
+            1805
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-tilde-upper",
+          "text": "\u012e\u0303",
+          "nfd": "I\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Iogonek",
+              "gid": 94,
+              "cluster": 0,
+              "advance": 533,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 533,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Iogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            285,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            285,
+            335
+          ],
+          "proposedAdvance": 533,
+          "proposedInkBounds": [
+            -32,
+            -419,
+            602,
+            1706
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-acute-upper",
+          "text": "\u0172\u0301",
+          "nfd": "U\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Uogonek",
+              "gid": 208,
+              "cluster": 0,
+              "advance": 1443,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1443,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Uogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            721,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1104
+          ],
+          "proposedMarkOrigin": [
+            720,
+            386
+          ],
+          "proposedAdvance": 1443,
+          "proposedInkBounds": [
+            141,
+            -419,
+            1301,
+            1805
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-tilde-upper",
+          "text": "\u0172\u0303",
+          "nfd": "U\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Uogonek",
+              "gid": 208,
+              "cluster": 0,
+              "advance": 1443,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1443,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Uogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            721,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            721,
+            335
+          ],
+          "proposedAdvance": 1443,
+          "proposedInkBounds": [
+            141,
+            -419,
+            1301,
+            1706
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-acute-upper",
+          "text": "\u016a\u0301",
+          "nfd": "U\u0304\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Umacron",
+              "gid": 206,
+              "cluster": 0,
+              "advance": 1443,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1443,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Umacron",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            721,
+            1819
+          ],
+          "markAnchor": [
+            1,
+            1104
+          ],
+          "proposedMarkOrigin": [
+            720,
+            715
+          ],
+          "proposedAdvance": 1443,
+          "proposedInkBounds": [
+            141,
+            -28,
+            1301,
+            2134
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-tilde-upper",
+          "text": "\u016a\u0303",
+          "nfd": "U\u0304\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Umacron",
+              "gid": 206,
+              "cluster": 0,
+              "advance": 1443,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1443,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Umacron",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            721,
+            1819
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            721,
+            664
+          ],
+          "proposedAdvance": 1443,
+          "proposedInkBounds": [
+            141,
+            -28,
+            1301,
+            2035
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-acute-upper",
+          "text": "\u0116\u0301",
+          "nfd": "E\u0307\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Edotaccent",
+              "gid": 57,
+              "cluster": 0,
+              "advance": 1120,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1120,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Edotaccent",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            603,
+            1859
+          ],
+          "markAnchor": [
+            1,
+            1104
+          ],
+          "proposedMarkOrigin": [
+            602,
+            755
+          ],
+          "proposedAdvance": 1120,
+          "proposedInkBounds": [
+            157,
+            0,
+            1048,
+            2174
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-tilde-upper",
+          "text": "\u0116\u0303",
+          "nfd": "E\u0307\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Edotaccent",
+              "gid": 57,
+              "cluster": 0,
+              "advance": 1120,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1120,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Edotaccent",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            603,
+            1859
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            603,
+            704
+          ],
+          "proposedAdvance": 1120,
+          "proposedInkBounds": [
+            157,
+            0,
+            1048,
+            2075
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        }
+      ],
+      "dotRetentionCases": [
+        {
+          "caseId": "LT-dot-retention-Iacute",
+          "text": "i\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "dotlessi",
+              "gid": 315,
+              "cluster": 0,
+              "advance": 448,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -224,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -224,
+              "yOffset": 352
+            }
+          ],
+          "advance": 448,
+          "action": "Preserve the actually attached native dotless-i + dot + accent sequence.",
+          "proposedInkBounds": [
+            34,
+            0,
+            416,
+            1771
+          ]
+        },
+        {
+          "caseId": "LT-dot-retention-Itilde",
+          "text": "i\u0307\u0303",
+          "beforeGlyphs": [
+            {
+              "glyph": "dotlessi",
+              "gid": 315,
+              "cluster": 0,
+              "advance": 448,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -224,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -224,
+              "yOffset": 344
+            }
+          ],
+          "advance": 448,
+          "action": "Preserve the actually attached native dotless-i + dot + accent sequence.",
+          "proposedInkBounds": [
+            -93,
+            0,
+            541,
+            1715
+          ]
+        },
+        {
+          "caseId": "LT-dot-retention-IogonekMoreAbove",
+          "text": "\u012f\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 448,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 352
+            }
+          ],
+          "advance": 448,
+          "action": "In LTH ccmp only, a three-input contextual lookup invokes a two-glyph ligature substitution: iogonek + uni0307.case becomes the same existing iogonek, only when followed by acutecomb.case. The native iogonek dot remains; the redundant explicit-dot glyph is consumed from the shaped stream. The original text and cmap remain unchanged. The accent then uses the new exact MarkBase anchor.",
+          "contextInputGlyphs": [
+            "iogonek",
+            "uni0307.case",
+            "acutecomb.case"
+          ],
+          "replacementFirstTwo": [
+            "iogonek"
+          ],
+          "outputGlyphSequence": [
+            "iogonek",
+            "acutecomb.case"
+          ],
+          "proposedMarkOrigin": [
+            237,
+            386
+          ],
+          "gap": 90,
+          "nativeIogonekDotRetained": true,
+          "newGlyphCount": 0,
+          "scope": "Exactly the canonical IogonekMoreAbove acute route. Other explicit-dot stacks are not silently covered.",
+          "proposedInkBounds": [
+            47,
+            -419,
+            429,
+            1805
+          ]
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "q\u0323",
+          "beforeGlyphs": [
+            {
+              "glyph": "q",
+              "gid": 396,
+              "cluster": 0,
+              "advance": 1127,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "dotbelowcomb",
+              "gid": 694,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1127,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "h\u0302\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "hcircumflex",
+              "gid": 312,
+              "cluster": 0,
+              "advance": 1092,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1092,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "n\u0323\u0331",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1E47",
+              "gid": 354,
+              "cluster": 0,
+              "advance": 1112,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0331",
+              "gid": 700,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1112,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "a\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "aacute",
+              "gid": 236,
+              "cluster": 0,
+              "advance": 975,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 975,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u0117",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1027,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1027,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u012f",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 448,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 448,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u012f\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 448,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 352
+            }
+          ],
+          "beforeAdvance": 448,
+          "scope": "Intended-change regression control: this exact LTH IogonekMoreAbove acute context consumes the redundant shaped dot and repositions its accent through the declared route. Compare the recorded before with the successor; do not assert it unchanged."
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "baseCoverage": [
+        {
+          "unicode": 261,
+          "glyph": "aogonek",
+          "sourceGid": 256,
+          "inkBounds": [
+            44,
+            -420,
+            1023,
+            1010
+          ],
+          "advance": 983,
+          "anchor": [
+            534,
+            1100
+          ]
+        },
+        {
+          "unicode": 281,
+          "glyph": "eogonek",
+          "sourceGid": 298,
+          "inkBounds": [
+            58,
+            -364,
+            1024,
+            1010
+          ],
+          "advance": 1028,
+          "anchor": [
+            541,
+            1100
+          ]
+        },
+        {
+          "unicode": 303,
+          "glyph": "iogonek",
+          "sourceGid": 329,
+          "inkBounds": [
+            63,
+            -420,
+            437,
+            1400
+          ],
+          "advance": 460,
+          "anchor": [
+            250,
+            1490
+          ]
+        },
+        {
+          "unicode": 371,
+          "glyph": "uogonek",
+          "sourceGid": 444,
+          "inkBounds": [
+            108,
+            -420,
+            1061,
+            993
+          ],
+          "advance": 1084,
+          "anchor": [
+            585,
+            1083
+          ]
+        },
+        {
+          "unicode": 363,
+          "glyph": "umacron",
+          "sourceGid": 442,
+          "inkBounds": [
+            108,
+            -20,
+            965,
+            1350
+          ],
+          "advance": 1084,
+          "anchor": [
+            537,
+            1440
+          ]
+        },
+        {
+          "unicode": 279,
+          "glyph": "edotaccent",
+          "sourceGid": 290,
+          "inkBounds": [
+            58,
+            -20,
+            972,
+            1385
+          ],
+          "advance": 1028,
+          "anchor": [
+            515,
+            1475
+          ]
+        },
+        {
+          "unicode": 260,
+          "glyph": "Aogonek",
+          "sourceGid": 22,
+          "inkBounds": [
+            9,
+            -420,
+            1275,
+            1400
+          ],
+          "advance": 1243,
+          "anchor": [
+            642,
+            1490
+          ]
+        },
+        {
+          "unicode": 280,
+          "glyph": "Eogonek",
+          "sourceGid": 65,
+          "inkBounds": [
+            156,
+            -420,
+            1152,
+            1400
+          ],
+          "advance": 1126,
+          "anchor": [
+            654,
+            1490
+          ]
+        },
+        {
+          "unicode": 302,
+          "glyph": "Iogonek",
+          "sourceGid": 94,
+          "inkBounds": [
+            110,
+            -420,
+            484,
+            1400
+          ],
+          "advance": 544,
+          "anchor": [
+            297,
+            1490
+          ]
+        },
+        {
+          "unicode": 370,
+          "glyph": "Uogonek",
+          "sourceGid": 208,
+          "inkBounds": [
+            140,
+            -420,
+            1300,
+            1400
+          ],
+          "advance": 1440,
+          "anchor": [
+            720,
+            1490
+          ]
+        },
+        {
+          "unicode": 362,
+          "glyph": "Umacron",
+          "sourceGid": 206,
+          "inkBounds": [
+            140,
+            -28,
+            1300,
+            1732
+          ],
+          "advance": 1440,
+          "anchor": [
+            720,
+            1822
+          ]
+        },
+        {
+          "unicode": 278,
+          "glyph": "Edotaccent",
+          "sourceGid": 57,
+          "inkBounds": [
+            156,
+            0,
+            1056,
+            1772
+          ],
+          "advance": 1126,
+          "anchor": [
+            606,
+            1862
+          ]
+        }
+      ],
+      "markCoverage": [
+        {
+          "glyph": "acutecomb",
+          "sourceGid": 680,
+          "inkBounds": [
+            -192,
+            1144,
+            194,
+            1512
+          ],
+          "anchor": [
+            1,
+            1144
+          ]
+        },
+        {
+          "glyph": "tildecomb",
+          "sourceGid": 687,
+          "inkBounds": [
+            -338,
+            1157,
+            338,
+            1408
+          ],
+          "anchor": [
+            0,
+            1157
+          ]
+        },
+        {
+          "glyph": "acutecomb.case",
+          "sourceGid": 705,
+          "inkBounds": [
+            -192,
+            1102,
+            194,
+            1422
+          ],
+          "anchor": [
+            1,
+            1102
+          ]
+        },
+        {
+          "glyph": "tildecomb.case",
+          "sourceGid": 711,
+          "inkBounds": [
+            -320,
+            1155,
+            320,
+            1374
+          ],
+          "anchor": [
+            0,
+            1155
+          ]
+        }
+      ],
+      "cases": [
+        {
+          "caseId": "LT-aogonek-acute-lower",
+          "text": "\u0105\u0301",
+          "nfd": "a\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "aogonek",
+              "gid": 256,
+              "cluster": 0,
+              "advance": 983,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 983,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "aogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            534,
+            1100
+          ],
+          "markAnchor": [
+            1,
+            1144
+          ],
+          "proposedMarkOrigin": [
+            533,
+            -44
+          ],
+          "proposedAdvance": 983,
+          "proposedInkBounds": [
+            44,
+            -420,
+            1023,
+            1468
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-tilde-lower",
+          "text": "\u0105\u0303",
+          "nfd": "a\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "aogonek",
+              "gid": 256,
+              "cluster": 0,
+              "advance": 983,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 983,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "aogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            534,
+            1100
+          ],
+          "markAnchor": [
+            0,
+            1157
+          ],
+          "proposedMarkOrigin": [
+            534,
+            -57
+          ],
+          "proposedAdvance": 983,
+          "proposedInkBounds": [
+            44,
+            -420,
+            1023,
+            1351
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-acute-lower",
+          "text": "\u0119\u0301",
+          "nfd": "e\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "eogonek",
+              "gid": 298,
+              "cluster": 0,
+              "advance": 1028,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1028,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "eogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            541,
+            1100
+          ],
+          "markAnchor": [
+            1,
+            1144
+          ],
+          "proposedMarkOrigin": [
+            540,
+            -44
+          ],
+          "proposedAdvance": 1028,
+          "proposedInkBounds": [
+            58,
+            -364,
+            1024,
+            1468
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-tilde-lower",
+          "text": "\u0119\u0303",
+          "nfd": "e\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "eogonek",
+              "gid": 298,
+              "cluster": 0,
+              "advance": 1028,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1028,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "eogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            541,
+            1100
+          ],
+          "markAnchor": [
+            0,
+            1157
+          ],
+          "proposedMarkOrigin": [
+            541,
+            -57
+          ],
+          "proposedAdvance": 1028,
+          "proposedInkBounds": [
+            58,
+            -364,
+            1024,
+            1351
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-acute-lower",
+          "text": "\u012f\u0301",
+          "nfd": "i\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 460,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 460,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "iogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            250,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1144
+          ],
+          "proposedMarkOrigin": [
+            249,
+            346
+          ],
+          "proposedAdvance": 460,
+          "proposedInkBounds": [
+            57,
+            -420,
+            443,
+            1858
+          ],
+          "nativeDotRetained": true,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-tilde-lower",
+          "text": "\u012f\u0303",
+          "nfd": "i\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 460,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 460,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "iogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            250,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1157
+          ],
+          "proposedMarkOrigin": [
+            250,
+            333
+          ],
+          "proposedAdvance": 460,
+          "proposedInkBounds": [
+            -88,
+            -420,
+            588,
+            1741
+          ],
+          "nativeDotRetained": true,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-acute-lower",
+          "text": "\u0173\u0301",
+          "nfd": "u\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uogonek",
+              "gid": 444,
+              "cluster": 0,
+              "advance": 1084,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1084,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "uogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            585,
+            1083
+          ],
+          "markAnchor": [
+            1,
+            1144
+          ],
+          "proposedMarkOrigin": [
+            584,
+            -61
+          ],
+          "proposedAdvance": 1084,
+          "proposedInkBounds": [
+            108,
+            -420,
+            1061,
+            1451
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-tilde-lower",
+          "text": "\u0173\u0303",
+          "nfd": "u\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uogonek",
+              "gid": 444,
+              "cluster": 0,
+              "advance": 1084,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1084,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "uogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            585,
+            1083
+          ],
+          "markAnchor": [
+            0,
+            1157
+          ],
+          "proposedMarkOrigin": [
+            585,
+            -74
+          ],
+          "proposedAdvance": 1084,
+          "proposedInkBounds": [
+            108,
+            -420,
+            1061,
+            1334
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-acute-lower",
+          "text": "\u016b\u0301",
+          "nfd": "u\u0304\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "umacron",
+              "gid": 442,
+              "cluster": 0,
+              "advance": 1084,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1084,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "umacron",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            537,
+            1440
+          ],
+          "markAnchor": [
+            1,
+            1144
+          ],
+          "proposedMarkOrigin": [
+            536,
+            296
+          ],
+          "proposedAdvance": 1084,
+          "proposedInkBounds": [
+            108,
+            -20,
+            965,
+            1808
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-tilde-lower",
+          "text": "\u016b\u0303",
+          "nfd": "u\u0304\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "umacron",
+              "gid": 442,
+              "cluster": 0,
+              "advance": 1084,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1084,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "umacron",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            537,
+            1440
+          ],
+          "markAnchor": [
+            0,
+            1157
+          ],
+          "proposedMarkOrigin": [
+            537,
+            283
+          ],
+          "proposedAdvance": 1084,
+          "proposedInkBounds": [
+            108,
+            -20,
+            965,
+            1691
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-acute-lower",
+          "text": "\u0117\u0301",
+          "nfd": "e\u0307\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1028,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1028,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "edotaccent",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            515,
+            1475
+          ],
+          "markAnchor": [
+            1,
+            1144
+          ],
+          "proposedMarkOrigin": [
+            514,
+            331
+          ],
+          "proposedAdvance": 1028,
+          "proposedInkBounds": [
+            58,
+            -20,
+            972,
+            1843
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-tilde-lower",
+          "text": "\u0117\u0303",
+          "nfd": "e\u0307\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1028,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1028,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "edotaccent",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            515,
+            1475
+          ],
+          "markAnchor": [
+            0,
+            1157
+          ],
+          "proposedMarkOrigin": [
+            515,
+            318
+          ],
+          "proposedAdvance": 1028,
+          "proposedInkBounds": [
+            58,
+            -20,
+            972,
+            1726
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-acute-upper",
+          "text": "\u0104\u0301",
+          "nfd": "A\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Aogonek",
+              "gid": 22,
+              "cluster": 0,
+              "advance": 1243,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1243,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Aogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            642,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1102
+          ],
+          "proposedMarkOrigin": [
+            641,
+            388
+          ],
+          "proposedAdvance": 1243,
+          "proposedInkBounds": [
+            9,
+            -420,
+            1275,
+            1810
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-tilde-upper",
+          "text": "\u0104\u0303",
+          "nfd": "A\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Aogonek",
+              "gid": 22,
+              "cluster": 0,
+              "advance": 1243,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1243,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Aogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            642,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            642,
+            335
+          ],
+          "proposedAdvance": 1243,
+          "proposedInkBounds": [
+            9,
+            -420,
+            1275,
+            1709
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-acute-upper",
+          "text": "\u0118\u0301",
+          "nfd": "E\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Eogonek",
+              "gid": 65,
+              "cluster": 0,
+              "advance": 1126,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1126,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Eogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            654,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1102
+          ],
+          "proposedMarkOrigin": [
+            653,
+            388
+          ],
+          "proposedAdvance": 1126,
+          "proposedInkBounds": [
+            156,
+            -420,
+            1152,
+            1810
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-tilde-upper",
+          "text": "\u0118\u0303",
+          "nfd": "E\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Eogonek",
+              "gid": 65,
+              "cluster": 0,
+              "advance": 1126,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1126,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Eogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            654,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            654,
+            335
+          ],
+          "proposedAdvance": 1126,
+          "proposedInkBounds": [
+            156,
+            -420,
+            1152,
+            1709
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-acute-upper",
+          "text": "\u012e\u0301",
+          "nfd": "I\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Iogonek",
+              "gid": 94,
+              "cluster": 0,
+              "advance": 544,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 544,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Iogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            297,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1102
+          ],
+          "proposedMarkOrigin": [
+            296,
+            388
+          ],
+          "proposedAdvance": 544,
+          "proposedInkBounds": [
+            104,
+            -420,
+            490,
+            1810
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-tilde-upper",
+          "text": "\u012e\u0303",
+          "nfd": "I\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Iogonek",
+              "gid": 94,
+              "cluster": 0,
+              "advance": 544,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 544,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Iogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            297,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            297,
+            335
+          ],
+          "proposedAdvance": 544,
+          "proposedInkBounds": [
+            -23,
+            -420,
+            617,
+            1709
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-acute-upper",
+          "text": "\u0172\u0301",
+          "nfd": "U\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Uogonek",
+              "gid": 208,
+              "cluster": 0,
+              "advance": 1440,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1440,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Uogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            720,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1102
+          ],
+          "proposedMarkOrigin": [
+            719,
+            388
+          ],
+          "proposedAdvance": 1440,
+          "proposedInkBounds": [
+            140,
+            -420,
+            1300,
+            1810
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-tilde-upper",
+          "text": "\u0172\u0303",
+          "nfd": "U\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Uogonek",
+              "gid": 208,
+              "cluster": 0,
+              "advance": 1440,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1440,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Uogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            720,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            720,
+            335
+          ],
+          "proposedAdvance": 1440,
+          "proposedInkBounds": [
+            140,
+            -420,
+            1300,
+            1709
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-acute-upper",
+          "text": "\u016a\u0301",
+          "nfd": "U\u0304\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Umacron",
+              "gid": 206,
+              "cluster": 0,
+              "advance": 1440,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1440,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Umacron",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            720,
+            1822
+          ],
+          "markAnchor": [
+            1,
+            1102
+          ],
+          "proposedMarkOrigin": [
+            719,
+            720
+          ],
+          "proposedAdvance": 1440,
+          "proposedInkBounds": [
+            140,
+            -28,
+            1300,
+            2142
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-tilde-upper",
+          "text": "\u016a\u0303",
+          "nfd": "U\u0304\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Umacron",
+              "gid": 206,
+              "cluster": 0,
+              "advance": 1440,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1440,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Umacron",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            720,
+            1822
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            720,
+            667
+          ],
+          "proposedAdvance": 1440,
+          "proposedInkBounds": [
+            140,
+            -28,
+            1300,
+            2041
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-acute-upper",
+          "text": "\u0116\u0301",
+          "nfd": "E\u0307\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Edotaccent",
+              "gid": 57,
+              "cluster": 0,
+              "advance": 1126,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1126,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Edotaccent",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            606,
+            1862
+          ],
+          "markAnchor": [
+            1,
+            1102
+          ],
+          "proposedMarkOrigin": [
+            605,
+            760
+          ],
+          "proposedAdvance": 1126,
+          "proposedInkBounds": [
+            156,
+            0,
+            1056,
+            2182
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-tilde-upper",
+          "text": "\u0116\u0303",
+          "nfd": "E\u0307\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Edotaccent",
+              "gid": 57,
+              "cluster": 0,
+              "advance": 1126,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1126,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Edotaccent",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            606,
+            1862
+          ],
+          "markAnchor": [
+            0,
+            1155
+          ],
+          "proposedMarkOrigin": [
+            606,
+            707
+          ],
+          "proposedAdvance": 1126,
+          "proposedInkBounds": [
+            156,
+            0,
+            1056,
+            2081
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        }
+      ],
+      "dotRetentionCases": [
+        {
+          "caseId": "LT-dot-retention-Iacute",
+          "text": "i\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "dotlessi",
+              "gid": 315,
+              "cluster": 0,
+              "advance": 460,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -230,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -230,
+              "yOffset": 363
+            }
+          ],
+          "advance": 460,
+          "action": "Preserve the actually attached native dotless-i + dot + accent sequence.",
+          "proposedInkBounds": [
+            38,
+            0,
+            424,
+            1785
+          ]
+        },
+        {
+          "caseId": "LT-dot-retention-Itilde",
+          "text": "i\u0307\u0303",
+          "beforeGlyphs": [
+            {
+              "glyph": "dotlessi",
+              "gid": 315,
+              "cluster": 0,
+              "advance": 460,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -230,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -230,
+              "yOffset": 350
+            }
+          ],
+          "advance": 460,
+          "action": "Preserve the actually attached native dotless-i + dot + accent sequence.",
+          "proposedInkBounds": [
+            -90,
+            0,
+            550,
+            1724
+          ]
+        },
+        {
+          "caseId": "LT-dot-retention-IogonekMoreAbove",
+          "text": "\u012f\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 460,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 363
+            }
+          ],
+          "advance": 460,
+          "action": "In LTH ccmp only, a three-input contextual lookup invokes a two-glyph ligature substitution: iogonek + uni0307.case becomes the same existing iogonek, only when followed by acutecomb.case. The native iogonek dot remains; the redundant explicit-dot glyph is consumed from the shaped stream. The original text and cmap remain unchanged. The accent then uses the new exact MarkBase anchor.",
+          "contextInputGlyphs": [
+            "iogonek",
+            "uni0307.case",
+            "acutecomb.case"
+          ],
+          "replacementFirstTwo": [
+            "iogonek"
+          ],
+          "outputGlyphSequence": [
+            "iogonek",
+            "acutecomb.case"
+          ],
+          "proposedMarkOrigin": [
+            249,
+            388
+          ],
+          "gap": 90,
+          "nativeIogonekDotRetained": true,
+          "newGlyphCount": 0,
+          "scope": "Exactly the canonical IogonekMoreAbove acute route. Other explicit-dot stacks are not silently covered.",
+          "proposedInkBounds": [
+            57,
+            -420,
+            443,
+            1810
+          ]
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "q\u0323",
+          "beforeGlyphs": [
+            {
+              "glyph": "q",
+              "gid": 396,
+              "cluster": 0,
+              "advance": 1133,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "dotbelowcomb",
+              "gid": 694,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1133,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "h\u0302\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "hcircumflex",
+              "gid": 312,
+              "cluster": 0,
+              "advance": 1095,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1095,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "n\u0323\u0331",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1E47",
+              "gid": 354,
+              "cluster": 0,
+              "advance": 1109,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0331",
+              "gid": 700,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1109,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "a\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "aacute",
+              "gid": 236,
+              "cluster": 0,
+              "advance": 983,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 983,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u0117",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1028,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1028,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u012f",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 460,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 460,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u012f\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 460,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 363
+            }
+          ],
+          "beforeAdvance": 460,
+          "scope": "Intended-change regression control: this exact LTH IogonekMoreAbove acute context consumes the redundant shaped dot and repositions its accent through the declared route. Compare the recorded before with the successor; do not assert it unchanged."
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "baseCoverage": [
+        {
+          "unicode": 261,
+          "glyph": "aogonek",
+          "sourceGid": 256,
+          "inkBounds": [
+            42,
+            -422,
+            1040,
+            1016
+          ],
+          "advance": 996,
+          "anchor": [
+            541,
+            1106
+          ]
+        },
+        {
+          "unicode": 281,
+          "glyph": "eogonek",
+          "sourceGid": 298,
+          "inkBounds": [
+            56,
+            -366,
+            1028,
+            1016
+          ],
+          "advance": 1030,
+          "anchor": [
+            542,
+            1106
+          ]
+        },
+        {
+          "unicode": 303,
+          "glyph": "iogonek",
+          "sourceGid": 329,
+          "inkBounds": [
+            82,
+            -422,
+            460,
+            1400
+          ],
+          "advance": 480,
+          "anchor": [
+            271,
+            1490
+          ]
+        },
+        {
+          "unicode": 371,
+          "glyph": "uogonek",
+          "sourceGid": 444,
+          "inkBounds": [
+            106,
+            -422,
+            1084,
+            1000
+          ],
+          "advance": 1104,
+          "anchor": [
+            595,
+            1090
+          ]
+        },
+        {
+          "unicode": 363,
+          "glyph": "umacron",
+          "sourceGid": 442,
+          "inkBounds": [
+            106,
+            -20,
+            988,
+            1364
+          ],
+          "advance": 1104,
+          "anchor": [
+            547,
+            1454
+          ]
+        },
+        {
+          "unicode": 279,
+          "glyph": "edotaccent",
+          "sourceGid": 290,
+          "inkBounds": [
+            56,
+            -20,
+            976,
+            1398
+          ],
+          "advance": 1030,
+          "anchor": [
+            516,
+            1488
+          ]
+        },
+        {
+          "unicode": 260,
+          "glyph": "Aogonek",
+          "sourceGid": 22,
+          "inkBounds": [
+            6,
+            -422,
+            1274,
+            1400
+          ],
+          "advance": 1250,
+          "anchor": [
+            640,
+            1490
+          ]
+        },
+        {
+          "unicode": 280,
+          "glyph": "Eogonek",
+          "sourceGid": 65,
+          "inkBounds": [
+            154,
+            -422,
+            1166,
+            1400
+          ],
+          "advance": 1136,
+          "anchor": [
+            660,
+            1490
+          ]
+        },
+        {
+          "unicode": 302,
+          "glyph": "Iogonek",
+          "sourceGid": 94,
+          "inkBounds": [
+            128,
+            -422,
+            506,
+            1400
+          ],
+          "advance": 564,
+          "anchor": [
+            317,
+            1490
+          ]
+        },
+        {
+          "unicode": 370,
+          "glyph": "Uogonek",
+          "sourceGid": 208,
+          "inkBounds": [
+            138,
+            -422,
+            1298,
+            1400
+          ],
+          "advance": 1436,
+          "anchor": [
+            718,
+            1490
+          ]
+        },
+        {
+          "unicode": 362,
+          "glyph": "Umacron",
+          "sourceGid": 206,
+          "inkBounds": [
+            138,
+            -28,
+            1298,
+            1738
+          ],
+          "advance": 1436,
+          "anchor": [
+            718,
+            1828
+          ]
+        },
+        {
+          "unicode": 278,
+          "glyph": "Edotaccent",
+          "sourceGid": 57,
+          "inkBounds": [
+            154,
+            0,
+            1070,
+            1778
+          ],
+          "advance": 1136,
+          "anchor": [
+            612,
+            1868
+          ]
+        }
+      ],
+      "markCoverage": [
+        {
+          "glyph": "acutecomb",
+          "sourceGid": 680,
+          "inkBounds": [
+            -196,
+            1140,
+            198,
+            1522
+          ],
+          "anchor": [
+            1,
+            1140
+          ]
+        },
+        {
+          "glyph": "tildecomb",
+          "sourceGid": 687,
+          "inkBounds": [
+            -342,
+            1156,
+            342,
+            1414
+          ],
+          "anchor": [
+            0,
+            1156
+          ]
+        },
+        {
+          "glyph": "acutecomb.case",
+          "sourceGid": 705,
+          "inkBounds": [
+            -196,
+            1098,
+            198,
+            1426
+          ],
+          "anchor": [
+            1,
+            1098
+          ]
+        },
+        {
+          "glyph": "tildecomb.case",
+          "sourceGid": 711,
+          "inkBounds": [
+            -324,
+            1154,
+            324,
+            1378
+          ],
+          "anchor": [
+            0,
+            1154
+          ]
+        }
+      ],
+      "cases": [
+        {
+          "caseId": "LT-aogonek-acute-lower",
+          "text": "\u0105\u0301",
+          "nfd": "a\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "aogonek",
+              "gid": 256,
+              "cluster": 0,
+              "advance": 996,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 996,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "aogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            541,
+            1106
+          ],
+          "markAnchor": [
+            1,
+            1140
+          ],
+          "proposedMarkOrigin": [
+            540,
+            -34
+          ],
+          "proposedAdvance": 996,
+          "proposedInkBounds": [
+            42,
+            -422,
+            1040,
+            1488
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-tilde-lower",
+          "text": "\u0105\u0303",
+          "nfd": "a\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "aogonek",
+              "gid": 256,
+              "cluster": 0,
+              "advance": 996,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 996,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "aogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            541,
+            1106
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            541,
+            -50
+          ],
+          "proposedAdvance": 996,
+          "proposedInkBounds": [
+            42,
+            -422,
+            1040,
+            1364
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-acute-lower",
+          "text": "\u0119\u0301",
+          "nfd": "e\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "eogonek",
+              "gid": 298,
+              "cluster": 0,
+              "advance": 1030,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1030,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "eogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            542,
+            1106
+          ],
+          "markAnchor": [
+            1,
+            1140
+          ],
+          "proposedMarkOrigin": [
+            541,
+            -34
+          ],
+          "proposedAdvance": 1030,
+          "proposedInkBounds": [
+            56,
+            -366,
+            1028,
+            1488
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-tilde-lower",
+          "text": "\u0119\u0303",
+          "nfd": "e\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "eogonek",
+              "gid": 298,
+              "cluster": 0,
+              "advance": 1030,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1030,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "eogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            542,
+            1106
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            542,
+            -50
+          ],
+          "proposedAdvance": 1030,
+          "proposedInkBounds": [
+            56,
+            -366,
+            1028,
+            1364
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-acute-lower",
+          "text": "\u012f\u0301",
+          "nfd": "i\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 480,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 480,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "iogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            271,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1140
+          ],
+          "proposedMarkOrigin": [
+            270,
+            350
+          ],
+          "proposedAdvance": 480,
+          "proposedInkBounds": [
+            74,
+            -422,
+            468,
+            1872
+          ],
+          "nativeDotRetained": true,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-tilde-lower",
+          "text": "\u012f\u0303",
+          "nfd": "i\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 480,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 480,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "iogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            271,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            271,
+            334
+          ],
+          "proposedAdvance": 480,
+          "proposedInkBounds": [
+            -71,
+            -422,
+            613,
+            1748
+          ],
+          "nativeDotRetained": true,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-acute-lower",
+          "text": "\u0173\u0301",
+          "nfd": "u\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uogonek",
+              "gid": 444,
+              "cluster": 0,
+              "advance": 1104,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1104,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "uogonek",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            595,
+            1090
+          ],
+          "markAnchor": [
+            1,
+            1140
+          ],
+          "proposedMarkOrigin": [
+            594,
+            -50
+          ],
+          "proposedAdvance": 1104,
+          "proposedInkBounds": [
+            106,
+            -422,
+            1084,
+            1472
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-tilde-lower",
+          "text": "\u0173\u0303",
+          "nfd": "u\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "uogonek",
+              "gid": 444,
+              "cluster": 0,
+              "advance": 1104,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1104,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "uogonek",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            595,
+            1090
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            595,
+            -66
+          ],
+          "proposedAdvance": 1104,
+          "proposedInkBounds": [
+            106,
+            -422,
+            1084,
+            1348
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-acute-lower",
+          "text": "\u016b\u0301",
+          "nfd": "u\u0304\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "umacron",
+              "gid": 442,
+              "cluster": 0,
+              "advance": 1104,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1104,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "umacron",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            547,
+            1454
+          ],
+          "markAnchor": [
+            1,
+            1140
+          ],
+          "proposedMarkOrigin": [
+            546,
+            314
+          ],
+          "proposedAdvance": 1104,
+          "proposedInkBounds": [
+            106,
+            -20,
+            988,
+            1836
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-tilde-lower",
+          "text": "\u016b\u0303",
+          "nfd": "u\u0304\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "umacron",
+              "gid": 442,
+              "cluster": 0,
+              "advance": 1104,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1104,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "umacron",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            547,
+            1454
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            547,
+            298
+          ],
+          "proposedAdvance": 1104,
+          "proposedInkBounds": [
+            106,
+            -20,
+            988,
+            1712
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-acute-lower",
+          "text": "\u0117\u0301",
+          "nfd": "e\u0307\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1030,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1030,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "edotaccent",
+          "markGlyph": "acutecomb",
+          "baseAnchor": [
+            516,
+            1488
+          ],
+          "markAnchor": [
+            1,
+            1140
+          ],
+          "proposedMarkOrigin": [
+            515,
+            348
+          ],
+          "proposedAdvance": 1030,
+          "proposedInkBounds": [
+            56,
+            -20,
+            976,
+            1870
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-tilde-lower",
+          "text": "\u0117\u0303",
+          "nfd": "e\u0307\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1030,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb",
+              "gid": 687,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1030,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "edotaccent",
+          "markGlyph": "tildecomb",
+          "baseAnchor": [
+            516,
+            1488
+          ],
+          "markAnchor": [
+            0,
+            1156
+          ],
+          "proposedMarkOrigin": [
+            516,
+            332
+          ],
+          "proposedAdvance": 1030,
+          "proposedInkBounds": [
+            56,
+            -20,
+            976,
+            1746
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-acute-upper",
+          "text": "\u0104\u0301",
+          "nfd": "A\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Aogonek",
+              "gid": 22,
+              "cluster": 0,
+              "advance": 1250,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1250,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Aogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            640,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1098
+          ],
+          "proposedMarkOrigin": [
+            639,
+            392
+          ],
+          "proposedAdvance": 1250,
+          "proposedInkBounds": [
+            6,
+            -422,
+            1274,
+            1818
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-aogonek-tilde-upper",
+          "text": "\u0104\u0303",
+          "nfd": "A\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Aogonek",
+              "gid": 22,
+              "cluster": 0,
+              "advance": 1250,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1250,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Aogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            640,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1154
+          ],
+          "proposedMarkOrigin": [
+            640,
+            336
+          ],
+          "proposedAdvance": 1250,
+          "proposedInkBounds": [
+            6,
+            -422,
+            1274,
+            1714
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-acute-upper",
+          "text": "\u0118\u0301",
+          "nfd": "E\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Eogonek",
+              "gid": 65,
+              "cluster": 0,
+              "advance": 1136,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1136,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Eogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            660,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1098
+          ],
+          "proposedMarkOrigin": [
+            659,
+            392
+          ],
+          "proposedAdvance": 1136,
+          "proposedInkBounds": [
+            154,
+            -422,
+            1166,
+            1818
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-eogonek-tilde-upper",
+          "text": "\u0118\u0303",
+          "nfd": "E\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Eogonek",
+              "gid": 65,
+              "cluster": 0,
+              "advance": 1136,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1136,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Eogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            660,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1154
+          ],
+          "proposedMarkOrigin": [
+            660,
+            336
+          ],
+          "proposedAdvance": 1136,
+          "proposedInkBounds": [
+            154,
+            -422,
+            1166,
+            1714
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-acute-upper",
+          "text": "\u012e\u0301",
+          "nfd": "I\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Iogonek",
+              "gid": 94,
+              "cluster": 0,
+              "advance": 564,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 564,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Iogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            317,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1098
+          ],
+          "proposedMarkOrigin": [
+            316,
+            392
+          ],
+          "proposedAdvance": 564,
+          "proposedInkBounds": [
+            120,
+            -422,
+            514,
+            1818
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-iogonek-tilde-upper",
+          "text": "\u012e\u0303",
+          "nfd": "I\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Iogonek",
+              "gid": 94,
+              "cluster": 0,
+              "advance": 564,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 564,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Iogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            317,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1154
+          ],
+          "proposedMarkOrigin": [
+            317,
+            336
+          ],
+          "proposedAdvance": 564,
+          "proposedInkBounds": [
+            -7,
+            -422,
+            641,
+            1714
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-acute-upper",
+          "text": "\u0172\u0301",
+          "nfd": "U\u0328\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Uogonek",
+              "gid": 208,
+              "cluster": 0,
+              "advance": 1436,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1436,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Uogonek",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            718,
+            1490
+          ],
+          "markAnchor": [
+            1,
+            1098
+          ],
+          "proposedMarkOrigin": [
+            717,
+            392
+          ],
+          "proposedAdvance": 1436,
+          "proposedInkBounds": [
+            138,
+            -422,
+            1298,
+            1818
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-uogonek-tilde-upper",
+          "text": "\u0172\u0303",
+          "nfd": "U\u0328\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Uogonek",
+              "gid": 208,
+              "cluster": 0,
+              "advance": 1436,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1436,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Uogonek",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            718,
+            1490
+          ],
+          "markAnchor": [
+            0,
+            1154
+          ],
+          "proposedMarkOrigin": [
+            718,
+            336
+          ],
+          "proposedAdvance": 1436,
+          "proposedInkBounds": [
+            138,
+            -422,
+            1298,
+            1714
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-acute-upper",
+          "text": "\u016a\u0301",
+          "nfd": "U\u0304\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Umacron",
+              "gid": 206,
+              "cluster": 0,
+              "advance": 1436,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1436,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Umacron",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            718,
+            1828
+          ],
+          "markAnchor": [
+            1,
+            1098
+          ],
+          "proposedMarkOrigin": [
+            717,
+            730
+          ],
+          "proposedAdvance": 1436,
+          "proposedInkBounds": [
+            138,
+            -28,
+            1298,
+            2156
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-umacron-tilde-upper",
+          "text": "\u016a\u0303",
+          "nfd": "U\u0304\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Umacron",
+              "gid": 206,
+              "cluster": 0,
+              "advance": 1436,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1436,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Umacron",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            718,
+            1828
+          ],
+          "markAnchor": [
+            0,
+            1154
+          ],
+          "proposedMarkOrigin": [
+            718,
+            674
+          ],
+          "proposedAdvance": 1436,
+          "proposedInkBounds": [
+            138,
+            -28,
+            1298,
+            2052
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-acute-upper",
+          "text": "\u0116\u0301",
+          "nfd": "E\u0307\u0301",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Edotaccent",
+              "gid": 57,
+              "cluster": 0,
+              "advance": 1136,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1136,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Edotaccent",
+          "markGlyph": "acutecomb.case",
+          "baseAnchor": [
+            612,
+            1868
+          ],
+          "markAnchor": [
+            1,
+            1098
+          ],
+          "proposedMarkOrigin": [
+            611,
+            770
+          ],
+          "proposedAdvance": 1136,
+          "proposedInkBounds": [
+            154,
+            0,
+            1070,
+            2196
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        },
+        {
+          "caseId": "LT-edotaccent-tilde-upper",
+          "text": "\u0116\u0303",
+          "nfd": "E\u0307\u0303",
+          "language": "lt",
+          "script": "Latn",
+          "direction": "ltr",
+          "beforeGlyphs": [
+            {
+              "glyph": "Edotaccent",
+              "gid": 57,
+              "cluster": 0,
+              "advance": 1136,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1136,
+          "nativeMarkBaseAnchorAvailable": false,
+          "baseGlyph": "Edotaccent",
+          "markGlyph": "tildecomb.case",
+          "baseAnchor": [
+            612,
+            1868
+          ],
+          "markAnchor": [
+            0,
+            1154
+          ],
+          "proposedMarkOrigin": [
+            612,
+            714
+          ],
+          "proposedAdvance": 1136,
+          "proposedInkBounds": [
+            154,
+            0,
+            1070,
+            2092
+          ],
+          "nativeDotRetained": false,
+          "exactProposedVerticalInkGap": 90,
+          "nfcNfdBaselineSequenceEqual": true,
+          "state": "Source-defined route, not an executed compiled-successor observation."
+        }
+      ],
+      "dotRetentionCases": [
+        {
+          "caseId": "LT-dot-retention-Iacute",
+          "text": "i\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "dotlessi",
+              "gid": 315,
+              "cluster": 0,
+              "advance": 480,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -240,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -240,
+              "yOffset": 380
+            }
+          ],
+          "advance": 480,
+          "action": "Preserve the actually attached native dotless-i + dot + accent sequence.",
+          "proposedInkBounds": [
+            44,
+            0,
+            438,
+            1806
+          ]
+        },
+        {
+          "caseId": "LT-dot-retention-Itilde",
+          "text": "i\u0307\u0303",
+          "beforeGlyphs": [
+            {
+              "glyph": "dotlessi",
+              "gid": 315,
+              "cluster": 0,
+              "advance": 480,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -240,
+              "yOffset": 0
+            },
+            {
+              "glyph": "tildecomb.case",
+              "gid": 711,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": -240,
+              "yOffset": 360
+            }
+          ],
+          "advance": 480,
+          "action": "Preserve the actually attached native dotless-i + dot + accent sequence.",
+          "proposedInkBounds": [
+            -84,
+            0,
+            564,
+            1738
+          ]
+        },
+        {
+          "caseId": "LT-dot-retention-IogonekMoreAbove",
+          "text": "\u012f\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 480,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 380
+            }
+          ],
+          "advance": 480,
+          "action": "In LTH ccmp only, a three-input contextual lookup invokes a two-glyph ligature substitution: iogonek + uni0307.case becomes the same existing iogonek, only when followed by acutecomb.case. The native iogonek dot remains; the redundant explicit-dot glyph is consumed from the shaped stream. The original text and cmap remain unchanged. The accent then uses the new exact MarkBase anchor.",
+          "contextInputGlyphs": [
+            "iogonek",
+            "uni0307.case",
+            "acutecomb.case"
+          ],
+          "replacementFirstTwo": [
+            "iogonek"
+          ],
+          "outputGlyphSequence": [
+            "iogonek",
+            "acutecomb.case"
+          ],
+          "proposedMarkOrigin": [
+            270,
+            392
+          ],
+          "gap": 90,
+          "nativeIogonekDotRetained": true,
+          "newGlyphCount": 0,
+          "scope": "Exactly the canonical IogonekMoreAbove acute route. Other explicit-dot stacks are not silently covered.",
+          "proposedInkBounds": [
+            74,
+            -422,
+            468,
+            1818
+          ]
+        }
+      ],
+      "negativeControls": [
+        {
+          "text": "q\u0323",
+          "beforeGlyphs": [
+            {
+              "glyph": "q",
+              "gid": 396,
+              "cluster": 0,
+              "advance": 1144,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "dotbelowcomb",
+              "gid": 694,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1144,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "h\u0302\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "hcircumflex",
+              "gid": 312,
+              "cluster": 0,
+              "advance": 1102,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb",
+              "gid": 680,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1102,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "n\u0323\u0331",
+          "beforeGlyphs": [
+            {
+              "glyph": "uni1E47",
+              "gid": 354,
+              "cluster": 0,
+              "advance": 1104,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0331",
+              "gid": 700,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1104,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "a\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "aacute",
+              "gid": 236,
+              "cluster": 0,
+              "advance": 996,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 996,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u0117",
+          "beforeGlyphs": [
+            {
+              "glyph": "edotaccent",
+              "gid": 290,
+              "cluster": 0,
+              "advance": 1030,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 1030,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u012f",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 480,
+              "xOffset": 0,
+              "yOffset": 0
+            }
+          ],
+          "beforeAdvance": 480,
+          "scope": "Required-unchanged native control outside the declared affected route. Preserve the recorded glyphs, advances and positions."
+        },
+        {
+          "text": "\u012f\u0307\u0301",
+          "beforeGlyphs": [
+            {
+              "glyph": "iogonek",
+              "gid": 329,
+              "cluster": 0,
+              "advance": 480,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "uni0307.case",
+              "gid": 703,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 0
+            },
+            {
+              "glyph": "acutecomb.case",
+              "gid": 705,
+              "cluster": 0,
+              "advance": 0,
+              "xOffset": 0,
+              "yOffset": 380
+            }
+          ],
+          "beforeAdvance": 480,
+          "scope": "Intended-change regression control: this exact LTH IogonekMoreAbove acute context consumes the redundant shaped dot and repositions its accent through the declared route. Compare the recorded before with the successor; do not assert it unchanged."
+        }
+      ]
+    }
+  ]
+}

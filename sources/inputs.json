@@ -1,0 +1,114 @@
+{
+  "schema": 1,
+  "inputs": [
+    {
+      "path": "build/inputs/fira/FiraSans-Regular.ttf",
+      "bytes": 487472,
+      "sha256": "43c240a110cf888686d13cd17400fd0ca376ce55656150e52abff95f67a9532e",
+      "url": "https://raw.githubusercontent.com/bBoxType/FiraSans/f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e/Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-Regular.ttf",
+      "family": "Fira Sans",
+      "version": "4.301",
+      "upstreamCommit": "f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e"
+    },
+    {
+      "path": "build/inputs/fira/FiraSans-Medium.ttf",
+      "bytes": 488960,
+      "sha256": "7e7acee3fda79ae2cc3ec899f14f7a5b9e988b27a88f31a81a8ad4cb870b8987",
+      "url": "https://raw.githubusercontent.com/bBoxType/FiraSans/f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e/Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-Medium.ttf",
+      "family": "Fira Sans",
+      "version": "4.301",
+      "upstreamCommit": "f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e"
+    },
+    {
+      "path": "build/inputs/fira/FiraSans-SemiBold.ttf",
+      "bytes": 520896,
+      "sha256": "4509358c476fa900ad504a3fcd24d660e01e5bee977f6536eea0a7ac896f290d",
+      "url": "https://raw.githubusercontent.com/bBoxType/FiraSans/f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e/Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-SemiBold.ttf",
+      "family": "Fira Sans",
+      "version": "4.301",
+      "upstreamCommit": "f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e"
+    },
+    {
+      "path": "build/inputs/fira/FiraSans-Bold.ttf",
+      "bytes": 521312,
+      "sha256": "2c41b665c7e1c20a0fb3fce3aa09b464b7c9c253db965979c45a6e8ee6a41546",
+      "url": "https://raw.githubusercontent.com/bBoxType/FiraSans/f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e/Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Roman/FiraSans-Bold.ttf",
+      "family": "Fira Sans",
+      "version": "4.301",
+      "upstreamCommit": "f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e"
+    },
+    {
+      "path": "build/inputs/fira/FiraSans-Italic.ttf",
+      "bytes": 492148,
+      "sha256": "5d55f0530d51d071e498acbefed420fe2c30c1d16c68a1ab86bcd88206ad688f",
+      "url": "https://raw.githubusercontent.com/bBoxType/FiraSans/f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e/Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-Italic.ttf",
+      "family": "Fira Sans",
+      "version": "4.301",
+      "upstreamCommit": "f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e"
+    },
+    {
+      "path": "build/inputs/fira/FiraSans-MediumItalic.ttf",
+      "bytes": 494048,
+      "sha256": "3a0eb7eb576d4dcdc2bdbc98737f54d19d281be67a48cbd24e33102c8ad84037",
+      "url": "https://raw.githubusercontent.com/bBoxType/FiraSans/f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e/Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-MediumItalic.ttf",
+      "family": "Fira Sans",
+      "version": "4.301",
+      "upstreamCommit": "f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e"
+    },
+    {
+      "path": "build/inputs/fira/FiraSans-SemiBoldItalic.ttf",
+      "bytes": 526084,
+      "sha256": "afbf14ce4b3ab267de1c4c6603abf875142c4067862853f5c891816ce6f74c74",
+      "url": "https://raw.githubusercontent.com/bBoxType/FiraSans/f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e/Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-SemiBoldItalic.ttf",
+      "family": "Fira Sans",
+      "version": "4.301",
+      "upstreamCommit": "f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e"
+    },
+    {
+      "path": "build/inputs/fira/FiraSans-BoldItalic.ttf",
+      "bytes": 525912,
+      "sha256": "4b12e45c1798b65a82f37f1ef9273068f74bab442f99083f3c1f89e7189031c4",
+      "url": "https://raw.githubusercontent.com/bBoxType/FiraSans/f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e/Fira_Sans_4_3/Fonts/Fira_Sans_TTF_4301/Normal/Italic/FiraSans-BoldItalic.ttf",
+      "family": "Fira Sans",
+      "version": "4.301",
+      "upstreamCommit": "f54eeb3124c63fe9b5bcd36d09d1cd46788cd15e"
+    },
+    {
+      "path": "build/inputs/cabin/Cabin-Regular.ttf",
+      "bytes": 103092,
+      "sha256": "000cb4e6208ed687cc7f8a2ed6cdda5f9e2dcb84ac3eeba4818e1b985516fe6f",
+      "url": "https://raw.githubusercontent.com/impallari/Cabin/70efa8c3179359cc50b01ca184fec8a694156140/fonts/TTF/Cabin-Regular.ttf",
+      "family": "Cabin",
+      "version": "3.001",
+      "upstreamCommit": "70efa8c3179359cc50b01ca184fec8a694156140"
+    },
+    {
+      "path": "build/inputs/cabin/Cabin-Medium.ttf",
+      "bytes": 104148,
+      "sha256": "8822f5a2e10bc413439a89febb59f601d13dd717f83ab453f094c7924613bd3d",
+      "url": "https://raw.githubusercontent.com/impallari/Cabin/70efa8c3179359cc50b01ca184fec8a694156140/fonts/TTF/Cabin-Medium.ttf",
+      "family": "Cabin",
+      "version": "3.001",
+      "upstreamCommit": "70efa8c3179359cc50b01ca184fec8a694156140"
+    },
+    {
+      "path": "build/inputs/cabin/Cabin-SemiBold.ttf",
+      "bytes": 104580,
+      "sha256": "9a3be8c046ed10bd29ef6390c337d95e9d9a0688baf53ed40843e8733250c4c5",
+      "url": "https://raw.githubusercontent.com/impallari/Cabin/70efa8c3179359cc50b01ca184fec8a694156140/fonts/TTF/Cabin-SemiBold.ttf",
+      "family": "Cabin",
+      "version": "3.001",
+      "upstreamCommit": "70efa8c3179359cc50b01ca184fec8a694156140"
+    },
+    {
+      "path": "build/inputs/cabin/Cabin-Bold.ttf",
+      "bytes": 102512,
+      "sha256": "6a88be627ca9fd44fa011aada32f5207c3149f026fcaef04bf3ebce2e9798fd9",
+      "url": "https://raw.githubusercontent.com/impallari/Cabin/70efa8c3179359cc50b01ca184fec8a694156140/fonts/TTF/Cabin-Bold.ttf",
+      "family": "Cabin",
+      "version": "3.001",
+      "upstreamCommit": "70efa8c3179359cc50b01ca184fec8a694156140"
+    }
+  ],
+  "licencePolicy": "Upstream inputs are verified cache files, not tracked source history. Exact licences and source credits are retained separately."
+}

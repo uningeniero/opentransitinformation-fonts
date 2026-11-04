@@ -1,0 +1,2689 @@
+{
+  "id": "OTI-NATIVE-COMPOSITE-KERNING-ROLES-2026-11-04",
+  "spdxLicense": "OFL-1.1 for source font software; original notices retained",
+  "source": {
+    "sha256": "9050eca8bc45d1e1d0857bf35c0690e25231ab6e38a43acbbbbedfe304d0e2b1"
+  },
+  "scope": "Eighteen new native Cabin composites per cut, four genuine cuts. Geometry, glyph advances and every existing source pair value are unchanged. This explicitly extends only new glyph memberships to retain their actual native base spacing roles.",
+  "rules": [
+    "For each actual kern PairPos subtable, inherit the source base role on both sides. Add first-glyph coverage only when the original source base was covered.",
+    "For class PairPos, copy the actual source ClassDef1/ClassDef2 values, including real default-zero roles. Do not introduce a new nonzero class, matrix value or generic all-glyph coverage.",
+    "For explicit PairPos, reproduce the original base pair records for the new left/right names and their applicable new-to-new combinations. Values come from the exact old base-to-base record, with no duplicated pair or altered old entry.",
+    "Retain lookup order, flags, features and every original name-to-class/pair value. Coverage/class maps may gain only the declared new glyph names; do not claim raw table-byte equality for an extended table.",
+    "New Ezh-with-caron follows its newly added Ezh role, which has no invented native Cabin kerning membership. Noncomposable Fira supplements do not receive a donor layout/GID graft."
+  ],
+  "engineeringFixtures": {
+    "kind": "Mechanical pair fixtures, not a parallel language, reader or virtual scenario bank",
+    "generator": "For every declared native composite, compare old source NFD text against new NFC/NFD: V + character + A; T + character + o; character + character. Include real baseline kerning-on/off and record advance, glyph positions and exact source table membership.",
+    "expected": "Native composition glyph names intentionally change; all recorded new-composite word advances must retain actual source pair adjustments. Mark placement differences remain restricted to separately declared missing-anchor and Lithuanian repairs."
+  },
+  "compiledReadbackPending": true,
+  "newOutlineCount": 0,
+  "newScalarCount": 0,
+  "roles": [
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L01CD",
+      "unicode": 461,
+      "sourceBaseGlyph": "A",
+      "sourceBaseGid": 1,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "A",
+        "uni030C.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 22,
+          "sourceSecondPairOccurrences": 22
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 3,
+          "sourceClass2": 5,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L01CE",
+      "unicode": 462,
+      "sourceBaseGlyph": "a",
+      "sourceBaseGid": 235,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "a",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 19,
+          "sourceSecondPairOccurrences": 22
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 2,
+          "sourceClass2": 3,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L01E9",
+      "unicode": 489,
+      "sourceBaseGlyph": "k",
+      "sourceBaseGid": 334,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "k",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 122,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L01F8",
+      "unicode": 504,
+      "sourceBaseGlyph": "N",
+      "sourceBaseGid": 112,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "N",
+        "gravecomb.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 11,
+          "sourceSecondPairOccurrences": 13
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 8,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L01F9",
+      "unicode": 505,
+      "sourceBaseGlyph": "n",
+      "sourceBaseGid": 348,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "n",
+        "gravecomb"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 21,
+          "sourceSecondPairOccurrences": 17
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 12,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L021E",
+      "unicode": 542,
+      "sourceBaseGlyph": "H",
+      "sourceBaseGid": 75,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "H",
+        "uni030C.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 11,
+          "sourceSecondPairOccurrences": 13
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 8,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L021F",
+      "unicode": 543,
+      "sourceBaseGlyph": "h",
+      "sourceBaseGid": 309,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "h",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 21,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E02",
+      "unicode": 7682,
+      "sourceBaseGlyph": "B",
+      "sourceBaseGid": 28,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "B",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 84,
+          "sourceSecondPairOccurrences": 13
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E03",
+      "unicode": 7683,
+      "sourceBaseGlyph": "b",
+      "sourceBaseGid": 262,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "b",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 23,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 23,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E0A",
+      "unicode": 7690,
+      "sourceBaseGlyph": "D",
+      "sourceBaseGid": 36,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "D",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 25,
+          "sourceSecondPairOccurrences": 13
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 26,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E0B",
+      "unicode": 7691,
+      "sourceBaseGlyph": "d",
+      "sourceBaseGid": 270,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "d",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 109,
+          "sourceSecondPairOccurrences": 27
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 1,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E1E",
+      "unicode": 7710,
+      "sourceBaseGlyph": "F",
+      "sourceBaseGid": 67,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "F",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 187,
+          "sourceSecondPairOccurrences": 13
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E3E",
+      "unicode": 7742,
+      "sourceBaseGlyph": "M",
+      "sourceBaseGid": 110,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "M",
+        "acutecomb.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 211,
+          "sourceSecondPairOccurrences": 186
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E3F",
+      "unicode": 7743,
+      "sourceBaseGlyph": "m",
+      "sourceBaseGid": 346,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "m",
+        "acutecomb"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 21,
+          "sourceSecondPairOccurrences": 17
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 12,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E40",
+      "unicode": 7744,
+      "sourceBaseGlyph": "M",
+      "sourceBaseGid": 110,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "M",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 211,
+          "sourceSecondPairOccurrences": 186
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E56",
+      "unicode": 7766,
+      "sourceBaseGlyph": "P",
+      "sourceBaseGid": 158,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "P",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 136,
+          "sourceSecondPairOccurrences": 13
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E6A",
+      "unicode": 7786,
+      "sourceBaseGlyph": "T",
+      "sourceBaseGid": 182,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "T",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 198,
+          "sourceSecondPairOccurrences": 183
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Regular",
+      "newGlyph": "oti.L1E6B",
+      "unicode": 7787,
+      "sourceBaseGlyph": "t",
+      "sourceBaseGid": 417,
+      "sourceFont": {
+        "sha256": "1203f81651f0fd8b4f4dbab43eac1b488455ad1a92af1228cbbe84e4417147b4"
+      },
+      "sourceGPOSRawSHA256": "7d9d2e051bdf3dec231fc845f166386fdc71eb9bc662a04a892a0935170f0fae",
+      "sourceNfdRoute": [
+        "t",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 110,
+          "sourceSecondPairOccurrences": 151
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L01CD",
+      "unicode": 461,
+      "sourceBaseGlyph": "A",
+      "sourceBaseGid": 1,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "A",
+        "uni030C.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 23,
+          "sourceSecondPairOccurrences": 22
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 3,
+          "sourceClass2": 5,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L01CE",
+      "unicode": 462,
+      "sourceBaseGlyph": "a",
+      "sourceBaseGid": 235,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "a",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 19,
+          "sourceSecondPairOccurrences": 23
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 2,
+          "sourceClass2": 3,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L01E9",
+      "unicode": 489,
+      "sourceBaseGlyph": "k",
+      "sourceBaseGid": 334,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "k",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 156,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L01F8",
+      "unicode": 504,
+      "sourceBaseGlyph": "N",
+      "sourceBaseGid": 112,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "N",
+        "gravecomb.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 12,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 8,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L01F9",
+      "unicode": 505,
+      "sourceBaseGlyph": "n",
+      "sourceBaseGid": 348,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "n",
+        "gravecomb"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 21,
+          "sourceSecondPairOccurrences": 17
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 12,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L021E",
+      "unicode": 542,
+      "sourceBaseGlyph": "H",
+      "sourceBaseGid": 75,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "H",
+        "uni030C.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 12,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 8,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L021F",
+      "unicode": 543,
+      "sourceBaseGlyph": "h",
+      "sourceBaseGid": 309,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "h",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 21,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E02",
+      "unicode": 7682,
+      "sourceBaseGlyph": "B",
+      "sourceBaseGid": 28,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "B",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 84,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E03",
+      "unicode": 7683,
+      "sourceBaseGlyph": "b",
+      "sourceBaseGid": 262,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "b",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 23,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 23,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E0A",
+      "unicode": 7690,
+      "sourceBaseGlyph": "D",
+      "sourceBaseGid": 36,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "D",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 26,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 26,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E0B",
+      "unicode": 7691,
+      "sourceBaseGlyph": "d",
+      "sourceBaseGid": 270,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "d",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 109,
+          "sourceSecondPairOccurrences": 29
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 1,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E1E",
+      "unicode": 7710,
+      "sourceBaseGlyph": "F",
+      "sourceBaseGid": 67,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "F",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 190,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E3E",
+      "unicode": 7742,
+      "sourceBaseGlyph": "M",
+      "sourceBaseGid": 110,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "M",
+        "acutecomb.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 212,
+          "sourceSecondPairOccurrences": 186
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E3F",
+      "unicode": 7743,
+      "sourceBaseGlyph": "m",
+      "sourceBaseGid": 346,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "m",
+        "acutecomb"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 21,
+          "sourceSecondPairOccurrences": 17
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 12,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E40",
+      "unicode": 7744,
+      "sourceBaseGlyph": "M",
+      "sourceBaseGid": 110,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "M",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 212,
+          "sourceSecondPairOccurrences": 186
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E56",
+      "unicode": 7766,
+      "sourceBaseGlyph": "P",
+      "sourceBaseGid": 158,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "P",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 137,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E6A",
+      "unicode": 7786,
+      "sourceBaseGlyph": "T",
+      "sourceBaseGid": 182,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "T",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 199,
+          "sourceSecondPairOccurrences": 184
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Medium",
+      "newGlyph": "oti.L1E6B",
+      "unicode": 7787,
+      "sourceBaseGlyph": "t",
+      "sourceBaseGid": 417,
+      "sourceFont": {
+        "sha256": "7b78822ab83508513b68fc0039519a0adea415479020fcd8f49f3c03c070571f"
+      },
+      "sourceGPOSRawSHA256": "6d0ce18f3c59a2fccb330dce919c9ed4db200f68d3b4b3ce644fa4ae636fe6db",
+      "sourceNfdRoute": [
+        "t",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 139,
+          "sourceSecondPairOccurrences": 175
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L01CD",
+      "unicode": 461,
+      "sourceBaseGlyph": "A",
+      "sourceBaseGid": 1,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "A",
+        "uni030C.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 23,
+          "sourceSecondPairOccurrences": 22
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 3,
+          "sourceClass2": 5,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L01CE",
+      "unicode": 462,
+      "sourceBaseGlyph": "a",
+      "sourceBaseGid": 235,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "a",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 19,
+          "sourceSecondPairOccurrences": 23
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 2,
+          "sourceClass2": 3,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L01E9",
+      "unicode": 489,
+      "sourceBaseGlyph": "k",
+      "sourceBaseGid": 334,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "k",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 156,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L01F8",
+      "unicode": 504,
+      "sourceBaseGlyph": "N",
+      "sourceBaseGid": 112,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "N",
+        "gravecomb.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 12,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 8,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L01F9",
+      "unicode": 505,
+      "sourceBaseGlyph": "n",
+      "sourceBaseGid": 348,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "n",
+        "gravecomb"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 21,
+          "sourceSecondPairOccurrences": 17
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 12,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L021E",
+      "unicode": 542,
+      "sourceBaseGlyph": "H",
+      "sourceBaseGid": 75,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "H",
+        "uni030C.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 12,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 8,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L021F",
+      "unicode": 543,
+      "sourceBaseGlyph": "h",
+      "sourceBaseGid": 309,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "h",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 21,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E02",
+      "unicode": 7682,
+      "sourceBaseGlyph": "B",
+      "sourceBaseGid": 28,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "B",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 84,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E03",
+      "unicode": 7683,
+      "sourceBaseGlyph": "b",
+      "sourceBaseGid": 262,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "b",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 23,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 23,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E0A",
+      "unicode": 7690,
+      "sourceBaseGlyph": "D",
+      "sourceBaseGid": 36,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "D",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 26,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 26,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E0B",
+      "unicode": 7691,
+      "sourceBaseGlyph": "d",
+      "sourceBaseGid": 270,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "d",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 109,
+          "sourceSecondPairOccurrences": 29
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 1,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E1E",
+      "unicode": 7710,
+      "sourceBaseGlyph": "F",
+      "sourceBaseGid": 67,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "F",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 190,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E3E",
+      "unicode": 7742,
+      "sourceBaseGlyph": "M",
+      "sourceBaseGid": 110,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "M",
+        "acutecomb.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 212,
+          "sourceSecondPairOccurrences": 186
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E3F",
+      "unicode": 7743,
+      "sourceBaseGlyph": "m",
+      "sourceBaseGid": 346,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "m",
+        "acutecomb"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 21,
+          "sourceSecondPairOccurrences": 17
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 12,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E40",
+      "unicode": 7744,
+      "sourceBaseGlyph": "M",
+      "sourceBaseGid": 110,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "M",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 212,
+          "sourceSecondPairOccurrences": 186
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E56",
+      "unicode": 7766,
+      "sourceBaseGlyph": "P",
+      "sourceBaseGid": 158,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "P",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 137,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E6A",
+      "unicode": 7786,
+      "sourceBaseGlyph": "T",
+      "sourceBaseGid": 182,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "T",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 199,
+          "sourceSecondPairOccurrences": 184
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Semibold",
+      "newGlyph": "oti.L1E6B",
+      "unicode": 7787,
+      "sourceBaseGlyph": "t",
+      "sourceBaseGid": 417,
+      "sourceFont": {
+        "sha256": "16a28453a29177f772e1db956b3b2a2e1895bc4f25fa926c78f5873aa48b079a"
+      },
+      "sourceGPOSRawSHA256": "853be05aed4884dc5373cd6424d25f8066a18b66b49f41e4b99c1fc37075661a",
+      "sourceNfdRoute": [
+        "t",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 139,
+          "sourceSecondPairOccurrences": 175
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L01CD",
+      "unicode": 461,
+      "sourceBaseGlyph": "A",
+      "sourceBaseGid": 1,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "A",
+        "uni030C.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 22,
+          "sourceSecondPairOccurrences": 20
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 3,
+          "sourceClass2": 5,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L01CE",
+      "unicode": 462,
+      "sourceBaseGlyph": "a",
+      "sourceBaseGid": 235,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "a",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 15,
+          "sourceSecondPairOccurrences": 22
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 2,
+          "sourceClass2": 3,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L01E9",
+      "unicode": 489,
+      "sourceBaseGlyph": "k",
+      "sourceBaseGid": 334,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "k",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 152,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L01F8",
+      "unicode": 504,
+      "sourceBaseGlyph": "N",
+      "sourceBaseGid": 112,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "N",
+        "gravecomb.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 11,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 8,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L01F9",
+      "unicode": 505,
+      "sourceBaseGlyph": "n",
+      "sourceBaseGid": 348,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "n",
+        "gravecomb"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 16,
+          "sourceSecondPairOccurrences": 17
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 12,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L021E",
+      "unicode": 542,
+      "sourceBaseGlyph": "H",
+      "sourceBaseGid": 75,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "H",
+        "uni030C.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 11,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 8,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L021F",
+      "unicode": 543,
+      "sourceBaseGlyph": "h",
+      "sourceBaseGid": 309,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "h",
+        "uni030C"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 16,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E02",
+      "unicode": 7682,
+      "sourceBaseGlyph": "B",
+      "sourceBaseGid": 28,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "B",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 80,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E03",
+      "unicode": 7683,
+      "sourceBaseGlyph": "b",
+      "sourceBaseGid": 262,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "b",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 21,
+          "sourceSecondPairOccurrences": 9
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 23,
+          "sourceClass2": 14,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E0A",
+      "unicode": 7690,
+      "sourceBaseGlyph": "D",
+      "sourceBaseGid": 36,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "D",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 24,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 26,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E0B",
+      "unicode": 7691,
+      "sourceBaseGlyph": "d",
+      "sourceBaseGid": 270,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "d",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 109,
+          "sourceSecondPairOccurrences": 28
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 1,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E1E",
+      "unicode": 7710,
+      "sourceBaseGlyph": "F",
+      "sourceBaseGid": 67,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "F",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 177,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E3E",
+      "unicode": 7742,
+      "sourceBaseGlyph": "M",
+      "sourceBaseGid": 110,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "M",
+        "acutecomb.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 212,
+          "sourceSecondPairOccurrences": 184
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E3F",
+      "unicode": 7743,
+      "sourceBaseGlyph": "m",
+      "sourceBaseGid": 346,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "m",
+        "acutecomb"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 16,
+          "sourceSecondPairOccurrences": 17
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceClass1": 12,
+          "sourceClass2": 12,
+          "sourceExplicitClass1": true,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E40",
+      "unicode": 7744,
+      "sourceBaseGlyph": "M",
+      "sourceBaseGid": 110,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "M",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 212,
+          "sourceSecondPairOccurrences": 184
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E56",
+      "unicode": 7766,
+      "sourceBaseGlyph": "P",
+      "sourceBaseGid": 158,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "P",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 136,
+          "sourceSecondPairOccurrences": 14
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 4,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": true
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E6A",
+      "unicode": 7786,
+      "sourceBaseGlyph": "T",
+      "sourceBaseGid": 182,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "T",
+        "uni0307.case"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 193,
+          "sourceSecondPairOccurrences": 181
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    },
+    {
+      "style": "Bold",
+      "newGlyph": "oti.L1E6B",
+      "unicode": 7787,
+      "sourceBaseGlyph": "t",
+      "sourceBaseGid": 417,
+      "sourceFont": {
+        "sha256": "d3f508fd0e0072783ced8afe9124314c95bef4904224508bc2ca7f04f4bb2dc9"
+      },
+      "sourceGPOSRawSHA256": "fe069ea52682710fcf4a4342548b4d22f9407fce7b1fb5c823baf257a5b66664",
+      "sourceNfdRoute": [
+        "t",
+        "uni0307"
+      ],
+      "kernMembership": [
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 0,
+          "format": 1,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": true,
+          "sourceFirstPairCount": 93,
+          "sourceSecondPairOccurrences": 168
+        },
+        {
+          "lookupIndex": 0,
+          "subtableIndex": 1,
+          "format": 2,
+          "lookupFlag": 8,
+          "sourceFirstCoverageContainsBase": false,
+          "sourceClass1": 0,
+          "sourceClass2": 0,
+          "sourceExplicitClass1": false,
+          "sourceExplicitClass2": false
+        }
+      ]
+    }
+  ]
+}

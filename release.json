@@ -1,0 +1,12 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "version": "1.0.0",
+  "fontVersion": "1.000",
+  "canonicalOrigin": "https://opentransitinformation.org",
+  "repository": "https://github.com/uningeniero/opentransitinformation-fonts",
+  "sourceDateEpoch": 1793750400,
+  "families": {
+    "screen": "Tavrenel Screen",
+    "sign": "Tavrenel Sign"
+  }
+}

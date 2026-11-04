@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: Apache-2.0
+* text=auto eol=lf
+*.ttf binary
+*.woff2 binary
+*.zip binary
+licenses/** -text
+companions/source-sans-3/LICENSE.md -text

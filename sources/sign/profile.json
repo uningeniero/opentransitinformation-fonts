@@ -1,0 +1,9 @@
+{
+  "sourceRevision": 5,
+  "workingFamilyName": "Reference Sign Study",
+  "canonicalOrigin": "https://opentransitinformation.org",
+  "canonicalCmapClosure": {
+    "fromUnicode": 8486,
+    "toUnicode": 937
+  }
+}

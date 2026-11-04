@@ -1,0 +1,68 @@
+{
+  "spdxLicense": "CC-BY-4.0 for this record; font software OFL-1.1",
+  "family": "Source Sans 3",
+  "version": "3.052",
+  "role": "Separate unchanged native Greek and Cyrillic Sign resource, selected for complete script runs.",
+  "upstream": "https://github.com/adobe-fonts/source-sans",
+  "releaseTag": "3.052R",
+  "commit": "ed1808970eb3c7301c9a523bee26473ba0bb62fa",
+  "fonts": [
+    {
+      "path": "companions/source-sans-3/fonts/SourceSans3-Regular.ttf",
+      "bytes": 431196,
+      "sha256": "4644c81b86ec9caaa76b634889968ed3c4f4f52f054855933acc7c2b21e53b0f",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ed1808970eb3c7301c9a523bee26473ba0bb62fa/TTF/SourceSans3-Regular.ttf"
+    },
+    {
+      "path": "companions/source-sans-3/fonts/SourceSans3-Medium.ttf",
+      "bytes": 424748,
+      "sha256": "a7af35c1cab5dd0b29d742f86f2edfdf83fa7ec213643e765c5c51a2dc24edbc",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ed1808970eb3c7301c9a523bee26473ba0bb62fa/TTF/SourceSans3-Medium.ttf"
+    },
+    {
+      "path": "companions/source-sans-3/fonts/SourceSans3-Semibold.ttf",
+      "bytes": 425904,
+      "sha256": "a3f4f8dcf343a8f24dc61951de93f3ba1558b15cd250ba24af8a40e957081b7d",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ed1808970eb3c7301c9a523bee26473ba0bb62fa/TTF/SourceSans3-Semibold.ttf"
+    },
+    {
+      "path": "companions/source-sans-3/fonts/SourceSans3-Bold.ttf",
+      "bytes": 428176,
+      "sha256": "9214b9d95e4231c609802815c2646c98174e2102d0d37f88978a7f8e71006e6a",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ed1808970eb3c7301c9a523bee26473ba0bb62fa/TTF/SourceSans3-Bold.ttf"
+    }
+  ],
+  "webFonts": [
+    {
+      "bytes": 108640,
+      "sha256": "8d35c6d40e750a4ee23bbbba2bd604ad098d172907369b43281507e16b8e2e7a",
+      "gitBlobSha1": "916ad418f91af780854809679845354872bacf2a",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ed1808970eb3c7301c9a523bee26473ba0bb62fa/WOFF2/TTF/SourceSans3-Bold.ttf.woff2",
+      "path": "companions/source-sans-3/fonts/SourceSans3-Bold.ttf.woff2"
+    },
+    {
+      "bytes": 108844,
+      "sha256": "437a67034cb2ce4cb20d7f808e748e08ac201e15077a075a69baf67d8376a0c3",
+      "gitBlobSha1": "ff95f90d5be289ee8f9afaa0eeb60bb3d04eb4c0",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ed1808970eb3c7301c9a523bee26473ba0bb62fa/WOFF2/TTF/SourceSans3-Medium.ttf.woff2",
+      "path": "companions/source-sans-3/fonts/SourceSans3-Medium.ttf.woff2"
+    },
+    {
+      "bytes": 109632,
+      "sha256": "53492fb3a0def77354f166a55d09b63a10855e91c206c7620a81cf56e97f8ec3",
+      "gitBlobSha1": "e2401aa9f8a0eb98127e5435ac069d499600f6e9",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ed1808970eb3c7301c9a523bee26473ba0bb62fa/WOFF2/TTF/SourceSans3-Regular.ttf.woff2",
+      "path": "companions/source-sans-3/fonts/SourceSans3-Regular.ttf.woff2"
+    },
+    {
+      "bytes": 108900,
+      "sha256": "47b9b661b9f395fe7f0d0e119637fba5c8dad97bde3df60066fd24229c0792f4",
+      "gitBlobSha1": "a9aced0785d99c36eb13deae776e4297415999e7",
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-sans/ed1808970eb3c7301c9a523bee26473ba0bb62fa/WOFF2/TTF/SourceSans3-Semibold.ttf.woff2",
+      "path": "companions/source-sans-3/fonts/SourceSans3-Semibold.ttf.woff2"
+    }
+  ],
+  "formatBoundary": "Both formats are exact official upstream files. The upstream WOFF2 web builds omit the native TTF hinting programs. Outline, advance, cmap and layout comparisons are separate from binary and hint identity.",
+  "sourceAvailability": "Native version 3.052 source and upright designspace are available in the upstream repository. Independent reproduction of the released original binaries has not been established.",
+  "nativeSourceCommit": "272b22b02e097e8eff1372111f88b5ab6063499f"
+}
