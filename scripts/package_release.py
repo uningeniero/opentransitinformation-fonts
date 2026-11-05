@@ -7,7 +7,7 @@ from _common import ROOT,read,rec
 
 def main():
     policy=read(ROOT/'release.json');version=policy['version'];dest=ROOT/'dist';dest.mkdir(exist_ok=True)
-    archive=dest/('Tavrenel-'+version+'-fonts.zip');assert not archive.exists()
+    archive=dest/policy['archiveName'];assert archive.name==policy['archiveName'] and not archive.exists()
     files=[ROOT/'INSTALL.md',ROOT/'LICENSE',ROOT/'NOTICE.md',ROOT/'release.json']
     for folder in ['fonts','licenses','companions','examples','docs']:
         files.extend(p for p in (ROOT/folder).rglob('*') if p.is_file())

@@ -1,19 +1,21 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
-# Tavrenel Sign and Tavrenel Screen
+# OTI Traveller Sign and OTI Traveller Screen
 
 Two transport typeface families from [Open Transit Information](https://opentransitinformation.org).
 
-Tavrenel Sign uses Cabin 3.001 as its principal source, with selected Fira Sans supplements and source-specific additions. It contains four upright weights: Regular, Medium, SemiBold and Bold. Tavrenel Screen uses Fira Sans 4.301 as its principal source, with four upright weights and their genuine italics.
+[Release 1.0.1](https://github.com/uningeniero/opentransitinformation-fonts/releases/tag/v1.0.1) uses font software version 1.001. It updates the family names and release metadata; the glyph drawings, metrics, hints, repertoire and layout tables match the immutable 1.0.0 predecessor. The separate Source Sans 3 files remain unchanged.
+
+OTI Traveller Sign uses Cabin 3.001 as its principal source, with selected Fira Sans supplements and source-specific additions. It contains four upright weights: Regular, Medium, SemiBold and Bold. OTI Traveller Screen uses Fira Sans 4.301 as its principal source, with four upright weights and their genuine italics.
 
 The release includes TTF and WOFF2 files. The font software is licensed under the SIL Open Font License 1.1. The original copyright notices, Reserved Font Names and contributor records are retained in `licenses/`. Build code is Apache-2.0; original documentation is CC-BY-4.0.
 
 ## Use
 
-Install the TTF files for desktop applications, or serve the WOFF2 files with your application. Set the document language and use a shaping engine that applies the native OpenType language, composition, kerning and mark features. The `ss20` feature in Tavrenel Screen selects its transport numeral profile; the default source numerals remain available.
+Install the TTF files for desktop applications, or serve the WOFF2 files with your application. Set the document language and use a shaping engine that applies the native OpenType language, composition, kerning and mark features. The `ss20` feature in OTI Traveller Screen selects its transport numeral profile; the default source numerals remain available.
 
-For Greek and Cyrillic sign text, use the separately bundled, unchanged **Source Sans 3 version 3.052**. Select that resource for the complete script run, including its figures, punctuation and marks. Its native family name, genuine four weights and Adobe licence remain separate from Tavrenel Sign. Selecting individual missing glyphs from a fallback stack can mix the partial Greek repertoire inherited from Cabin with a different resource.
+For Greek and Cyrillic sign text, use the separately bundled, unchanged **Source Sans 3 version 3.052**. Select that resource for the complete script run, including its figures, punctuation and marks. Its native family name, genuine four weights and Adobe licence remain separate from OTI Traveller Sign. Selecting individual missing glyphs from a fallback stack can mix the partial Greek repertoire inherited from Cabin with a different resource.
 
-The selected release profile contains 1,730 encoded scalars in each Tavrenel Screen cut and 791 in each Tavrenel Sign cut. The native Sign companion covers the 238 scalars required by the selected Greek and Cyrillic profile. These counts describe this repertoire and its software checks; the locale requirements and exact function cases are in `tests/validation-spec.json`.
+The selected release profile contains 1,730 encoded scalars in each OTI Traveller Screen cut and 791 in each OTI Traveller Sign cut. The native Sign companion covers the 238 scalars required by the selected Greek and Cyrillic profile. These counts describe this repertoire and its software checks; the locale requirements and exact function cases are in `tests/validation-spec.json`.
 
 ## Build
 
@@ -26,9 +28,14 @@ python -m pip install --require-hashes --only-binary=:all: -r requirements-build
 python scripts/build_baselines.py --output-dir build/baselines
 python scripts/build_release.py --baselines build/baselines --output-dir build/release
 python scripts/validate_release.py build/release
+python scripts/check_naming_successor.py build/release
+python scripts/check_reproduction.py build/release
+python scripts/check_ttx.py
 ```
 
 The first step downloads the exact pinned upstream TTF carriers into an ignored cache and verifies their byte counts and SHA-256 digests. It reproduces 24 comparison files before the public successor build proceeds. All paths used by the build are relative to this repository. `release.json` fixes the numeric version and deterministic font timestamp.
+
+The naming comparison downloads the immutable 1.0.0 release archive, verifies its pinned SHA-256 digest and compares all twelve primary cuts in both formats, plus the eight unchanged companion files. The editable TTX readback uses the corresponding files in `sources/ttx/`.
 
 The source records in `sources/` define the numeral profile, mathematical fence, additive contours, canonical composition routes and separate scoped Lithuanian and Yoruba attachment rules. Retained glyph drawings, advances and instructions are checked against the exact carriers. The public Screen successor excludes one unencoded source artwork glyph and explicitly aliases four nonconforming source glyph identifiers. Reordered composite GIDs are compared through named logical records.
 

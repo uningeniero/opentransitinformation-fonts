@@ -37,7 +37,7 @@ def retained_lookup(lookup,allowed_names):
 
 
 def validate(folder):
-    manifest=read(folder/'build-manifest.json');spec=read(ROOT/'tests/validation-spec.json')
+    manifest=read(folder/'build-manifest.json');spec=read(ROOT/'tests/validation-spec.json');policy=read(ROOT/'release.json')
     additions=read(ROOT/'sources/language/additions.json')['additions'];lt=read(ROOT/'sources/language/lithuanian-routes.json')
     checks=[]
     def check(condition,case,**detail):checks.append({'case':case,'passed':bool(condition),**detail})
@@ -57,7 +57,7 @@ def validate(folder):
         resource='screen-primary' if role=='screen' else 'sign-latin'
         required=set(spec['resourceRequirements'][resource]['requiredScalars'])
         check(required==set(font.getBestCmap()),role+'-'+style+'-exact-repertoire',expected=len(required),actual=len(font.getBestCmap()))
-        check(font['name'].getBestFamilyName()==('Tavrenel Screen' if role=='screen' else 'Tavrenel Sign') and font['name'].getDebugName(5)=='Version 1.000',role+'-'+style+'-names-version')
+        check(font['name'].getBestFamilyName()==policy['families'][role] and font['name'].getDebugName(5)=='Version '+policy['fontVersion'],role+'-'+style+'-names-version')
         check('uniF8FF' not in font.getGlyphOrder() if role=='screen' else True,role+'-'+style+'-art-exclusion')
         check(not any('-' in n for n in font.getGlyphOrder()),role+'-'+style+'-glyphname-aliases')
         # Read back every retained serialized glyph, hint and horizontal metric.

@@ -21,6 +21,9 @@
         ],
         "googlefonts/font_copyright": [
           "bad-notice-format"
+        ],
+        "googlefonts/family_name_compliance": [
+          "abbreviation"
         ]
       },
       "allowedFailedOrthographies": [
@@ -72,6 +75,9 @@
         ],
         "googlefonts/glyphsets/shape_languages": [
           "failed-language-shaping"
+        ],
+        "googlefonts/family_name_compliance": [
+          "abbreviation"
         ]
       },
       "allowedFailedOrthographies": [

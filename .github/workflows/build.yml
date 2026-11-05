@@ -19,6 +19,7 @@ jobs:
       - run: python scripts/build_baselines.py --output-dir build/baselines
       - run: python scripts/build_release.py --baselines build/baselines --output-dir build/release
       - run: python scripts/validate_release.py build/release
+      - run: python scripts/check_naming_successor.py build/release
       - run: python scripts/check_reproduction.py build/release
       - run: python scripts/check_ttx.py
       - name: Current primary QA

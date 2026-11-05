@@ -1,12 +1,13 @@
 {
   "spdxLicense": "CC-BY-4.0",
-  "version": "1.0.0",
-  "fontVersion": "1.000",
+  "version": "1.0.1",
+  "fontVersion": "1.001",
+  "archiveName": "OTI-Traveller-1.0.1-fonts.zip",
   "canonicalOrigin": "https://opentransitinformation.org",
   "repository": "https://github.com/uningeniero/opentransitinformation-fonts",
-  "sourceDateEpoch": 1793750400,
+  "sourceDateEpoch": 1793836800,
   "families": {
-    "screen": "Tavrenel Screen",
-    "sign": "Tavrenel Sign"
+    "screen": "OTI Traveller Screen",
+    "sign": "OTI Traveller Sign"
   }
 }

@@ -1,9 +1,9 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
-# Tavrenel font bundle 1.0.0
+# OTI Traveller font bundle 1.0.1
 
-Tavrenel Sign and Tavrenel Screen are transport typeface adaptations from [Open Transit Information](https://opentransitinformation.org). The font software version is 1.000.
+OTI Traveller Sign and OTI Traveller Screen are transport typeface adaptations from [Open Transit Information](https://opentransitinformation.org). The font software version is 1.001.
 
-Install the required TTF files from `fonts/tavrenelsign/` or `fonts/tavrenelscreen/` using your operating system's font installer. Tavrenel Sign has four upright weights; Tavrenel Screen has four upright weights and their genuine italics. Select the actual style in your application.
+Install the required TTF files from `fonts/otitravellersign/` or `fonts/otitravellerscreen/` using your operating system's font installer. OTI Traveller Sign has four upright weights; OTI Traveller Screen has four upright weights and their genuine italics. Select the actual style in your application.
 
 For a website, serve the WOFF2 files and use the declarations in `examples/fonts.css`. Open `examples/index.html` for the included specimens. The `ss20` feature enables the optional Screen numeral profile.
 

@@ -1,0 +1,11 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "version": "1.0.0",
+  "url": "https://github.com/uningeniero/opentransitinformation-fonts/releases/download/v1.0.0/Tavrenel-1.0.0-fonts.zip",
+  "bytes": 8300650,
+  "sha256": "65fe87a258f4194bd8220992dd0c725c35e8a20f9614c691c5d692cb95f10204",
+  "families": {
+    "screen": "Tavrenel Screen",
+    "sign": "Tavrenel Sign"
+  }
+}
