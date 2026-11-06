@@ -74,13 +74,13 @@
     },
     {
       "path": "fonts/travellerscreen/TravellerScreen-Medium.ttf",
-      "bytes": 529820,
-      "sha256": "a74e958a4b553546aa43c6ef946d3f54f265bba96c9759aa3096bf9d3b6c9fd1"
+      "bytes": 529776,
+      "sha256": "67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4"
     },
     {
       "path": "fonts/travellerscreen/TravellerScreen-Medium.woff2",
-      "bytes": 155776,
-      "sha256": "099a6103c456dd023e22742ac33f2878f782e1ac5949f59c7a147afb6d715f2b"
+      "bytes": 155792,
+      "sha256": "740c1ebb783cf04f96ee8598628f269a68bf29cb1122d6cfe157deeb3c2ad57c"
     },
     {
       "path": "fonts/travellerscreen/TravellerScreen-MediumItalic.ttf",
@@ -104,13 +104,13 @@
     },
     {
       "path": "fonts/travellerscreen/TravellerScreen-SemiBold.ttf",
-      "bytes": 562120,
-      "sha256": "da74a0af1056581f1f2ab31a7155fd46ec518f2d55c30b8a07d235e6e8878cad"
+      "bytes": 562072,
+      "sha256": "3bab32b938c638d9c79df61a6c486a6288e5b988245c527a9913a7dadbf45a05"
     },
     {
       "path": "fonts/travellerscreen/TravellerScreen-SemiBold.woff2",
-      "bytes": 162744,
-      "sha256": "43222da0819993a04e82a1a161f26257d7932f75ab68a4a282a39534e203f42f"
+      "bytes": 162720,
+      "sha256": "99f1eb2db232ba19a56a3d8f9e5758723891dd937b3f8eed186c7724ce985c6e"
     },
     {
       "path": "fonts/travellerscreen/TravellerScreen-SemiBoldItalic.ttf",

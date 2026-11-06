@@ -12,8 +12,8 @@
       "role": "screen",
       "report": {
         "path": "docs/qa/1.1.0/screen-googlefonts.json",
-        "bytes": 2996118,
-        "sha256": "e6590d34933688f53a395238df1c295115b057f6c265cd6264b840b5be347c41"
+        "bytes": 3001556,
+        "sha256": "e6a4bf410a0a6f4955bda008f9f86f5e128b494c2c2372f2603b8323cb19a947"
       },
       "summary": {
         "SKIP": 442,
@@ -31,13 +31,13 @@
         },
         {
           "path": "fonts/travellerscreen/TravellerScreen-Medium.ttf",
-          "bytes": 529820,
-          "sha256": "a74e958a4b553546aa43c6ef946d3f54f265bba96c9759aa3096bf9d3b6c9fd1"
+          "bytes": 529776,
+          "sha256": "67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4"
         },
         {
           "path": "fonts/travellerscreen/TravellerScreen-SemiBold.ttf",
-          "bytes": 562120,
-          "sha256": "da74a0af1056581f1f2ab31a7155fd46ec518f2d55c30b8a07d235e6e8878cad"
+          "bytes": 562072,
+          "sha256": "3bab32b938c638d9c79df61a6c486a6288e5b988245c527a9913a7dadbf45a05"
         },
         {
           "path": "fonts/travellerscreen/TravellerScreen-Bold.ttf",
@@ -108,7 +108,7 @@
   "sourceManifest": {
     "path": "fonts/manifest.json",
     "bytes": 11122,
-    "sha256": "a77e55fd6dcacdca5e30a69f83c4befbf9ab5bbcd7f9ee923a71f5126a707dc6"
+    "sha256": "6415d0cdafa7071dbf91b1e707d05eec8b152e0890529076ebcc2c2e642b84a1"
   },
   "finiteJChecks": {
     "diagnostic": "j-caron-diagnostic.json",

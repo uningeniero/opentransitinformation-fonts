@@ -99,13 +99,13 @@
         },
         {
           "filename": "TravellerScreen-Medium.ttf",
-          "bytes": 529820,
-          "sha256": "a74e958a4b553546aa43c6ef946d3f54f265bba96c9759aa3096bf9d3b6c9fd1"
+          "bytes": 529776,
+          "sha256": "67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4"
         },
         {
           "filename": "TravellerScreen-SemiBold.ttf",
-          "bytes": 562120,
-          "sha256": "da74a0af1056581f1f2ab31a7155fd46ec518f2d55c30b8a07d235e6e8878cad"
+          "bytes": 562072,
+          "sha256": "3bab32b938c638d9c79df61a6c486a6288e5b988245c527a9913a7dadbf45a05"
         },
         {
           "filename": "TravellerScreen-Bold.ttf",
@@ -172,5 +172,7 @@
       "altText": "Alphabet, numerals and four upright weights with their italic counterparts in Traveller Screen.",
       "publicCopySHA256": "8db8d0849357d25a05eade31c6a4d1cca48931f9b23cd915fd62961bade4e837"
     }
-  ]
+  ],
+  "originalRenderingBuildManifestSha256": "6b8dc190f9199091ce3a258b0f2f0dc4860a0b8593cc8c6dfd9846f95b477923",
+  "canonicalBuildManifestSha256": "abf99c3aea80598a19bdc1935c9e78a3911a66d61f991d224072ba4f97f1ecc4"
 }
