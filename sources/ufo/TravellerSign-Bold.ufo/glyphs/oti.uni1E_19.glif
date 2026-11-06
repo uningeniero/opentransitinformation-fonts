@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.uni1E19" format="2">
+  <advance width="1030"/>
+  <unicode hex="1E19"/>
+  <anchor x="516" y="-492" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="598" y="-20" type="qcurve"/>
+      <point x="417" y="-20"/>
+      <point x="176" y="125"/>
+      <point x="56" y="364"/>
+      <point x="56" y="506" type="qcurve"/>
+      <point x="56" y="643"/>
+      <point x="169" y="875"/>
+      <point x="387" y="1016"/>
+      <point x="544" y="1016" type="qcurve"/>
+      <point x="688" y="1016"/>
+      <point x="880" y="898"/>
+      <point x="976" y="701"/>
+      <point x="976" y="582" type="qcurve"/>
+      <point x="976" y="549"/>
+      <point x="968" y="482"/>
+      <point x="960" y="446" type="qcurve"/>
+      <point x="314" y="446" type="line"/>
+      <point x="335" y="307"/>
+      <point x="509" y="184"/>
+      <point x="620" y="184" type="qcurve"/>
+      <point x="707" y="184"/>
+      <point x="857" y="229"/>
+      <point x="920" y="266" type="qcurve"/>
+      <point x="932" y="56" type="line"/>
+      <point x="875" y="26"/>
+      <point x="705" y="-20"/>
+    </contour>
+    <contour>
+      <point x="320" y="614" type="qcurve"/>
+      <point x="724" y="614" type="line"/>
+      <point x="724" y="659"/>
+      <point x="690" y="750"/>
+      <point x="611" y="812"/>
+      <point x="544" y="812" type="qcurve"/>
+      <point x="448" y="812"/>
+      <point x="338" y="700"/>
+    </contour>
+    <contour>
+      <point x="252" y="-492" type="line"/>
+      <point x="252" y="-334" type="line"/>
+      <point x="516" y="-110" type="line"/>
+      <point x="780" y="-334" type="line"/>
+      <point x="780" y="-492" type="line"/>
+      <point x="516" y="-326" type="line"/>
+    </contour>
+  </outline>
+</glyph>

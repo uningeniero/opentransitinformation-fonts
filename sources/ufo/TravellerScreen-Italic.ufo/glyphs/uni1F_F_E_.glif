@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1FFE" format="2">
+  <advance width="178"/>
+  <unicode hex="1FFE"/>
+  <anchor x="156" y="802" name="mark2__MarkToMark61__Anchor62_Anchor62_"/>
+  <outline>
+    <contour>
+      <point x="179" y="801"/>
+      <point x="210" y="771"/>
+      <point x="210" y="748" type="qcurve"/>
+      <point x="210" y="716"/>
+      <point x="181" y="696" type="qcurve"/>
+      <point x="193" y="582" type="line"/>
+      <point x="141" y="582" type="line"/>
+      <point x="113" y="670" type="line"/>
+      <point x="97" y="721"/>
+      <point x="97" y="738" type="qcurve"/>
+      <point x="97" y="765"/>
+      <point x="131" y="801"/>
+      <point x="156" y="801" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 34 values pushed */
+4
+1
+0
+1
+1
+76
+2
+1
+1
+0
+0
+1
+89
+2
+1
+1
+1
+0
+95
+0
+0
+1
+0
+79
+0
+0
+0
+12
+0
+11
+21
+3
+10
+23
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w178o179+801o210+771q210+748o210+716q181+696l193+582l141+582l113+670o97+721q97+738o97+765o131+801q156+801|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

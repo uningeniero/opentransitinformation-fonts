@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="one.tf" format="2">
+  <advance width="1412"/>
+  <outline>
+    <component base="one" xOffset="353" identifier="nativeFigure"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>advance</key>
+        <integer>1412</integer>
+        <key>integerOffsetX</key>
+        <integer>353</integer>
+        <key>kind</key>
+        <string>Opt-in tabular figure retaining the native contour</string>
+        <key>originalAdvance</key>
+        <integer>707</integer>
+        <key>sourceGlyph</key>
+        <string>one</string>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>nativeFigure</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

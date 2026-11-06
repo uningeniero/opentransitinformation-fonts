@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni03D9.sc" format="2">
+  <advance width="603"/>
+  <anchor x="346" y="568" name="base__Extension45__Anchor40__Anchor40"/>
+  <anchor x="265" y="0" name="base__Extension45__Anchor41__Anchor41"/>
+  <anchor x="377" y="0" name="base__Extension45__Anchor42__Anchor42"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor43__Anchor43"/>
+  <anchor x="559" y="568" name="base__Extension45__Anchor44__Anchor44"/>
+  <outline>
+    <contour>
+      <point x="579" y="274"/>
+      <point x="533" y="128"/>
+      <point x="427" y="12"/>
+      <point x="343" y="-7" type="qcurve"/>
+      <point x="314" y="-210" type="line"/>
+      <point x="156" y="-210" type="line"/>
+      <point x="185" y="-5" type="line"/>
+      <point x="111" y="15"/>
+      <point x="32" y="134"/>
+      <point x="32" y="225" type="qcurve"/>
+      <point x="32" y="309"/>
+      <point x="93" y="472"/>
+      <point x="233" y="582"/>
+      <point x="345" y="582" type="qcurve"/>
+      <point x="458" y="582"/>
+      <point x="579" y="457"/>
+      <point x="579" y="345" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="330" y="97"/>
+      <point x="395" y="183"/>
+      <point x="421" y="301"/>
+      <point x="421" y="354" type="qcurve"/>
+      <point x="421" y="415"/>
+      <point x="378" y="469"/>
+      <point x="334" y="469" type="qcurve"/>
+      <point x="279" y="469"/>
+      <point x="215" y="384"/>
+      <point x="190" y="268"/>
+      <point x="190" y="213" type="qcurve"/>
+      <point x="190" y="152"/>
+      <point x="233" y="97"/>
+      <point x="276" y="97" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 37 values pushed */
+6
+1
+0
+3
+1
+76
+4
+1
+3
+0
+0
+3
+0
+99
+0
+2
+2
+1
+97
+0
+1
+1
+34
+2
+78
+17
+17
+17
+30
+17
+29
+40
+39
+20
+5
+7
+25
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>ed1d8ebd02b5306052e1b4139b8a9c27cc2ad7432e9de0301966a6d1b4430b396ab254fdc18f412ac494f393cda48ae526b60d9d2f7ee346fbd10f3108ce0f61</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

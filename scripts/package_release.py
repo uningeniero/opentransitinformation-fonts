@@ -6,7 +6,9 @@ import hashlib,json,zipfile
 from _common import ROOT,read,rec
 
 def main():
-    policy=read(ROOT/'release.json');version=policy['version'];dest=ROOT/'dist';dest.mkdir(exist_ok=True)
+    policy=read(ROOT/'release.json');version=policy['version'];published=read(ROOT/'fonts/manifest.json')
+    assert published['version']==version and published['fontVersion']==policy['fontVersion'], 'Promote the verified matching production fonts before packaging.'
+    dest=ROOT/'dist';dest.mkdir(exist_ok=True)
     archive=dest/policy['archiveName'];assert archive.name==policy['archiveName'] and not archive.exists()
     files=[ROOT/'INSTALL.md',ROOT/'LICENSE',ROOT/'NOTICE.md',ROOT/'release.json']
     for folder in ['fonts','licenses','companions','examples','docs']:

@@ -1,0 +1,120 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "version": "1.1.0",
+  "fontVersion": "1.100",
+  "toolVersion": "fontspector 1.9.0\ntag:fontspector-v1.9.0\ncommit_hash:d9d0f7b0\nbuild_time:2026-10-09 13:34:20 +00:00\nbuild_env:rustc 1.99.0 (b940084d7 2026-09-28),stable-x86_64-pc-windows-msvc",
+  "profile": "googlefonts",
+  "severityOverrides": false,
+  "checkExclusions": [],
+  "allReportedFindingsResolved": false,
+  "families": [
+    {
+      "role": "screen",
+      "report": {
+        "path": "docs/qa/1.1.0/screen-googlefonts.json",
+        "bytes": 2996118,
+        "sha256": "e6590d34933688f53a395238df1c295115b057f6c265cd6264b840b5be347c41"
+      },
+      "summary": {
+        "SKIP": 442,
+        "PASS": 694,
+        "INFO": 40,
+        "WARN": 163,
+        "FAIL": 24
+      },
+      "fullProfileRerunForFinalCandidate": true,
+      "fonts": [
+        {
+          "path": "fonts/travellerscreen/TravellerScreen-Regular.ttf",
+          "bytes": 528104,
+          "sha256": "0f388a18474fdac15af1af4d6e12d6924abea889da38bad2e205c7c6a28bf236"
+        },
+        {
+          "path": "fonts/travellerscreen/TravellerScreen-Medium.ttf",
+          "bytes": 529820,
+          "sha256": "a74e958a4b553546aa43c6ef946d3f54f265bba96c9759aa3096bf9d3b6c9fd1"
+        },
+        {
+          "path": "fonts/travellerscreen/TravellerScreen-SemiBold.ttf",
+          "bytes": 562120,
+          "sha256": "da74a0af1056581f1f2ab31a7155fd46ec518f2d55c30b8a07d235e6e8878cad"
+        },
+        {
+          "path": "fonts/travellerscreen/TravellerScreen-Bold.ttf",
+          "bytes": 562504,
+          "sha256": "0d592c479c60eb82aa7c215e18a88f62409f137b76bbf12165df23c68a364ddb"
+        },
+        {
+          "path": "fonts/travellerscreen/TravellerScreen-Italic.ttf",
+          "bytes": 528800,
+          "sha256": "c99a0a7eeca7eea3c9a16e78d34cbf0501e83fde84c090a4f4fdfbf07ce559ac"
+        },
+        {
+          "path": "fonts/travellerscreen/TravellerScreen-MediumItalic.ttf",
+          "bytes": 530768,
+          "sha256": "425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c"
+        },
+        {
+          "path": "fonts/travellerscreen/TravellerScreen-SemiBoldItalic.ttf",
+          "bytes": 563396,
+          "sha256": "9502f1dcfebb12629946ee36cd398341cf475ca1db4c1087ea0e1ca573e4f427"
+        },
+        {
+          "path": "fonts/travellerscreen/TravellerScreen-BoldItalic.ttf",
+          "bytes": 563440,
+          "sha256": "62f71543c944cf5404a95d5c4018c8d96c97e8857642d56a5236f70cb9262635"
+        }
+      ]
+    },
+    {
+      "role": "sign",
+      "report": {
+        "path": "docs/qa/1.1.0/sign-googlefonts.json",
+        "bytes": 1002582,
+        "sha256": "fd0c52bcded5496df92364af142ac5a4b1f10fcb658d3d192054e5d210cdff00"
+      },
+      "summary": {
+        "SKIP": 242,
+        "PASS": 365,
+        "INFO": 20,
+        "WARN": 68
+      },
+      "fullProfileRerunForFinalCandidate": false,
+      "fonts": [
+        {
+          "path": "fonts/travellersign/TravellerSign-Regular.ttf",
+          "bytes": 233796,
+          "sha256": "5159687003f6a9e4bce205b946b6030f2bb20b42f5ad0896408185934a2ba405"
+        },
+        {
+          "path": "fonts/travellersign/TravellerSign-Medium.ttf",
+          "bytes": 241884,
+          "sha256": "4a9c042a8c099318b4fda3ec43bc22d3c8b04acb8653ea0e76a29dc83212f186"
+        },
+        {
+          "path": "fonts/travellersign/TravellerSign-SemiBold.ttf",
+          "bytes": 242376,
+          "sha256": "bf44340907d61b0c869c13e1d82695697581eb6ce4f4d23a62c5a7927286131b"
+        },
+        {
+          "path": "fonts/travellersign/TravellerSign-Bold.ttf",
+          "bytes": 237204,
+          "sha256": "18841e11d0650ded90343c4de337de26031e551959be42e03df5f8bc603b699d"
+        }
+      ]
+    }
+  ],
+  "unchangedSignReuse": "The Sign source, TTF, WOFF2 and family OFL inputs are byte-identical to its completed corrected-candidate profile. Its original full raw report is retained unchanged.",
+  "sourceManifest": {
+    "path": "fonts/manifest.json",
+    "bytes": 11122,
+    "sha256": "a77e55fd6dcacdca5e30a69f83c4befbf9ab5bbcd7f9ee923a71f5126a707dc6"
+  },
+  "finiteJChecks": {
+    "diagnostic": "j-caron-diagnostic.json",
+    "boundedSuccessor": "j-caron-validation.json",
+    "diagnosticFailedComparisons": 16,
+    "boundedChecks": 264,
+    "boundedFailures": 0
+  }
+}

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0515.loclBGR" format="2">
+  <advance width="658"/>
+  <anchor x="350" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="424" y="527" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="484" y="257" type="line"/>
+      <point x="616" y="0" type="line"/>
+      <point x="514" y="0" type="line"/>
+      <point x="424" y="203" type="line"/>
+      <point x="293" y="0" type="line"/>
+      <point x="186" y="0" type="line"/>
+      <point x="376" y="264" type="line"/>
+      <point x="286" y="449" type="line"/>
+      <point x="72" y="0" type="line"/>
+      <point x="-28" y="0" type="line"/>
+      <point x="234" y="527" type="line"/>
+      <point x="343" y="527" type="line"/>
+      <point x="436" y="313" type="line"/>
+      <point x="565" y="527" type="line"/>
+      <point x="671" y="527" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 31 values pushed */
+12
+7
+6
+3
+4
+0
+3
+1
+76
+4
+1
+3
+3
+52
+77
+2
+1
+2
+0
+0
+51
+0
+78
+18
+17
+19
+18
+17
+5
+9
+27
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w658l484+257l616+0l514+0l424+203l293+0l186+0l376+264l286+449l72+0l-28+0l234+527l343+527l436+313l565+527l671+527|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

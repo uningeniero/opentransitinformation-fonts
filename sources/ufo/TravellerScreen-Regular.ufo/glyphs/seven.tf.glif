@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="seven.tf" format="2">
+  <advance width="560"/>
+  <outline>
+    <contour>
+      <point x="485" y="620" type="line"/>
+      <point x="215" y="-12" type="line"/>
+      <point x="132" y="18" type="line"/>
+      <point x="392" y="614" type="line"/>
+      <point x="76" y="614" type="line"/>
+      <point x="76" y="689" type="line"/>
+      <point x="485" y="689" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 27 values pushed */
+0
+1
+0
+1
+1
+76
+2
+1
+2
+0
+73
+0
+0
+0
+1
+95
+0
+1
+1
+50
+0
+78
+17
+19
+2
+9
+24
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w560l485+620l215-12l132+18l392+614l76+614l76+689l485+689|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

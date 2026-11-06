@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1EB9" format="2">
+  <advance width="1030"/>
+  <unicode hex="1EB9"/>
+  <anchor x="516" y="-356" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="516" y="1106" name="base__MarkToBase1324__Anchor1325__Anchor1325"/>
+  <anchor x="562" y="1000" name="base__SourceSignCaron__SourceSignCaronClass"/>
+  <outline>
+    <component base="e" identifier="component0"/>
+    <component base="dotbelowcomb" xOffset="516" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

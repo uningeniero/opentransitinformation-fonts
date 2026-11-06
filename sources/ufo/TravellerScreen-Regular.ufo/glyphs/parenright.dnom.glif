@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="parenright.dnom" format="2">
+  <advance width="395"/>
+  <outline>
+    <contour>
+      <point x="203" y="458"/>
+      <point x="250" y="374"/>
+      <point x="280" y="264"/>
+      <point x="280" y="194" type="qcurve"/>
+      <point x="280" y="124"/>
+      <point x="250" y="14"/>
+      <point x="203" y="-70"/>
+      <point x="164" y="-127" type="qcurve"/>
+      <point x="115" y="-94" type="line"/>
+      <point x="161" y="-24"/>
+      <point x="204" y="102"/>
+      <point x="204" y="194" type="qcurve"/>
+      <point x="204" y="286"/>
+      <point x="161" y="412"/>
+      <point x="115" y="482" type="qcurve"/>
+      <point x="164" y="515" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 4 values pushed */
+15
+7
+1
+50
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>94a8ab432f9ff075e609958b0ba72ee28b601574cd5b27c365bd7ee94b12ff537276f99eda24ede2cacea5f5535857bd983de111ed30c8d75390b0e8576b1f51</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

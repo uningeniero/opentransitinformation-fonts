@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="zero.numr" format="2">
+  <advance width="394"/>
+  <outline>
+    <component base="zero.dnom" xOffset="38" yOffset="273" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+2
+PUSHW[ ]	/* 1 value pushed */
+273
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>9f15f5cb8fdbea3d91f99331527316f19ca0b9f51f014720a183f8cd0f67f1ddedd4209149ea9ebda90f09372225813f130f62882ed217b8cb04cb2170928115</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

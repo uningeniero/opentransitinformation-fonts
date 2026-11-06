@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni01B7" format="2">
+  <advance width="514"/>
+  <unicode hex="01B7"/>
+  <anchor x="220" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="304" y="689" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="495" y="612" type="line"/>
+      <point x="258" y="397" type="line"/>
+      <point x="361" y="396"/>
+      <point x="463" y="307"/>
+      <point x="463" y="227" type="qcurve"/>
+      <point x="463" y="155"/>
+      <point x="393" y="47"/>
+      <point x="269" y="-12"/>
+      <point x="191" y="-12" type="qcurve"/>
+      <point x="119" y="-12"/>
+      <point x="21" y="34"/>
+      <point x="-13" y="80" type="qcurve"/>
+      <point x="46" y="130" type="line"/>
+      <point x="74" y="96"/>
+      <point x="141" y="66"/>
+      <point x="191" y="66" type="qcurve"/>
+      <point x="270" y="66"/>
+      <point x="364" y="152"/>
+      <point x="364" y="226" type="qcurve"/>
+      <point x="364" y="282"/>
+      <point x="298" y="328"/>
+      <point x="226" y="328" type="qcurve"/>
+      <point x="136" y="328" type="line"/>
+      <point x="137" y="329" type="line"/>
+      <point x="146" y="396" type="line"/>
+      <point x="380" y="611" type="line"/>
+      <point x="92" y="611" type="line"/>
+      <point x="103" y="689" type="line"/>
+      <point x="505" y="689" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 45 values pushed */
+12
+11
+2
+2
+3
+1
+76
+0
+0
+0
+3
+2
+0
+3
+103
+0
+4
+4
+5
+95
+0
+5
+5
+80
+77
+0
+2
+2
+1
+97
+0
+1
+1
+87
+1
+78
+17
+19
+36
+37
+37
+17
+6
+11
+28
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>94571d6609b20449dac57ae16bdf944d9fa27bba66530f16005243a6f96b242af46d5482051bc01aed746fecf827151a776b3f47c7cba4be0d0a7d7259738035</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

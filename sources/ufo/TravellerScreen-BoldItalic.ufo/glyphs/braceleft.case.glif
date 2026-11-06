@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="braceleft.case" format="2">
+  <advance width="315"/>
+  <outline>
+    <component base="braceleft" xOffset="-1" yOffset="-10" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+1
+PUSHW[ ]	/* 1 value pushed */
+-10
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>9d2ed6fe21257739ec236620f7b8d3dad78a7bc8db64fe4b75585b506dc99f95dd80610790716931f14b4b8a361d19f2f2133b9f7b309d1d6c96542224e5d282</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

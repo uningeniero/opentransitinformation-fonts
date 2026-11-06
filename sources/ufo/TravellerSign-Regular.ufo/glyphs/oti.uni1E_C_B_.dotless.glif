@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.uni1ECB.dotless" format="2">
+  <advance width="424"/>
+  <anchor x="212" y="-342" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="212" y="-342" name="base__MarkToBase2__Anchor5__Anchor5"/>
+  <anchor x="212" y="980" name="base__SourceSignAcuteGrave__SourceSignAcuteGraveClass"/>
+  <outline>
+    <contour>
+      <point x="122" y="0" type="line"/>
+      <point x="122" y="980" type="line"/>
+      <point x="302" y="980" type="line"/>
+      <point x="302" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="116" y="-342" type="line"/>
+      <point x="116" y="-162" type="line"/>
+      <point x="308" y="-162" type="line"/>
+      <point x="308" y="-342" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>2c4e73a4d9d83cf02ae3af76ff95ad0140adff3093d3ad126e8f8f5eed0b3111</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>context</key>
+          <string>Only before acute U+0301 or grave U+0300; standalone U+1ECB remains unchanged.</string>
+          <key>genuineDotlessStem</key>
+          <dict>
+            <key>advance</key>
+            <integer>424</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>152236</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellersign/OTITravellerSign-Regular.ttf</string>
+              <key>sha256</key>
+              <string>a88d8e7dc45bc7b92d2490b09fd515756c54a59a30bad222192ef37d4ee508a1</string>
+            </dict>
+            <key>glyph</key>
+            <string>dotlessi</string>
+            <key>unicode</key>
+            <string>U+0131</string>
+          </dict>
+          <key>kind</key>
+          <string>context-only soft-dot alternate</string>
+          <key>removedContourRule</key>
+          <string>Only the i top-dot contour; preserve native stem and below-dot contours exactly.</string>
+          <key>semanticAnchorCorrection</key>
+          <string>New Sign bottom anchors use the actual complete ink bottom, including a below mark; covered native anchors elsewhere are untouched. Above-mark canonical composites do not invent an additional top route absent from the native model.</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>424</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>152236</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellersign/OTITravellerSign-Regular.ttf</string>
+              <key>sha256</key>
+              <string>a88d8e7dc45bc7b92d2490b09fd515756c54a59a30bad222192ef37d4ee508a1</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni1ECB</string>
+            <key>unicode</key>
+            <string>U+1ECB</string>
+          </dict>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

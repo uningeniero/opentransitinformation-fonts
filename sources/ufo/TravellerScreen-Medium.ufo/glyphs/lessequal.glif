@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="lessequal" format="2">
+  <advance width="510"/>
+  <unicode hex="2264"/>
+  <outline>
+    <component base="less" yOffset="55" identifier="component0"/>
+    <component base="minus" yOffset="-281" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+1
+PUSHB[ ]	/* 1 value pushed */
+55
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+1
+1
+PUSHW[ ]	/* 1 value pushed */
+-281
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>cb38df383b98b920783a9d368b5f980a0f8b6ce903745a1577cb2f583fc786986ce0a9b3b0742f243b75a0e51325722fcae0ecea1daa858bf845f3a78fb6f509</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

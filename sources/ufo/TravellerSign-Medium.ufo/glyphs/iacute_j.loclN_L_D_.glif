@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="iacute_j.loclNLD" format="2">
+  <advance width="896"/>
+  <anchor x="450" y="-484" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="78" y="1147" type="line"/>
+      <point x="78" y="1284" type="line"/>
+      <point x="374" y="1503" type="line"/>
+      <point x="374" y="1292" type="line"/>
+    </contour>
+    <contour>
+      <point x="524" y="1147" type="line"/>
+      <point x="524" y="1284" type="line"/>
+      <point x="821" y="1503" type="line"/>
+      <point x="821" y="1292" type="line"/>
+    </contour>
+    <contour>
+      <point x="119" y="0" type="line"/>
+      <point x="119" y="988" type="line"/>
+      <point x="328" y="988" type="line"/>
+      <point x="328" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="453" y="-484" type="line"/>
+      <point x="432" y="-318" type="line"/>
+      <point x="489" y="-315"/>
+      <point x="547" y="-289"/>
+      <point x="567" y="-214"/>
+      <point x="567" y="-135" type="qcurve"/>
+      <point x="567" y="988" type="line"/>
+      <point x="776" y="988" type="line"/>
+      <point x="776" y="-217" type="line"/>
+      <point x="776" y="-344"/>
+      <point x="627" y="-471"/>
+      <point x="526" y="-478" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 53 values pushed */
+7
+6
+5
+4
+3
+2
+1
+0
+8
+0
+74
+0
+2
+1
+4
+1
+2
+4
+128
+3
+1
+0
+0
+34
+77
+5
+1
+1
+1
+32
+77
+0
+4
+4
+36
+4
+78
+8
+8
+23
+22
+19
+18
+14
+13
+8
+11
+8
+11
+25
+6
+8
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>02217017ea9e2842647835a3f28245aff336966b12441dea8a6d75299103e5404048952d320983ae44b75fa8b527459db8728603741fef8fc8e0bdfb34a3623b</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

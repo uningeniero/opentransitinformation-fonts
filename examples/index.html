@@ -3,7 +3,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OTI Traveller Sign and OTI Traveller Screen - Open Transit Information</title>
+<title>Traveller Sign and Traveller Screen - Open Transit Information</title>
 <link rel="stylesheet" href="fonts.css">
 <style>
   * { box-sizing: border-box; }
@@ -15,10 +15,11 @@
   .panel { background: white; border: 1px solid #d4dce1; border-radius: 8px; padding: 24px; margin: 16px 0; }
   .sign { color: white; background: #163e52; }
   .line { font-size: clamp(1.7rem, 4.5vw, 3.25rem); line-height: 1.55; overflow-wrap: anywhere; }
-  .screen { font-family: "OTI Traveller Screen", sans-serif; }
-  .latin-sign { font-family: "OTI Traveller Sign", sans-serif; }
+  .screen { font-family: "Traveller Screen", sans-serif; }
+  .latin-sign { font-family: "Traveller Sign", sans-serif; }
   .native-sign { font-family: "Source Sans 3", sans-serif; }
   .numerals { font-feature-settings: "ss20" 1; }
+  .tabular { font-variant-numeric: tabular-nums; }
   .caption { font-size: .9rem; margin: 6px 0; }
   .weights { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 16px; }
   .weights p { margin: 0; font-size: 1.6rem; line-height: 1.5; }
@@ -26,15 +27,17 @@
 </style>
 <main>
   <a href="https://opentransitinformation.org">Open Transit Information</a>
-  <h1>OTI Traveller Sign<br>and OTI Traveller Screen</h1>
+  <h1>Traveller Sign<br>and Traveller Screen</h1>
   <h2>Sign - Latin</h2>
   <section class="panel sign" aria-label="Latin sign specimen">
     <div class="line latin-sign" data-resource="sign-latin" lang="eu">Bilbao - Donostia</div>
     <div class="line latin-sign" data-resource="sign-latin" lang="lt">Ą́ ę̃ į̇́ Ū́ - 08:45</div>
     <div class="line latin-sign" data-resource="sign-latin" lang="yo">Ẹ́ ẹ̀ Ọ́ ọ̀ - 10:30</div>
+    <div class="line latin-sign tabular" data-resource="sign-latin">08:45 - 0123456789</div>
+    <p class="caption">The last row enables optional tabular figures.</p>
   </section>
   <h2>Sign - separate native script resource</h2>
-  <p class="caption">These complete rows use the original Source Sans 3 resource, including figures and punctuation.</p>
+  <p class="caption">The Greek and Cyrillic rows use the original Source Sans 3 resource, including figures and punctuation.</p>
   <section class="panel sign" aria-label="Native Greek and Cyrillic sign specimens">
     <div class="line native-sign" data-resource="sign-greek-cyrillic-companion" lang="el">Αθήνα - 08:45</div>
     <div class="line native-sign" data-resource="sign-greek-cyrillic-companion" lang="bg">София - 10:30</div>
@@ -42,8 +45,8 @@
   </section>
   <h2>Screen</h2>
   <section class="panel screen" aria-label="Screen specimen">
-    <div class="line">Bilbao - London - Αθήνα</div>
-    <div class="line numerals">Il1 - O0 - 08:45 - 0123456789</div>
+    <div class="line" data-resource="screen-primary">Bilbao - London - Αθήνα</div>
+    <div class="line numerals" data-resource="screen-primary">Il1 - O0 - 08:45 - 0123456789</div>
     <p class="caption">The second row enables the optional ss20 numeral profile.</p>
     <div class="weights">
       <p style="font-weight:400">Regular<br><i>Regular Italic</i></p>
@@ -54,7 +57,7 @@
   </section>
   <footer>
     <p>Type specimens from Open Transit Information, coordinated by Álvaro Marín Abril. These rows illustrate typeface resources and do not represent an operator's service or timetable.</p>
-    <p>OTI Traveller Sign is adapted from Cabin with selected Fira Sans supplements. OTI Traveller Screen is adapted from Fira Sans. The separate Source Sans 3 resource retains its original Adobe attribution. See the repository README, source provenance and accompanying OFL notices.</p>
+    <p>Cabin, Fira Sans and selected Lato drawings supply the source material recorded in this release. The separate Source Sans 3 resource retains its native Adobe attribution. Preserve the accompanying OFL notices and contributor records. Source construction and file bindings are in the technical repository.</p>
   </footer>
 </main>
 </html>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="brevetilde" format="2">
+  <advance width="394"/>
+  <anchor x="0" y="0" name="base__Extension31__Anchor27__Anchor27"/>
+  <anchor x="197" y="877" name="base__Extension31__Anchor28__Anchor28"/>
+  <anchor x="0" y="0" name="base__Extension31__Anchor29__Anchor29"/>
+  <anchor x="0" y="0" name="base__Extension31__Anchor30__Anchor30"/>
+  <outline>
+    <component base="uni0306.case" xOffset="379" yOffset="-160" identifier="component0"/>
+    <component base="tildedbl" yOffset="137" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+1
+PUSHW[ ]	/* 1 value pushed */
+-160
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+1
+1
+PUSHB[ ]	/* 1 value pushed */
+137
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>0d31352d1acd99304157292d90c3ce4f0eb79ad4e081f29efb065fd7127989441a3978036f2c9c7cd4349921dff74401e5d31b76e628ec5553287b4407e26a02</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

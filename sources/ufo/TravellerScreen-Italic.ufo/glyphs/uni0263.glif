@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0263" format="2">
+  <advance width="486"/>
+  <unicode hex="0263"/>
+  <anchor x="179" y="-202" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="279" y="527" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="262" y="62" type="line"/>
+      <point x="283" y="11"/>
+      <point x="303" y="-54"/>
+      <point x="303" y="-87" type="qcurve"/>
+      <point x="303" y="-150"/>
+      <point x="237" y="-213"/>
+      <point x="179" y="-213" type="qcurve"/>
+      <point x="131" y="-213"/>
+      <point x="77" y="-164"/>
+      <point x="77" y="-124" type="qcurve"/>
+      <point x="77" y="-86"/>
+      <point x="122" y="7"/>
+      <point x="166" y="65" type="qcurve"/>
+      <point x="47" y="527" type="line"/>
+      <point x="146" y="527" type="line"/>
+      <point x="222" y="127" type="line"/>
+      <point x="414" y="527" type="line"/>
+      <point x="514" y="527" type="line"/>
+    </contour>
+    <contour>
+      <point x="224" y="-67"/>
+      <point x="216" y="-27"/>
+      <point x="207" y="2" type="qcurve"/>
+      <point x="186" y="-30"/>
+      <point x="156" y="-97"/>
+      <point x="156" y="-118" type="qcurve"/>
+      <point x="156" y="-144"/>
+      <point x="183" y="-144" type="qcurve"/>
+      <point x="224" y="-144"/>
+      <point x="224" y="-89" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 32 values pushed */
+20
+15
+12
+3
+3
+1
+1
+76
+2
+1
+1
+1
+83
+77
+0
+3
+3
+0
+98
+0
+0
+0
+85
+0
+78
+39
+18
+22
+37
+4
+11
+26
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>7821b4aa0bf6a7024c8cfa199a0b8ac690a594df4d90cc7bc342b55184347705fe000e7117f331aa3467be8e3ddf7f44d036f22bad3d2282e75b265147698237</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

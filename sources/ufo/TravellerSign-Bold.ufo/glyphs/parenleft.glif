@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="parenleft" format="2">
+  <advance width="656"/>
+  <unicode hex="0028"/>
+  <anchor x="360" y="-272" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="388" y="-272" type="line"/>
+      <point x="317" y="-163"/>
+      <point x="195" y="95"/>
+      <point x="120" y="414"/>
+      <point x="120" y="614" type="qcurve"/>
+      <point x="120" y="814"/>
+      <point x="195" y="1133"/>
+      <point x="317" y="1391"/>
+      <point x="388" y="1500" type="qcurve"/>
+      <point x="600" y="1500" type="line"/>
+      <point x="504" y="1337"/>
+      <point x="368" y="908"/>
+      <point x="368" y="614" type="qcurve"/>
+      <point x="368" y="320"/>
+      <point x="504" y="-108"/>
+      <point x="600" y="-272" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 22 values pushed */
+2
+1
+1
+1
+0
+95
+0
+0
+0
+33
+1
+78
+0
+0
+0
+15
+0
+15
+24
+3
+8
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d7d3e8cf226cbb6e57cd56e084dc0692e7e2f56f1f03da8d18ed2eac56e2f446fe5ba9273a46ce804bfa5b8b1c8e6fe10edfa2727611871c406dd4614fea36fb</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

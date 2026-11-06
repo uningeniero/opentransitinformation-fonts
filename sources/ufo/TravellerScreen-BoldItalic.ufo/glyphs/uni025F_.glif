@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni025F" format="2">
+  <advance width="336"/>
+  <unicode hex="025F"/>
+  <anchor x="101" y="-210" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="209" y="531" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="155" y="742" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="169" y="245" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="318" y="185" type="line"/>
+      <point x="238" y="185" type="line"/>
+      <point x="220" y="58" type="line"/>
+      <point x="209" y="-25"/>
+      <point x="143" y="-132"/>
+      <point x="45" y="-196"/>
+      <point x="-27" y="-222" type="qcurve"/>
+      <point x="-65" y="-110" type="line"/>
+      <point x="-4" y="-85"/>
+      <point x="55" y="-17"/>
+      <point x="65" y="52" type="qcurve"/>
+      <point x="84" y="185" type="line"/>
+      <point x="4" y="185" type="line"/>
+      <point x="21" y="307" type="line"/>
+      <point x="101" y="307" type="line"/>
+      <point x="132" y="531" type="line"/>
+      <point x="287" y="531" type="line"/>
+      <point x="255" y="307" type="line"/>
+      <point x="335" y="307" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 5 values pushed */
+7
+6
+2
+0
+73
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+45
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 15 values pushed */
+4
+1
+2
+1
+1
+0
+2
+0
+100
+0
+3
+3
+83
+3
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 24 values pushed */
+0
+3
+2
+3
+133
+4
+1
+2
+0
+0
+2
+87
+4
+1
+2
+2
+0
+96
+1
+1
+0
+2
+0
+80
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 8 values pushed */
+17
+17
+17
+26
+16
+5
+11
+27
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>63ba6709beb860679887dbd2a84afa6b0c9b372d5947a9e7cfa96c90fba6501c3be292e27356d4cbd7b095c89dfd0b082274a80d4d8e2aa2955a82dc4613960e</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

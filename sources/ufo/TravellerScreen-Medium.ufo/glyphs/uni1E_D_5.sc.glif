@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1ED5.sc" format="2">
+  <advance width="617"/>
+  <anchor x="309" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="409" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="471" y="1015" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="416" y="677" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <component base="o.sc" identifier="component0"/>
+    <component base="circumflexhookabove" xOffset="97" yOffset="37" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+2
+2
+PUSHB[ ]	/* 1 value pushed */
+37
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>615fa8de06213641d74c446d2269e2f908f3a6e2d0ad2a5e195d3044b578d07852b8749d97203864cdfb8b92ac3f0c629af102b98a3207f4458576b6352e6b79</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

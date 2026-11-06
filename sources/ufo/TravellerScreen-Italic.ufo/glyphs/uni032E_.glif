@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni032E" format="2">
+  <unicode hex="032E"/>
+  <anchor x="-230" y="0" name="_Anchor27__Anchor27"/>
+  <anchor x="-230" y="0" name="_Anchor33__Anchor33"/>
+  <anchor x="-230" y="0" name="_Anchor41__Anchor41"/>
+  <anchor x="-230" y="0" name="_Anchor47__Anchor47"/>
+  <anchor x="-230" y="0" name="_Anchor54_Anchor54_"/>
+  <anchor x="-230" y="0" name="_Anchor60_Anchor60_"/>
+  <outline>
+    <contour>
+      <point x="-334" y="-216"/>
+      <point x="-407" y="-142"/>
+      <point x="-405" y="-80" type="qcurve"/>
+      <point x="-343" y="-72" type="line"/>
+      <point x="-338" y="-110"/>
+      <point x="-303" y="-146"/>
+      <point x="-270" y="-146" type="qcurve"/>
+      <point x="-234" y="-146"/>
+      <point x="-180" y="-106"/>
+      <point x="-165" y="-68" type="qcurve"/>
+      <point x="-105" y="-86" type="line"/>
+      <point x="-120" y="-147"/>
+      <point x="-212" y="-216"/>
+      <point x="-272" y="-216" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>fa128e58b24d8d268c2dd54f0bedce0c487cd2a85f69a7e6e0b111ff24acfa2c</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>frame</key>
+          <dict>
+            <key>advance</key>
+            <integer>0</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>481068</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-Italic.ttf</string>
+              <key>sha256</key>
+              <string>70016ce4ff9e0a88eb92d0cf55ef522f7af99c928a255c6f21ac3cdf82b1bbfb</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni032D</string>
+            <key>unicode</key>
+            <string>U+032D</string>
+          </dict>
+          <key>gdefClass</key>
+          <integer>3</integer>
+          <key>kind</key>
+          <string>native breve translated below</string>
+          <key>orientation</key>
+          <string>Cup opens upward; not U+032F inverted breve.</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>0</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>481068</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-Italic.ttf</string>
+              <key>sha256</key>
+              <string>70016ce4ff9e0a88eb92d0cf55ef522f7af99c928a255c6f21ac3cdf82b1bbfb</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni0306</string>
+            <key>unicode</key>
+            <string>U+0306</string>
+          </dict>
+          <key>translate</key>
+          <array>
+            <real>-147.0</real>
+            <integer>-859</integer>
+          </array>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

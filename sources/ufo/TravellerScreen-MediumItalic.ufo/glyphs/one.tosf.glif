@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="one.tosf" format="2">
+  <advance width="560"/>
+  <outline>
+    <contour>
+      <point x="493" y="98" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="64" y="0" type="line"/>
+      <point x="77" y="98" type="line"/>
+      <point x="239" y="98" type="line"/>
+      <point x="286" y="432" type="line"/>
+      <point x="126" y="342" type="line"/>
+      <point x="81" y="433" type="line"/>
+      <point x="317" y="566" type="line"/>
+      <point x="428" y="566" type="line"/>
+      <point x="362" y="98" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 38 values pushed */
+7
+6
+5
+3
+1
+2
+1
+76
+0
+2
+1
+2
+133
+4
+3
+2
+1
+1
+0
+96
+0
+0
+0
+51
+0
+78
+0
+0
+0
+10
+0
+10
+20
+17
+17
+5
+9
+25
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w560l493+98l480+0l64+0l77+98l239+98l286+432l126+342l81+433l317+566l428+566l362+98|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

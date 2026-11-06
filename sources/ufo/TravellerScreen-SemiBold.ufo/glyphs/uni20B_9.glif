@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni20B9" format="2">
+  <advance width="539"/>
+  <unicode hex="20B9"/>
+  <outline>
+    <contour>
+      <point x="514" y="597" type="line"/>
+      <point x="363" y="597" type="line"/>
+      <point x="418" y="572"/>
+      <point x="438" y="513" type="qcurve"/>
+      <point x="514" y="513" type="line"/>
+      <point x="514" y="436" type="line"/>
+      <point x="447" y="436" type="line"/>
+      <point x="443" y="375"/>
+      <point x="376" y="293"/>
+      <point x="310" y="268" type="qcurve"/>
+      <point x="488" y="0" type="line"/>
+      <point x="326" y="0" type="line"/>
+      <point x="176" y="245" type="line"/>
+      <point x="51" y="245" type="line"/>
+      <point x="51" y="333" type="line"/>
+      <point x="175" y="333" type="line"/>
+      <point x="233" y="333"/>
+      <point x="293" y="379"/>
+      <point x="298" y="436" type="qcurve"/>
+      <point x="51" y="436" type="line"/>
+      <point x="51" y="513" type="line"/>
+      <point x="293" y="513" type="line"/>
+      <point x="283" y="553"/>
+      <point x="223" y="588"/>
+      <point x="169" y="588" type="qcurve"/>
+      <point x="51" y="588" type="line"/>
+      <point x="51" y="674" type="line"/>
+      <point x="514" y="674" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 66 values pushed */
+9
+1
+4
+5
+1
+76
+0
+8
+0
+1
+0
+8
+114
+0
+3
+4
+3
+134
+0
+9
+0
+0
+8
+9
+0
+103
+7
+1
+1
+6
+1
+2
+5
+1
+2
+103
+0
+5
+4
+4
+5
+87
+0
+5
+5
+4
+95
+0
+4
+5
+4
+79
+27
+26
+34
+17
+18
+33
+17
+20
+17
+18
+16
+10
+6
+31
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>fa74e20466159dea6c6b024496bceb7bb48a392ca898d93198512533579a9e3aebb0c8f38c9eca1d27f1e5db072df0c9912538f52a63cfc92bd29f0d10482450</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

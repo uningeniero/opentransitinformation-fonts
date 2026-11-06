@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni20A9" format="2">
+  <advance width="1934"/>
+  <unicode hex="20A9"/>
+  <anchor x="967" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="414" y="0" type="line"/>
+      <point x="270" y="644" type="line"/>
+      <point x="20" y="644" type="line"/>
+      <point x="20" y="808" type="line"/>
+      <point x="233" y="808" type="line"/>
+      <point x="100" y="1400" type="line"/>
+      <point x="366" y="1400" type="line"/>
+      <point x="481" y="808" type="line"/>
+      <point x="705" y="808" type="line"/>
+      <point x="878" y="1360" type="line"/>
+      <point x="1056" y="1360" type="line"/>
+      <point x="1236" y="808" type="line"/>
+      <point x="1460" y="808" type="line"/>
+      <point x="1568" y="1400" type="line"/>
+      <point x="1834" y="1400" type="line"/>
+      <point x="1694" y="808" type="line"/>
+      <point x="1914" y="808" type="line"/>
+      <point x="1914" y="644" type="line"/>
+      <point x="1656" y="644" type="line"/>
+      <point x="1504" y="0" type="line"/>
+      <point x="1278" y="0" type="line"/>
+      <point x="1083" y="644" type="line"/>
+      <point x="850" y="644" type="line"/>
+      <point x="656" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="900" y="808" type="line"/>
+      <point x="1033" y="808" type="line"/>
+      <point x="966" y="1028" type="line"/>
+    </contour>
+    <contour>
+      <point x="512" y="644" type="line"/>
+      <point x="567" y="365" type="line"/>
+      <point x="654" y="644" type="line"/>
+    </contour>
+    <contour>
+      <point x="1289" y="644" type="line"/>
+      <point x="1379" y="368" type="line"/>
+      <point x="1429" y="644" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+9
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 11 values pushed */
+26
+1
+1
+4
+31
+28
+2
+9
+0
+2
+76
+ELSE[ ]	/* Else */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+11
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 11 values pushed */
+26
+1
+1
+2
+31
+28
+2
+9
+0
+2
+76
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 11 values pushed */
+26
+1
+1
+4
+31
+28
+2
+9
+0
+2
+76
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+9
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 37 values pushed */
+12
+7
+5
+3
+4
+1
+17
+14
+16
+13
+10
+8
+6
+0
+9
+1
+0
+104
+6
+1
+2
+2
+31
+77
+0
+4
+4
+31
+77
+15
+11
+2
+9
+9
+32
+9
+78
+ELSE[ ]	/* Else */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+11
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 33 values pushed */
+12
+7
+5
+3
+4
+1
+17
+14
+16
+13
+10
+8
+6
+0
+9
+1
+0
+104
+6
+4
+2
+2
+2
+31
+77
+15
+11
+2
+9
+9
+32
+9
+78
+ELSE[ ]	/* Else */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+25
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 37 values pushed */
+12
+7
+5
+3
+4
+1
+17
+14
+16
+13
+10
+8
+6
+0
+9
+1
+0
+104
+6
+1
+2
+2
+31
+77
+0
+4
+4
+31
+77
+15
+11
+2
+9
+9
+32
+9
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 40 values pushed */
+0
+4
+2
+1
+2
+4
+1
+128
+12
+7
+5
+3
+4
+1
+17
+14
+16
+13
+10
+8
+6
+0
+9
+1
+0
+104
+6
+1
+2
+2
+31
+77
+15
+11
+2
+9
+9
+32
+9
+78
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 36 values pushed */
+30
+30
+27
+27
+0
+0
+30
+32
+30
+32
+27
+29
+27
+29
+25
+24
+0
+23
+0
+23
+22
+21
+20
+19
+17
+17
+17
+17
+17
+17
+17
+17
+17
+18
+8
+31
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>bdbdfe3c63611b44c8de3636e98ec016ce85c732a30efe8d2aacf8d992f864447db23abea5bcfa517176868957b4142dafe7f74afb6c4f075769ffb6434968ac</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

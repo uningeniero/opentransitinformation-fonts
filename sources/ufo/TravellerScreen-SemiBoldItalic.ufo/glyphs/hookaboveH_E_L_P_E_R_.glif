@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="hookaboveHELPER" format="2">
+  <advance width="395"/>
+  <outline>
+    <contour>
+      <point x="362" y="757"/>
+      <point x="425" y="724" type="qcurve"/>
+      <point x="376" y="631" type="line"/>
+      <point x="339" y="650"/>
+      <point x="296" y="650" type="qcurve"/>
+      <point x="259" y="650"/>
+      <point x="222" y="615"/>
+      <point x="217" y="577" type="qcurve"/>
+      <point x="210" y="529" type="line"/>
+      <point x="69" y="529" type="line"/>
+      <point x="77" y="585" type="line"/>
+      <point x="88" y="662"/>
+      <point x="198" y="757"/>
+      <point x="289" y="757" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 10 values pushed */
+1
+1
+0
+2
+2
+1
+1
+0
+2
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+11
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 24 values pushed */
+0
+1
+0
+0
+1
+113
+3
+1
+2
+0
+0
+2
+89
+3
+1
+2
+2
+0
+97
+0
+0
+2
+0
+81
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 23 values pushed */
+0
+1
+0
+1
+134
+3
+1
+2
+0
+0
+2
+89
+3
+1
+2
+2
+0
+97
+0
+0
+2
+0
+81
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 11 values pushed */
+0
+0
+0
+13
+0
+12
+19
+35
+4
+6
+24
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w395o362+757q425+724l376+631o339+650q296+650o259+650o222+615q217+577l210+529l69+529l77+585o88+662o198+757q289+757|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

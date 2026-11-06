@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni03BE" format="2">
+  <advance width="888"/>
+  <unicode hex="03BE"/>
+  <anchor x="577" y="1502" name="base__MarkToBase2__Anchor3__Anchor3"/>
+  <anchor x="445" y="-437" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="445" y="-437" name="base__MarkToBase2__Anchor5__Anchor5"/>
+  <outline>
+    <contour>
+      <point x="908" y="1412" type="qcurve"/>
+      <point x="815" y="1298" type="line"/>
+      <point x="756" y="1339"/>
+      <point x="648" y="1378"/>
+      <point x="581" y="1378" type="qcurve"/>
+      <point x="473" y="1378"/>
+      <point x="372" y="1272"/>
+      <point x="372" y="1181" type="qcurve"/>
+      <point x="372" y="1083"/>
+      <point x="486" y="971"/>
+      <point x="583" y="971" type="qcurve"/>
+      <point x="725" y="971" type="line"/>
+      <point x="701" y="817" type="line"/>
+      <point x="567" y="817" type="line"/>
+      <point x="445" y="817"/>
+      <point x="303" y="664"/>
+      <point x="303" y="536" type="qcurve"/>
+      <point x="303" y="447"/>
+      <point x="352" y="339"/>
+      <point x="469" y="260"/>
+      <point x="587" y="211" type="qcurve"/>
+      <point x="709" y="161"/>
+      <point x="839" y="83"/>
+      <point x="908" y="-18"/>
+      <point x="908" y="-93" type="qcurve"/>
+      <point x="908" y="-203"/>
+      <point x="756" y="-364"/>
+      <point x="587" y="-437" type="qcurve"/>
+      <point x="508" y="-307" type="line"/>
+      <point x="606" y="-266"/>
+      <point x="707" y="-181"/>
+      <point x="707" y="-116" type="qcurve"/>
+      <point x="707" y="-73"/>
+      <point x="669" y="-18"/>
+      <point x="575" y="33"/>
+      <point x="475" y="75" type="qcurve"/>
+      <point x="345" y="130"/>
+      <point x="191" y="232"/>
+      <point x="102" y="400"/>
+      <point x="102" y="532" type="qcurve"/>
+      <point x="102" y="697"/>
+      <point x="289" y="882"/>
+      <point x="425" y="900" type="qcurve"/>
+      <point x="309" y="933"/>
+      <point x="179" y="1077"/>
+      <point x="179" y="1191" type="qcurve"/>
+      <point x="179" y="1286"/>
+      <point x="272" y="1439"/>
+      <point x="443" y="1524"/>
+      <point x="557" y="1524" type="qcurve"/>
+      <point x="666" y="1524"/>
+      <point x="835" y="1469"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>50f9b28584aec435bcf80b63c04fa7c26a01ce478f6dbea92cd8bc7e7f112724</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>kind</key>
+          <string>same-style native Screen supplementary drawing</string>
+          <key>normalisation</key>
+          <string>established Sign Greek cap frame</string>
+          <key>rounding</key>
+          <string>otRound, at most 0.5 unit per coordinate</string>
+          <key>semanticAnchorCorrection</key>
+          <string>New Sign bottom anchors use the actual complete ink bottom, including a below mark; covered native anchors elsewhere are untouched. Above-mark canonical composites do not invent an additional top route absent from the native model.</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>437</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>475940</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-Regular.ttf</string>
+              <key>sha256</key>
+              <string>8183335d93e288a8094fccb946d28dbd744a472735f8ce694f2d88d8eaa9a488</string>
+            </dict>
+            <key>glyph</key>
+            <string>xi</string>
+            <key>unicode</key>
+            <string>U+03BE</string>
+          </dict>
+          <key>uniformScale</key>
+          <real>2.0319303338171264</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

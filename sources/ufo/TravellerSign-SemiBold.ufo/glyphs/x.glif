@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="x" format="2">
+  <advance width="970"/>
+  <unicode hex="0078"/>
+  <anchor x="485" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="970" y="993" name="base__SourceSignXDot__SourceSignXDotClass"/>
+  <outline>
+    <contour>
+      <point x="21" y="0" type="line"/>
+      <point x="356" y="496" type="line"/>
+      <point x="24" y="993" type="line"/>
+      <point x="285" y="993" type="line"/>
+      <point x="491" y="667" type="line"/>
+      <point x="680" y="993" type="line"/>
+      <point x="945" y="993" type="line"/>
+      <point x="616" y="501" type="line"/>
+      <point x="949" y="0" type="line"/>
+      <point x="687" y="0" type="line"/>
+      <point x="481" y="325" type="line"/>
+      <point x="283" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 35 values pushed */
+10
+7
+4
+1
+4
+2
+0
+1
+76
+1
+1
+0
+0
+34
+77
+4
+3
+2
+2
+2
+32
+2
+78
+0
+0
+0
+11
+0
+11
+18
+18
+18
+5
+8
+25
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w970l21+0l356+496l24+993l285+993l491+667l680+993l945+993l616+501l949+0l687+0l481+325l283+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

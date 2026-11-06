@@ -1,0 +1,176 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "fontVersion": "1.100",
+  "specimens": [
+    {
+      "family": "Traveller Sign",
+      "svg": {
+        "filename": "Traveller-Sign.svg",
+        "bytes": 141459,
+        "sha256": "3067f95fd16fff6d4fab20815e3082c98aee09131c03403b2188e47dca44a62f"
+      },
+      "png": {
+        "filename": "Traveller-Sign.png",
+        "bytes": 161061,
+        "sha256": "28b64f0e32dac8684f0d5d5a9bf509e9731947a90bbb0d1aca973c93b9574252",
+        "width": 1800,
+        "height": 2040,
+        "colourSpace": "sRGB with embedded ICC profile",
+        "opaque": true
+      },
+      "fontSources": [
+        {
+          "filename": "TravellerSign-Regular.ttf",
+          "bytes": 233796,
+          "sha256": "5159687003f6a9e4bce205b946b6030f2bb20b42f5ad0896408185934a2ba405"
+        },
+        {
+          "filename": "TravellerSign-Medium.ttf",
+          "bytes": 241884,
+          "sha256": "4a9c042a8c099318b4fda3ec43bc22d3c8b04acb8653ea0e76a29dc83212f186"
+        },
+        {
+          "filename": "TravellerSign-SemiBold.ttf",
+          "bytes": 242376,
+          "sha256": "bf44340907d61b0c869c13e1d82695697581eb6ce4f4d23a62c5a7927286131b"
+        },
+        {
+          "filename": "TravellerSign-Bold.ttf",
+          "bytes": 237204,
+          "sha256": "18841e11d0650ded90343c4de337de26031e551959be42e03df5f8bc603b699d"
+        }
+      ],
+      "uiFont": {
+        "filename": "PublicSans-Regular.woff2",
+        "bytes": 33612,
+        "sha256": "f3931c3c3ec5301043634ac8f39bcfa7b30d29181864f2fd0c3e6796feacc471"
+      },
+      "brandTokens": {
+        "filename": "brand-tokens.json",
+        "bytes": 2071,
+        "sha256": "aeb2aa3975f2f5e8b80d7062e972ae8cd1a9a01f1c1df9fba8da3db09170ccbd"
+      },
+      "publicCopy": {
+        "title": "Traveller Sign",
+        "description": "Alphabet, numerals and four weights of Traveller Sign.",
+        "familyDescriptor": "Four weights",
+        "hero": "Northbound",
+        "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "lowercase": "abcdefghijklmnopqrstuvwxyz",
+        "sample": "Central Station",
+        "numerals": "0123456789",
+        "styles": [
+          "Regular",
+          "Medium",
+          "SemiBold",
+          "Bold"
+        ],
+        "footer": [
+          "\u00c1lvaro Mar\u00edn Abril - Open Transit Information",
+          "https://opentransitinformation.org",
+          "Fonts: OFL 1.1 - Original notices in the repository",
+          "Font version 1.100 - Specimen 6 November 2026"
+        ]
+      },
+      "altText": "Alphabet, numerals and four weights of Traveller Sign.",
+      "publicCopySHA256": "407f15d8cc19c45e75eccd9cd2b775ae03609b64ca89ebca6b9fdcf86584aeec"
+    },
+    {
+      "family": "Traveller Screen",
+      "svg": {
+        "filename": "Traveller-Screen.svg",
+        "bytes": 190886,
+        "sha256": "8ec7bab091e00aaa553dfb6a0fc9cdb2419e18f8ea6213c0d9fd9e246114c756"
+      },
+      "png": {
+        "filename": "Traveller-Screen.png",
+        "bytes": 212955,
+        "sha256": "919fc068eebda67e795cc8c44e309c249b5e8833e683d3c0115e1c8e3988bfe5",
+        "width": 1800,
+        "height": 2040,
+        "colourSpace": "sRGB with embedded ICC profile",
+        "opaque": true
+      },
+      "fontSources": [
+        {
+          "filename": "TravellerScreen-Regular.ttf",
+          "bytes": 528104,
+          "sha256": "0f388a18474fdac15af1af4d6e12d6924abea889da38bad2e205c7c6a28bf236"
+        },
+        {
+          "filename": "TravellerScreen-Medium.ttf",
+          "bytes": 529820,
+          "sha256": "a74e958a4b553546aa43c6ef946d3f54f265bba96c9759aa3096bf9d3b6c9fd1"
+        },
+        {
+          "filename": "TravellerScreen-SemiBold.ttf",
+          "bytes": 562120,
+          "sha256": "da74a0af1056581f1f2ab31a7155fd46ec518f2d55c30b8a07d235e6e8878cad"
+        },
+        {
+          "filename": "TravellerScreen-Bold.ttf",
+          "bytes": 562504,
+          "sha256": "0d592c479c60eb82aa7c215e18a88f62409f137b76bbf12165df23c68a364ddb"
+        },
+        {
+          "filename": "TravellerScreen-Italic.ttf",
+          "bytes": 528800,
+          "sha256": "c99a0a7eeca7eea3c9a16e78d34cbf0501e83fde84c090a4f4fdfbf07ce559ac"
+        },
+        {
+          "filename": "TravellerScreen-MediumItalic.ttf",
+          "bytes": 530768,
+          "sha256": "425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c"
+        },
+        {
+          "filename": "TravellerScreen-SemiBoldItalic.ttf",
+          "bytes": 563396,
+          "sha256": "9502f1dcfebb12629946ee36cd398341cf475ca1db4c1087ea0e1ca573e4f427"
+        },
+        {
+          "filename": "TravellerScreen-BoldItalic.ttf",
+          "bytes": 563440,
+          "sha256": "62f71543c944cf5404a95d5c4018c8d96c97e8857642d56a5236f70cb9262635"
+        }
+      ],
+      "uiFont": {
+        "filename": "PublicSans-Regular.woff2",
+        "bytes": 33612,
+        "sha256": "f3931c3c3ec5301043634ac8f39bcfa7b30d29181864f2fd0c3e6796feacc471"
+      },
+      "brandTokens": {
+        "filename": "brand-tokens.json",
+        "bytes": 2071,
+        "sha256": "aeb2aa3975f2f5e8b80d7062e972ae8cd1a9a01f1c1df9fba8da3db09170ccbd"
+      },
+      "publicCopy": {
+        "title": "Traveller Screen",
+        "description": "Alphabet, numerals and four upright weights with their italic counterparts in Traveller Screen.",
+        "familyDescriptor": "Four weights with italics",
+        "hero": "Northbound",
+        "uppercase": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "lowercase": "abcdefghijklmnopqrstuvwxyz",
+        "sample": "Central Station",
+        "numerals": "0123456789",
+        "styles": [
+          "Regular",
+          "Medium",
+          "SemiBold",
+          "Bold",
+          "Italic",
+          "Medium Italic",
+          "SemiBold Italic",
+          "Bold Italic"
+        ],
+        "footer": [
+          "\u00c1lvaro Mar\u00edn Abril - Open Transit Information",
+          "https://opentransitinformation.org",
+          "Fonts: OFL 1.1 - Original notices in the repository",
+          "Font version 1.100 - Specimen 6 November 2026"
+        ]
+      },
+      "altText": "Alphabet, numerals and four upright weights with their italic counterparts in Traveller Screen.",
+      "publicCopySHA256": "8db8d0849357d25a05eade31c6a4d1cca48931f9b23cd915fd62961bade4e837"
+    }
+  ]
+}

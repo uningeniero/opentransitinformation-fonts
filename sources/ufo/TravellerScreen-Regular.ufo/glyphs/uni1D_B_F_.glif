@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1DBF" format="2">
+  <advance width="333"/>
+  <unicode hex="1DBF"/>
+  <outline>
+    <contour>
+      <point x="303" y="779"/>
+      <point x="303" y="585" type="qcurve"/>
+      <point x="303" y="491"/>
+      <point x="239" y="391"/>
+      <point x="164" y="391" type="qcurve"/>
+      <point x="94" y="391"/>
+      <point x="30" y="490"/>
+      <point x="30" y="583" type="qcurve"/>
+      <point x="30" y="680"/>
+      <point x="97" y="779"/>
+      <point x="168" y="779" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="132" y="721"/>
+      <point x="105" y="670"/>
+      <point x="103" y="608" type="qcurve"/>
+      <point x="230" y="608" type="line"/>
+      <point x="228" y="672"/>
+      <point x="203" y="721"/>
+      <point x="168" y="721" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="199" y="449"/>
+      <point x="228" y="503"/>
+      <point x="230" y="562" type="qcurve"/>
+      <point x="102" y="562" type="line"/>
+      <point x="104" y="504"/>
+      <point x="132" y="449"/>
+      <point x="164" y="449" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+34
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 32 values pushed */
+0
+2
+0
+4
+5
+2
+4
+103
+7
+1
+3
+3
+1
+97
+6
+1
+1
+1
+106
+77
+8
+1
+5
+5
+0
+97
+0
+0
+0
+114
+0
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 30 values pushed */
+6
+1
+1
+7
+1
+3
+2
+1
+3
+105
+0
+2
+0
+4
+5
+2
+4
+103
+8
+1
+5
+5
+0
+97
+0
+0
+0
+114
+0
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 26 values pushed */
+18
+18
+11
+11
+0
+0
+18
+24
+18
+23
+21
+20
+11
+17
+11
+16
+14
+13
+0
+10
+0
+9
+35
+9
+13
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>3d50f6862e4d8e2b3ef9a94b537ebfd50766a83bdb0b7f8bb3fbdd9becdc84ae5ecbce24fbb809f2e97330750c1f031e99fad2076debd35d87da0868dfdd6393</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

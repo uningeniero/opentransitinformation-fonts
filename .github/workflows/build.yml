@@ -3,7 +3,6 @@ name: Font source build
 on:
   push:
     branches: [main]
-    tags: ['v*']
   pull_request:
 permissions:
   contents: read
@@ -16,14 +15,20 @@ jobs:
         with:
           python-version: '3.12.14'
       - run: 'python -m pip install --require-hashes --only-binary=:all: -r requirements-build.lock'
-      - run: python scripts/build_baselines.py --output-dir build/baselines
-      - run: python scripts/build_release.py --baselines build/baselines --output-dir build/release
-      - run: python scripts/validate_release.py build/release
-      - run: python scripts/check_naming_successor.py build/release
-      - run: python scripts/check_reproduction.py build/release
-      - run: python scripts/check_ttx.py
+      - run: python scripts/build_ufo.py
+      - run: python scripts/validate_ufo.py build/production-1.1.0
+      - run: python scripts/check_reproduction.py build/production-1.1.0
       - name: Current primary QA
         shell: bash
         run: |
           tool=$(python scripts/fetch_fontspector.py)
-          python scripts/run_fontspector.py --binary "$tool" --folder build/release --output-dir build/qa
+          python scripts/run_fontspector.py --binary "$tool" --folder build/production-1.1.0 --output-dir build/qa-production-1.1.0
+      - name: Preserve actual production and raw QA
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: font-production-1.1.0-${{ github.sha }}
+          path: |
+            build/production-1.1.0/
+            build/qa-production-1.1.0/
+          retention-days: 7

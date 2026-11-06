@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1C89" format="2">
+  <advance width="692"/>
+  <unicode hex="1C89"/>
+  <anchor x="224" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="320" y="691" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="272" y="346" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="549" y="586" type="line"/>
+      <point x="371" y="586" type="line"/>
+      <point x="352" y="447" type="line"/>
+      <point x="430" y="447" type="line"/>
+      <point x="545" y="447"/>
+      <point x="671" y="348"/>
+      <point x="671" y="253" type="qcurve"/>
+      <point x="671" y="187"/>
+      <point x="611" y="72"/>
+      <point x="477" y="0"/>
+      <point x="371" y="0" type="qcurve"/>
+      <point x="158" y="0" type="line"/>
+      <point x="240" y="586" type="line"/>
+      <point x="56" y="586" type="line"/>
+      <point x="71" y="691" type="line"/>
+      <point x="578" y="691" type="line"/>
+    </contour>
+    <contour>
+      <point x="533" y="247" type="qcurve"/>
+      <point x="533" y="301"/>
+      <point x="473" y="351"/>
+      <point x="414" y="351" type="qcurve"/>
+      <point x="338" y="351" type="line"/>
+      <point x="303" y="99" type="line"/>
+      <point x="378" y="99" type="line"/>
+      <point x="463" y="99"/>
+      <point x="533" y="185"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>7989236840dee85cba49fef1e1410f3d3391fa6b66d7280c301e62f39c966d29</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>advanceRule</key>
+          <string>max(native soft-sign advance + body translation, native T-head advance)</string>
+          <key>body</key>
+          <dict>
+            <key>advance</key>
+            <integer>577</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>483176</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-MediumItalic.ttf</string>
+              <key>sha256</key>
+              <string>8883e63a834003158498e2e23f52273201d6149462381cc5da1a41d0f5559008</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni042C</string>
+            <key>unicode</key>
+            <string>U+042C</string>
+          </dict>
+          <key>bodyTranslateX</key>
+          <integer>115</integer>
+          <key>head</key>
+          <dict>
+            <key>advance</key>
+            <integer>522</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>483176</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-MediumItalic.ttf</string>
+              <key>sha256</key>
+              <string>8883e63a834003158498e2e23f52273201d6149462381cc5da1a41d0f5559008</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni0422</string>
+          </dict>
+          <key>headPointIndices</key>
+          <array>
+            <integer>0</integer>
+            <integer>5</integer>
+            <integer>6</integer>
+            <integer>7</integer>
+          </array>
+          <key>headTranslateY</key>
+          <integer>0</integer>
+          <key>kind</key>
+          <string>new modern Khanty Tje with native T-like head and closed right bowl</string>
+          <key>lowercaseUsesGenuineNativeSmallcapHead</key>
+          <false/>
+          <key>notTeSoftsignOrKomiAlias</key>
+          <true/>
+          <key>stemAlignmentY</key>
+          <integer>585</integer>
+          <key>union</key>
+          <string>PathOps geometric union; new intersections rounded to nearest integer, at most 0.5 unit</string>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

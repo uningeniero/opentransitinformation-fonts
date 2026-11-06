@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="Cacute" format="2">
+  <advance width="1226"/>
+  <unicode hex="0106"/>
+  <anchor x="619" y="-28" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <component base="C" identifier="component0"/>
+    <component base="acutecomb.case" xOffset="749" yOffset="420" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+1
+1
+PUSHW[ ]	/* 1 value pushed */
+420
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>b4e6d4714122e8711231031d4181aacb4360779178785293ab503e7d8b69d4a34b53e1e8d3c6c7946a4304872139c39f8ab931cf64ed9a10b86b58801c4065c4</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

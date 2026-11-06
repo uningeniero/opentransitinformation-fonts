@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="dieresis.sc" format="2">
+  <advance width="385"/>
+  <anchor x="195" y="718" name="mark2__MarkToMark55__Anchor56_Anchor56_"/>
+  <outline>
+    <component base="uni0308" xOffset="385" yOffset="30" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+2
+PUSHB[ ]	/* 1 value pushed */
+30
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4e15758cc8ade7fed7a486db39f699b9a6b18dbb1c5bff2fca8e7e61cbd4ce35160e60cce2138f39496cdf8cbeff9fb486576d5a93c5e882b7a0f98d5cb1cdd6</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

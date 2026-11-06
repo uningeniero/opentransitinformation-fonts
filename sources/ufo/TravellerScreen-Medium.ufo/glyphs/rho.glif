@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="rho" format="2">
+  <advance width="582"/>
+  <unicode hex="03C1"/>
+  <anchor x="287" y="-206" name="base__Extension45__Anchor40__Anchor40"/>
+  <anchor x="295" y="529" name="base__Extension45__Anchor41__Anchor41"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor42__Anchor42"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor43__Anchor43"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor44__Anchor44"/>
+  <outline>
+    <contour>
+      <point x="411" y="544"/>
+      <point x="534" y="401"/>
+      <point x="534" y="266" type="qcurve"/>
+      <point x="534" y="188"/>
+      <point x="484" y="60"/>
+      <point x="390" y="-15"/>
+      <point x="325" y="-15" type="qcurve"/>
+      <point x="240" y="-15"/>
+      <point x="192" y="49" type="qcurve"/>
+      <point x="192" y="-204" type="line"/>
+      <point x="64" y="-218" type="line"/>
+      <point x="64" y="273" type="line"/>
+      <point x="64" y="406"/>
+      <point x="180" y="544"/>
+      <point x="295" y="544" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="343" y="83"/>
+      <point x="400" y="174"/>
+      <point x="400" y="265" type="qcurve"/>
+      <point x="400" y="363"/>
+      <point x="348" y="449"/>
+      <point x="297" y="449" type="qcurve"/>
+      <point x="239" y="449"/>
+      <point x="192" y="357"/>
+      <point x="192" y="258" type="qcurve"/>
+      <point x="192" y="143" type="line"/>
+      <point x="226" y="83"/>
+      <point x="290" y="83" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 56 values pushed */
+24
+1
+3
+2
+8
+1
+0
+3
+2
+76
+10
+9
+2
+0
+73
+0
+2
+2
+1
+97
+4
+1
+1
+1
+73
+77
+5
+1
+3
+3
+0
+97
+0
+0
+0
+65
+0
+78
+15
+15
+0
+0
+15
+26
+15
+25
+21
+19
+0
+14
+0
+13
+37
+6
+10
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d67182f56e19fb8cff936d7a6744110c88fd419fa558c114f368cd6bef6ecfa22d725355a5f47bddefa6892f91e606ea5c181c89f817a62d1c8f6e29ce19d4bf</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

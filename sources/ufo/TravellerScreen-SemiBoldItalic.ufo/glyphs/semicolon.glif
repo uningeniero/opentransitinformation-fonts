@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="semicolon" format="2">
+  <advance width="243"/>
+  <unicode hex="003B"/>
+  <outline>
+    <component base="comma" xOffset="1" identifier="component0"/>
+    <component base="period" xOffset="52" yOffset="351" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+1
+1
+PUSHW[ ]	/* 1 value pushed */
+351
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>105a3a6b91c73deb01bb4ddc22d4ffcec032b2e98e28a78f16f6d667ca3e67fa4a51faefa573294aed8165afed596ffe248dbaafa52022a834742121117af094</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

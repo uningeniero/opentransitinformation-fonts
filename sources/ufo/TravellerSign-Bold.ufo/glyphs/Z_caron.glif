@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="Zcaron" format="2">
+  <advance width="1096"/>
+  <unicode hex="017D"/>
+  <anchor x="549" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <component base="Z" identifier="component0"/>
+    <component base="uni030C.case" xOffset="594" yOffset="400" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+1
+1
+PUSHW[ ]	/* 1 value pushed */
+400
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>5f452c5ca5b7f14344501d2fe7f541ef0944a4b6aa9c8dba7a50c0a065f8ace3beb53401e2c854714f51e6298c63a4734bb970e165e6d03b5ab60a83f06b191d</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

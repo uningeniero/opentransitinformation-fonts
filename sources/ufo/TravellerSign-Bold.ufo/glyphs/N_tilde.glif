@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="Ntilde" format="2">
+  <advance width="1414"/>
+  <unicode hex="00D1"/>
+  <anchor x="707" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <component base="N" identifier="component0"/>
+    <component base="tildecomb.case" xOffset="706" yOffset="400" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+1
+1
+PUSHW[ ]	/* 1 value pushed */
+400
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>30aed4fd5371bf1ab806cc4faa15a4153a7a83d2405a3b47e59f15dc7e5259b0178672454e5fa9506f262e3aa0c3614075b97364413929d4f024733648abd7c1</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

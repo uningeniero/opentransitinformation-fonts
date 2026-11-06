@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni049F" format="2">
+  <advance width="544"/>
+  <unicode hex="049F"/>
+  <outline>
+    <contour>
+      <point x="339" y="274" type="line"/>
+      <point x="467" y="0" type="line"/>
+      <point x="364" y="0" type="line"/>
+      <point x="259" y="239" type="line"/>
+      <point x="192" y="239" type="line"/>
+      <point x="158" y="0" type="line"/>
+      <point x="66" y="0" type="line"/>
+      <point x="146" y="566" type="line"/>
+      <point x="67" y="566" type="line"/>
+      <point x="77" y="636" type="line"/>
+      <point x="156" y="636" type="line"/>
+      <point x="170" y="738" type="line"/>
+      <point x="263" y="748" type="line"/>
+      <point x="247" y="636" type="line"/>
+      <point x="398" y="636" type="line"/>
+      <point x="379" y="566" type="line"/>
+      <point x="238" y="566" type="line"/>
+      <point x="202" y="311" type="line"/>
+      <point x="265" y="311" type="line"/>
+      <point x="341" y="419" type="line"/>
+      <point x="364" y="451"/>
+      <point x="395" y="489"/>
+      <point x="450" y="529"/>
+      <point x="487" y="539" type="qcurve"/>
+      <point x="516" y="470" type="line"/>
+      <point x="480" y="459"/>
+      <point x="430" y="403"/>
+      <point x="385" y="339" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 47 values pushed */
+24
+23
+2
+7
+3
+1
+76
+12
+1
+4
+74
+5
+1
+4
+6
+1
+3
+7
+4
+3
+103
+0
+7
+0
+1
+0
+7
+1
+103
+2
+1
+0
+0
+51
+0
+78
+17
+17
+19
+17
+17
+17
+17
+17
+8
+9
+30
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>03ecb1c39adef820c524fe71dd657d4ec745ce632f11f5bbf62aaa011f00ed55f1837a1dcf83a579adf0d67cc9cba5b6144507493af859e981b7cd5db0686344</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

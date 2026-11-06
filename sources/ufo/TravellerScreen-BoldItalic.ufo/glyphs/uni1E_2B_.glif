@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1E2B" format="2">
+  <advance width="567"/>
+  <unicode hex="1E2B"/>
+  <anchor x="249" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="350" y="742" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="283" y="266" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="466" y="548"/>
+      <point x="530" y="480"/>
+      <point x="530" y="419" type="qcurve"/>
+      <point x="530" y="397"/>
+      <point x="528" y="385" type="qcurve"/>
+      <point x="474" y="0" type="line"/>
+      <point x="319" y="0" type="line"/>
+      <point x="368" y="351" type="line"/>
+      <point x="370" y="371"/>
+      <point x="370" y="377" type="qcurve"/>
+      <point x="370" y="400"/>
+      <point x="354" y="419"/>
+      <point x="338" y="419" type="qcurve"/>
+      <point x="283" y="419"/>
+      <point x="219" y="292" type="qcurve"/>
+      <point x="178" y="0" type="line"/>
+      <point x="23" y="0" type="line"/>
+      <point x="127" y="742" type="line"/>
+      <point x="284" y="758" type="line"/>
+      <point x="240" y="442" type="line"/>
+      <point x="269" y="490"/>
+      <point x="358" y="548"/>
+      <point x="409" y="548" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="125" y="-252"/>
+      <point x="48" y="-153"/>
+      <point x="52" y="-78" type="qcurve"/>
+      <point x="139" y="-65" type="line"/>
+      <point x="145" y="-142"/>
+      <point x="209" y="-142" type="qcurve"/>
+      <point x="243" y="-142"/>
+      <point x="293" y="-100"/>
+      <point x="307" y="-63" type="qcurve"/>
+      <point x="390" y="-81" type="line"/>
+      <point x="374" y="-156"/>
+      <point x="274" y="-252"/>
+      <point x="200" y="-252" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>2030b2a28bcaafd8b472f63371fd184a57d583bfd28915bb5ab7de4b6c92b0ca</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>body</key>
+          <dict>
+            <key>advance</key>
+            <integer>567</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>515096</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-BoldItalic.ttf</string>
+              <key>sha256</key>
+              <string>1eeb9ad892580a3bd7424f49cb1c9514ab73a521be7329032e5ee808819e868a</string>
+            </dict>
+            <key>glyph</key>
+            <string>h</string>
+            <key>unicode</key>
+            <string>U+0068</string>
+          </dict>
+          <key>kind</key>
+          <string>native H/h plus new breve below</string>
+          <key>markSource</key>
+          <string>uni032E</string>
+          <key>nativeBelowRoute</key>
+          <dict>
+            <key>base</key>
+            <array>
+              <integer>249</integer>
+              <integer>0</integer>
+            </array>
+            <key>class</key>
+            <integer>0</integer>
+            <key>lookup</key>
+            <integer>6</integer>
+            <key>mark</key>
+            <array>
+              <integer>-251</integer>
+              <integer>0</integer>
+            </array>
+            <key>markGlyph</key>
+            <string>uni032D</string>
+          </dict>
+          <key>translation</key>
+          <array>
+            <integer>500</integer>
+            <integer>0</integer>
+          </array>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

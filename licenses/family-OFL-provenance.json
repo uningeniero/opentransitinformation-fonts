@@ -1,0 +1,8 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "source": "https://github.com/googlefonts/googlefonts-project-template/blob/17b624b0d3b2d221edf5e5adfe33ac09344b6c1d/OFL.txt",
+  "templateGitBlob": "2b28cf980826c1697162b3b42aaa45da8213e2b0",
+  "templateSha256": "1dddf4632c0f7c4eef0ed7a88621aae99d48efe5e4204a961ed2679a5d6505f2",
+  "familyLicenseRule": "Replace only the first notice line. Preserve the complete canonical body and the separate unchanged original source notices.",
+  "license": "OFL-1.1"
+}

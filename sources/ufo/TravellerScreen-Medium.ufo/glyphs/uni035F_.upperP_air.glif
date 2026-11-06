@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni035F.upperPair" format="2">
+  <anchor x="0" y="0" name="_Anchor27__Anchor27"/>
+  <anchor x="0" y="0" name="_Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="_Anchor40__Anchor40"/>
+  <anchor x="0" y="0" name="_Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="_Anchor54_Anchor54_"/>
+  <anchor x="0" y="0" name="_Anchor60_Anchor60_"/>
+  <outline>
+    <contour>
+      <point x="-145" y="-182" type="line"/>
+      <point x="-145" y="-91" type="line"/>
+      <point x="747" y="-91" type="line"/>
+      <point x="747" y="-182" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>a991635bbf21b11c135e36389020e1812ff30c61db1d65c76c85631787fc669f</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>context</key>
+          <string>TH</string>
+          <key>gdefClass</key>
+          <integer>3</integer>
+          <key>kind</key>
+          <string>genuine native below-macron stroke extended along its long axis</string>
+          <key>placement</key>
+          <dict>
+            <key>baseAnchor</key>
+            <array>
+              <integer>265</integer>
+              <integer>0</integer>
+            </array>
+            <key>end</key>
+            <real>1011.5</real>
+            <key>markAnchor</key>
+            <array>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+            <key>nativePair</key>
+            <array>
+              <dict>
+                <key>advance</key>
+                <integer>530</integer>
+                <key>glyph</key>
+                <string>T</string>
+                <key>x</key>
+                <integer>0</integer>
+                <key>y</key>
+                <integer>0</integer>
+              </dict>
+              <dict>
+                <key>advance</key>
+                <integer>672</integer>
+                <key>glyph</key>
+                <string>H</string>
+                <key>x</key>
+                <integer>0</integer>
+                <key>y</key>
+                <integer>0</integer>
+              </dict>
+            </array>
+            <key>span</key>
+            <real>892.0</real>
+            <key>start</key>
+            <real>119.5</real>
+            <key>text</key>
+            <string>TH</string>
+            <key>top</key>
+            <integer>-91</integer>
+          </dict>
+          <key>preserveTransverseWeightAndEndCuts</key>
+          <true/>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>0</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>477528</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-Medium.ttf</string>
+              <key>sha256</key>
+              <string>2591f772e5b2ba456dd56d833ae3a229c87f3edf626d44c407e6e96ea31d71b2</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni0331</string>
+            <key>unicode</key>
+            <string>U+0331</string>
+          </dict>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

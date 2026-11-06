@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="ncaron" format="2">
+  <advance width="1112"/>
+  <unicode hex="0148"/>
+  <anchor x="561" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <component base="n" identifier="component0"/>
+    <component base="uni030C" xOffset="587" yOffset="-8" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+1
+1
+PUSHW[ ]	/* 1 value pushed */
+-8
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>64dcf5d355ddbfbd83c18f1603e5feb6f4807d35b3a3c171dc1e1c7bea10ce5c8033e72b55d5f8670b2055449abde689f1ac9eaa8e49f70adc5d037abec06988</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

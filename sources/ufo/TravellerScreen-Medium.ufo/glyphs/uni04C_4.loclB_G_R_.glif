@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni04C4.loclBGR" format="2">
+  <advance width="548"/>
+  <anchor x="273" y="-206" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="273" y="529" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="438" y="297"/>
+      <point x="505" y="216"/>
+      <point x="505" y="145" type="qcurve"/>
+      <point x="505" y="-43" type="line"/>
+      <point x="505" y="-128"/>
+      <point x="410" y="-218"/>
+      <point x="329" y="-218" type="qcurve"/>
+      <point x="252" y="-218"/>
+      <point x="200" y="-177" type="qcurve"/>
+      <point x="245" y="-101" type="line"/>
+      <point x="267" y="-112"/>
+      <point x="296" y="-121"/>
+      <point x="317" y="-121" type="qcurve"/>
+      <point x="377" y="-121"/>
+      <point x="377" y="-54" type="qcurve"/>
+      <point x="377" y="142" type="line"/>
+      <point x="377" y="187"/>
+      <point x="340" y="223"/>
+      <point x="295" y="223" type="qcurve"/>
+      <point x="203" y="224" type="line"/>
+      <point x="203" y="0" type="line"/>
+      <point x="75" y="0" type="line"/>
+      <point x="75" y="741" type="line"/>
+      <point x="203" y="755" type="line"/>
+      <point x="203" y="308" type="line"/>
+      <point x="258" y="308" type="line"/>
+      <point x="384" y="529" type="line"/>
+      <point x="511" y="529" type="line"/>
+      <point x="374" y="306" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 57 values pushed */
+28
+1
+2
+4
+9
+1
+1
+3
+8
+1
+0
+1
+3
+76
+23
+22
+2
+5
+74
+0
+4
+0
+2
+3
+4
+2
+103
+0
+5
+5
+52
+77
+0
+3
+3
+51
+77
+0
+1
+1
+0
+98
+0
+0
+0
+54
+0
+78
+17
+19
+17
+36
+36
+37
+6
+9
+28
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>84feabf0348d7eee3d6d17a482a793056ffb7fd59e51d31ebee2490c72ea58bf9a89b5d13c757f97b2660967c2cdef4366a3bf661016364f465888a5b9ce3939</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

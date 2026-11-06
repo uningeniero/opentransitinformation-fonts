@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="KsicyHELPER" format="2">
+  <advance width="523"/>
+  <anchor x="0" y="0" name="base__Extension31__Anchor27__Anchor27"/>
+  <anchor x="303" y="693" name="base__Extension31__Anchor28__Anchor28"/>
+  <anchor x="0" y="0" name="base__Extension31__Anchor29__Anchor29"/>
+  <anchor x="0" y="0" name="base__Extension31__Anchor30__Anchor30"/>
+  <outline>
+    <contour>
+      <point x="506" y="580" type="line"/>
+      <point x="302" y="392" type="line"/>
+      <point x="390" y="387"/>
+      <point x="488" y="295"/>
+      <point x="488" y="212" type="qcurve"/>
+      <point x="488" y="108"/>
+      <point x="355" y="-3"/>
+      <point x="255" y="-26" type="qcurve"/>
+      <point x="199" y="-39"/>
+      <point x="149" y="-54"/>
+      <point x="130" y="-71"/>
+      <point x="130" y="-84" type="qcurve"/>
+      <point x="130" y="-98"/>
+      <point x="151" y="-120"/>
+      <point x="174" y="-130" type="qcurve"/>
+      <point x="126" y="-215" type="line"/>
+      <point x="59" y="-192"/>
+      <point x="-11" y="-125"/>
+      <point x="-11" y="-74" type="qcurve"/>
+      <point x="-11" y="-10"/>
+      <point x="78" y="53"/>
+      <point x="160" y="72" type="qcurve"/>
+      <point x="214" y="85"/>
+      <point x="282" y="114"/>
+      <point x="321" y="166"/>
+      <point x="321" y="208" type="qcurve"/>
+      <point x="321" y="258"/>
+      <point x="266" y="299"/>
+      <point x="206" y="299" type="qcurve"/>
+      <point x="113" y="299" type="line"/>
+      <point x="114" y="300" type="line"/>
+      <point x="125" y="390" type="line"/>
+      <point x="328" y="576" type="line"/>
+      <point x="70" y="576" type="line"/>
+      <point x="87" y="693" type="line"/>
+      <point x="521" y="693" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 5 values pushed */
+15
+14
+2
+1
+73
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+45
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 23 values pushed */
+0
+0
+2
+1
+2
+0
+1
+128
+0
+1
+1
+132
+0
+2
+2
+3
+95
+0
+3
+3
+50
+2
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 28 values pushed */
+0
+0
+2
+1
+2
+0
+1
+128
+0
+1
+1
+132
+0
+3
+2
+2
+3
+87
+0
+3
+3
+2
+95
+0
+2
+3
+2
+79
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 10 values pushed */
+35
+34
+33
+32
+29
+27
+17
+4
+9
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>2322bfd4796eec2a66b1a9acf77acb15bda0d740086e75441c4d7575ba5e1d64f163ef3b9a8d683b6eecb8fdaa6c8261e61ff5cf163831e674fb5ac3518d69be</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

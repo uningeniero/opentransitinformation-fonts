@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1E8B" format="2">
+  <advance width="982"/>
+  <unicode hex="1E8B"/>
+  <anchor x="491" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="491" y="0" name="base__MarkToBase2__Anchor5__Anchor5"/>
+  <outline>
+    <contour>
+      <point x="20" y="0" type="line"/>
+      <point x="352" y="500" type="line"/>
+      <point x="20" y="1000" type="line"/>
+      <point x="316" y="1000" type="line"/>
+      <point x="498" y="710" type="line"/>
+      <point x="666" y="1000" type="line"/>
+      <point x="962" y="1000" type="line"/>
+      <point x="630" y="500" type="line"/>
+      <point x="962" y="0" type="line"/>
+      <point x="666" y="0" type="line"/>
+      <point x="484" y="290" type="line"/>
+      <point x="316" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="387" y="1204" type="line"/>
+      <point x="387" y="1398" type="line"/>
+      <point x="595" y="1398" type="line"/>
+      <point x="595" y="1204" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>b796d448675597ace87dfff2dfe14f1f16e96dbc6e9a95bef580e19e33aa88a6</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>baselineFont</key>
+          <dict>
+            <key>bytes</key>
+            <integer>151288</integer>
+            <key>path</key>
+            <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellersign/OTITravellerSign-Bold.ttf</string>
+            <key>sha256</key>
+            <string>01a0fd6fbcf62308669b698d649d0d817bf2b655f87188ef01b6c63a6a0d3a23</string>
+          </dict>
+          <key>kind</key>
+          <string>native canonical composition</string>
+          <key>nativeNfd</key>
+          <array>
+            <dict>
+              <key>advance</key>
+              <integer>982</integer>
+              <key>glyph</key>
+              <string>x</string>
+              <key>x</key>
+              <integer>0</integer>
+              <key>y</key>
+              <integer>0</integer>
+            </dict>
+            <dict>
+              <key>advance</key>
+              <integer>0</integer>
+              <key>glyph</key>
+              <string>uni0307</string>
+              <key>x</key>
+              <integer>0</integer>
+              <key>y</key>
+              <integer>0</integer>
+            </dict>
+          </array>
+          <key>newScopedRoute</key>
+          <dict>
+            <key>baseAnchor</key>
+            <array>
+              <integer>491</integer>
+              <integer>1000</integer>
+            </array>
+            <key>baseGlyph</key>
+            <string>x</string>
+            <key>mark</key>
+            <string>U+0307</string>
+            <key>markAnchor</key>
+            <array>
+              <integer>0</integer>
+              <integer>1000</integer>
+            </array>
+          </dict>
+          <key>oldNfdHasUnattachedZeroOffsetMark</key>
+          <true/>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

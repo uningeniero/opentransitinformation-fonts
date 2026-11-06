@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="parenright.numr" format="2">
+  <advance width="396"/>
+  <outline>
+    <component base="parenright.dnom" yOffset="277" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+1
+PUSHW[ ]	/* 1 value pushed */
+277
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>79600bb799549fe68b0ab0ff5ad35a9424aae5dd7990b8deb5bcfdac99ca46ea4f7665b3bfc25d8e7c52b885e073e51f341aa92645f1326bad9730e8b769fbb3</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

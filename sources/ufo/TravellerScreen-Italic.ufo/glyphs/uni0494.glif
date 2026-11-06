@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0494" format="2">
+  <advance width="601"/>
+  <unicode hex="0494"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="360" y="689" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="471" y="442"/>
+      <point x="565" y="350"/>
+      <point x="565" y="268" type="qcurve"/>
+      <point x="565" y="254"/>
+      <point x="561" y="222" type="qcurve"/>
+      <point x="529" y="0" type="line"/>
+      <point x="521" y="-60" type="line"/>
+      <point x="510" y="-137"/>
+      <point x="422" y="-213"/>
+      <point x="353" y="-213" type="qcurve"/>
+      <point x="290" y="-213"/>
+      <point x="242" y="-173" type="qcurve"/>
+      <point x="283" y="-115" type="line"/>
+      <point x="301" y="-127"/>
+      <point x="329" y="-137"/>
+      <point x="351" y="-137" type="qcurve"/>
+      <point x="415" y="-137"/>
+      <point x="427" y="-60" type="qcurve"/>
+      <point x="435" y="0" type="line"/>
+      <point x="467" y="227" type="line"/>
+      <point x="470" y="247"/>
+      <point x="470" y="262" type="qcurve"/>
+      <point x="470" y="312"/>
+      <point x="417" y="361"/>
+      <point x="360" y="361" type="qcurve"/>
+      <point x="309" y="361"/>
+      <point x="230" y="320"/>
+      <point x="196" y="282" type="qcurve"/>
+      <point x="156" y="0" type="line"/>
+      <point x="62" y="0" type="line"/>
+      <point x="159" y="689" type="line"/>
+      <point x="551" y="689" type="line"/>
+      <point x="526" y="609" type="line"/>
+      <point x="242" y="609" type="line"/>
+      <point x="209" y="376" type="line"/>
+      <point x="280" y="442"/>
+      <point x="385" y="442" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 64 values pushed */
+34
+1
+2
+6
+12
+1
+1
+3
+11
+1
+0
+1
+3
+76
+7
+1
+6
+0
+2
+3
+6
+2
+105
+0
+5
+5
+4
+95
+0
+4
+4
+50
+77
+0
+3
+3
+51
+77
+0
+1
+1
+0
+97
+0
+0
+0
+54
+0
+78
+0
+0
+0
+36
+0
+35
+17
+17
+19
+39
+36
+40
+8
+9
+28
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>b58a7fa4dfa64aaa5a07f191ca01ddf7ebc9ec179f42aeb6eff7415a2b351c46e7e02a5f0b78d5e36dbbe7d2e5ead5e02066a56f4f260dbd5b5ed2839c372888</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="Ecaron" format="2">
+  <advance width="1120"/>
+  <unicode hex="011A"/>
+  <anchor x="603" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <component base="E" identifier="component0"/>
+    <component base="uni030C.case" xOffset="614" yOffset="412" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+1
+1
+PUSHW[ ]	/* 1 value pushed */
+412
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8ac52bb1d68ce68f92480aa1463300581d39a5bc1528d73dbea92f40660aff603a77ccf461bce0bd28cdec66a9a1dd3301c887f3b45afd29a5c41a89cb9df5d7</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

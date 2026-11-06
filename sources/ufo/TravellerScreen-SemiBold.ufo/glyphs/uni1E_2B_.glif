@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1E2B" format="2">
+  <advance width="575"/>
+  <unicode hex="1E2B"/>
+  <anchor x="291" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="288" y="741" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="288" y="265" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="434" y="546"/>
+      <point x="513" y="461"/>
+      <point x="513" y="386" type="qcurve"/>
+      <point x="513" y="0" type="line"/>
+      <point x="371" y="0" type="line"/>
+      <point x="371" y="362" type="line"/>
+      <point x="371" y="405"/>
+      <point x="341" y="440"/>
+      <point x="312" y="440" type="qcurve"/>
+      <point x="283" y="440"/>
+      <point x="233" y="403"/>
+      <point x="210" y="367" type="qcurve"/>
+      <point x="210" y="0" type="line"/>
+      <point x="68" y="0" type="line"/>
+      <point x="68" y="741" type="line"/>
+      <point x="210" y="756" type="line"/>
+      <point x="210" y="469" type="line"/>
+      <point x="273" y="546"/>
+      <point x="364" y="546" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="219" y="-242"/>
+      <point x="130" y="-151"/>
+      <point x="124" y="-79" type="qcurve"/>
+      <point x="205" y="-64" type="line"/>
+      <point x="224" y="-142"/>
+      <point x="291" y="-142" type="qcurve"/>
+      <point x="357" y="-142"/>
+      <point x="378" y="-64" type="qcurve"/>
+      <point x="459" y="-79" type="line"/>
+      <point x="453" y="-151"/>
+      <point x="363" y="-242"/>
+      <point x="291" y="-242" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>0794a58b8db7452188d723a5e89ce8306396394e4fe5f7683533c0ffbc77f52f</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>body</key>
+          <dict>
+            <key>advance</key>
+            <integer>575</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>509480</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-SemiBold.ttf</string>
+              <key>sha256</key>
+              <string>7078b9f92895b0c3b72306fce238334d2ac1d46bde624b0a9d76e9a8e5d04ed9</string>
+            </dict>
+            <key>glyph</key>
+            <string>h</string>
+            <key>unicode</key>
+            <string>U+0068</string>
+          </dict>
+          <key>kind</key>
+          <string>native H/h plus new breve below</string>
+          <key>markSource</key>
+          <string>uni032E</string>
+          <key>nativeBelowRoute</key>
+          <dict>
+            <key>base</key>
+            <array>
+              <integer>291</integer>
+              <integer>0</integer>
+            </array>
+            <key>class</key>
+            <integer>0</integer>
+            <key>lookup</key>
+            <integer>6</integer>
+            <key>mark</key>
+            <array>
+              <integer>-214</integer>
+              <integer>0</integer>
+            </array>
+            <key>markGlyph</key>
+            <string>uni032D</string>
+          </dict>
+          <key>translation</key>
+          <array>
+            <integer>505</integer>
+            <integer>0</integer>
+          </array>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

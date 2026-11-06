@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni02E2" format="2">
+  <advance width="310"/>
+  <unicode hex="02E2"/>
+  <outline>
+    <contour>
+      <point x="273" y="673"/>
+      <point x="319" y="638" type="qcurve"/>
+      <point x="281" y="594" type="line"/>
+      <point x="264" y="605"/>
+      <point x="233" y="614"/>
+      <point x="214" y="614" type="qcurve"/>
+      <point x="192" y="614"/>
+      <point x="169" y="602"/>
+      <point x="169" y="591" type="qcurve"/>
+      <point x="169" y="581"/>
+      <point x="190" y="571"/>
+      <point x="224" y="563" type="qcurve"/>
+      <point x="268" y="552"/>
+      <point x="308" y="518"/>
+      <point x="308" y="489" type="qcurve"/>
+      <point x="308" y="441"/>
+      <point x="229" y="391"/>
+      <point x="173" y="391" type="qcurve"/>
+      <point x="102" y="391"/>
+      <point x="55" y="431" type="qcurve"/>
+      <point x="95" y="475" type="line"/>
+      <point x="116" y="461"/>
+      <point x="151" y="450"/>
+      <point x="175" y="450" type="qcurve"/>
+      <point x="198" y="450"/>
+      <point x="227" y="465"/>
+      <point x="227" y="480" type="qcurve"/>
+      <point x="227" y="491"/>
+      <point x="206" y="502"/>
+      <point x="170" y="511" type="qcurve"/>
+      <point x="129" y="521"/>
+      <point x="89" y="556"/>
+      <point x="89" y="585" type="qcurve"/>
+      <point x="89" y="623"/>
+      <point x="158" y="673"/>
+      <point x="215" y="673" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 49 values pushed */
+1
+1
+0
+3
+20
+2
+2
+2
+0
+19
+1
+1
+2
+3
+76
+0
+0
+0
+3
+97
+4
+1
+3
+3
+113
+77
+0
+2
+2
+1
+97
+0
+1
+1
+114
+1
+78
+0
+0
+0
+35
+0
+34
+36
+42
+36
+5
+13
+25
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>2cffa12467131c22992775a179f8c7a6683fc8820f7086e7d0396e4c23f74014810656871dfcac2f264cb472652c2c923a566a172c06a464e6f345a6f6ea1703</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

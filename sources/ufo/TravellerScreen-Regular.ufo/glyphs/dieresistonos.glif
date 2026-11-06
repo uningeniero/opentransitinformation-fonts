@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="dieresistonos" format="2">
+  <advance width="385"/>
+  <unicode hex="0385"/>
+  <outline>
+    <contour>
+      <point x="254" y="906" type="line"/>
+      <point x="224" y="730" type="line"/>
+      <point x="167" y="730" type="line"/>
+      <point x="169" y="913" type="line"/>
+    </contour>
+    <contour>
+      <point x="112" y="738"/>
+      <point x="145" y="705"/>
+      <point x="145" y="681" type="qcurve"/>
+      <point x="145" y="657"/>
+      <point x="112" y="624"/>
+      <point x="88" y="624" type="qcurve"/>
+      <point x="63" y="624"/>
+      <point x="30" y="657"/>
+      <point x="30" y="681" type="qcurve"/>
+      <point x="30" y="705"/>
+      <point x="63" y="738"/>
+      <point x="88" y="738" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="322" y="738"/>
+      <point x="355" y="705"/>
+      <point x="355" y="681" type="qcurve"/>
+      <point x="355" y="657"/>
+      <point x="322" y="624"/>
+      <point x="297" y="624" type="qcurve"/>
+      <point x="273" y="624"/>
+      <point x="240" y="657"/>
+      <point x="240" y="681" type="qcurve"/>
+      <point x="240" y="705"/>
+      <point x="273" y="738"/>
+      <point x="297" y="738" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 54 values pushed */
+3
+1
+2
+74
+0
+0
+2
+1
+2
+0
+1
+128
+6
+4
+5
+3
+2
+0
+1
+2
+89
+6
+4
+5
+3
+2
+2
+1
+97
+3
+1
+1
+2
+1
+81
+16
+16
+4
+4
+16
+27
+16
+26
+22
+20
+4
+15
+4
+14
+38
+17
+7
+10
+24
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>18ca51d4f11b1de4d1400cef0a10431d4a075c5e7bc0fe8a1d7c084fd6d5f4392ff185df86928c54913c7ba27c14ec9320fb5083b6a3d2018fdd705bade28e3d</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

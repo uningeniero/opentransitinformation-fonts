@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0508.loclBGR" format="2">
+  <advance width="856"/>
+  <anchor x="423" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="520" y="691" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="466" y="-15"/>
+      <point x="374" y="74"/>
+      <point x="365" y="172" type="qcurve"/>
+      <point x="322" y="590" type="line"/>
+      <point x="93" y="0" type="line"/>
+      <point x="-43" y="0" type="line"/>
+      <point x="257" y="691" type="line"/>
+      <point x="420" y="691" type="line"/>
+      <point x="491" y="167" type="line"/>
+      <point x="498" y="121"/>
+      <point x="531" y="82"/>
+      <point x="561" y="82" type="qcurve"/>
+      <point x="628" y="82"/>
+      <point x="693" y="244"/>
+      <point x="702" y="379" type="qcurve"/>
+      <point x="826" y="379" type="line"/>
+      <point x="815" y="184"/>
+      <point x="681" y="-15"/>
+      <point x="552" y="-15" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 6 values pushed */
+3
+1
+3
+1
+1
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+16
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 26 values pushed */
+0
+3
+1
+2
+1
+3
+2
+128
+0
+1
+1
+50
+77
+0
+2
+2
+0
+97
+5
+4
+2
+0
+0
+51
+0
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 30 values pushed */
+0
+3
+1
+2
+1
+3
+2
+128
+0
+1
+1
+50
+77
+0
+0
+0
+51
+77
+0
+2
+2
+4
+97
+5
+1
+4
+4
+56
+4
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 13 values pushed */
+0
+0
+0
+18
+0
+17
+18
+35
+17
+20
+6
+9
+26
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>997a290c8f1aea8f8d6d593d2a60d78deae8bada936024a8814ca348bb72c43c1f1d7c75beb13804e46440c89f077ff7592a9223a4eef503492f4a28f67d7831</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0373.sc" format="2">
+  <advance width="542"/>
+  <anchor x="313" y="567" name="base__Extension45__Anchor40__Anchor40"/>
+  <anchor x="234" y="0" name="base__Extension45__Anchor41__Anchor41"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor42__Anchor42"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor43__Anchor43"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor44__Anchor44"/>
+  <outline>
+    <contour>
+      <point x="560" y="465" type="line"/>
+      <point x="539" y="314" type="line"/>
+      <point x="431" y="314" type="line"/>
+      <point x="452" y="465" type="line"/>
+      <point x="369" y="465" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="163" y="0" type="line"/>
+      <point x="229" y="465" type="line"/>
+      <point x="146" y="465" type="line"/>
+      <point x="125" y="314" type="line"/>
+      <point x="16" y="314" type="line"/>
+      <point x="40" y="481" type="line"/>
+      <point x="53" y="567" type="line"/>
+      <point x="574" y="567" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+9
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 25 values pushed */
+4
+1
+0
+1
+2
+1
+0
+114
+3
+1
+1
+1
+5
+95
+0
+5
+5
+32
+77
+0
+2
+2
+33
+2
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 26 values pushed */
+4
+1
+0
+1
+2
+1
+0
+2
+128
+3
+1
+1
+1
+5
+95
+0
+5
+5
+32
+77
+0
+2
+2
+33
+2
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 9 values pushed */
+18
+17
+17
+17
+17
+17
+6
+7
+28
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w542l560+465l539+314l431+314l452+465l369+465l303+0l163+0l229+465l146+465l125+314l16+314l40+481l53+567l574+567|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

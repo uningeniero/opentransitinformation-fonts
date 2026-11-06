@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0515" format="2">
+  <advance width="723"/>
+  <unicode hex="0515"/>
+  <anchor x="391" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="391" y="529" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="726" y="0" type="line"/>
+      <point x="578" y="0" type="line"/>
+      <point x="469" y="210" type="line"/>
+      <point x="361" y="0" type="line"/>
+      <point x="220" y="0" type="line"/>
+      <point x="397" y="279" type="line"/>
+      <point x="298" y="435" type="line"/>
+      <point x="237" y="435" type="line"/>
+      <point x="239" y="433" type="line"/>
+      <point x="226" y="290" type="line"/>
+      <point x="217" y="178"/>
+      <point x="188" y="67"/>
+      <point x="123" y="5"/>
+      <point x="56" y="-12" type="qcurve"/>
+      <point x="24" y="83" type="line"/>
+      <point x="57" y="97"/>
+      <point x="86" y="132"/>
+      <point x="99" y="208"/>
+      <point x="106" y="299" type="qcurve"/>
+      <point x="124" y="529" type="line"/>
+      <point x="384" y="529" type="line"/>
+      <point x="474" y="349" type="line"/>
+      <point x="564" y="529" type="line"/>
+      <point x="703" y="529" type="line"/>
+      <point x="549" y="283" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 40 values pushed */
+24
+21
+14
+5
+2
+5
+0
+2
+1
+76
+13
+1
+0
+73
+0
+2
+2
+3
+95
+4
+1
+3
+3
+52
+77
+1
+1
+0
+0
+51
+0
+78
+18
+28
+18
+18
+16
+5
+9
+27
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>0919950167dc9228b2d632a2d328705c9bcbba786d414def1c1da7751636e3296e6a1fdf6246123f6141c0c3092afb411c9c325e3d4cd4b9e31cdfa09c5c8240</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

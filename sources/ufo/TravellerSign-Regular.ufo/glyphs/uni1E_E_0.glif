@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1EE0" format="2">
+  <advance width="1540"/>
+  <unicode hex="1EE0"/>
+  <anchor x="770" y="-28" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <component base="Ohorn" identifier="component0"/>
+    <component base="tildecomb.case" xOffset="770" yOffset="420" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+3
+1
+PUSHW[ ]	/* 1 value pushed */
+420
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>5caa2c19541c4e649e6d2b720278af40c06d7f2f97e409bdb2643014033fb7ea3cde0e4428a1e4d36bb1e6a6a1d3dec79336c653815848da07629b8b799581c0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

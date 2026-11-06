@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni03C3" format="2">
+  <advance width="1218"/>
+  <unicode hex="03C3"/>
+  <anchor x="610" y="1073" name="base__MarkToBase2__Anchor3__Anchor3"/>
+  <anchor x="610" y="-34" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="610" y="-34" name="base__MarkToBase2__Anchor5__Anchor5"/>
+  <outline>
+    <contour>
+      <point x="1198" y="840" type="line"/>
+      <point x="986" y="855" type="line"/>
+      <point x="1115" y="745"/>
+      <point x="1115" y="523" type="qcurve"/>
+      <point x="1115" y="358"/>
+      <point x="988" y="105"/>
+      <point x="752" y="-34"/>
+      <point x="590" y="-34" type="qcurve"/>
+      <point x="345" y="-34"/>
+      <point x="65" y="267"/>
+      <point x="65" y="537" type="qcurve"/>
+      <point x="65" y="796"/>
+      <point x="352" y="1091"/>
+      <point x="636" y="1091" type="qcurve"/>
+      <point x="885" y="1091"/>
+      <point x="1198" y="1073" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="784" y="523" type="qcurve"/>
+      <point x="784" y="768"/>
+      <point x="703" y="863" type="qcurve"/>
+      <point x="701" y="863" type="line"/>
+      <point x="582" y="863"/>
+      <point x="453" y="808"/>
+      <point x="396" y="669"/>
+      <point x="396" y="535" type="qcurve"/>
+      <point x="396" y="360"/>
+      <point x="491" y="200"/>
+      <point x="590" y="200" type="qcurve"/>
+      <point x="687" y="200"/>
+      <point x="784" y="360"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>a1fbe228de2bdeda7d44c81a1d1cf993caf45e21df9c6636526a732cc1c7d009</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>kind</key>
+          <string>same-style native Screen supplementary drawing</string>
+          <key>normalisation</key>
+          <string>established Sign Greek cap frame</string>
+          <key>rounding</key>
+          <string>otRound, at most 0.5 unit per coordinate</string>
+          <key>semanticAnchorCorrection</key>
+          <string>New Sign bottom anchors use the actual complete ink bottom, including a below mark; covered native anchors elsewhere are untouched. Above-mark canonical composites do not invent an additional top route absent from the native model.</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>603</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>509824</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-Bold.ttf</string>
+              <key>sha256</key>
+              <string>09d7a3acff53ff1dcf2c805a5eb1a713a4512d4b3bc70f3313b6390c7b1a38c2</string>
+            </dict>
+            <key>glyph</key>
+            <string>sigma</string>
+            <key>unicode</key>
+            <string>U+03C3</string>
+          </dict>
+          <key>uniformScale</key>
+          <real>2.0202020202020203</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0394" format="2">
+  <advance width="595"/>
+  <unicode hex="0394"/>
+  <anchor x="298" y="0" name="base__Extension45__Anchor40__Anchor40"/>
+  <anchor x="298" y="692" name="base__Extension45__Anchor41__Anchor41"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor42__Anchor42"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor43__Anchor43"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor44__Anchor44"/>
+  <outline>
+    <contour>
+      <point x="604" y="0" type="line"/>
+      <point x="-9" y="0" type="line"/>
+      <point x="208" y="692" type="line"/>
+      <point x="388" y="692" type="line"/>
+    </contour>
+    <contour>
+      <point x="170" y="110" type="line"/>
+      <point x="421" y="110" type="line"/>
+      <point x="296" y="581" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 6 values pushed */
+6
+1
+2
+1
+1
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+30
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 16 values pushed */
+0
+1
+1
+64
+77
+0
+2
+2
+0
+96
+0
+0
+0
+65
+0
+78
+ELSE[ ]	/* Else */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+47
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 13 values pushed */
+0
+2
+0
+0
+2
+0
+100
+0
+1
+1
+64
+1
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 21 values pushed */
+0
+1
+2
+1
+133
+0
+2
+0
+0
+2
+87
+0
+2
+2
+0
+96
+0
+0
+2
+0
+80
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 6 values pushed */
+17
+17
+16
+3
+10
+25
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w595l604+0l-9+0l208+692l388+692|l170+110l421+110l296+581|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

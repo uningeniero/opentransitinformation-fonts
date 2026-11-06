@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="dong.tf" format="2">
+  <advance width="560"/>
+  <anchor x="218" y="-186" name="base__Extension31__Anchor27__Anchor27"/>
+  <anchor x="319" y="741" name="base__Extension31__Anchor28__Anchor28"/>
+  <anchor x="502" y="791" name="base__Extension31__Anchor29__Anchor29"/>
+  <anchor x="273" y="265" name="base__Extension31__Anchor30__Anchor30"/>
+  <outline>
+    <component base="dcroat" xOffset="-20" identifier="component0"/>
+    <component base="uni0331" xOffset="458" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

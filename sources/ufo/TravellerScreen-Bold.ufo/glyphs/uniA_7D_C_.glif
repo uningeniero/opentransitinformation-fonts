@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA7DC" format="2">
+  <advance width="594"/>
+  <unicode hex="A7DC"/>
+  <note>
+SPDX-License-Identifier: OFL-1.1
+Traveller Screen candidate source proposal. Constructed from the pinned same-style font elements; original font notices and reserved-name terms remain applicable. No source-proposal acceptance implies catalogue admission.
+</note>
+  <anchor x="297" y="693" name="top"/>
+  <outline>
+    <contour>
+      <point x="173" y="384" type="line"/>
+      <point x="119" y="471" type="line"/>
+      <point x="215" y="530" type="line"/>
+      <point x="215" y="693" type="line"/>
+      <point x="379" y="693" type="line"/>
+      <point x="379" y="632" type="line"/>
+      <point x="421" y="658" type="line"/>
+      <point x="475" y="572" type="line"/>
+      <point x="379" y="512" type="line"/>
+      <point x="379" y="434" type="line"/>
+      <point x="601" y="0" type="line"/>
+      <point x="422" y="0" type="line"/>
+      <point x="294" y="305" type="line"/>
+      <point x="166" y="0" type="line"/>
+      <point x="-7" y="0" type="line"/>
+      <point x="198" y="399" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>construction</key>
+        <string>Same-style genuine capital-Y skeleton rotated 180 degrees; native Lslash stroke shortened along its length, retaining its terminal cuts and transverse weight; unioned to closed editable contours. No Greek Lambda alias or synthetic italic.</string>
+        <key>glifSha256</key>
+        <string>b5ad54bae50a69e0b4d87840bf9e4123b22c7659054d78317d3823dfc8396801</string>
+        <key>kind</key>
+        <string>Designer-approved capital source</string>
+        <key>sourceGeometry</key>
+        <dict>
+          <key>YRotation</key>
+          <array>
+            <integer>-1</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>-1</integer>
+            <integer>594</integer>
+            <integer>693</integer>
+          </array>
+          <key>advance</key>
+          <integer>594</integer>
+          <key>barCentre</key>
+          <array>
+            <real>297.0</real>
+            <integer>521</integer>
+          </array>
+          <key>bounds</key>
+          <array>
+            <integer>-7</integer>
+            <integer>0</integer>
+            <integer>601</integer>
+            <integer>693</integer>
+          </array>
+          <key>construction</key>
+          <string>Same-style genuine capital-Y skeleton rotated 180 degrees; native Lslash stroke shortened along its length, retaining its terminal cuts and transverse weight; unioned to closed editable contours. No Greek Lambda alias or synthetic italic.</string>
+          <key>glyph</key>
+          <string>uniA7DC</string>
+          <key>maximumUnionIntersectionRounding</key>
+          <integer>0</integer>
+          <key>nativeAttachments</key>
+          <array>
+            <dict>
+              <key>class</key>
+              <integer>2</integer>
+              <key>mark</key>
+              <string>U+0300</string>
+              <key>markAnchor</key>
+              <array>
+                <integer>-180</integer>
+                <integer>531</integer>
+              </array>
+              <key>markGlyph</key>
+              <string>gravecomb</string>
+              <key>newBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceLookup</key>
+              <integer>6</integer>
+            </dict>
+            <dict>
+              <key>class</key>
+              <integer>2</integer>
+              <key>mark</key>
+              <string>U+0301</string>
+              <key>markAnchor</key>
+              <array>
+                <integer>-164</integer>
+                <integer>531</integer>
+              </array>
+              <key>markGlyph</key>
+              <string>acutecomb</string>
+              <key>newBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceLookup</key>
+              <integer>6</integer>
+            </dict>
+            <dict>
+              <key>class</key>
+              <integer>2</integer>
+              <key>mark</key>
+              <string>U+0302</string>
+              <key>markAnchor</key>
+              <array>
+                <integer>-220</integer>
+                <integer>531</integer>
+              </array>
+              <key>markGlyph</key>
+              <string>uni0302</string>
+              <key>newBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceLookup</key>
+              <integer>6</integer>
+            </dict>
+            <dict>
+              <key>class</key>
+              <integer>2</integer>
+              <key>mark</key>
+              <string>U+0304</string>
+              <key>markAnchor</key>
+              <array>
+                <integer>-182</integer>
+                <integer>531</integer>
+              </array>
+              <key>markGlyph</key>
+              <string>uni0304</string>
+              <key>newBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceLookup</key>
+              <integer>6</integer>
+            </dict>
+            <dict>
+              <key>class</key>
+              <integer>2</integer>
+              <key>mark</key>
+              <string>U+030B</string>
+              <key>markAnchor</key>
+              <array>
+                <integer>-278</integer>
+                <integer>531</integer>
+              </array>
+              <key>markGlyph</key>
+              <string>uni030B</string>
+              <key>newBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceLookup</key>
+              <integer>6</integer>
+            </dict>
+            <dict>
+              <key>class</key>
+              <integer>2</integer>
+              <key>mark</key>
+              <string>U+030F</string>
+              <key>markAnchor</key>
+              <array>
+                <integer>-175</integer>
+                <integer>531</integer>
+              </array>
+              <key>markGlyph</key>
+              <string>uni030F</string>
+              <key>newBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceBaseAnchor</key>
+              <array>
+                <integer>297</integer>
+                <integer>693</integer>
+              </array>
+              <key>sourceLookup</key>
+              <integer>6</integer>
+            </dict>
+          </array>
+          <key>shortenedBarPoints</key>
+          <array>
+            <array>
+              <integer>173</integer>
+              <integer>384</integer>
+            </array>
+            <array>
+              <integer>119</integer>
+              <integer>471</integer>
+            </array>
+            <array>
+              <integer>421</integer>
+              <integer>658</integer>
+            </array>
+            <array>
+              <integer>475</integer>
+              <integer>572</integer>
+            </array>
+          </array>
+          <key>slashSourceGlyph</key>
+          <string>Lslash</string>
+          <key>slashSourceTerminalPoints</key>
+          <array>
+            <integer>4</integer>
+            <integer>5</integer>
+            <integer>10</integer>
+            <integer>11</integer>
+          </array>
+          <key>sourceBytes</key>
+          <integer>1175</integer>
+          <key>sourceSHA256</key>
+          <string>b5ad54bae50a69e0b4d87840bf9e4123b22c7659054d78317d3823dfc8396801</string>
+          <key>sourceYPointCount</key>
+          <integer>9</integer>
+          <key>style</key>
+          <string>Bold</string>
+          <key>topAnchor</key>
+          <array>
+            <integer>297</integer>
+            <integer>693</integer>
+          </array>
+          <key>unicode</key>
+          <string>U+A7DC</string>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>e1be5bfdd073577afaee5b6e0bf191120faaa275da4faa7afd209e054d8d3911</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

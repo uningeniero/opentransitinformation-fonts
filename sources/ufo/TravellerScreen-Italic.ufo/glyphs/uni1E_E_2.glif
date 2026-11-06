@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1EE2" format="2">
+  <advance width="692"/>
+  <unicode hex="1EE2"/>
+  <anchor x="283" y="-199" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="405" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="407" y="689" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="655" y="689" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="714" y="663"/>
+      <point x="661" y="598"/>
+      <point x="611" y="587" type="qcurve"/>
+      <point x="648" y="521"/>
+      <point x="648" y="421" type="qcurve"/>
+      <point x="648" y="320"/>
+      <point x="579" y="121"/>
+      <point x="427" y="-12"/>
+      <point x="308" y="-12" type="qcurve"/>
+      <point x="194" y="-12"/>
+      <point x="61" y="132"/>
+      <point x="61" y="265" type="qcurve"/>
+      <point x="61" y="364"/>
+      <point x="130" y="564"/>
+      <point x="283" y="701"/>
+      <point x="402" y="701" type="qcurve"/>
+      <point x="508" y="701"/>
+      <point x="572" y="639" type="qcurve"/>
+      <point x="639" y="645"/>
+      <point x="639" y="717" type="qcurve"/>
+      <point x="639" y="734"/>
+      <point x="633" y="760" type="qcurve"/>
+      <point x="705" y="771" type="line"/>
+      <point x="714" y="746"/>
+      <point x="714" y="715" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="399" y="66"/>
+      <point x="506" y="181"/>
+      <point x="550" y="346"/>
+      <point x="550" y="428" type="qcurve"/>
+      <point x="550" y="623"/>
+      <point x="398" y="623" type="qcurve"/>
+      <point x="311" y="623"/>
+      <point x="204" y="509"/>
+      <point x="159" y="344"/>
+      <point x="159" y="262" type="qcurve"/>
+      <point x="159" y="66"/>
+      <point x="311" y="66" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="317" y="-74"/>
+      <point x="349" y="-107"/>
+      <point x="349" y="-131" type="qcurve"/>
+      <point x="349" y="-160"/>
+      <point x="309" y="-199"/>
+      <point x="280" y="-199" type="qcurve"/>
+      <point x="254" y="-199"/>
+      <point x="221" y="-167"/>
+      <point x="221" y="-142" type="qcurve"/>
+      <point x="221" y="-113"/>
+      <point x="261" y="-74"/>
+      <point x="290" y="-74" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 15 values pushed */
+17
+1
+2
+1
+2
+1
+3
+2
+2
+76
+22
+21
+2
+1
+74
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+35
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 33 values pushed */
+0
+2
+2
+1
+97
+0
+1
+1
+86
+77
+6
+1
+3
+3
+0
+97
+0
+0
+0
+87
+77
+7
+1
+5
+5
+4
+97
+0
+4
+4
+85
+4
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 30 values pushed */
+7
+1
+5
+0
+4
+5
+4
+101
+0
+2
+2
+1
+97
+0
+1
+1
+86
+77
+6
+1
+3
+3
+0
+97
+0
+0
+0
+87
+0
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 20 values pushed */
+37
+37
+25
+25
+37
+48
+37
+47
+43
+41
+25
+36
+25
+35
+45
+37
+39
+8
+11
+25
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>ac23bca05a1f92ce39f6a1b37ae63b78ff4b1b336c054310fc25b6c64b0b42fcf8d2033bd455c9ef0a814bab573329f98897efc933134d9e32d2d1c278ed99bb</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

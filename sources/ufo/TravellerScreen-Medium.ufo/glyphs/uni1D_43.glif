@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1D43" format="2">
+  <advance width="287"/>
+  <unicode hex="1D43"/>
+  <outline>
+    <contour>
+      <point x="180" y="511" type="line"/>
+      <point x="153" y="510"/>
+      <point x="118" y="504"/>
+      <point x="98" y="494"/>
+      <point x="89" y="481"/>
+      <point x="89" y="473" type="qcurve"/>
+      <point x="89" y="458"/>
+      <point x="107" y="445"/>
+      <point x="122" y="445" type="qcurve"/>
+      <point x="140" y="445"/>
+      <point x="166" y="458"/>
+      <point x="180" y="471" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="33" y="632" type="line"/>
+      <point x="81" y="674"/>
+      <point x="148" y="674" type="qcurve"/>
+      <point x="171" y="674"/>
+      <point x="209" y="659"/>
+      <point x="235" y="631"/>
+      <point x="249" y="592"/>
+      <point x="249" y="569" type="qcurve"/>
+      <point x="249" y="400" type="line"/>
+      <point x="217" y="400" type="line"/>
+      <point x="206" y="400"/>
+      <point x="196" y="406"/>
+      <point x="192" y="415" type="qcurve"/>
+      <point x="187" y="432" type="line"/>
+      <point x="176" y="423"/>
+      <point x="157" y="410"/>
+      <point x="137" y="401"/>
+      <point x="114" y="396"/>
+      <point x="100" y="396" type="qcurve"/>
+      <point x="64" y="396"/>
+      <point x="21" y="433"/>
+      <point x="21" y="470" type="qcurve"/>
+      <point x="21" y="484"/>
+      <point x="36" y="514"/>
+      <point x="72" y="538"/>
+      <point x="134" y="555"/>
+      <point x="180" y="556" type="qcurve"/>
+      <point x="180" y="569" type="line"/>
+      <point x="180" y="594"/>
+      <point x="158" y="617"/>
+      <point x="138" y="617" type="qcurve"/>
+      <point x="123" y="617"/>
+      <point x="103" y="610"/>
+      <point x="88" y="602"/>
+      <point x="75" y="595"/>
+      <point x="67" y="595" type="qcurve"/>
+      <point x="60" y="595"/>
+      <point x="50" y="603"/>
+      <point x="46" y="608" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>0de7a82086b444953a8156e423c25fb0c1ede96345f95da2d452ff01ad1b2e22</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>kind</key>
+          <string>new imported purpose-coded editable Lato 2.015 drawing</string>
+          <key>normalisation</key>
+          <string>genuine same-cut modifier-n height and baseline; no body glyph scaling</string>
+          <key>rights</key>
+          <string>Retain original Lato OFL, copyright and reserved font name notice; this is a new source contribution, not an existing Traveller parent inferred from oti.L names.</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>556</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>636396</integer>
+              <key>path</key>
+              <string>https://github.com/google/fonts/blob/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/lato/Lato-Medium.ttf</string>
+              <key>sha256</key>
+              <string>d3ac182a6833e005745dd75679fbad081c0b12535df4e93ad8ed57817a31a338</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni1D43</string>
+            <key>unicode</key>
+            <string>U+1D43</string>
+          </dict>
+          <key>sourceItalicAngle</key>
+          <real>0.0</real>
+          <key>targetItalicAngle</key>
+          <real>0.0</real>
+          <key>translateY</key>
+          <real>-72.20226843100193</real>
+          <key>uniformScale</key>
+          <real>0.5160680529300568</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

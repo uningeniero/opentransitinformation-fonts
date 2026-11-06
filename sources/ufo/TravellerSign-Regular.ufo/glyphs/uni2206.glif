@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni2206" format="2">
+  <advance width="1320"/>
+  <unicode hex="2206"/>
+  <anchor x="660" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="60" y="86" type="line"/>
+      <point x="560" y="1400" type="line"/>
+      <point x="760" y="1400" type="line"/>
+      <point x="1260" y="84" type="line"/>
+      <point x="1260" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="290" y="172" type="line"/>
+      <point x="1030" y="172" type="line"/>
+      <point x="660" y="1150" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 45 values pushed */
+8
+1
+2
+0
+4
+1
+2
+1
+2
+2
+76
+0
+0
+2
+0
+133
+0
+2
+1
+1
+2
+87
+0
+2
+2
+1
+95
+3
+1
+1
+2
+1
+79
+0
+0
+7
+6
+0
+5
+0
+5
+18
+4
+6
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w1320l60+0l60+86l560+1400l760+1400l1260+84l1260+0|l290+172l1030+172l660+1150|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

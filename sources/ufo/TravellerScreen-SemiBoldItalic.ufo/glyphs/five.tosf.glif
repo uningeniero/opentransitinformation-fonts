@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="five.tosf" format="2">
+  <advance width="560"/>
+  <outline>
+    <contour>
+      <point x="69" y="-122"/>
+      <point x="-7" y="-24" type="qcurve"/>
+      <point x="79" y="47" type="line"/>
+      <point x="129" y="-13"/>
+      <point x="207" y="-13" type="qcurve"/>
+      <point x="277" y="-13"/>
+      <point x="346" y="75"/>
+      <point x="346" y="139" type="qcurve"/>
+      <point x="346" y="185"/>
+      <point x="302" y="233"/>
+      <point x="263" y="233" type="qcurve"/>
+      <point x="238" y="233"/>
+      <point x="196" y="222"/>
+      <point x="170" y="209" type="qcurve"/>
+      <point x="71" y="209" type="line"/>
+      <point x="121" y="567" type="line"/>
+      <point x="522" y="567" type="line"/>
+      <point x="492" y="464" type="line"/>
+      <point x="239" y="464" type="line"/>
+      <point x="218" y="309" type="line"/>
+      <point x="265" y="332"/>
+      <point x="322" y="332" type="qcurve"/>
+      <point x="397" y="332"/>
+      <point x="490" y="230"/>
+      <point x="490" y="146" type="qcurve"/>
+      <point x="490" y="81"/>
+      <point x="431" y="-42"/>
+      <point x="302" y="-122"/>
+      <point x="202" y="-122" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 70 values pushed */
+19
+1
+1
+5
+2
+1
+0
+2
+1
+1
+6
+0
+3
+76
+0
+2
+1
+0
+1
+2
+0
+128
+0
+3
+0
+4
+5
+3
+4
+103
+0
+5
+0
+1
+2
+5
+1
+105
+0
+0
+6
+6
+0
+89
+0
+0
+0
+6
+97
+7
+1
+6
+0
+6
+81
+0
+0
+0
+28
+0
+27
+34
+17
+17
+18
+36
+35
+8
+9
+28
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>0e9d9d6efa34903a09bde07f9121dd423e1209a46cb46e3d57298928f28b9e2cfb5276b15eb62190b951a4912cbedec6e79397fa5117af17c0e16f61624bc880</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni04FD.sc" format="2">
+  <advance width="532"/>
+  <anchor x="266" y="-208" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="255" y="567" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="529" y="106" type="line"/>
+      <point x="529" y="-38" type="line"/>
+      <point x="529" y="-127"/>
+      <point x="429" y="-220"/>
+      <point x="344" y="-220" type="qcurve"/>
+      <point x="264" y="-220"/>
+      <point x="209" y="-178" type="qcurve"/>
+      <point x="258" y="-94" type="line"/>
+      <point x="278" y="-105"/>
+      <point x="308" y="-114"/>
+      <point x="329" y="-114" type="qcurve"/>
+      <point x="387" y="-114"/>
+      <point x="387" y="-50" type="qcurve"/>
+      <point x="387" y="0" type="line"/>
+      <point x="353" y="0" type="line"/>
+      <point x="251" y="208" type="line"/>
+      <point x="148" y="0" type="line"/>
+      <point x="-2" y="0" type="line"/>
+      <point x="168" y="302" type="line"/>
+      <point x="12" y="567" type="line"/>
+      <point x="166" y="567" type="line"/>
+      <point x="255" y="388" type="line"/>
+      <point x="344" y="567" type="line"/>
+      <point x="493" y="567" type="line"/>
+      <point x="333" y="306" type="line"/>
+      <point x="447" y="106" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 61 values pushed */
+24
+21
+18
+15
+4
+6
+4
+7
+1
+1
+2
+6
+1
+0
+1
+3
+76
+7
+1
+6
+4
+2
+4
+6
+2
+128
+0
+1
+0
+0
+1
+0
+101
+5
+1
+4
+4
+32
+77
+3
+1
+2
+2
+33
+2
+78
+0
+0
+0
+25
+0
+25
+18
+18
+18
+18
+36
+35
+8
+7
+28
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>b7e80e58287c53789920a86240b32a2a661c122c75a6329dbf002027efeb7be1dc7f14b01170f7439f03a0837bdb92cdbd8944aab7b5cf6a1d773dfe7a9f812e</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

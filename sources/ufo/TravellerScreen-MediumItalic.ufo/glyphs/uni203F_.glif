@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni203F" format="2">
+  <advance width="673"/>
+  <unicode hex="203F"/>
+  <outline>
+    <contour>
+      <point x="541" y="-151"/>
+      <point x="370" y="-219"/>
+      <point x="271" y="-219" type="qcurve"/>
+      <point x="170" y="-219"/>
+      <point x="18" y="-149"/>
+      <point x="-50" y="-88" type="qcurve"/>
+      <point x="1" y="-28" type="line"/>
+      <point x="61" y="-67"/>
+      <point x="197" y="-107"/>
+      <point x="280" y="-107" type="qcurve"/>
+      <point x="365" y="-107"/>
+      <point x="510" y="-66"/>
+      <point x="582" y="-26" type="qcurve"/>
+      <point x="622" y="-92" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 23 values pushed */
+13
+12
+6
+5
+4
+1
+74
+0
+1
+1
+0
+97
+0
+0
+0
+85
+0
+78
+37
+33
+2
+11
+24
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w673o541-151o370-219q271-219o170-219o18-149q-50-88l1-28o61-67o197-107q280-107o365-107o510-66q582-26l622-92|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

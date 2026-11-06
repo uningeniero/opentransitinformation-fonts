@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1E0A.sc" format="2">
+  <advance width="583"/>
+  <anchor x="231" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="319" y="564" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="298" y="283" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <component base="d.sc"/>
+    <component base="uni0307.case" xOffset="356" yOffset="-125"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>baseGlyph</key>
+        <string>d.sc</string>
+        <key>featureInputs</key>
+        <dict>
+          <key>c2sc</key>
+          <string>U+1E0A</string>
+          <key>smcp</key>
+          <string>U+1E0B</string>
+        </dict>
+        <key>kind</key>
+        <string>Designer-approved native D smallcap with zero-width above dot</string>
+        <key>markGlyph</key>
+        <string>uni0307.case</string>
+        <key>markTranslation</key>
+        <array>
+          <integer>356</integer>
+          <integer>-125</integer>
+        </array>
+        <key>nativeBaseAnchor</key>
+        <array>
+          <integer>319</integer>
+          <integer>564</integer>
+        </array>
+        <key>nativeMarkAnchor</key>
+        <array>
+          <integer>-37</integer>
+          <integer>689</integer>
+        </array>
+        <key>sourcePlanSha256</key>
+        <string>1fb1aca7e3cc38a13c7c184d7000df326fd245c2e8a7cfd49f411b654f998a54</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

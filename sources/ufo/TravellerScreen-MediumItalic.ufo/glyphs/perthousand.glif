@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="perthousand" format="2">
+  <advance width="1206"/>
+  <unicode hex="2030"/>
+  <outline>
+    <contour>
+      <point x="744" y="663" type="line"/>
+      <point x="190" y="-36" type="line"/>
+      <point x="115" y="17" type="line"/>
+      <point x="669" y="716" type="line"/>
+    </contour>
+    <contour>
+      <point x="327" y="685"/>
+      <point x="410" y="605"/>
+      <point x="410" y="539" type="qcurve"/>
+      <point x="410" y="492"/>
+      <point x="370" y="398"/>
+      <point x="284" y="335"/>
+      <point x="219" y="335" type="qcurve"/>
+      <point x="153" y="335"/>
+      <point x="71" y="417"/>
+      <point x="71" y="483" type="qcurve"/>
+      <point x="71" y="531"/>
+      <point x="112" y="624"/>
+      <point x="198" y="685"/>
+      <point x="261" y="685" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="207" y="605"/>
+      <point x="167" y="528"/>
+      <point x="167" y="485" type="qcurve"/>
+      <point x="167" y="415"/>
+      <point x="224" y="415" type="qcurve"/>
+      <point x="273" y="415"/>
+      <point x="313" y="493"/>
+      <point x="313" y="537" type="qcurve"/>
+      <point x="313" y="605"/>
+      <point x="257" y="605" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="702" y="335"/>
+      <point x="785" y="255"/>
+      <point x="785" y="189" type="qcurve"/>
+      <point x="785" y="142"/>
+      <point x="745" y="48"/>
+      <point x="659" y="-15"/>
+      <point x="594" y="-15" type="qcurve"/>
+      <point x="528" y="-15"/>
+      <point x="445" y="67"/>
+      <point x="445" y="133" type="qcurve"/>
+      <point x="445" y="180"/>
+      <point x="487" y="274"/>
+      <point x="573" y="335"/>
+      <point x="636" y="335" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="1073" y="335"/>
+      <point x="1156" y="255"/>
+      <point x="1156" y="189" type="qcurve"/>
+      <point x="1156" y="142"/>
+      <point x="1116" y="48"/>
+      <point x="1030" y="-15"/>
+      <point x="965" y="-15" type="qcurve"/>
+      <point x="899" y="-15"/>
+      <point x="816" y="67"/>
+      <point x="816" y="133" type="qcurve"/>
+      <point x="816" y="181"/>
+      <point x="857" y="274"/>
+      <point x="944" y="335"/>
+      <point x="1007" y="335" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="582" y="255"/>
+      <point x="542" y="178"/>
+      <point x="542" y="135" type="qcurve"/>
+      <point x="542" y="65"/>
+      <point x="599" y="65" type="qcurve"/>
+      <point x="648" y="65"/>
+      <point x="688" y="143"/>
+      <point x="688" y="187" type="qcurve"/>
+      <point x="688" y="255"/>
+      <point x="632" y="255" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="952" y="255"/>
+      <point x="912" y="178"/>
+      <point x="912" y="135" type="qcurve"/>
+      <point x="912" y="65"/>
+      <point x="969" y="65" type="qcurve"/>
+      <point x="1019" y="65"/>
+      <point x="1059" y="143"/>
+      <point x="1059" y="187" type="qcurve"/>
+      <point x="1059" y="255"/>
+      <point x="1002" y="255" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 111 values pushed */
+2
+1
+4
+8
+1
+76
+3
+1
+1
+74
+1
+1
+4
+73
+0
+2
+0
+0
+5
+2
+0
+105
+15
+7
+14
+3
+5
+17
+11
+16
+3
+9
+8
+5
+9
+105
+13
+1
+3
+3
+1
+97
+12
+1
+1
+1
+80
+77
+10
+1
+8
+8
+4
+97
+6
+1
+4
+4
+87
+4
+78
+66
+66
+56
+56
+42
+42
+28
+28
+18
+18
+4
+4
+66
+75
+66
+74
+71
+69
+56
+65
+56
+64
+61
+59
+42
+55
+42
+54
+49
+47
+28
+41
+28
+40
+35
+33
+18
+27
+18
+26
+23
+21
+4
+17
+4
+16
+41
+18
+11
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>dba68ec019b0da521eb21dbfe05958a41cb076c4ee73c100bb9c8a0ec0ed72e2883ef85559d9cbfad0b4d51f259585f7af9ac70d8c5f6f24ae00fc0bda60aa80</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

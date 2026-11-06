@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="chi" format="2">
+  <advance width="479"/>
+  <unicode hex="03C7"/>
+  <anchor x="277" y="531" name="base__Extension45__Anchor40__Anchor40"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor41__Anchor41"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor42__Anchor42"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor43__Anchor43"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor44__Anchor44"/>
+  <outline>
+    <contour>
+      <point x="307" y="182" type="line"/>
+      <point x="427" y="-196" type="line"/>
+      <point x="273" y="-221" type="line"/>
+      <point x="211" y="66" type="line"/>
+      <point x="71" y="-221" type="line"/>
+      <point x="-88" y="-204" type="line"/>
+      <point x="145" y="183" type="line"/>
+      <point x="104" y="316"/>
+      <point x="47" y="448"/>
+      <point x="7" y="499" type="qcurve"/>
+      <point x="160" y="543" type="line"/>
+      <point x="187" y="494"/>
+      <point x="218" y="398"/>
+      <point x="240" y="295" type="qcurve"/>
+      <point x="348" y="544" type="line"/>
+      <point x="510" y="528" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 4 values pushed */
+14
+2
+1
+50
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>5d847f117e06079818ecf937c5b7a707e2f0fcf983bfc9ac93f3761a97152a21f5a653eb38b6ec2cd9ef24b7ffa5271332176646f9fdcadca316b52655c4fdcc</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

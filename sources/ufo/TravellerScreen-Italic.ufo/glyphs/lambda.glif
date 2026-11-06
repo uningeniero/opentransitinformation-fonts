@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="lambda" format="2">
+  <advance width="489"/>
+  <unicode hex="03BB"/>
+  <anchor x="312" y="739" name="base__Extension45__Anchor40__Anchor40"/>
+  <anchor x="208" y="0" name="base__Extension45__Anchor41__Anchor41"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor42__Anchor42"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor43__Anchor43"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor44__Anchor44"/>
+  <outline>
+    <contour>
+      <point x="221" y="738"/>
+      <point x="303" y="680"/>
+      <point x="343" y="580"/>
+      <point x="350" y="495" type="qcurve"/>
+      <point x="364" y="342"/>
+      <point x="394" y="168"/>
+      <point x="433" y="66"/>
+      <point x="465" y="20" type="qcurve"/>
+      <point x="379" y="-11" type="line"/>
+      <point x="347" y="41"/>
+      <point x="308" y="148"/>
+      <point x="281" y="317"/>
+      <point x="275" y="451" type="qcurve"/>
+      <point x="70" y="-12" type="line"/>
+      <point x="-16" y="10" type="line"/>
+      <point x="231" y="537" type="line"/>
+      <point x="266" y="530" type="line"/>
+      <point x="261" y="578"/>
+      <point x="235" y="636"/>
+      <point x="179" y="672"/>
+      <point x="129" y="681" type="qcurve"/>
+      <point x="149" y="752" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 4 values pushed */
+21
+13
+1
+50
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>efbdd4ac5af0d99658c15b164f2e5fb6d3ac111420d7715439dc9418c711446686bb6b5c5989862349f442cbdeb735a31181fc65bce77cbc1b4c17d78d5c6178</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="P" format="2">
+  <advance width="581"/>
+  <unicode hex="0050"/>
+  <anchor x="148" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="291" y="689" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="409" y="689"/>
+      <point x="549" y="582"/>
+      <point x="549" y="476" type="qcurve"/>
+      <point x="549" y="363"/>
+      <point x="403" y="253"/>
+      <point x="282" y="253" type="qcurve"/>
+      <point x="195" y="253" type="line"/>
+      <point x="195" y="0" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="100" y="689" type="line"/>
+      <point x="281" y="689" type="line"/>
+    </contour>
+    <contour>
+      <point x="361" y="328"/>
+      <point x="448" y="392"/>
+      <point x="448" y="475" type="qcurve"/>
+      <point x="448" y="549"/>
+      <point x="361" y="615"/>
+      <point x="280" y="615" type="qcurve"/>
+      <point x="195" y="615" type="line"/>
+      <point x="195" y="328" type="line"/>
+      <point x="278" y="328" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 45 values pushed */
+6
+1
+4
+0
+0
+1
+4
+0
+103
+0
+3
+3
+2
+95
+5
+1
+2
+2
+80
+77
+0
+1
+1
+81
+1
+78
+11
+11
+0
+0
+11
+19
+11
+18
+17
+15
+0
+10
+0
+9
+17
+36
+7
+11
+24
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>86d9f2a71a72700cda4a33d49a7a981564ec4518c3c32b308952d4a023c9b59ba862f43327be5bdaf64f0963f97943f6b099926d95702049a5ae79971590c861</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

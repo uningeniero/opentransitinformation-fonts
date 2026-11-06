@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0342" format="2">
+  <unicode hex="0342"/>
+  <anchor x="-213" y="530" name="_Anchor28__Anchor28"/>
+  <anchor x="-213" y="530" name="_Anchor35__Anchor35"/>
+  <anchor x="-213" y="530" name="_Anchor41__Anchor41"/>
+  <anchor x="-213" y="530" name="_Anchor49__Anchor49"/>
+  <anchor x="-213" y="530" name="_Anchor56_Anchor56_"/>
+  <anchor x="-213" y="530" name="_Anchor62_Anchor62_"/>
+  <anchor x="-213" y="744" name="mark2__MarkToMark61__Anchor62_Anchor62_"/>
+  <outline>
+    <component base="tildecomb" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

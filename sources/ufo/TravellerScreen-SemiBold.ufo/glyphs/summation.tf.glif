@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="summation.tf" format="2">
+  <advance width="560"/>
+  <outline>
+    <contour>
+      <point x="509" y="583" type="line"/>
+      <point x="207" y="583" type="line"/>
+      <point x="392" y="375" type="line"/>
+      <point x="392" y="320" type="line"/>
+      <point x="207" y="109" type="line"/>
+      <point x="509" y="109" type="line"/>
+      <point x="509" y="0" type="line"/>
+      <point x="50" y="0" type="line"/>
+      <point x="50" y="105" type="line"/>
+      <point x="261" y="345" type="line"/>
+      <point x="50" y="587" type="line"/>
+      <point x="50" y="692" type="line"/>
+      <point x="509" y="692" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 16 values pushed */
+10
+1
+0
+3
+9
+3
+2
+3
+1
+0
+8
+1
+2
+1
+3
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+47
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 21 values pushed */
+0
+0
+0
+3
+95
+0
+3
+3
+50
+77
+0
+1
+1
+2
+95
+0
+2
+2
+51
+2
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 24 values pushed */
+0
+3
+0
+0
+1
+3
+0
+103
+0
+1
+2
+2
+1
+87
+0
+1
+1
+2
+95
+0
+2
+1
+2
+79
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 7 values pushed */
+20
+17
+19
+16
+4
+9
+26
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w560l509+583l207+583l392+375l392+320l207+109l509+109l509+0l50+0l50+105l261+345l50+587l50+692l509+692|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

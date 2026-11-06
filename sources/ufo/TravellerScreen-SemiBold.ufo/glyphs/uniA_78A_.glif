@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA78A" format="2">
+  <advance width="473"/>
+  <unicode hex="A78A"/>
+  <outline>
+    <contour>
+      <point x="52" y="441" type="line"/>
+      <point x="421" y="441" type="line"/>
+      <point x="421" y="341" type="line"/>
+      <point x="52" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="52" y="256" type="line"/>
+      <point x="421" y="256" type="line"/>
+      <point x="421" y="156" type="line"/>
+      <point x="52" y="156" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 31 values pushed */
+0
+0
+0
+1
+2
+0
+1
+103
+0
+2
+3
+3
+2
+87
+0
+2
+2
+3
+95
+0
+3
+2
+3
+79
+17
+17
+17
+16
+4
+11
+26
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w473l52+441l421+441l421+341l52+341|l52+256l421+256l421+156l52+156|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

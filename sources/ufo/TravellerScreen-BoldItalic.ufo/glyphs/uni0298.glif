@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0298" format="2">
+  <advance width="786"/>
+  <unicode hex="0298"/>
+  <anchor x="356" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="453" y="693" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="550" y="710"/>
+      <point x="693" y="637"/>
+      <point x="770" y="502"/>
+      <point x="770" y="409" type="qcurve"/>
+      <point x="770" y="289"/>
+      <point x="666" y="94"/>
+      <point x="478" y="-17"/>
+      <point x="357" y="-17" type="qcurve"/>
+      <point x="261" y="-17"/>
+      <point x="117" y="56"/>
+      <point x="40" y="193"/>
+      <point x="40" y="286" type="qcurve"/>
+      <point x="40" y="407"/>
+      <point x="145" y="600"/>
+      <point x="333" y="710"/>
+      <point x="453" y="710" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="361" y="600"/>
+      <point x="247" y="514"/>
+      <point x="192" y="369"/>
+      <point x="192" y="279" type="qcurve"/>
+      <point x="192" y="184"/>
+      <point x="284" y="93"/>
+      <point x="367" y="93" type="qcurve"/>
+      <point x="450" y="93"/>
+      <point x="563" y="179"/>
+      <point x="618" y="323"/>
+      <point x="618" y="412" type="qcurve"/>
+      <point x="618" y="508"/>
+      <point x="526" y="600"/>
+      <point x="444" y="600" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="367" y="269"/>
+      <point x="328" y="308"/>
+      <point x="328" y="338" type="qcurve"/>
+      <point x="328" y="375"/>
+      <point x="379" y="425"/>
+      <point x="417" y="425" type="qcurve"/>
+      <point x="450" y="425"/>
+      <point x="490" y="386"/>
+      <point x="490" y="356" type="qcurve"/>
+      <point x="490" y="319"/>
+      <point x="438" y="269"/>
+      <point x="400" y="269" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+45
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 32 values pushed */
+0
+4
+8
+1
+5
+2
+4
+5
+105
+7
+1
+3
+3
+1
+97
+6
+1
+1
+1
+86
+77
+0
+2
+2
+0
+97
+0
+0
+0
+87
+0
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 35 values pushed */
+6
+1
+1
+7
+1
+3
+4
+1
+3
+105
+0
+4
+8
+1
+5
+2
+4
+5
+105
+0
+2
+0
+0
+2
+89
+0
+2
+2
+0
+97
+0
+0
+2
+0
+81
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 26 values pushed */
+30
+30
+16
+16
+0
+0
+30
+41
+30
+40
+36
+34
+16
+29
+16
+28
+23
+21
+0
+15
+0
+14
+38
+9
+11
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>b61f1f9932516b39f2e5d02033ad00ae98d03f736f335edcff2109b15d28d82ab6c9154bf84fe37fd2f40a494f18e8cb013f5ff45493082f15cd74be45124cfb</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

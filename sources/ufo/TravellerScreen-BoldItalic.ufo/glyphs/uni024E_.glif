@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni024E" format="2">
+  <advance width="585"/>
+  <unicode hex="024E"/>
+  <anchor x="255" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="353" y="693" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="603" y="615" type="line"/>
+      <point x="641" y="615" type="line"/>
+      <point x="629" y="523" type="line"/>
+      <point x="543" y="523" type="line"/>
+      <point x="373" y="260" type="line"/>
+      <point x="337" y="0" type="line"/>
+      <point x="175" y="0" type="line"/>
+      <point x="212" y="259" type="line"/>
+      <point x="116" y="523" type="line"/>
+      <point x="31" y="523" type="line"/>
+      <point x="43" y="615" type="line"/>
+      <point x="82" y="615" type="line"/>
+      <point x="54" y="693" type="line"/>
+      <point x="214" y="693" type="line"/>
+      <point x="237" y="615" type="line"/>
+      <point x="447" y="615" type="line"/>
+      <point x="492" y="693" type="line"/>
+      <point x="653" y="693" type="line"/>
+    </contour>
+    <contour>
+      <point x="394" y="523" type="line"/>
+      <point x="265" y="523" type="line"/>
+      <point x="309" y="375" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 7 values pushed */
+20
+7
+2
+2
+1
+1
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+45
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 27 values pushed */
+6
+4
+2
+0
+1
+1
+0
+87
+8
+3
+2
+1
+1
+5
+95
+7
+1
+5
+5
+80
+77
+0
+2
+2
+81
+2
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 34 values pushed */
+0
+2
+1
+2
+134
+7
+1
+5
+0
+1
+5
+87
+6
+4
+2
+0
+1
+1
+0
+87
+6
+4
+2
+0
+0
+1
+96
+8
+3
+2
+1
+0
+1
+80
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 12 values pushed */
+17
+17
+17
+17
+17
+18
+18
+17
+16
+9
+11
+31
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>04ea8803a49b94baa8f4663f4c6504259e83634ace4578b967e37eb7df34ab3476a020ea2c45931594800e28149734d5c7abcf085089ecff565ba07cc2e6e36d</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

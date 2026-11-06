@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0191" format="2">
+  <advance width="491"/>
+  <unicode hex="0191"/>
+  <anchor x="148" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="293" y="689" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="195" y="613" type="line"/>
+      <point x="195" y="378" type="line"/>
+      <point x="420" y="378" type="line"/>
+      <point x="420" y="303" type="line"/>
+      <point x="195" y="303" type="line"/>
+      <point x="195" y="-57" type="line"/>
+      <point x="195" y="-133"/>
+      <point x="115" y="-213"/>
+      <point x="44" y="-213" type="qcurve"/>
+      <point x="-21" y="-213"/>
+      <point x="-71" y="-175" type="qcurve"/>
+      <point x="-34" y="-115" type="line"/>
+      <point x="-15" y="-126"/>
+      <point x="16" y="-137"/>
+      <point x="39" y="-137" type="qcurve"/>
+      <point x="100" y="-137"/>
+      <point x="100" y="-63" type="qcurve"/>
+      <point x="100" y="689" type="line"/>
+      <point x="466" y="689" type="line"/>
+      <point x="455" y="613" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 54 values pushed */
+11
+1
+3
+1
+10
+1
+2
+3
+2
+76
+0
+0
+0
+1
+3
+0
+1
+103
+6
+1
+5
+5
+4
+95
+0
+4
+4
+80
+77
+0
+3
+3
+2
+97
+0
+2
+2
+85
+2
+78
+0
+0
+0
+19
+0
+19
+18
+36
+35
+17
+17
+7
+11
+27
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>bf0b71129848ba04edd8da89f86cd74d29f44e2392c627afaf4903378d011fd32f746faa26874f421ea6181fb5b183181c400756ce399270c6e45da1d7a8c269</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1E7C" format="2">
+  <advance width="556"/>
+  <unicode hex="1E7C"/>
+  <anchor x="278" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="278" y="689" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <component base="V" identifier="part0"/>
+    <component base="tildecomb.case" xOffset="475" identifier="part1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>features</key>
+        <dict/>
+        <key>input</key>
+        <string>Ṽ</string>
+        <key>kind</key>
+        <string>Canonical composition from the pinned prior font shaping</string>
+        <key>sourceGlyphs</key>
+        <array>
+          <string>V</string>
+          <string>tildecomb.case</string>
+        </array>
+      </dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>part0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>part1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

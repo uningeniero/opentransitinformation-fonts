@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.L2027" format="2">
+  <advance width="239"/>
+  <unicode hex="2027"/>
+  <outline>
+    <contour>
+      <point x="41" y="300" type="qcurve"/>
+      <point x="41" y="339"/>
+      <point x="96" y="394"/>
+      <point x="135" y="394" type="qcurve"/>
+      <point x="168" y="394"/>
+      <point x="210" y="351"/>
+      <point x="210" y="318" type="qcurve"/>
+      <point x="210" y="279"/>
+      <point x="156" y="223"/>
+      <point x="117" y="223" type="qcurve"/>
+      <point x="84" y="223"/>
+      <point x="41" y="267"/>
+    </contour>
+  </outline>
+</glyph>

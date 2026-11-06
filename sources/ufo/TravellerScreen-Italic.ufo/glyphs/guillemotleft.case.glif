@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="guillemotleft.case" format="2">
+  <advance width="569"/>
+  <outline>
+    <component base="guillemotleft" xOffset="6" yOffset="45" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+2
+PUSHB[ ]	/* 1 value pushed */
+45
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>e5bde5a26e5ce072d259a94bb6c1ad835c206e7dbd134465870c6ff014393293b0acd16619adb181e2bd6bc0caff997f08ad3148008f042ac82658acf115bf0c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

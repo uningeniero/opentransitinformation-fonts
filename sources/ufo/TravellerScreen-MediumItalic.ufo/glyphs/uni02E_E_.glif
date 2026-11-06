@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni02EE" format="2">
+  <advance width="390"/>
+  <unicode hex="02EE"/>
+  <outline>
+    <contour>
+      <point x="203" y="754"/>
+      <point x="237" y="722"/>
+      <point x="237" y="697" type="qcurve"/>
+      <point x="237" y="679"/>
+      <point x="227" y="647"/>
+      <point x="212" y="624" type="qcurve"/>
+      <point x="132" y="496" type="line"/>
+      <point x="68" y="496" type="line"/>
+      <point x="126" y="637" type="line"/>
+      <point x="103" y="655"/>
+      <point x="103" y="686" type="qcurve"/>
+      <point x="103" y="715"/>
+      <point x="145" y="754"/>
+      <point x="176" y="754" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="377" y="754"/>
+      <point x="411" y="722"/>
+      <point x="411" y="697" type="qcurve"/>
+      <point x="411" y="679"/>
+      <point x="400" y="648"/>
+      <point x="385" y="624" type="qcurve"/>
+      <point x="306" y="496" type="line"/>
+      <point x="241" y="496" type="line"/>
+      <point x="300" y="637" type="line"/>
+      <point x="276" y="655"/>
+      <point x="276" y="686" type="qcurve"/>
+      <point x="276" y="714"/>
+      <point x="319" y="754"/>
+      <point x="350" y="754" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 38 values pushed */
+22
+8
+2
+0
+1
+1
+76
+5
+3
+4
+3
+1
+0
+1
+133
+2
+1
+0
+0
+118
+14
+14
+0
+0
+14
+27
+14
+26
+21
+20
+0
+13
+0
+12
+22
+6
+11
+23
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>e806e65db94a0705f62185314f336e16f4b6d061460d9101f8dc22f465b5fb08d2a99b8fdc1077992fd34bd1efbedca739b8a06a5f5214a9be88befda3f6da75</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

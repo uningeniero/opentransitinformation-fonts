@@ -1,6 +1,6 @@
 {
   "id": "TAVRENEL-SOURCE-VALIDATION-2026-11-04",
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "language": "en",
   "purpose": "Release validation requirements derived from pinned sources. Actual released fonts and native resource choices are bound separately by the release manifest.",
   "source": {
@@ -12038,189 +12038,189 @@
       "id": "LT-aogonek-acute-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "ą́",
+      "text": "\u0105\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-aogonek-acute-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Ą́",
+      "text": "\u0104\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-aogonek-tilde-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "ą̃",
+      "text": "\u0105\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-aogonek-tilde-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Ą̃",
+      "text": "\u0104\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-eogonek-acute-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "ę́",
+      "text": "\u0119\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-eogonek-acute-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Ę́",
+      "text": "\u0118\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-eogonek-tilde-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "ę̃",
+      "text": "\u0119\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-eogonek-tilde-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Ę̃",
+      "text": "\u0118\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-iogonek-acute-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "į́",
+      "text": "\u012f\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-iogonek-acute-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Į́",
+      "text": "\u012e\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-iogonek-tilde-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "į̃",
+      "text": "\u012f\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-iogonek-tilde-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Į̃",
+      "text": "\u012e\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-uogonek-acute-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "ų́",
+      "text": "\u0173\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-uogonek-acute-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Ų́",
+      "text": "\u0172\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-uogonek-tilde-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "ų̃",
+      "text": "\u0173\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-uogonek-tilde-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Ų̃",
+      "text": "\u0172\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-umacron-acute-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "ū́",
+      "text": "\u016b\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-umacron-acute-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Ū́",
+      "text": "\u016a\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-umacron-tilde-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "ū̃",
+      "text": "\u016b\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-umacron-tilde-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Ū̃",
+      "text": "\u016a\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-edotaccent-acute-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "ė́",
+      "text": "\u0117\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-edotaccent-acute-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Ė́",
+      "text": "\u0116\u0301",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-edotaccent-tilde-lower",
       "locale": "lt",
       "script": "Latn",
-      "text": "ė̃",
+      "text": "\u0117\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-edotaccent-tilde-upper",
       "locale": "lt",
       "script": "Latn",
-      "text": "Ė̃",
+      "text": "\u0116\u0303",
       "purpose": "Exact selected native-vowel plus above-mark attachment flagged by engineering QA; actual source/compiled positioning must be checked, not inferred from glyph presence."
     },
     {
       "id": "LT-dot-retention-Iacute",
       "locale": "lt",
       "script": "Latn",
-      "text": "i̇́",
+      "text": "i\u0307\u0301",
       "purpose": "Explicit retained-dot/above-mark source context; input casing and font mark routing are distinct responsibilities."
     },
     {
       "id": "LT-dot-retention-Itilde",
       "locale": "lt",
       "script": "Latn",
-      "text": "i̇̃",
+      "text": "i\u0307\u0303",
       "purpose": "Explicit retained-dot/above-mark source context; input casing and font mark routing are distinct responsibilities."
     },
     {
       "id": "LT-dot-retention-IogonekMoreAbove",
       "locale": "lt",
       "script": "Latn",
-      "text": "į̇́",
+      "text": "\u012f\u0307\u0301",
       "purpose": "Explicit retained-dot/above-mark source context; input casing and font mark routing are distinct responsibilities."
     }
   ],
@@ -12285,7 +12285,7 @@
     "Nominal missing scalars and actual shaping failures are distinct. Retain the actual source controls.",
     "CJK resource labels do not perform Unicode script itemisation. Regional forms, bidi, line breaking and native quality require appropriate evidence.",
     "Glyph presence, compilation and virtual model outputs do not establish passenger recognition.",
-    "The selected CLDR 49 Yoruba profile uses dot-below inputs. U+0329 vertical-line-below alternatives appear in other primary inventories and remain outside the Sign 791-scalar profile; canonical normalisation does not replace one encoding with the other. Google Fonts language checks therefore have a separate recorded disposition."
+    "The selected CLDR 49 Yoruba profile uses dot-below inputs. The current Sign source also includes distinct U+0329 vertical-line-below inputs from other primary inventories. Canonical normalisation does not replace one encoding with the other; actual sequences are checked separately."
   ],
   "provenanceDigests": {
     "derivedRepertoire": {
@@ -12302,57 +12302,171 @@
       "id": "YO-edotbelow-acute-lower",
       "locale": "yo",
       "script": "Latn",
-      "text": "ẹ́",
+      "text": "\u1eb9\u0301",
       "purpose": "Exact native dot-below vowel plus tone attachment found missing by engineering QA; compare actual source and compiled glyph positions in every Sign cut."
     },
     {
       "id": "YO-edotbelow-acute-upper",
       "locale": "yo",
       "script": "Latn",
-      "text": "Ẹ́",
+      "text": "\u1eb8\u0301",
       "purpose": "Exact native dot-below vowel plus tone attachment found missing by engineering QA; compare actual source and compiled glyph positions in every Sign cut."
     },
     {
       "id": "YO-edotbelow-grave-lower",
       "locale": "yo",
       "script": "Latn",
-      "text": "ẹ̀",
+      "text": "\u1eb9\u0300",
       "purpose": "Exact native dot-below vowel plus tone attachment found missing by engineering QA; compare actual source and compiled glyph positions in every Sign cut."
     },
     {
       "id": "YO-edotbelow-grave-upper",
       "locale": "yo",
       "script": "Latn",
-      "text": "Ẹ̀",
+      "text": "\u1eb8\u0300",
       "purpose": "Exact native dot-below vowel plus tone attachment found missing by engineering QA; compare actual source and compiled glyph positions in every Sign cut."
     },
     {
       "id": "YO-odotbelow-acute-lower",
       "locale": "yo",
       "script": "Latn",
-      "text": "ọ́",
+      "text": "\u1ecd\u0301",
       "purpose": "Exact native dot-below vowel plus tone attachment found missing by engineering QA; compare actual source and compiled glyph positions in every Sign cut."
     },
     {
       "id": "YO-odotbelow-acute-upper",
       "locale": "yo",
       "script": "Latn",
-      "text": "Ọ́",
+      "text": "\u1ecc\u0301",
       "purpose": "Exact native dot-below vowel plus tone attachment found missing by engineering QA; compare actual source and compiled glyph positions in every Sign cut."
     },
     {
       "id": "YO-odotbelow-grave-lower",
       "locale": "yo",
       "script": "Latn",
-      "text": "ọ̀",
+      "text": "\u1ecd\u0300",
       "purpose": "Exact native dot-below vowel plus tone attachment found missing by engineering QA; compare actual source and compiled glyph positions in every Sign cut."
     },
     {
       "id": "YO-odotbelow-grave-upper",
       "locale": "yo",
       "script": "Latn",
-      "text": "Ọ̀",
+      "text": "\u1ecc\u0300",
       "purpose": "Exact native dot-below vowel plus tone attachment found missing by engineering QA; compare actual source and compiled glyph positions in every Sign cut."
     }
-  ]
+  ],
+  "spdxLicense": "CC-BY-4.0",
+  "currentProduction": {
+    "release": "1.1.0",
+    "fontMetadata": "1.100",
+    "predecessor": "tests/source-predecessor.json",
+    "sourceFormat": "UFO 3",
+    "resources": {
+      "screen": {
+        "family": "Traveller Screen",
+        "exactEncodedScalarCount": 1775,
+        "addedEncodedScalars": [
+          705,
+          814,
+          863,
+          7305,
+          7306,
+          7491,
+          7499,
+          7506,
+          7507,
+          7512,
+          7549,
+          7588,
+          7606,
+          7706,
+          7707,
+          7722,
+          7723,
+          7724,
+          7725,
+          7730,
+          7731,
+          7732,
+          7733,
+          7746,
+          7747,
+          7752,
+          7753,
+          7794,
+          7795,
+          7796,
+          7797,
+          7804,
+          7805,
+          7806,
+          7807,
+          7818,
+          7819,
+          7828,
+          7829,
+          8305,
+          11363,
+          42951,
+          42952,
+          42955,
+          42972
+        ],
+        "allPredecessorMappingsRetained": true
+      },
+      "sign": {
+        "family": "Traveller Sign",
+        "exactEncodedScalarCount": 821,
+        "addedEncodedScalars": [
+          390,
+          400,
+          413,
+          415,
+          463,
+          464,
+          465,
+          466,
+          596,
+          603,
+          626,
+          629,
+          809,
+          913,
+          914,
+          916,
+          917,
+          918,
+          919,
+          920,
+          921,
+          954,
+          958,
+          963,
+          7704,
+          7706,
+          7740,
+          7754,
+          7768,
+          7819
+        ],
+        "allPredecessorMappingsRetained": true
+      }
+    },
+    "signFigures": {
+      "default": "Retain native proportional figures and spacing.",
+      "tnumAdvance": 1412,
+      "unitsPerEm": 2000,
+      "pnum": "Restore native proportional figures."
+    },
+    "componentsAndInstructions": "Flatten nested components and decompose transformed components; regenerate output instructions with the exact external tool and fixed options in tools/production.json. Retained contours are checked after explicit integer/direction normalisation; native source assembly remains in UFO history.",
+    "smallCaps": "Reuse only genuine native case-linked companions and documented native constructions. The new U+1E7D and U+1E8B companions use their uppercase c2sc partner routes. U+1E0A c2sc and U+1E0B smcp use the native D smallcap and zero-width dot above, replacing the inherited wrong below-dot route. No identity substitutions or generic cap scaling.",
+    "newInputCases": [
+      "Sign U0329 and its tone/below-base routes.",
+      "Sign six scoped missing-vowel combinations, native x+0307 and the context-only U1ECB soft-dot alternate.",
+      "Screen AEIOUaeiou+1DC5 in four repaired uprights, with contextual native dotlessi; four italic routes preserved.",
+      "Screen T+035F+H and t+035F+h preserve actual native pair spacing and span both bases.",
+      "Screen newly encoded canonical combinations retain native pair-role spacing in NFC and NFD."
+    ],
+    "primaryQA": "Run the complete pinned googlefonts profile with each applicable family OFL input, retaining all raw severities and context skips."
+  }
 }

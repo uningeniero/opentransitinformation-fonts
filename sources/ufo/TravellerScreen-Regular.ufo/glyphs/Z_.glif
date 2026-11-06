@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="Z" format="2">
+  <advance width="522"/>
+  <unicode hex="005A"/>
+  <anchor x="258" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="272" y="689" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="477" y="612" type="line"/>
+      <point x="136" y="81" type="line"/>
+      <point x="477" y="81" type="line"/>
+      <point x="466" y="0" type="line"/>
+      <point x="30" y="0" type="line"/>
+      <point x="30" y="76" type="line"/>
+      <point x="374" y="609" type="line"/>
+      <point x="66" y="609" type="line"/>
+      <point x="66" y="689" type="line"/>
+      <point x="477" y="689" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 38 values pushed */
+0
+1
+2
+3
+5
+1
+1
+0
+2
+76
+0
+2
+2
+3
+95
+0
+3
+3
+80
+77
+0
+0
+0
+1
+95
+0
+1
+1
+81
+1
+78
+17
+18
+17
+17
+4
+11
+26
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w522l477+612l136+81l477+81l466+0l30+0l30+76l374+609l66+609l66+689l477+689|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

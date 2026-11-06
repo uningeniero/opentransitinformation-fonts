@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni01C0" format="2">
+  <advance width="268"/>
+  <unicode hex="01C0"/>
+  <outline>
+    <contour>
+      <point x="157" y="0" type="line"/>
+      <point x="35" y="0" type="line"/>
+      <point x="139" y="741" type="line"/>
+      <point x="264" y="755" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 4 values pushed */
+3
+1
+0
+74
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+47
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 6 values pushed */
+0
+0
+0
+81
+0
+78
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 4 values pushed */
+0
+0
+0
+118
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 4 values pushed */
+16
+1
+11
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w268l157+0l35+0l139+741l264+755|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

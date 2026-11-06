@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.L204A" format="2">
+  <advance width="1103"/>
+  <unicode hex="204A"/>
+  <outline>
+    <contour>
+      <point x="988" y="851" type="line"/>
+      <point x="483" y="-432" type="line"/>
+      <point x="194" y="-337" type="line"/>
+      <point x="655" y="824" type="line"/>
+      <point x="77" y="824" type="line"/>
+      <point x="77" y="1073" type="line"/>
+      <point x="988" y="1073" type="line"/>
+    </contour>
+  </outline>
+</glyph>

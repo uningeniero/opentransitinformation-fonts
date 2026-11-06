@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1EE0" format="2">
+  <advance width="712"/>
+  <unicode hex="1EE0"/>
+  <anchor x="346" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="461" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="348" y="914" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="620" y="692" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="272" y="812"/>
+      <point x="249" y="791"/>
+      <point x="236" y="767" type="qcurve"/>
+      <point x="162" y="803" type="line"/>
+      <point x="183" y="852"/>
+      <point x="246" y="914"/>
+      <point x="287" y="914" type="qcurve"/>
+      <point x="308" y="914"/>
+      <point x="338" y="902"/>
+      <point x="356" y="889" type="qcurve"/>
+      <point x="371" y="878"/>
+      <point x="392" y="868"/>
+      <point x="403" y="868" type="qcurve"/>
+      <point x="418" y="868"/>
+      <point x="441" y="889"/>
+      <point x="455" y="912" type="qcurve"/>
+      <point x="529" y="876" type="line"/>
+      <point x="509" y="825"/>
+      <point x="444" y="766"/>
+      <point x="404" y="766" type="qcurve"/>
+      <point x="384" y="766"/>
+      <point x="353" y="778"/>
+      <point x="336" y="790" type="qcurve"/>
+      <point x="321" y="802"/>
+      <point x="301" y="812"/>
+      <point x="289" y="812" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="701" y="589"/>
+      <point x="602" y="569" type="qcurve"/>
+      <point x="653" y="479"/>
+      <point x="653" y="346" type="qcurve"/>
+      <point x="653" y="233"/>
+      <point x="579" y="70"/>
+      <point x="441" y="-16"/>
+      <point x="346" y="-16" type="qcurve"/>
+      <point x="251" y="-16"/>
+      <point x="112" y="69"/>
+      <point x="38" y="232"/>
+      <point x="38" y="346" type="qcurve"/>
+      <point x="38" y="458"/>
+      <point x="113" y="621"/>
+      <point x="252" y="708"/>
+      <point x="346" y="708" type="qcurve"/>
+      <point x="474" y="708"/>
+      <point x="551" y="634" type="qcurve"/>
+      <point x="577" y="638"/>
+      <point x="600" y="665"/>
+      <point x="600" y="689" type="qcurve"/>
+      <point x="600" y="726"/>
+      <point x="587" y="758" type="qcurve"/>
+      <point x="682" y="773" type="line"/>
+      <point x="701" y="737"/>
+      <point x="701" y="686" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="422" y="94"/>
+      <point x="498" y="213"/>
+      <point x="498" y="346" type="qcurve"/>
+      <point x="498" y="479"/>
+      <point x="422" y="598"/>
+      <point x="346" y="598" type="qcurve"/>
+      <point x="270" y="598"/>
+      <point x="193" y="478"/>
+      <point x="193" y="346" type="qcurve"/>
+      <point x="193" y="214"/>
+      <point x="271" y="94"/>
+      <point x="346" y="94" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 25 values pushed */
+16
+15
+2
+1
+0
+49
+3
+2
+3
+2
+3
+48
+1
+5
+2
+43
+1
+6
+5
+27
+1
+7
+6
+5
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+47
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 39 values pushed */
+0
+0
+8
+1
+3
+2
+0
+3
+105
+0
+1
+0
+2
+5
+1
+2
+105
+0
+6
+6
+5
+97
+0
+5
+5
+86
+77
+9
+1
+7
+7
+4
+97
+0
+4
+4
+87
+4
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 43 values pushed */
+0
+0
+8
+1
+3
+2
+0
+3
+105
+0
+1
+0
+2
+5
+1
+2
+105
+0
+5
+0
+6
+7
+5
+6
+105
+9
+1
+7
+4
+4
+7
+89
+9
+1
+7
+7
+4
+97
+0
+4
+7
+4
+81
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 24 values pushed */
+52
+52
+0
+0
+52
+63
+52
+62
+58
+56
+42
+40
+34
+32
+0
+25
+0
+24
+37
+36
+37
+10
+11
+25
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>532de12856aac23fea139a9d497d78272665f8d8d3c920eb254ba632b6c6b86cedbed3f9e8c7d23612ab1374891e502ae8b4ba7e5f68c2c7fac46a40e960c08f</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

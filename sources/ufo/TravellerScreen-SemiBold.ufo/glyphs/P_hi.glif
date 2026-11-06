@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="Phi" format="2">
+  <advance width="835"/>
+  <unicode hex="03A6"/>
+  <anchor x="418" y="0" name="base__Extension45__Anchor40__Anchor40"/>
+  <anchor x="418" y="692" name="base__Extension45__Anchor41__Anchor41"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor42__Anchor42"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor43__Anchor43"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor44__Anchor44"/>
+  <outline>
+    <contour>
+      <point x="814" y="221"/>
+      <point x="640" y="79"/>
+      <point x="489" y="73" type="qcurve"/>
+      <point x="489" y="0" type="line"/>
+      <point x="346" y="0" type="line"/>
+      <point x="346" y="74" type="line"/>
+      <point x="194" y="81"/>
+      <point x="21" y="222"/>
+      <point x="21" y="345" type="qcurve"/>
+      <point x="21" y="471"/>
+      <point x="195" y="612"/>
+      <point x="346" y="618" type="qcurve"/>
+      <point x="346" y="692" type="line"/>
+      <point x="489" y="692" type="line"/>
+      <point x="489" y="617" type="line"/>
+      <point x="641" y="610"/>
+      <point x="814" y="470"/>
+      <point x="814" y="349" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="171" y="262"/>
+      <point x="261" y="170"/>
+      <point x="352" y="165" type="qcurve"/>
+      <point x="352" y="526" type="line"/>
+      <point x="259" y="519"/>
+      <point x="171" y="428"/>
+      <point x="171" y="345" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="664" y="176"/>
+      <point x="664" y="349" type="qcurve"/>
+      <point x="664" y="429"/>
+      <point x="574" y="520"/>
+      <point x="483" y="525" type="qcurve"/>
+      <point x="483" y="165" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 6 values pushed */
+21
+1
+7
+3
+1
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+30
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 31 values pushed */
+5
+1
+3
+0
+7
+6
+3
+7
+106
+9
+8
+2
+6
+2
+1
+0
+1
+6
+0
+106
+0
+4
+4
+64
+77
+0
+1
+1
+65
+1
+78
+ELSE[ ]	/* Else */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+47
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 31 values pushed */
+0
+1
+0
+1
+134
+5
+1
+3
+0
+7
+6
+3
+7
+106
+9
+8
+2
+6
+2
+1
+0
+1
+6
+0
+106
+0
+4
+4
+64
+4
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 40 values pushed */
+0
+4
+3
+4
+133
+0
+1
+0
+1
+134
+5
+1
+3
+0
+7
+6
+3
+7
+106
+9
+8
+2
+6
+0
+0
+6
+89
+9
+8
+2
+6
+6
+0
+98
+2
+1
+0
+6
+0
+82
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 17 values pushed */
+25
+25
+25
+30
+25
+30
+24
+20
+17
+17
+20
+17
+17
+17
+10
+10
+30
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d2bdbf92b4cd150734cd9b00a58a05552f48f744d5181197e5fcc8511fdf60d53091016ebf738d461ded593e2c23fd5a3cd034b33ef07d62bed9885cd68e083b</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

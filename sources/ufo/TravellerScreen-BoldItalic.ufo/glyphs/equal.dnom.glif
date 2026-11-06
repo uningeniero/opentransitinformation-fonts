@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="equal.dnom" format="2">
+  <advance width="781"/>
+  <outline>
+    <contour>
+      <point x="53" y="238" type="line"/>
+      <point x="333" y="238" type="line"/>
+      <point x="320" y="154" type="line"/>
+      <point x="40" y="154" type="line"/>
+    </contour>
+    <contour>
+      <point x="443" y="238" type="line"/>
+      <point x="723" y="238" type="line"/>
+      <point x="710" y="154" type="line"/>
+      <point x="431" y="154" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 26 values pushed */
+2
+1
+0
+1
+1
+0
+87
+2
+1
+0
+0
+1
+95
+3
+1
+1
+0
+1
+79
+17
+17
+17
+16
+4
+9
+26
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w781l53+238l333+238l320+154l40+154|l443+238l723+238l710+154l431+154|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

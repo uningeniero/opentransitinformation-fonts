@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="asciitilde" format="2">
+  <advance width="930"/>
+  <unicode hex="007E"/>
+  <anchor x="465" y="578" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="638" y="578" type="qcurve"/>
+      <point x="580" y="578"/>
+      <point x="482" y="626"/>
+      <point x="386" y="674"/>
+      <point x="332" y="674" type="qcurve"/>
+      <point x="254" y="674"/>
+      <point x="254" y="592" type="qcurve"/>
+      <point x="80" y="592" type="line"/>
+      <point x="85" y="721"/>
+      <point x="193" y="858"/>
+      <point x="292" y="858" type="qcurve"/>
+      <point x="352" y="858"/>
+      <point x="453" y="810"/>
+      <point x="548" y="762"/>
+      <point x="598" y="762" type="qcurve"/>
+      <point x="676" y="762"/>
+      <point x="676" y="844" type="qcurve"/>
+      <point x="850" y="844" type="line"/>
+      <point x="846" y="715"/>
+      <point x="737" y="578"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+35
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 27 values pushed */
+0
+4
+1
+0
+4
+89
+5
+1
+3
+0
+1
+0
+3
+1
+105
+0
+4
+4
+0
+98
+2
+6
+2
+0
+4
+0
+82
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 41 values pushed */
+0
+5
+3
+4
+3
+5
+4
+128
+0
+2
+1
+0
+1
+2
+0
+128
+0
+4
+1
+0
+4
+89
+0
+3
+0
+1
+2
+3
+1
+105
+0
+4
+4
+0
+98
+6
+1
+0
+4
+0
+82
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 19 values pushed */
+1
+0
+17
+16
+15
+13
+11
+9
+7
+6
+5
+3
+0
+19
+1
+19
+7
+8
+22
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d7961e006b1803cead57c579d186c8f993e56a5a3f978047095f129959813ceab47fed46f67ffa442f189329ae42a232d1a26fb45d793de3457755e99d257d2d</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

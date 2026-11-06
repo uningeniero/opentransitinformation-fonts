@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0373.sc" format="2">
+  <advance width="540"/>
+  <anchor x="270" y="0" name="base__Extension45__Anchor40__Anchor40"/>
+  <anchor x="270" y="566" name="base__Extension45__Anchor41__Anchor41"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor42__Anchor42"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor43__Anchor43"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor44__Anchor44"/>
+  <outline>
+    <contour>
+      <point x="528" y="566" type="line"/>
+      <point x="528" y="319" type="line"/>
+      <point x="427" y="319" type="line"/>
+      <point x="427" y="473" type="line"/>
+      <point x="334" y="473" type="line"/>
+      <point x="334" y="0" type="line"/>
+      <point x="206" y="0" type="line"/>
+      <point x="206" y="473" type="line"/>
+      <point x="113" y="473" type="line"/>
+      <point x="113" y="319" type="line"/>
+      <point x="12" y="319" type="line"/>
+      <point x="12" y="566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+9
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 26 values pushed */
+4
+1
+0
+1
+2
+1
+0
+114
+3
+1
+1
+1
+5
+95
+6
+1
+5
+5
+32
+77
+0
+2
+2
+33
+2
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 27 values pushed */
+4
+1
+0
+1
+2
+1
+0
+2
+128
+3
+1
+1
+1
+5
+95
+6
+1
+5
+5
+32
+77
+0
+2
+2
+33
+2
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 14 values pushed */
+0
+0
+0
+11
+0
+11
+17
+17
+17
+17
+17
+7
+7
+27
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w540l528+566l528+319l427+319l427+473l334+473l334+0l206+0l206+473l113+473l113+319l12+319l12+566|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

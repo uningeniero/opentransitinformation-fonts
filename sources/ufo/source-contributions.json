@@ -1,0 +1,2343 @@
+{
+  "spdxLicense": "OFL-1.1",
+  "sourcePlanSha256": "a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c",
+  "fragments": [
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1D7D",
+      "unicode": "U+1D7D",
+      "advance": 587,
+      "sourceSHA256": "7b990b046a32ece1c322283892c1369bddb67fa72ba8c53f64ca00e9862bbda9"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni2C63",
+      "unicode": "U+2C63",
+      "advance": 601,
+      "sourceSHA256": "6136d02eb7868c493b6e7da33e6c045302c4b9b0a77ada24365c56f8465eb50d"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1D43",
+      "unicode": "U+1D43",
+      "advance": 290,
+      "sourceSHA256": "60268e2f1ba7c35df5227b73af474232875c4fb6035c8b6748066fc6e2a43842"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1D4B",
+      "unicode": "U+1D4B",
+      "advance": 252,
+      "sourceSHA256": "b10afdbcfe331dd9f49d53fd318f70b246f7f560340782b1c8e2a762fdccac0e"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1D52",
+      "unicode": "U+1D52",
+      "advance": 320,
+      "sourceSHA256": "f8064d6b7757ad020bb45bc6b708351297109e463e1a3586bbeb03e197673237"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1D53",
+      "unicode": "U+1D53",
+      "advance": 275,
+      "sourceSHA256": "b475df4045053d01d53e4ee5d74d79d794d1e8ceb1e1e89743393da15abf3668"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1D58",
+      "unicode": "U+1D58",
+      "advance": 317,
+      "sourceSHA256": "1bc31d13e496caf203c95a97096a0340a7ea39dfdfef064aecfe82d945ee2c05"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1DA4",
+      "unicode": "U+1DA4",
+      "advance": 189,
+      "sourceSHA256": "3a27be352d983cad2cb195aacde3ce314d23fcbec9a0510d81bf589058a4ec3f"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1DB6",
+      "unicode": "U+1DB6",
+      "advance": 337,
+      "sourceSHA256": "0ad00969cf53c7d560b8b6fdc7bb09926c5c37bf106734f57ce00a8d37a38a87"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni2071",
+      "unicode": "U+2071",
+      "advance": 213,
+      "sourceSHA256": "b25f1e1b74ae1fa7814f44f3effa5d7796a2d16583ebf5c046b73f796a0bb75c"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni02C1",
+      "unicode": "U+02C1",
+      "advance": 284,
+      "sourceSHA256": "c31188234e0a536b78411b0652707022904154bb9a38f1cc5485a60ed524f6cb"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uniA7C7",
+      "unicode": "U+A7C7",
+      "advance": 651,
+      "sourceSHA256": "f6213512c98a308eb7e4f529ebaa6938ee6c922c4d2d671c3b5cdf55cdc1f4bc"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uniA7C8",
+      "unicode": "U+A7C8",
+      "advance": 594,
+      "sourceSHA256": "7e00651a348efa360e046cf15266f3c0fb0cda120832017e40ca83eebeb8f0e1"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1C89",
+      "unicode": "U+1C89",
+      "advance": 717,
+      "sourceSHA256": "dd9fb54de58c7ba6fa6f36dbd6c1f1904db2cbacae902018aa710b288e81bed5"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1C8A",
+      "unicode": "U+1C8A",
+      "advance": 620,
+      "sourceSHA256": "d354c7661c96968f42a81c33680823a66d764f56314e56322dde08ceb9f9d026"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni032E",
+      "unicode": "U+032E",
+      "advance": 0,
+      "sourceSHA256": "08dbdc67ad8bf4227dc88fc9efd3e683a126a5f0ad2e4eb96363955839ab5f95"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1E2A",
+      "unicode": "U+1E2A",
+      "advance": 666,
+      "sourceSHA256": "298764af3261a5132c4029488e88e6e0f46b40e12399e6c55bdba0be83877342"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni1E2B",
+      "unicode": "U+1E2B",
+      "advance": 573,
+      "sourceSHA256": "11a1ccb19296737fc357fda7e95b411a8d1550f7df45ad004143ec831b0289d2"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni035F",
+      "unicode": "U+035F",
+      "advance": 0,
+      "sourceSHA256": "016320f0f7b38e9c9b64cb0b61e71ce4ea97bbf37aacc6ee91a4af366d7a562b"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni035F.upperPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "55fd43ba725b810b32f41538c7ee58112b1580f445825a9561497cc221233381"
+    },
+    {
+      "role": "screen",
+      "style": "Bold",
+      "glyph": "uni035F.lowerPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "1ebc1fdddd6826b6bb36694644a258e1872519c3f050713ca083707fb392cb9d"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1D7D",
+      "unicode": "U+1D7D",
+      "advance": 558,
+      "sourceSHA256": "f4a8cb3e22c243d8bb2fa25010150e00b13040634123de5a893424f5f0f21ba3"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni2C63",
+      "unicode": "U+2C63",
+      "advance": 563,
+      "sourceSHA256": "058f17409725739e5836002fbf13b434a18ee7c3233879b59efc2fa312914988"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1D43",
+      "unicode": "U+1D43",
+      "advance": 272,
+      "sourceSHA256": "bdd4e710f36f51ce4bc032698009659c0cc8a5b95f7317bc70c1e99f35ea4df9"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1D4B",
+      "unicode": "U+1D4B",
+      "advance": 236,
+      "sourceSHA256": "c4ee535af3bd500a075e50cb7cfa7c863ff38aeb004605ed811bdda832b708ab"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1D52",
+      "unicode": "U+1D52",
+      "advance": 300,
+      "sourceSHA256": "697bc874e85de762e82e02b30b7f1670f179227362a0fd7925a3106da63b6d80"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1D53",
+      "unicode": "U+1D53",
+      "advance": 256,
+      "sourceSHA256": "82a917316f452ec47ba67410c10c392d6030352eb80de5300c0e1289338785a4"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1D58",
+      "unicode": "U+1D58",
+      "advance": 299,
+      "sourceSHA256": "77709d0cbe962e752368c99721ca4e72d3963c2f7d3920baa1531e58b9e849ca"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1DA4",
+      "unicode": "U+1DA4",
+      "advance": 177,
+      "sourceSHA256": "33d1a678c006d9aa992d39474045d33792b6f185338b47a6a596fc967508b734"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1DB6",
+      "unicode": "U+1DB6",
+      "advance": 315,
+      "sourceSHA256": "cde8545fc845e59a901f139f4596da634795746663bc1c7c3128d6acbe314b05"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni2071",
+      "unicode": "U+2071",
+      "advance": 204,
+      "sourceSHA256": "11af6b0e085083f53fb3bd77f7a2f93febd71209e0bacb666451f04860336f61"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni02C1",
+      "unicode": "U+02C1",
+      "advance": 263,
+      "sourceSHA256": "5f41f3a6f93a1e526d499c4f85d95cb0052b4444514ba12f2286b7e6597f1482"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uniA7C7",
+      "unicode": "U+A7C7",
+      "advance": 642,
+      "sourceSHA256": "b6b4107f2d8cab15ba699520bc34565c2803409a25c062daa6496e170af16f6f"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uniA7C8",
+      "unicode": "U+A7C8",
+      "advance": 586,
+      "sourceSHA256": "eeffd80428fbe6189db85dcadc6242b7eb482155e15abbd502da05ede560ac5c"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1C89",
+      "unicode": "U+1C89",
+      "advance": 706,
+      "sourceSHA256": "32839d9090ca41f2d32ce28a3d600c5868de0a43c8c4e7ffb55c729e43616a2c"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1C8A",
+      "unicode": "U+1C8A",
+      "advance": 613,
+      "sourceSHA256": "02e9e0216f4d23b4493bf64d66f8a3a6580dc69ddd367bc4f41096a098cf2166"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni032E",
+      "unicode": "U+032E",
+      "advance": 0,
+      "sourceSHA256": "0e903671d70e7ee6cba46b7a94dc60c485e28ee54cc57e3bb80524ea3ef5a966"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1E2A",
+      "unicode": "U+1E2A",
+      "advance": 656,
+      "sourceSHA256": "e00a64ffdce8d6630ca9dbd3391819afc8241e7d99614f4a2aab67a022bb60df"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni1E2B",
+      "unicode": "U+1E2B",
+      "advance": 567,
+      "sourceSHA256": "2030b2a28bcaafd8b472f63371fd184a57d583bfd28915bb5ab7de4b6c92b0ca"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni035F",
+      "unicode": "U+035F",
+      "advance": 0,
+      "sourceSHA256": "72f3bedb97d41a9ef849b1215d23803e23cbfe9a399176b2249523dccd8bd97b"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni035F.upperPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "2565ab7a53d86c155a07b37955ae2f02140ed72e5a053058a74e587e87eb8c79"
+    },
+    {
+      "role": "screen",
+      "style": "BoldItalic",
+      "glyph": "uni035F.lowerPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "b1e1a8ded8502822d5228404267ee0650d079eec02c29e8a2dae3265b651e56b"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1D7D",
+      "unicode": "U+1D7D",
+      "advance": 550,
+      "sourceSHA256": "de69f0a5a071d3ce7719fa7ad869c51ece83d20b4ddc3747c22b5aed6c497cf9"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni2C63",
+      "unicode": "U+2C63",
+      "advance": 547,
+      "sourceSHA256": "3e6515f56b1153ba2bb7ea5cfa94802fd50d1de43d99d5234bf3013bef1302a9"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1D43",
+      "unicode": "U+1D43",
+      "advance": 267,
+      "sourceSHA256": "6eea7319a343b98badc0b41723efe51a6d48870d75b7f100027f7b5ba4ae9bc2"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1D4B",
+      "unicode": "U+1D4B",
+      "advance": 237,
+      "sourceSHA256": "89e5d4466970f914c800366a582a84eb87ac1b3f57ce5efe9f725f94b6f62b43"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1D52",
+      "unicode": "U+1D52",
+      "advance": 298,
+      "sourceSHA256": "f6f3d0f347f2d3929022a7ea7afdb9e6b930683d63215ddbbc7c629c1d9ede1f"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1D53",
+      "unicode": "U+1D53",
+      "advance": 254,
+      "sourceSHA256": "0660d45ee9842bce026cb8d97b7045b6a14cbbd83088c8b5d65bb3f5c716bf42"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1D58",
+      "unicode": "U+1D58",
+      "advance": 296,
+      "sourceSHA256": "75b0873b2f52b39c0492f6b1e8ec25c27530f83615a9be704cad566b219775a3"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1DA4",
+      "unicode": "U+1DA4",
+      "advance": 166,
+      "sourceSHA256": "2134e749a2ea43917ad2b3c4f96fd5ccd7cc8c6a4ee590a9642bd63b891d7b34"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1DB6",
+      "unicode": "U+1DB6",
+      "advance": 316,
+      "sourceSHA256": "cafd1527c529e17ec68bf1a092e7a10d248e13c1ea96fe51e5c2584fdffa4772"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni2071",
+      "unicode": "U+2071",
+      "advance": 202,
+      "sourceSHA256": "c58ca7fed853dabe10fc11b971db7f4f105cafdc55f841319b1d75d72bbff4c4"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni02C1",
+      "unicode": "U+02C1",
+      "advance": 264,
+      "sourceSHA256": "8588b2e46fd906791152cd834e33db8acdfddde48be90f538002db38a2d68f11"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uniA7C7",
+      "unicode": "U+A7C7",
+      "advance": 639,
+      "sourceSHA256": "96138e3add18d968a61779d15144e9e71d49cf384dd6d21464f58d49b209b7b5"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uniA7C8",
+      "unicode": "U+A7C8",
+      "advance": 587,
+      "sourceSHA256": "9ff70888d5386a91773b3f02d6e8eea71f59334cdab7846b6e198687be3b4045"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1C89",
+      "unicode": "U+1C89",
+      "advance": 676,
+      "sourceSHA256": "be272b4ff00f659f4c62e27b29a8cec2e65e916d525d9f160076c89798fee9b1"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1C8A",
+      "unicode": "U+1C8A",
+      "advance": 603,
+      "sourceSHA256": "44c0ab8bc09eb1b64e190b9ad4759e4c28439be6c34b1dc24b84a3b9a4e67b5c"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni032E",
+      "unicode": "U+032E",
+      "advance": 0,
+      "sourceSHA256": "fa128e58b24d8d268c2dd54f0bedce0c487cd2a85f69a7e6e0b111ff24acfa2c"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1E2A",
+      "unicode": "U+1E2A",
+      "advance": 674,
+      "sourceSHA256": "9e1ada6853f6f32edc66e476d7d965824cd52f9c3fc55affc6bc5e1e29afd164"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni1E2B",
+      "unicode": "U+1E2B",
+      "advance": 581,
+      "sourceSHA256": "7dd3e150099cf9a75666d4535bdeb41dedd2e8e59fe186643876040f939284ef"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni035F",
+      "unicode": "U+035F",
+      "advance": 0,
+      "sourceSHA256": "cee248bfcc5678f5bb07a45b9a363fe72e4d32b4c73ee4abba741edc8e488b3a"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni035F.upperPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "c49d2ef88d02c605e216ac50c3dd56bae8024d7ec20df613d8398801b3bc907a"
+    },
+    {
+      "role": "screen",
+      "style": "Italic",
+      "glyph": "uni035F.lowerPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "1af7904a216c390206ed85c3d537943647ba01915681a523349c58b2e66b5dbf"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1D7D",
+      "unicode": "U+1D7D",
+      "advance": 585,
+      "sourceSHA256": "1c6c6617d58d9fd1b6b15c8d62dba38850a2855b60665a6beb43926a95bd3d1b"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni2C63",
+      "unicode": "U+2C63",
+      "advance": 591,
+      "sourceSHA256": "fd0450ed529546c3c98ac1f3a328f53886b3633187e29d755716ed98812de011"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1D43",
+      "unicode": "U+1D43",
+      "advance": 287,
+      "sourceSHA256": "0de7a82086b444953a8156e423c25fb0c1ede96345f95da2d452ff01ad1b2e22"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1D4B",
+      "unicode": "U+1D4B",
+      "advance": 253,
+      "sourceSHA256": "c83ebb0f71654dd5d428cb74921d9ad9be570b6de09fb9ed6bd80c66bd902a99"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1D52",
+      "unicode": "U+1D52",
+      "advance": 318,
+      "sourceSHA256": "c4c8031ffaad2cda8ccc209d64d70ee1ab5a22e486f486b8684d4e54d82cef0a"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1D53",
+      "unicode": "U+1D53",
+      "advance": 274,
+      "sourceSHA256": "b8039b874eb185dd3fefb30517897bd0935332f84c0c8bb2d6ac48588a467873"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1D58",
+      "unicode": "U+1D58",
+      "advance": 317,
+      "sourceSHA256": "d57620165c534978fb7cc23d324282f266ec8d4f2809e6fd87e7b36dcbdafd01"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1DA4",
+      "unicode": "U+1DA4",
+      "advance": 181,
+      "sourceSHA256": "cceabc38c0819a446949e61f5bd501223a7f23cd782de34d3f6ee4056c88fe8c"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1DB6",
+      "unicode": "U+1DB6",
+      "advance": 338,
+      "sourceSHA256": "8047c63293cc9184df16bd22ef00aba4c21d426a88f0eda0da9c99fe0c863e96"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni2071",
+      "unicode": "U+2071",
+      "advance": 212,
+      "sourceSHA256": "29bfd7abbed04bdcfd0035cbc4a747695483e011101de4d1d1838c28d5c351e7"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni02C1",
+      "unicode": "U+02C1",
+      "advance": 285,
+      "sourceSHA256": "8ff241f73739abd8c91ae4d1c0f46f32cfbab167a4ce756d226c6231bb57d1d1"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uniA7C7",
+      "unicode": "U+A7C7",
+      "advance": 648,
+      "sourceSHA256": "6d63b271c0206ad6fa0a3a8e92911c16de5291c306c9004db661234b6aeade1a"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uniA7C8",
+      "unicode": "U+A7C8",
+      "advance": 592,
+      "sourceSHA256": "06496aa6dcdd511ecd35134ee8de4d34760ce5291b5d238e786740fe0e387102"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1C89",
+      "unicode": "U+1C89",
+      "advance": 703,
+      "sourceSHA256": "20afd638551650601e3064dae50f37c9202b2f392656ad6bb5c918836db7a1a7"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1C8A",
+      "unicode": "U+1C8A",
+      "advance": 612,
+      "sourceSHA256": "e179047976f9f6493646d83dffb474718b65b8ace30fb7cb9478a8912d8006dc"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni032E",
+      "unicode": "U+032E",
+      "advance": 0,
+      "sourceSHA256": "882e3811d24ec2c4d42ff20f2dbcac205973c3a1fec5c82016f337b9ad3ea9d5"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1E2A",
+      "unicode": "U+1E2A",
+      "advance": 672,
+      "sourceSHA256": "08d8fd0ae8221989b65c8ea4338a245a60e84b917707b330b8cd00327c7091b7"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni1E2B",
+      "unicode": "U+1E2B",
+      "advance": 576,
+      "sourceSHA256": "ea8ae8d9bd66c5e1ec9f9300c92a86e9048fedda4c14499e734c1828c32af35d"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni035F",
+      "unicode": "U+035F",
+      "advance": 0,
+      "sourceSHA256": "2deb2f86d8e44a006b99310cf0c42b9eb67ecf67525e6e5966631f02a473a7ce"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni035F.upperPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "a991635bbf21b11c135e36389020e1812ff30c61db1d65c76c85631787fc669f"
+    },
+    {
+      "role": "screen",
+      "style": "Medium",
+      "glyph": "uni035F.lowerPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "82cf26cb4abd7ac95c35f5982c0ec215df668df91e1af9700a3400068e7d4603"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1D7D",
+      "unicode": "U+1D7D",
+      "advance": 553,
+      "sourceSHA256": "22e15d93995c3d1cbedb02c583df3fce3083a8ab433ec830a82849857610d9d1"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni2C63",
+      "unicode": "U+2C63",
+      "advance": 552,
+      "sourceSHA256": "49fe926520508c864b46f09c0414a9fc523ad965ca4c4389880ae7c9fe255efc"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1D43",
+      "unicode": "U+1D43",
+      "advance": 268,
+      "sourceSHA256": "43d02c236edc7a42f47842b64c2a2c732d34cdd1b553ba9dbc9507071faf2025"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1D4B",
+      "unicode": "U+1D4B",
+      "advance": 236,
+      "sourceSHA256": "93042f5d95b716bb48ec501b427040c3b98e684ad488b9576a974721b2e92c0c"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1D52",
+      "unicode": "U+1D52",
+      "advance": 298,
+      "sourceSHA256": "2e528b1a676908ca099a69cfd10daad16ec64ed38f4be7753c0ebb6069e2142a"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1D53",
+      "unicode": "U+1D53",
+      "advance": 254,
+      "sourceSHA256": "46d97839b1bc53cc6a817dce0ca7e82ccca4337183f20cb5cddb6479b09f3a65"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1D58",
+      "unicode": "U+1D58",
+      "advance": 297,
+      "sourceSHA256": "22695be5dfb412ffaa0168de9c280c25c580e0faa96663196f9906c79fc5d804"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1DA4",
+      "unicode": "U+1DA4",
+      "advance": 169,
+      "sourceSHA256": "8853d64fe7fccc10d3383116ec0350957121bf69db09eeda8ceb3ed361e39265"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1DB6",
+      "unicode": "U+1DB6",
+      "advance": 315,
+      "sourceSHA256": "0296579a9b6ced316ef2ca9c5469721c32ba09576d7e045fe3ca1b6979923ec6"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni2071",
+      "unicode": "U+2071",
+      "advance": 202,
+      "sourceSHA256": "6c7ffe5de8ce583f0912ce25c8f0450c425e0064edfee0bc2dbbfa0acb2241d8"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni02C1",
+      "unicode": "U+02C1",
+      "advance": 263,
+      "sourceSHA256": "7ddc939efc54e58966f70c48090013f5e55775262c4b1aac8c4a018d43a0317c"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uniA7C7",
+      "unicode": "U+A7C7",
+      "advance": 641,
+      "sourceSHA256": "0bcab1444f0973e95c9c0bc7fb304219a0d8ddf55fadc4719f5f0cedf7d292d3"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uniA7C8",
+      "unicode": "U+A7C8",
+      "advance": 586,
+      "sourceSHA256": "23390b7034b28f7b1e586d783a91eee29b8551a7a6e5799274475ef1ab4b339f"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1C89",
+      "unicode": "U+1C89",
+      "advance": 692,
+      "sourceSHA256": "7989236840dee85cba49fef1e1410f3d3391fa6b66d7280c301e62f39c966d29"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1C8A",
+      "unicode": "U+1C8A",
+      "advance": 609,
+      "sourceSHA256": "5efe09e505d4f802ec7e83d7b670eb8747a1cdf0a213b6e7d7236dfc5afad21d"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni032E",
+      "unicode": "U+032E",
+      "advance": 0,
+      "sourceSHA256": "ebadfaf1131175e3a6d83038744e5cbf572cd11ada90c688a77b8fb9b941c1bc"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1E2A",
+      "unicode": "U+1E2A",
+      "advance": 664,
+      "sourceSHA256": "db6f2b0a386b6a838341ed9e0752da445739e362bafd8252bd505ca85e2ea2c0"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni1E2B",
+      "unicode": "U+1E2B",
+      "advance": 574,
+      "sourceSHA256": "6e1b48c7441b3b0b2e9df66802e3c3da5f69e41b38964e13ee50a504d3135b1b"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni035F",
+      "unicode": "U+035F",
+      "advance": 0,
+      "sourceSHA256": "8178994ae4dde32d00d0db6bfa8c81f0e9f4dae13f687adbfaeae0c89caec6ea"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni035F.upperPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "dab7af1a0740a35e35c42c237752eb9b832b994b85f4eb6e1ef53750a60cecd4"
+    },
+    {
+      "role": "screen",
+      "style": "MediumItalic",
+      "glyph": "uni035F.lowerPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "42d91c3fd3ea9089feb92527eb3cbee25f82049207137c8b518386f2798d08a5"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1D7D",
+      "unicode": "U+1D7D",
+      "advance": 583,
+      "sourceSHA256": "d72c47514d9d09f5d286072c2e4ee23a99529fbb23c12a83a81dde3051383635"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni2C63",
+      "unicode": "U+2C63",
+      "advance": 586,
+      "sourceSHA256": "ad2b5b32466035f186791c6cb6cc0551eccfaca9c487820f16437022f20aba3c"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1D43",
+      "unicode": "U+1D43",
+      "advance": 286,
+      "sourceSHA256": "fd2f9aa7d32ca836df2c5e3d8c317ed4f08ed2619dd93f385899b969e869c6f9"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1D4B",
+      "unicode": "U+1D4B",
+      "advance": 254,
+      "sourceSHA256": "524aadc5cc8249e481d02deb60a59a3c33517732110ca59476f5f542d2128c75"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1D52",
+      "unicode": "U+1D52",
+      "advance": 318,
+      "sourceSHA256": "30e8681d0c8561daf5c3bd208f9794a8fb3a8a3abd5d75089c5a5812f43c9336"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1D53",
+      "unicode": "U+1D53",
+      "advance": 273,
+      "sourceSHA256": "d264536ce5c0d4f7a937142da81b2b53c6d328aef3170fb09ff438251730a3ee"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1D58",
+      "unicode": "U+1D58",
+      "advance": 317,
+      "sourceSHA256": "89191aa2c94d9c0eefae22319d27369680895950a03afa1d2505d4a904af24e2"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1DA4",
+      "unicode": "U+1DA4",
+      "advance": 178,
+      "sourceSHA256": "5860fc0ca3820140490d08eb30006e69584af00e282de1d41f371279df26cfe8"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1DB6",
+      "unicode": "U+1DB6",
+      "advance": 339,
+      "sourceSHA256": "4792cbc4e4984e8a850fcbc03ce1f1e862e7bc630fc2385621699c66ca6da719"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni2071",
+      "unicode": "U+2071",
+      "advance": 212,
+      "sourceSHA256": "a3ef6cedee8cf1b52aa4070dc2b28e8b6c751cd0e17c3f1f0f20979fddddbdbd"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni02C1",
+      "unicode": "U+02C1",
+      "advance": 285,
+      "sourceSHA256": "cf44b459d938584ead0b6f422645bd147d2d3d2c0dbe4b0af4e0cb525e24bf3f"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uniA7C7",
+      "unicode": "U+A7C7",
+      "advance": 644,
+      "sourceSHA256": "29474135f48d78d18a2c31f595a9a1cf3803bd79797ffb69fd88fa1362a06f05"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uniA7C8",
+      "unicode": "U+A7C8",
+      "advance": 590,
+      "sourceSHA256": "191387decbfd287ffb49879778a192a5a386290842ed42e8c4f9921d2ece960a"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1C89",
+      "unicode": "U+1C89",
+      "advance": 685,
+      "sourceSHA256": "c9744b40f1a99626e1c04fc8eb0ff98a08492b8495d267de73414fadb9334e95"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1C8A",
+      "unicode": "U+1C8A",
+      "advance": 604,
+      "sourceSHA256": "02dbd00e6895d9a66de6bdd6c29f6cf1e7ed13d24c1114e94fb4d96c2d351934"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni032E",
+      "unicode": "U+032E",
+      "advance": 0,
+      "sourceSHA256": "25643ef5f1a48b4f1f2204b4672f7f26df8e04ee769e10f6aac963debf4f73b0"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1E2A",
+      "unicode": "U+1E2A",
+      "advance": 680,
+      "sourceSHA256": "f21e31f00de64e2d4650f83c3007e81f3cf18fe27d9d62d4b64023b184cbc518"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni1E2B",
+      "unicode": "U+1E2B",
+      "advance": 579,
+      "sourceSHA256": "979b7e5a779f1697df133791a778ffde97ab099b0358132d9a665f82fa6b4ca6"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni035F",
+      "unicode": "U+035F",
+      "advance": 0,
+      "sourceSHA256": "1c937acd2dc45e4c73939934d25b935090fe0a27027828ce43beb68ce04c972f"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni035F.upperPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "802908658c59a07c4a8f846a87b914c470c5e6984a35b68db5239fb780f09d63"
+    },
+    {
+      "role": "screen",
+      "style": "Regular",
+      "glyph": "uni035F.lowerPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "350afb5342a4913e70ae72918f88332ffa8f9794655bdc111cfcf815a3e07cee"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1D7D",
+      "unicode": "U+1D7D",
+      "advance": 586,
+      "sourceSHA256": "ac70ea7e63cae82ef361aa8a54aeca01c13ab35d931f47cd9fd5762fc4d066c2"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni2C63",
+      "unicode": "U+2C63",
+      "advance": 595,
+      "sourceSHA256": "ef704ae180b8979a39742bf902897fa64fee30348fb0caf313eb31d454438e37"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1D43",
+      "unicode": "U+1D43",
+      "advance": 288,
+      "sourceSHA256": "3b8e003796a6796d040fb3525c4feeafa95e64276bae6200ac6c635b29b73a1a"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1D4B",
+      "unicode": "U+1D4B",
+      "advance": 253,
+      "sourceSHA256": "b9c265ebba8e7f9dffcb6afa27383110fe94083882185a2d55bf639066e13f22"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1D52",
+      "unicode": "U+1D52",
+      "advance": 319,
+      "sourceSHA256": "86ad77652f6c5801880aca8e584aeb9ad1797955fe7b7ac41df7d440efd5722a"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1D53",
+      "unicode": "U+1D53",
+      "advance": 274,
+      "sourceSHA256": "a8dccdc787dea3fbb07bf1ed248a749f7e304e4670502b0ac5c5942144c25ef4"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1D58",
+      "unicode": "U+1D58",
+      "advance": 317,
+      "sourceSHA256": "1f0b76a10d9c12bf614d7d2fddb1628d023d1e9c3d444031566f88b40f013161"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1DA4",
+      "unicode": "U+1DA4",
+      "advance": 184,
+      "sourceSHA256": "b35461a29d9070e00a814e4c8f2e7775b45dbe1343512195e240d319f41c0e64"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1DB6",
+      "unicode": "U+1DB6",
+      "advance": 338,
+      "sourceSHA256": "e9d217dde01e47b43dd780498da39aa0bc2b25adfd858f9c355fb32773fb37fe"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni2071",
+      "unicode": "U+2071",
+      "advance": 212,
+      "sourceSHA256": "4c4267a6d317383e384eb0cc1bc1e656ce86ad2f066eeb7115cc6df98419bab6"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni02C1",
+      "unicode": "U+02C1",
+      "advance": 285,
+      "sourceSHA256": "7a5948418129fbd8dbea7e7e3aeb407c1f0a00061cda58d250fd616f213f547a"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uniA7C7",
+      "unicode": "U+A7C7",
+      "advance": 650,
+      "sourceSHA256": "a890a7f5209cc462c75aced98cc7f0b5f1206e5814c31a2dc9f542d3c862ff5a"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uniA7C8",
+      "unicode": "U+A7C8",
+      "advance": 593,
+      "sourceSHA256": "554ddab2d66df328e2966fe6d915c11f4d2be6e3633d30e2cb81bd9501273b74"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1C89",
+      "unicode": "U+1C89",
+      "advance": 710,
+      "sourceSHA256": "7ab947edc6941837b366bb3edb7d1addb85f7cc18e7e142e9fea99d71c4b7dbf"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1C8A",
+      "unicode": "U+1C8A",
+      "advance": 617,
+      "sourceSHA256": "2af758e61ae2cca80061575d82e17b55b972658b08286d4f67fb8230265fce00"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni032E",
+      "unicode": "U+032E",
+      "advance": 0,
+      "sourceSHA256": "f1f78c397a011e63d71355096c87c2bba2886c75333df8908cc074a264619089"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1E2A",
+      "unicode": "U+1E2A",
+      "advance": 669,
+      "sourceSHA256": "2a3a479eb083696a947ef0182a4e7dee4f33b1f305c5eb49bb3eea66c615fa30"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni1E2B",
+      "unicode": "U+1E2B",
+      "advance": 575,
+      "sourceSHA256": "0794a58b8db7452188d723a5e89ce8306396394e4fe5f7683533c0ffbc77f52f"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni035F",
+      "unicode": "U+035F",
+      "advance": 0,
+      "sourceSHA256": "53bde0a4ea570a3fd8a24d41eafe01f701febfacaae3230083021078d9aabfd5"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni035F.upperPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "ea1435be54c250a50c8c918d4c1c6ec282e30a8a63dc197ddbeec46288845be1"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBold",
+      "glyph": "uni035F.lowerPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "6f1ec2bec1bd46600b1918e17ab4fdd9969fc699608ddff86032798095369aaf"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1D7D",
+      "unicode": "U+1D7D",
+      "advance": 555,
+      "sourceSHA256": "34041603b094f2a6f4f0fb4de1e8140e3b98adb4a7b1c89901cc98ba25213000"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni2C63",
+      "unicode": "U+2C63",
+      "advance": 556,
+      "sourceSHA256": "dfb794549ca03a010a2804af7574644bcd39971510cdd7c2c3d25556ec2ac522"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1D43",
+      "unicode": "U+1D43",
+      "advance": 269,
+      "sourceSHA256": "e5626ecfed21b9761dadc1ce9a1783f64758601826d3f6e220893aee9c4b9e15"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1D4B",
+      "unicode": "U+1D4B",
+      "advance": 236,
+      "sourceSHA256": "aabd86ff1196b2e7fb149123ef3bb1331dc2f79398f6f359d1d40ee7c585f652"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1D52",
+      "unicode": "U+1D52",
+      "advance": 299,
+      "sourceSHA256": "923e506bb6358593cd08afdaf91733dcd40efd73caf557ab5960a7d6cd46f073"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1D53",
+      "unicode": "U+1D53",
+      "advance": 255,
+      "sourceSHA256": "f8edf34c43ae7c92a92975477e6776a52b9f21907d6d03916de1af943dfcd6e8"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1D58",
+      "unicode": "U+1D58",
+      "advance": 297,
+      "sourceSHA256": "748bc08dc7fbebfb366f9d526b65a9e91d830898c7e3f42810b14e57c0a08fd5"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1DA4",
+      "unicode": "U+1DA4",
+      "advance": 172,
+      "sourceSHA256": "1be56fe5265aee7e987c96143bf7884e06f04ddd10a952671b2d7502b0201c1a"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1DB6",
+      "unicode": "U+1DB6",
+      "advance": 315,
+      "sourceSHA256": "b5f0f3be665900be4c762fba25e63b49dcd8363b1eca586f18093d9a8a8d9135"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni2071",
+      "unicode": "U+2071",
+      "advance": 203,
+      "sourceSHA256": "bf6851ec50fc3a7137a1598fb5f215c42dbe08de9fc7afff53532191f61c3c59"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni02C1",
+      "unicode": "U+02C1",
+      "advance": 263,
+      "sourceSHA256": "132528a0c7790dc96c8aa263c04b6a1f07467d60fb9eb105b8defd25df9cd94a"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uniA7C7",
+      "unicode": "U+A7C7",
+      "advance": 641,
+      "sourceSHA256": "9a0acd576a71f26899a221a57a1a4385a20f99e78f626d102a3e39bdca665d08"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uniA7C8",
+      "unicode": "U+A7C8",
+      "advance": 586,
+      "sourceSHA256": "82ef7a664f53fa084242f28aca162b71dd8d964f573c06bf27d5726b053d7e99"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1C89",
+      "unicode": "U+1C89",
+      "advance": 699,
+      "sourceSHA256": "2da31c707dab1f840f2436755400f49797c29fd9de100a799a0efa10c3892626"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1C8A",
+      "unicode": "U+1C8A",
+      "advance": 611,
+      "sourceSHA256": "b08888a89a633a6846dc8ffeed5a1c8a142a64c8918605789f33f41e359e90c1"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni032E",
+      "unicode": "U+032E",
+      "advance": 0,
+      "sourceSHA256": "a27f339cfb77eee878762a25b9946719cff2b649954898b6d547f0758fce63ef"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1E2A",
+      "unicode": "U+1E2A",
+      "advance": 660,
+      "sourceSHA256": "15f834e44dfcf1f900aecb4387023b7a448b9486f5e8d87b36407a8af2896622"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni1E2B",
+      "unicode": "U+1E2B",
+      "advance": 571,
+      "sourceSHA256": "77283f093422dd47f950d8a7c9d2387fa38c4c1ef96b28236f00907dac1ee160"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni035F",
+      "unicode": "U+035F",
+      "advance": 0,
+      "sourceSHA256": "138389fe3a9745ddcc3bc6e97bb316a86e0cc61a2e96d7819f4e9d20923a7571"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni035F.upperPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "ef8396b79103fc6998b7265b43e8958d47d04c15bfea88543a8a9c1cefdeaee3"
+    },
+    {
+      "role": "screen",
+      "style": "SemiBoldItalic",
+      "glyph": "uni035F.lowerPair",
+      "unicode": null,
+      "advance": 0,
+      "sourceSHA256": "bd6c7cac48bc32b6800e9ab1cc73b329b6dd8ded7f319a3eccb69344e2d8f0b4"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0391",
+      "unicode": "U+0391",
+      "advance": 1192,
+      "sourceSHA256": "9073ce93bc83d4275544b7d294d6ba061bc55b079334a3f385e212da27687e81"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0392",
+      "unicode": "U+0392",
+      "advance": 1246,
+      "sourceSHA256": "29abfde4cc94c8e20faa7f09f4c1f970a75319614d3010feb8cdbcce141cb2e0"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0394",
+      "unicode": "U+0394",
+      "advance": 1210,
+      "sourceSHA256": "e4104757b822b2d4ca76e1897c461fdb50eb1c8444c968a1653f029a815ac12a"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0395",
+      "unicode": "U+0395",
+      "advance": 1063,
+      "sourceSHA256": "9ec54a9e3abad83e861559baa82479b2c68d354cb430f95f58bc61cb7623d091"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0396",
+      "unicode": "U+0396",
+      "advance": 1099,
+      "sourceSHA256": "2fc258aced3021223f680758c1cca219ed545411fc8dff1fa847fe8404383095"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0397",
+      "unicode": "U+0397",
+      "advance": 1345,
+      "sourceSHA256": "ec400abab78868130edd634aeb970c224eed0faf452950101b215fc6642bfa60"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0398",
+      "unicode": "U+0398",
+      "advance": 1396,
+      "sourceSHA256": "12fc53960086f37198f770fee7cb2d43bd4ee1665abefadcc374513f3515e746"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0399",
+      "unicode": "U+0399",
+      "advance": 592,
+      "sourceSHA256": "86a82ae8829ee75c02d73183242d63ebb525ae6046cea4bf66c886250fb5ef62"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni03BA",
+      "unicode": "U+03BA",
+      "advance": 1115,
+      "sourceSHA256": "5fbba707a236d8b9454cfffdc05055b2a49c0d18c8bcdec676b92c7f0f5d55c0"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni03BE",
+      "unicode": "U+03BE",
+      "advance": 909,
+      "sourceSHA256": "6f742c903553b224aee7e05f0e951fea8cccd8279b0b85c5e59896956e54155d"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni03C3",
+      "unicode": "U+03C3",
+      "advance": 1218,
+      "sourceSHA256": "a1fbe228de2bdeda7d44c81a1d1cf993caf45e21df9c6636526a732cc1c7d009"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0186",
+      "unicode": "U+0186",
+      "advance": 1162,
+      "sourceSHA256": "48c77269f118dec49d560639ac73934d0613ed6c333a21239855f2511c6d9025"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0190",
+      "unicode": "U+0190",
+      "advance": 1093,
+      "sourceSHA256": "78945f378e356e9a118942b296b81245b4f81bcd6097f09b28bab640adc91455"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni019D",
+      "unicode": "U+019D",
+      "advance": 1339,
+      "sourceSHA256": "f78c0147fae424a0a30f8962d99690d350539f35b5bce68a9e74ec48bc108b6f"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0254",
+      "unicode": "U+0254",
+      "advance": 896,
+      "sourceSHA256": "d95d4963790e5e918705850f9894eb49d75872936d7b4a3b7c730b9499eeff32"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni025B",
+      "unicode": "U+025B",
+      "advance": 898,
+      "sourceSHA256": "aceffecea4b3ac9d0ea4e44433403d5fd98dfdfe03be1d066df3b5c730411a59"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0272",
+      "unicode": "U+0272",
+      "advance": 1079,
+      "sourceSHA256": "652d31099ff48a567699929e80973743089472c40966c1d7c6141dc32d0250e2"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni019F",
+      "unicode": "U+019F",
+      "advance": 1396,
+      "sourceSHA256": "f776e04394bcbb40bd64b7eb934de5aba0a62ddd8a916957449f64a2d13ceeda"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0275",
+      "unicode": "U+0275",
+      "advance": 1100,
+      "sourceSHA256": "efd53818893925763f57eed55ef4ed88c0aed79c1278e9908482c19046614fb4"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni1E18",
+      "unicode": "U+1E18",
+      "advance": 1136,
+      "sourceSHA256": "f6515dfbdd09a85e501458faed2f4212e8173611bc6dcc9195e4af8841895a28"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni1E1A",
+      "unicode": "U+1E1A",
+      "advance": 1136,
+      "sourceSHA256": "ff71205a62e307f0d9bee801ddc6e3bbf8104e1e5d12b182ff896a65773b5158"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni1E3C",
+      "unicode": "U+1E3C",
+      "advance": 1000,
+      "sourceSHA256": "b88c89358aa1224ba60a43a173943f08ba7e966cc7f44dfbbd6df95b4e0ebc84"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni1E4A",
+      "unicode": "U+1E4A",
+      "advance": 1414,
+      "sourceSHA256": "8a76c75cd943a642924b1ead178fa3f882112a3fcb8f6e301f9801facb2f4691"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni1E58",
+      "unicode": "U+1E58",
+      "advance": 1252,
+      "sourceSHA256": "528c013ea27558ec80a4df70923ecddf5efe21548cd326cbcdc5f5156dea2fe2"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni1E8B",
+      "unicode": "U+1E8B",
+      "advance": 982,
+      "sourceSHA256": "b796d448675597ace87dfff2dfe14f1f16e96dbc6e9a95bef580e19e33aa88a6"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni01CF",
+      "unicode": "U+01CF",
+      "advance": 564,
+      "sourceSHA256": "e9e5c5f78fcd292a7488e6f03a4e15ba539b3748b92ed431b0c8569dc0e18ebd"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni01D0",
+      "unicode": "U+01D0",
+      "advance": 480,
+      "sourceSHA256": "5bc7c054e285eb6996f3f3afc5f91ddd528fc57e21c3bda3ac001c3adf3fd949"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni01D1",
+      "unicode": "U+01D1",
+      "advance": 1520,
+      "sourceSHA256": "7b641ca27b3493137d228b5972cbad6fba021453ac29a6ddeb9937104df42a28"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni01D2",
+      "unicode": "U+01D2",
+      "advance": 1140,
+      "sourceSHA256": "458ed0d7dc8232a684730ff1b9f811780dc69444f43837243b1bf0cb10f29835"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "uni0329",
+      "unicode": "U+0329",
+      "advance": 0,
+      "sourceSHA256": "f45bfcfe4be6d54e74d137ab13ef2e8fc8ff5f7cddae67b76a10b5abfdc1b2a8"
+    },
+    {
+      "role": "sign",
+      "style": "Bold",
+      "glyph": "oti.uni1ECB.dotless",
+      "unicode": null,
+      "advance": 480,
+      "sourceSHA256": "2fd002ec57960370d68b9efbb4bf323570d622b9d88c17bfd98feb27ca719f10"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0391",
+      "unicode": "U+0391",
+      "advance": 1181,
+      "sourceSHA256": "617867d86d922787d359a732ca8c50aa9bf069e2dec3aef43f207ef94d6b13f2"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0392",
+      "unicode": "U+0392",
+      "advance": 1242,
+      "sourceSHA256": "2574cc821d4c64785f0e9734b7bbb1d699831e134d82fda51227ea5b19e88f71"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0394",
+      "unicode": "U+0394",
+      "advance": 1199,
+      "sourceSHA256": "1b82faae138ae5941209775e853261186de29c1f9a8cd458969b141bb0c1126c"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0395",
+      "unicode": "U+0395",
+      "advance": 1074,
+      "sourceSHA256": "1d83b965d4b411df4a937bafedd84a3561e18490511fcdc0e98cc60d75ae77a4"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0396",
+      "unicode": "U+0396",
+      "advance": 1082,
+      "sourceSHA256": "40b3dc5f36f3e4bbe3df2c36e3df4417ed2fe8215cd7df25d09987699490db70"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0397",
+      "unicode": "U+0397",
+      "advance": 1362,
+      "sourceSHA256": "94d6a6f5999be3a3c8ea93412775d4efa4b9aa90abf8d6e7067895e11b2059fd"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0398",
+      "unicode": "U+0398",
+      "advance": 1400,
+      "sourceSHA256": "86f7ff3fabc415aa263306e408d46c5d3d8b5e462b13be3eb3ac331897df7fa0"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0399",
+      "unicode": "U+0399",
+      "advance": 596,
+      "sourceSHA256": "7f375f312585871e2935b215bafac633556c7784cc29732b8447327c7b03a9d7"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni03BA",
+      "unicode": "U+03BA",
+      "advance": 1094,
+      "sourceSHA256": "f6adb6ab9ed7df790832f410235761988ba92177eb81225fa5cdc393f4c26b10"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni03BE",
+      "unicode": "U+03BE",
+      "advance": 900,
+      "sourceSHA256": "1cff6f5d70bca7cd269ea7a87b7de3829c24190b72357428e52b96beee041bb7"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni03C3",
+      "unicode": "U+03C3",
+      "advance": 1208,
+      "sourceSHA256": "62ee1e5f21bab0d40c05ab9d113c26507df1aaa37b88dc482073f59e95292a70"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0186",
+      "unicode": "U+0186",
+      "advance": 1151,
+      "sourceSHA256": "667b82a1167a1dea2873c8757807a2df888771d38a2e8091cf5c088540100506"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0190",
+      "unicode": "U+0190",
+      "advance": 1078,
+      "sourceSHA256": "110c928f23e839f657530aca38a7bbbb2041d51a9aff8ff5f27f6721a0cf8883"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni019D",
+      "unicode": "U+019D",
+      "advance": 1362,
+      "sourceSHA256": "fd2bea48407e858a1228a84febfbad344bb34a9258743b61124574aa001b6779"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0254",
+      "unicode": "U+0254",
+      "advance": 896,
+      "sourceSHA256": "afc381dee678965eeb9577665c1b0481d517b46d1e91a71f6cf91f4d351cec15"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni025B",
+      "unicode": "U+025B",
+      "advance": 878,
+      "sourceSHA256": "75d5b026d4cfe637af2743d3028dadb64676c186db1ecf3fc74d65d29e71ce1f"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0272",
+      "unicode": "U+0272",
+      "advance": 1076,
+      "sourceSHA256": "976e1e516f98081523933ad66cf5e9db604f657989c965844a3ad3e887bef812"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni019F",
+      "unicode": "U+019F",
+      "advance": 1400,
+      "sourceSHA256": "79ae0f3c7b1e762cab720de197b0b8837ff21aeacc3ba99b310410d5cbe5b3d8"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0275",
+      "unicode": "U+0275",
+      "advance": 1091,
+      "sourceSHA256": "3f7ae1b8416ee42cc5b95b6b88da4284f636af3fab6a93a728c2b5f16e4a7ab3"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni1E18",
+      "unicode": "U+1E18",
+      "advance": 1120,
+      "sourceSHA256": "e020616ea18a9f011d87776e2a39b7bd466c6891ead85a37a3f4956fb1361456"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni1E1A",
+      "unicode": "U+1E1A",
+      "advance": 1120,
+      "sourceSHA256": "aca5682b81bf7fd56fe365f09b3e2802cbce2080807bd1ec8304cc6ed5e254f9"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni1E3C",
+      "unicode": "U+1E3C",
+      "advance": 1001,
+      "sourceSHA256": "ba74f33c2801a2d56625edbf1f40c1dd3b849fef2ae075bd971ba7d23f1f645e"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni1E4A",
+      "unicode": "U+1E4A",
+      "advance": 1411,
+      "sourceSHA256": "534ab026e54130c8dd51270aa4793a39ddaf396d59b699939ff3bbe267a2ff0f"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni1E58",
+      "unicode": "U+1E58",
+      "advance": 1226,
+      "sourceSHA256": "de5686b2029264b65b2d834af166ff341f34eb250db1867b58f4db7642218a71"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni1E8B",
+      "unicode": "U+1E8B",
+      "advance": 962,
+      "sourceSHA256": "15d364392bbcdf53f8e2adc2e333c82a1eabc1c1fecc1be070113ab358633304"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni01CF",
+      "unicode": "U+01CF",
+      "advance": 533,
+      "sourceSHA256": "139e1b379ba7adfb29b83db5394452e0469cbcab9f0da7bece8e5ebf12e81c04"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni01D0",
+      "unicode": "U+01D0",
+      "advance": 448,
+      "sourceSHA256": "05cf86c596c59b9547703d26dae7eb6de1ff442ec54a59a49527d8c053eae22f"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni01D1",
+      "unicode": "U+01D1",
+      "advance": 1532,
+      "sourceSHA256": "61f00de2c244fb55ae59a9a3ee9ef1dd0d8fa9020e342e6ae5e14fef18ae5391"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni01D2",
+      "unicode": "U+01D2",
+      "advance": 1117,
+      "sourceSHA256": "d7208b33305508eaa49048e70f693c80889aca76ae231ef6dc9e716fdf67ba4a"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "uni0329",
+      "unicode": "U+0329",
+      "advance": 0,
+      "sourceSHA256": "6d35100887a3685bf8018a26323fb21dc86a061c9260c1b3aa9deb1f40d7bce8"
+    },
+    {
+      "role": "sign",
+      "style": "Medium",
+      "glyph": "oti.uni1ECB.dotless",
+      "unicode": null,
+      "advance": 448,
+      "sourceSHA256": "fef8be95b76802f3a73c7ac35a0252499e21d108bf342f56b4f182869362d946"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0391",
+      "unicode": "U+0391",
+      "advance": 1164,
+      "sourceSHA256": "922b0405b91c688458bd140270f8dc03e31255dab0941a3565ab53158601b453"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0392",
+      "unicode": "U+0392",
+      "advance": 1235,
+      "sourceSHA256": "3cfa69947aeccbf0544410d9f75623a6b353d4f740a803ec7c86a3809d627c84"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0394",
+      "unicode": "U+0394",
+      "advance": 1185,
+      "sourceSHA256": "7f40dafffd9556b1d805ad02dc1cbe08dfc94c1ed2f0830c654646d0244edb96"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0395",
+      "unicode": "U+0395",
+      "advance": 1087,
+      "sourceSHA256": "a5e0216e400052d06c3ec074ed8da72ad2543d4bb04dfb75f251b15ddf5fd2e2"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0396",
+      "unicode": "U+0396",
+      "advance": 1061,
+      "sourceSHA256": "433838c395fe70e610c6d3102dc5e8a3b09cb4c6aab1c64371154e1fd10f254f"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0397",
+      "unicode": "U+0397",
+      "advance": 1382,
+      "sourceSHA256": "b3ff270ed4497a5e9f56683b11cec890a520c6f74d30b09e1221b1e8c22ea15b"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0398",
+      "unicode": "U+0398",
+      "advance": 1406,
+      "sourceSHA256": "162ebac4938d9a098bf22a55b58870e5064fc80ee6fb81989de1215a74f400b5"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0399",
+      "unicode": "U+0399",
+      "advance": 599,
+      "sourceSHA256": "2c553169a6833dba7eb31d81a7a436151b982b4c988a2aec563ed0afb5566e15"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni03BA",
+      "unicode": "U+03BA",
+      "advance": 1067,
+      "sourceSHA256": "1a925ce790b01bd0b8b3ff989ccf406fe5b173181750546f9fb632ba10c75ed0"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni03BE",
+      "unicode": "U+03BE",
+      "advance": 888,
+      "sourceSHA256": "50f9b28584aec435bcf80b63c04fa7c26a01ce478f6dbea92cd8bc7e7f112724"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni03C3",
+      "unicode": "U+03C3",
+      "advance": 1193,
+      "sourceSHA256": "d5dfbb9987bda5a870ee42af601e07ca9249faa940227239c7ca705d35651b69"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0186",
+      "unicode": "U+0186",
+      "advance": 1138,
+      "sourceSHA256": "4915067bd169babed4bde2e6b41b30b734e7e126df27778576f90596ff20c230"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0190",
+      "unicode": "U+0190",
+      "advance": 1059,
+      "sourceSHA256": "e50fadb9764037ea0c4a9753257ec965066d0bdc6da8408b3eeb5cb6d4538d4a"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni019D",
+      "unicode": "U+019D",
+      "advance": 1388,
+      "sourceSHA256": "5007963b6b1576c6ad881b07c14941293d12d75e22e4dce2f700ad92f6a57fde"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0254",
+      "unicode": "U+0254",
+      "advance": 900,
+      "sourceSHA256": "14b05794d01a41fed283b0af89cdf346a6339e2e8dc65bf23cee6655ae7a20cc"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni025B",
+      "unicode": "U+025B",
+      "advance": 859,
+      "sourceSHA256": "7e4e3968e98bd5167fcf5c5b755f4653c80266b6c7d0f451c015fb305e410dc9"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0272",
+      "unicode": "U+0272",
+      "advance": 1077,
+      "sourceSHA256": "be5d530eef4bb9cc0ac732f2fd1356f92870c589a388f191bed7fad93603dee7"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni019F",
+      "unicode": "U+019F",
+      "advance": 1406,
+      "sourceSHA256": "25b1484a9c29d6dcf519e2a0e4f29859834c8ac7c0ebc015dc0d976dc629ed7c"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0275",
+      "unicode": "U+0275",
+      "advance": 1086,
+      "sourceSHA256": "913446b5f528220a969392fd27f50fd849d22e4bc1d43564cc8bfd7503c58839"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni1E18",
+      "unicode": "U+1E18",
+      "advance": 1108,
+      "sourceSHA256": "7fdbe779f2672a9ef76978decfa606dc1d0e504007bdec174aaaca96a37bdf68"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni1E1A",
+      "unicode": "U+1E1A",
+      "advance": 1108,
+      "sourceSHA256": "5968fce9af15403fc891e0e618efce541ce824eb1d44469c24ddd223b1cf8328"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni1E3C",
+      "unicode": "U+1E3C",
+      "advance": 1002,
+      "sourceSHA256": "53d5786d6c872ca35a7b73fc990ff30a9d64efbe6e2e001982b96b8b7bf24d6e"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni1E4A",
+      "unicode": "U+1E4A",
+      "advance": 1408,
+      "sourceSHA256": "043d2567ab06618a2a45200db5f10fa6a540f414b09698d38995d1aeced29460"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni1E58",
+      "unicode": "U+1E58",
+      "advance": 1206,
+      "sourceSHA256": "07be40f013253e26a413aec1a7920a4d1ea5c5bb777dc1ae9957fff674b95006"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni1E8B",
+      "unicode": "U+1E8B",
+      "advance": 948,
+      "sourceSHA256": "602b1404996c4dc476fc072dba5b24ff4d5b7e29718dfb7df5c95a6a96f76ce1"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni01CF",
+      "unicode": "U+01CF",
+      "advance": 510,
+      "sourceSHA256": "31bb77ea6916755d2c4d00966b5da55282f66fc55ce1f028d834e732fd1de5d5"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni01D0",
+      "unicode": "U+01D0",
+      "advance": 424,
+      "sourceSHA256": "37c400a4687108b806eb3feea2b9d08520eaaf1b495be2767bb95ccfef4c0cf8"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni01D1",
+      "unicode": "U+01D1",
+      "advance": 1540,
+      "sourceSHA256": "33f61da929ba6c14517e6b391496a6a0fc5c171c411d19ad386178147c832886"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni01D2",
+      "unicode": "U+01D2",
+      "advance": 1100,
+      "sourceSHA256": "8175c8b6c11e926e103e2dd9390c8b44bc3fc49823fc091f2da27d8da661f12f"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "uni0329",
+      "unicode": "U+0329",
+      "advance": 0,
+      "sourceSHA256": "2f4c9d487fdc3f2b562da9f6d3f9c2ba133fc07152aed23a7d22c49f00bca978"
+    },
+    {
+      "role": "sign",
+      "style": "Regular",
+      "glyph": "oti.uni1ECB.dotless",
+      "unicode": null,
+      "advance": 424,
+      "sourceSHA256": "2c4e73a4d9d83cf02ae3af76ff95ad0140adff3093d3ad126e8f8f5eed0b3111"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0391",
+      "unicode": "U+0391",
+      "advance": 1186,
+      "sourceSHA256": "bac448fe4cc1a0bcbe24f6069dce5ff2e629ec445a95eca265efdf7c23a22e7c"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0392",
+      "unicode": "U+0392",
+      "advance": 1244,
+      "sourceSHA256": "522c163f0790e48a70fcf206f19b3dc39ebb57ba909ef937f409c9b2e7e3f685"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0394",
+      "unicode": "U+0394",
+      "advance": 1204,
+      "sourceSHA256": "f516e01ac4ea905f4b5c1fce2a14b76dc7bca1cafd7aac670eede67c497620b7"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0395",
+      "unicode": "U+0395",
+      "advance": 1068,
+      "sourceSHA256": "e29b19a37b739c37c4bcf2f8ce06e3e3e24940adf780224ff906974b2360d778"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0396",
+      "unicode": "U+0396",
+      "advance": 1090,
+      "sourceSHA256": "b4809cfceba203fdb769fcb58462df731fd085f36474c6b672bcbe67575af9d6"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0397",
+      "unicode": "U+0397",
+      "advance": 1353,
+      "sourceSHA256": "e750a822ee82b3ee338bbdf9f291b560c147e07a8cf119ca33200a39c9c582fe"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0398",
+      "unicode": "U+0398",
+      "advance": 1398,
+      "sourceSHA256": "df6ecedb0e1ac824e23013201a6a3d0d91cbf3810513926743d50330ac29c663"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0399",
+      "unicode": "U+0399",
+      "advance": 595,
+      "sourceSHA256": "0b8f37f577e90d634d6db3f647f5ab61cc7ae546e8b9031869d0f4a39626f10a"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni03BA",
+      "unicode": "U+03BA",
+      "advance": 1103,
+      "sourceSHA256": "27bafe8d94e195f0fc5de60336d2115e476ec8c1f89345a73042ea80bb42b31e"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni03BE",
+      "unicode": "U+03BE",
+      "advance": 904,
+      "sourceSHA256": "b4de5d2dc8bcc4c1bdcaf754e6baee0a9db78700a10e6617563f288cc7cf7cfd"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni03C3",
+      "unicode": "U+03C3",
+      "advance": 1212,
+      "sourceSHA256": "6b805ec95f1a0604fd600a4432f5e6d14d260ed6d7c5d95452e74f1a697b2b63"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0186",
+      "unicode": "U+0186",
+      "advance": 1155,
+      "sourceSHA256": "318e63468530496982c318b1333973d39b27a04d53ccb9717cfb60bb4e281aca"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0190",
+      "unicode": "U+0190",
+      "advance": 1084,
+      "sourceSHA256": "1445018521860bdd39dc7a28379652ebec0d86db90333e207674de1ba19377db"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni019D",
+      "unicode": "U+019D",
+      "advance": 1351,
+      "sourceSHA256": "d4d7b0dbc049f6795949271d0ea83e1f883df1ff942d5fffeec4aa367eabd56e"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0254",
+      "unicode": "U+0254",
+      "advance": 896,
+      "sourceSHA256": "478deb86ef8217e0cebec92d408c4b745ee08f599702b1524f5e796c92c0f5db"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni025B",
+      "unicode": "U+025B",
+      "advance": 886,
+      "sourceSHA256": "2e8b928786c2e555bbb9d6f77ccfa70f21d7361762a49f638f8567ec863f9892"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0272",
+      "unicode": "U+0272",
+      "advance": 1077,
+      "sourceSHA256": "51e3235021f12a638020b8721326b40f1e8a464905ca62b168097d0253674f42"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni019F",
+      "unicode": "U+019F",
+      "advance": 1398,
+      "sourceSHA256": "cc658c2b6fc6338514a83adc40aad67fcf3921ff8cd4b35cc768d1bf349ea13c"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0275",
+      "unicode": "U+0275",
+      "advance": 1094,
+      "sourceSHA256": "a77b61878a352873c3a31431586077293c30f100745c05d9c495f6ce173932f8"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni1E18",
+      "unicode": "U+1E18",
+      "advance": 1126,
+      "sourceSHA256": "00da8072b519c43ca8f0c9b9dd655516aca85fc2e5d8649f1c91a43e4e95f20d"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni1E1A",
+      "unicode": "U+1E1A",
+      "advance": 1126,
+      "sourceSHA256": "81fb2c01b865b5cc5889a1078ead2d8324953781a83a2dc8afeb04ad996f01be"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni1E3C",
+      "unicode": "U+1E3C",
+      "advance": 1001,
+      "sourceSHA256": "f0a28474c580cb84ccd58008e6460a6b6751b15a00961b575bddd722a963b106"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni1E4A",
+      "unicode": "U+1E4A",
+      "advance": 1412,
+      "sourceSHA256": "815963f2be6c6d7f3ab81fb3767b1395cac068d680e34564c46a581af3d10b02"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni1E58",
+      "unicode": "U+1E58",
+      "advance": 1235,
+      "sourceSHA256": "dccc25fe3c3b8d5b3e65ccf11ef23a61451c44df74a41957eca15d78c73d4e81"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni1E8B",
+      "unicode": "U+1E8B",
+      "advance": 970,
+      "sourceSHA256": "5cecca48e103aa7786739d23225f0b38f64c4c300708e8a4c884fb74242e7593"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni01CF",
+      "unicode": "U+01CF",
+      "advance": 544,
+      "sourceSHA256": "b55639bcf4705bb5dbc4ab7643e8bf6dc53fd26844e2f58466c30779390d775d"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni01D0",
+      "unicode": "U+01D0",
+      "advance": 460,
+      "sourceSHA256": "88dc0071ca03b7e754742eea88d05bab5fdc682ab6953a32809ae79e651c327d"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni01D1",
+      "unicode": "U+01D1",
+      "advance": 1527,
+      "sourceSHA256": "e234b8c23feecd5bed615e5311ceeb1b9a7fabd9ae222b1440c9fcf552d85692"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni01D2",
+      "unicode": "U+01D2",
+      "advance": 1125,
+      "sourceSHA256": "48659dcf6f2af67b68c0dcf37fcc114e38a0f1c240568e241dba8b2a046e8e40"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "uni0329",
+      "unicode": "U+0329",
+      "advance": 0,
+      "sourceSHA256": "875588671dbc65008800acbb3fadc82aa414bd92f093be9bbc96d3a5c6d5788a"
+    },
+    {
+      "role": "sign",
+      "style": "SemiBold",
+      "glyph": "oti.uni1ECB.dotless",
+      "unicode": null,
+      "advance": 460,
+      "sourceSHA256": "34190a50c9ead3f00bcd19996f98ba6699c854e9aad92e4aad5a567f3a0d2866"
+    }
+  ],
+  "newSourceLicence": "licenses/lato/OFL.txt"
+}

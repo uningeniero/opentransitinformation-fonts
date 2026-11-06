@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni02BB" format="2">
+  <advance width="233"/>
+  <unicode hex="02BB"/>
+  <outline>
+    <contour>
+      <point x="129" y="586"/>
+      <point x="87" y="626"/>
+      <point x="87" y="658" type="qcurve"/>
+      <point x="87" y="680"/>
+      <point x="102" y="720"/>
+      <point x="120" y="749" type="qcurve"/>
+      <point x="209" y="892" type="line"/>
+      <point x="290" y="892" type="line"/>
+      <point x="225" y="733" type="line"/>
+      <point x="254" y="711"/>
+      <point x="254" y="673" type="qcurve"/>
+      <point x="254" y="637"/>
+      <point x="201" y="586"/>
+      <point x="163" y="586" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 26 values pushed */
+8
+1
+1
+0
+1
+76
+0
+0
+1
+0
+133
+2
+1
+1
+1
+118
+0
+0
+0
+13
+0
+12
+22
+3
+11
+23
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w233o129+586o87+626q87+658o87+680o102+720q120+749l209+892l290+892l225+733o254+711q254+673o254+637o201+586q163+586|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,2779 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "manifest": {
+    "path": "build/production-1.1.0-final/build-manifest.json",
+    "bytes": 13099,
+    "sha256": "6b8dc190f9199091ce3a258b0f2f0dc4860a0b8593cc8c6dfd9846f95b477923"
+  },
+  "priorBaseValidation": {
+    "path": "build/production-1.1.0-corrected/validation.json",
+    "bytes": 230093,
+    "sha256": "9a5234e86ce6cf10e11898fb7c4a68ab359b935a4bea28c5f1a27ae6c799f6b2"
+  },
+  "priorFiniteValidation": {
+    "path": "build/production-1.1.0-corrected/function-validation.json",
+    "bytes": 140265,
+    "sha256": "ad7425fdf9fcc2d28eee445b721c6fd5d93e632ee2fc513751704db17a66508c"
+  },
+  "fixtures": {
+    "path": "tests/font-function-cases.json",
+    "bytes": 17280,
+    "sha256": "c2738ffa4088ad52a4d1c53d50bde035617f788aaeedf1b2a9cbb612c2f00547"
+  },
+  "checks": [
+    {
+      "case": "Regular-screen-source-binding",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-native-component-geometry",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-native-advances",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-smcp-\\u01f0",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          286,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-retained-default-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-smcp-j\\u030c",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          286,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-retained-default-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-inherited-pair-spacing-A",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          573,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          573,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-inherited-pair-spacing-V",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          556,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          556,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-inherited-pair-spacing-T",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          517,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          517,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-inherited-pair-spacing-a",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          505,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          505,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-inherited-pair-spacing-v",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          490,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          490,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Regular-j-caron-inherited-pair-spacing-t",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          456,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          286,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          456,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Regular-unchanged-encoded-repertoire",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-one-appended-unencoded-glyph",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-all-retained-contours",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-Regular-all-retained-metrics",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-en-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-lt-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-en-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-lt-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-en-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-lt-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-en-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-lt-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-en-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-lt-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-en-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-lt-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-en-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-retained-shaped-lt-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Regular-actual-woff2-layout-outline-hint-tables",
+      "passed": true
+    },
+    {
+      "case": "Medium-screen-source-binding",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-native-component-geometry",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-native-advances",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-smcp-\\u01f0",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-retained-default-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-smcp-j\\u030c",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-retained-default-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-inherited-pair-spacing-A",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          583,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          583,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-inherited-pair-spacing-V",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          564,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          564,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-inherited-pair-spacing-T",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          530,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          530,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-inherited-pair-spacing-a",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          513,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          513,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-inherited-pair-spacing-v",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          496,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          496,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Medium-j-caron-inherited-pair-spacing-t",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          468,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          468,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Medium-unchanged-encoded-repertoire",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-one-appended-unencoded-glyph",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-all-retained-contours",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-Medium-all-retained-metrics",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-en-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-lt-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-en-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-lt-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-en-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-lt-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-en-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-lt-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-en-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-lt-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-en-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-lt-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-en-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-retained-shaped-lt-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Medium-actual-woff2-layout-outline-hint-tables",
+      "passed": true
+    },
+    {
+      "case": "SemiBold-screen-source-binding",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-native-component-geometry",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-native-advances",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-smcp-\\u01f0",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          293,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-retained-default-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-smcp-j\\u030c",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          293,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-retained-default-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-inherited-pair-spacing-A",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          586,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          586,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-inherited-pair-spacing-V",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          567,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          567,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-inherited-pair-spacing-T",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          534,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          534,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-inherited-pair-spacing-a",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          516,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          516,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-inherited-pair-spacing-v",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          499,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          499,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBold-j-caron-inherited-pair-spacing-t",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          472,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          293,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          472,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBold-unchanged-encoded-repertoire",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-one-appended-unencoded-glyph",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-all-retained-contours",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-SemiBold-all-retained-metrics",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-en-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-lt-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-en-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-lt-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-en-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-lt-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-en-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-lt-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-en-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-lt-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-en-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-lt-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-en-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-retained-shaped-lt-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBold-actual-woff2-layout-outline-hint-tables",
+      "passed": true
+    },
+    {
+      "case": "Bold-screen-source-binding",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-native-component-geometry",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-native-advances",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-smcp-\\u01f0",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          295,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-retained-default-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-smcp-j\\u030c",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          295,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-retained-default-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-inherited-pair-spacing-A",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          590,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          590,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-inherited-pair-spacing-V",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          570,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          570,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-inherited-pair-spacing-T",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          540,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          540,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-inherited-pair-spacing-a",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          519,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          519,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-inherited-pair-spacing-v",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          502,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          502,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Bold-j-caron-inherited-pair-spacing-t",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          477,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          295,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          477,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Bold-unchanged-encoded-repertoire",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-one-appended-unencoded-glyph",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-all-retained-contours",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-Bold-all-retained-metrics",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-en-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-lt-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-en-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-lt-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-en-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-lt-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-en-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-lt-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-en-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-lt-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-en-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-lt-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-en-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-retained-shaped-lt-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Bold-actual-woff2-layout-outline-hint-tables",
+      "passed": true
+    },
+    {
+      "case": "Italic-screen-source-binding",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-native-component-geometry",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-native-advances",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-smcp-\\u01f0",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          285,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-retained-default-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-smcp-j\\u030c",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          285,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-retained-default-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-inherited-pair-spacing-A",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          567,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          567,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-inherited-pair-spacing-V",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          550,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          550,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-inherited-pair-spacing-T",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          511,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          511,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-inherited-pair-spacing-a",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          499,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          499,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-inherited-pair-spacing-v",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          484,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          484,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Italic-j-caron-inherited-pair-spacing-t",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          451,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          285,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          451,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-Italic-unchanged-encoded-repertoire",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-one-appended-unencoded-glyph",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-all-retained-contours",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-Italic-all-retained-metrics",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-en-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-lt-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-en-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-lt-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-en-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-lt-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-en-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-lt-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-en-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-lt-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-en-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-lt-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-en-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-retained-shaped-lt-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-Italic-actual-woff2-layout-outline-hint-tables",
+      "passed": true
+    },
+    {
+      "case": "MediumItalic-screen-source-binding",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-native-component-geometry",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-native-advances",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-smcp-\\u01f0",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          289,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-retained-default-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-smcp-j\\u030c",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          289,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-retained-default-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-inherited-pair-spacing-A",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          574,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          574,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-inherited-pair-spacing-V",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          556,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          556,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-inherited-pair-spacing-T",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          522,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          522,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-inherited-pair-spacing-a",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          505,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          505,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-inherited-pair-spacing-v",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          489,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          489,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-j-caron-inherited-pair-spacing-t",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          460,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          289,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          460,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-unchanged-encoded-repertoire",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-one-appended-unencoded-glyph",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-all-retained-contours",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-all-retained-metrics",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-en-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-lt-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-en-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-lt-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-en-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-lt-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-en-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-lt-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-en-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-lt-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-en-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-lt-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-en-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-retained-shaped-lt-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-MediumItalic-actual-woff2-layout-outline-hint-tables",
+      "passed": true
+    },
+    {
+      "case": "SemiBoldItalic-screen-source-binding",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-native-component-geometry",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-native-advances",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-smcp-\\u01f0",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-retained-default-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-smcp-j\\u030c",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-retained-default-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-inherited-pair-spacing-A",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          577,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          577,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-inherited-pair-spacing-V",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          558,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          558,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-inherited-pair-spacing-T",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          526,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          526,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-inherited-pair-spacing-a",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          507,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          507,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-inherited-pair-spacing-v",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          491,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          491,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-j-caron-inherited-pair-spacing-t",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          464,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          291,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          464,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-unchanged-encoded-repertoire",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-one-appended-unencoded-glyph",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-all-retained-contours",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-all-retained-metrics",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-en-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-lt-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-en-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-lt-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-en-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-lt-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-en-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-lt-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-en-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-lt-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-en-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-lt-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-en-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-retained-shaped-lt-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-SemiBoldItalic-actual-woff2-layout-outline-hint-tables",
+      "passed": true
+    },
+    {
+      "case": "BoldItalic-screen-source-binding",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-native-component-geometry",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-native-advances",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-smcp-\\u01f0",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          292,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-retained-default-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-smcp-j\\u030c",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          292,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-retained-default-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-inherited-pair-spacing-A",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          581,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "A",
+          581,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-inherited-pair-spacing-V",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          561,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "V",
+          561,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-inherited-pair-spacing-T",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          530,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "T",
+          530,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-inherited-pair-spacing-a",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          510,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "a.sc",
+          510,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-inherited-pair-spacing-v",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          493,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "v.sc",
+          493,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-j-caron-inherited-pair-spacing-t",
+      "passed": true,
+      "actual": [
+        [
+          "uni01F0.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          468,
+          0,
+          0,
+          0
+        ]
+      ],
+      "reference": [
+        [
+          "j.sc",
+          292,
+          0,
+          0,
+          0
+        ],
+        [
+          "t.sc",
+          468,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-unchanged-encoded-repertoire",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-one-appended-unencoded-glyph",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-all-retained-contours",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-all-retained-metrics",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-en-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-lt-AVATAR",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-en-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-lt-To Way",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-en-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-lt-\\u012f\\u0307\\u0301",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-en-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-lt-\\u1e0a\\u1e0b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-en-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-lt-\\u1e2a\\u1e2b",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-en-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-lt-\\u01f0",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-en-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-retained-shaped-lt-j\\u030c",
+      "passed": true
+    },
+    {
+      "case": "TravellerScreen-BoldItalic-actual-woff2-layout-outline-hint-tables",
+      "passed": true
+    },
+    {
+      "case": "Regular-sign-source-binding",
+      "passed": true
+    },
+    {
+      "case": "Regular-sign-unchanged",
+      "passed": true
+    },
+    {
+      "case": "Medium-sign-source-binding",
+      "passed": true
+    },
+    {
+      "case": "Medium-sign-unchanged",
+      "passed": true
+    },
+    {
+      "case": "SemiBold-sign-source-binding",
+      "passed": true
+    },
+    {
+      "case": "SemiBold-sign-unchanged",
+      "passed": true
+    },
+    {
+      "case": "Bold-sign-source-binding",
+      "passed": true
+    },
+    {
+      "case": "Bold-sign-unchanged",
+      "passed": true
+    }
+  ],
+  "total": 264,
+  "failures": 0
+}

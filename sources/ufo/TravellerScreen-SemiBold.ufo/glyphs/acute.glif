@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="acute" format="2">
+  <advance width="330"/>
+  <unicode hex="00B4"/>
+  <anchor x="171" y="827" name="mark2__MarkToMark55__Anchor56_Anchor56_"/>
+  <outline>
+    <component base="acutecomb" xOffset="330" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

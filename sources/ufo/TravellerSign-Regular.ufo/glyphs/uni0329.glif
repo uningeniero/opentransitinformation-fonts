@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0329" format="2">
+  <unicode hex="0329"/>
+  <anchor x="0" y="90" name="_Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="-88" y="0" type="line"/>
+      <point x="88" y="0" type="line"/>
+      <point x="88" y="-471" type="line"/>
+      <point x="-88" y="-471" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>2f4c9d487fdc3f2b562da9f6d3f9c2ba133fc07152aed23a7d22c49f00bca978</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>baseAnchorRule</key>
+          <string>Reuse existing source bottom anchor when present; otherwise transformed native Screen bottom anchor. Do not replace covered anchors.</string>
+          <key>gdefClass</key>
+          <integer>3</integer>
+          <key>kind</key>
+          <string>native vertical line below</string>
+          <key>nativeBelowModel</key>
+          <string>U+032D / U+0330</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>0</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>475940</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-Regular.ttf</string>
+              <key>sha256</key>
+              <string>8183335d93e288a8094fccb946d28dbd744a472735f8ce694f2d88d8eaa9a488</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni0329</string>
+            <key>unicode</key>
+            <string>U+0329</string>
+          </dict>
+          <key>translate</key>
+          <array>
+            <real>173.7300435413643</real>
+            <real>146.2989840348331</real>
+          </array>
+          <key>uniformScale</key>
+          <real>2.0319303338171264</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni033C" format="2">
+  <unicode hex="033C"/>
+  <anchor x="-276" y="0" name="_Anchor27__Anchor27"/>
+  <anchor x="-276" y="0" name="_Anchor33__Anchor33"/>
+  <anchor x="-276" y="0" name="_Anchor41__Anchor41"/>
+  <anchor x="-276" y="0" name="_Anchor47__Anchor47"/>
+  <anchor x="-276" y="0" name="_Anchor54_Anchor54_"/>
+  <anchor x="-276" y="0" name="_Anchor60_Anchor60_"/>
+  <anchor x="-293" y="-215" name="mark2__MarkToMark53__Anchor54_Anchor54_"/>
+  <outline>
+    <contour>
+      <point x="-143" y="-58"/>
+      <point x="-96" y="-128"/>
+      <point x="-96" y="-187" type="qcurve"/>
+      <point x="-96" y="-204"/>
+      <point x="-97" y="-213" type="qcurve"/>
+      <point x="-152" y="-213" type="line"/>
+      <point x="-152" y="-179"/>
+      <point x="-172" y="-146"/>
+      <point x="-194" y="-146" type="qcurve"/>
+      <point x="-238" y="-146"/>
+      <point x="-259" y="-215" type="qcurve"/>
+      <point x="-332" y="-215" type="line"/>
+      <point x="-334" y="-146"/>
+      <point x="-374" y="-146" type="qcurve"/>
+      <point x="-419" y="-146"/>
+      <point x="-440" y="-215" type="qcurve"/>
+      <point x="-494" y="-205" type="line"/>
+      <point x="-481" y="-138"/>
+      <point x="-415" y="-58"/>
+      <point x="-370" y="-58" type="qcurve"/>
+      <point x="-338" y="-58"/>
+      <point x="-295" y="-98"/>
+      <point x="-286" y="-135" type="qcurve"/>
+      <point x="-268" y="-98"/>
+      <point x="-217" y="-58"/>
+      <point x="-186" y="-58" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 14 values pushed */
+22
+1
+1
+4
+16
+1
+0
+1
+2
+76
+15
+1
+0
+73
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+20
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 28 values pushed */
+2
+1
+0
+1
+1
+0
+113
+6
+5
+2
+4
+1
+1
+4
+89
+6
+5
+2
+4
+4
+1
+97
+3
+1
+1
+4
+1
+81
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 27 values pushed */
+2
+1
+0
+1
+0
+134
+6
+5
+2
+4
+1
+1
+4
+89
+6
+5
+2
+4
+4
+1
+97
+3
+1
+1
+4
+1
+81
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 14 values pushed */
+0
+0
+0
+25
+0
+24
+36
+33
+17
+34
+20
+7
+11
+27
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>fd9ba33e5cef9e524cd2dbd745443f06505f8deeedf3b5c03d6a361c83e88d83c3df2709f1549e6084cb6d122b7ffb997a3210904f5a19fc350435d7f15087f5</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

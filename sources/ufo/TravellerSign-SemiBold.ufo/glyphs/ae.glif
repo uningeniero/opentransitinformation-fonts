@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="ae" format="2">
+  <advance width="1564"/>
+  <unicode hex="00E6"/>
+  <anchor x="805" y="993" name="base__MarkToBase2__Anchor3__Anchor3"/>
+  <anchor x="776" y="-20" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="370" y="-20" type="qcurve"/>
+      <point x="225" y="-20"/>
+      <point x="44" y="132"/>
+      <point x="44" y="261" type="qcurve"/>
+      <point x="44" y="362"/>
+      <point x="147" y="498"/>
+      <point x="316" y="578"/>
+      <point x="519" y="613"/>
+      <point x="620" y="614" type="qcurve"/>
+      <point x="613" y="710"/>
+      <point x="529" y="816"/>
+      <point x="423" y="816" type="qcurve"/>
+      <point x="359" y="816"/>
+      <point x="233" y="780"/>
+      <point x="154" y="735" type="qcurve"/>
+      <point x="131" y="917" type="line"/>
+      <point x="209" y="961"/>
+      <point x="389" y="1010"/>
+      <point x="483" y="1010" type="qcurve"/>
+      <point x="584" y="1010"/>
+      <point x="728" y="950"/>
+      <point x="772" y="881" type="qcurve"/>
+      <point x="832" y="941"/>
+      <point x="996" y="1010"/>
+      <point x="1098" y="1010" type="qcurve"/>
+      <point x="1232" y="1010"/>
+      <point x="1415" y="896"/>
+      <point x="1508" y="702"/>
+      <point x="1508" y="583" type="qcurve"/>
+      <point x="1508" y="528"/>
+      <point x="1495" y="462" type="qcurve"/>
+      <point x="855" y="462" type="line"/>
+      <point x="865" y="356"/>
+      <point x="956" y="226"/>
+      <point x="1088" y="168"/>
+      <point x="1162" y="168" type="qcurve"/>
+      <point x="1235" y="168"/>
+      <point x="1382" y="209"/>
+      <point x="1447" y="241" type="qcurve"/>
+      <point x="1464" y="56" type="line"/>
+      <point x="1406" y="25"/>
+      <point x="1248" y="-20"/>
+      <point x="1145" y="-20" type="qcurve"/>
+      <point x="1006" y="-20"/>
+      <point x="801" y="75"/>
+      <point x="736" y="156" type="qcurve"/>
+      <point x="669" y="77"/>
+      <point x="474" y="-20"/>
+    </contour>
+    <contour>
+      <point x="1092" y="822" type="qcurve"/>
+      <point x="1000" y="822"/>
+      <point x="880" y="713"/>
+      <point x="861" y="614" type="qcurve"/>
+      <point x="1280" y="614" type="line"/>
+      <point x="1280" y="700"/>
+      <point x="1189" y="822"/>
+    </contour>
+    <contour>
+      <point x="277" y="283" type="qcurve"/>
+      <point x="277" y="216"/>
+      <point x="367" y="153"/>
+      <point x="435" y="153" type="qcurve"/>
+      <point x="568" y="153"/>
+      <point x="670" y="264" type="qcurve"/>
+      <point x="629" y="354"/>
+      <point x="623" y="462" type="qcurve"/>
+      <point x="277" y="457"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+33
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 21 values pushed */
+21
+15
+2
+2
+3
+14
+1
+1
+2
+60
+38
+2
+6
+5
+45
+39
+2
+0
+6
+4
+76
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 24 values pushed */
+21
+15
+2
+2
+3
+14
+1
+1
+2
+60
+38
+2
+6
+5
+45
+1
+10
+6
+39
+1
+0
+10
+5
+76
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+33
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 37 values pushed */
+9
+1
+1
+11
+1
+5
+6
+1
+5
+105
+13
+8
+2
+2
+2
+3
+97
+4
+1
+3
+3
+40
+77
+10
+1
+6
+6
+0
+97
+7
+12
+2
+0
+0
+41
+0
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 48 values pushed */
+9
+1
+1
+11
+1
+5
+6
+1
+5
+105
+13
+8
+2
+2
+2
+3
+97
+4
+1
+3
+3
+40
+77
+0
+6
+6
+0
+97
+7
+12
+2
+0
+0
+41
+77
+0
+10
+10
+0
+97
+7
+12
+2
+0
+0
+41
+0
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 35 values pushed */
+49
+48
+1
+0
+63
+62
+59
+57
+52
+51
+48
+54
+49
+54
+43
+41
+36
+34
+31
+30
+25
+23
+19
+17
+12
+10
+8
+7
+0
+47
+1
+47
+14
+8
+22
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>a455c7f02fadc72d16a0c22a8981acc1f80549232796a93ada7378cef24586afde559c260a740d07278aada3e56655cabe0285552b387aa59083d0c820a8200e</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

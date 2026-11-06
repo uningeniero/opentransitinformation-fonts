@@ -1,0 +1,896 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "designerSourcePlanSha256": "1fb1aca7e3cc38a13c7c184d7000df326fd245c2e8a7cfd49f411b654f998a54",
+  "screen": {
+    "Regular": {
+      "doubleMacronPairs": [
+        {
+          "text": "TH",
+          "nativePair": [
+            {
+              "glyph": "T",
+              "advance": 517,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "H",
+              "advance": 680,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 122.5,
+          "end": 993.5,
+          "top": -104,
+          "baseAnchor": [
+            259,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 871.0
+        },
+        {
+          "text": "th",
+          "nativePair": [
+            {
+              "glyph": "t",
+              "advance": 361,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "h",
+              "advance": 579,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 97.5,
+          "end": 790.5,
+          "top": -104,
+          "baseAnchor": [
+            234,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 693.0
+        }
+      ],
+      "hBreveSmallcap": 625,
+      "dDotAboveSmallcap": 587,
+      "compoundAboveMarkAnchor": [
+        -202,
+        527
+      ],
+      "jCaronSmallcap": {
+        "advance": 286,
+        "componentTranslate": [
+          341,
+          -125
+        ]
+      }
+    },
+    "Medium": {
+      "doubleMacronPairs": [
+        {
+          "text": "TH",
+          "nativePair": [
+            {
+              "glyph": "T",
+              "advance": 530,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "H",
+              "advance": 672,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 119.5,
+          "end": 1011.5,
+          "top": -91,
+          "baseAnchor": [
+            265,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 892.0
+        },
+        {
+          "text": "th",
+          "nativePair": [
+            {
+              "glyph": "t",
+              "advance": 375,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "h",
+              "advance": 576,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 88.5,
+          "end": 812.5,
+          "top": -91,
+          "baseAnchor": [
+            234,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 724.0
+        }
+      ],
+      "hBreveSmallcap": 615,
+      "dDotAboveSmallcap": 589,
+      "compoundAboveMarkAnchor": [
+        -217,
+        529
+      ],
+      "jCaronSmallcap": {
+        "advance": 291,
+        "componentTranslate": [
+          360,
+          -125
+        ]
+      }
+    },
+    "SemiBold": {
+      "doubleMacronPairs": [
+        {
+          "text": "TH",
+          "nativePair": [
+            {
+              "glyph": "T",
+              "advance": 534,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "H",
+              "advance": 669,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 118.0,
+          "end": 1018.0,
+          "top": -87,
+          "baseAnchor": [
+            267,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 900.0
+        },
+        {
+          "text": "th",
+          "nativePair": [
+            {
+              "glyph": "t",
+              "advance": 380,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "h",
+              "advance": 575,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 85.0,
+          "end": 820.0,
+          "top": -87,
+          "baseAnchor": [
+            234,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 735.0
+        }
+      ],
+      "hBreveSmallcap": 611,
+      "dDotAboveSmallcap": 590,
+      "compoundAboveMarkAnchor": [
+        -223,
+        530
+      ],
+      "jCaronSmallcap": {
+        "advance": 293,
+        "componentTranslate": [
+          367,
+          -125
+        ]
+      }
+    },
+    "Bold": {
+      "doubleMacronPairs": [
+        {
+          "text": "TH",
+          "nativePair": [
+            {
+              "glyph": "T",
+              "advance": 540,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "H",
+              "advance": 666,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 117.5,
+          "end": 1025.5,
+          "top": -81,
+          "baseAnchor": [
+            270,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 908.0
+        },
+        {
+          "text": "th",
+          "nativePair": [
+            {
+              "glyph": "t",
+              "advance": 386,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "h",
+              "advance": 573,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 81.5,
+          "end": 829.5,
+          "top": -81,
+          "baseAnchor": [
+            234,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 748.0
+        }
+      ],
+      "hBreveSmallcap": 607,
+      "dDotAboveSmallcap": 591,
+      "compoundAboveMarkAnchor": [
+        -230,
+        531
+      ],
+      "jCaronSmallcap": {
+        "advance": 295,
+        "componentTranslate": [
+          376,
+          -125
+        ]
+      }
+    },
+    "Italic": {
+      "doubleMacronPairs": [
+        {
+          "text": "TH",
+          "nativePair": [
+            {
+              "glyph": "T",
+              "advance": 511,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "H",
+              "advance": 674,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 79.0,
+          "end": 959.0,
+          "top": -104,
+          "baseAnchor": [
+            219,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 880.0
+        },
+        {
+          "text": "th",
+          "nativePair": [
+            {
+              "glyph": "t",
+              "advance": 355,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "h",
+              "advance": 581,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 64.0,
+          "end": 751.0,
+          "top": -104,
+          "baseAnchor": [
+            204,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 687.0
+        }
+      ],
+      "hBreveSmallcap": 620,
+      "dDotAboveSmallcap": 583,
+      "jCaronSmallcap": {
+        "advance": 285,
+        "componentTranslate": [
+          318,
+          -125
+        ]
+      }
+    },
+    "MediumItalic": {
+      "doubleMacronPairs": [
+        {
+          "text": "TH",
+          "nativePair": [
+            {
+              "glyph": "T",
+              "advance": 522,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "H",
+              "advance": 664,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 74.0,
+          "end": 972.0,
+          "top": -92,
+          "baseAnchor": [
+            224,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 898.0
+        },
+        {
+          "text": "th",
+          "nativePair": [
+            {
+              "glyph": "t",
+              "advance": 367,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "h",
+              "advance": 574,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 53.0,
+          "end": 769.0,
+          "top": -92,
+          "baseAnchor": [
+            203,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 716.0
+        }
+      ],
+      "hBreveSmallcap": 609,
+      "dDotAboveSmallcap": 583,
+      "jCaronSmallcap": {
+        "advance": 289,
+        "componentTranslate": [
+          335,
+          -125
+        ]
+      }
+    },
+    "SemiBoldItalic": {
+      "doubleMacronPairs": [
+        {
+          "text": "TH",
+          "nativePair": [
+            {
+              "glyph": "T",
+              "advance": 526,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "H",
+              "advance": 660,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 72.5,
+          "end": 976.5,
+          "top": -87,
+          "baseAnchor": [
+            226,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 904.0
+        },
+        {
+          "text": "th",
+          "nativePair": [
+            {
+              "glyph": "t",
+              "advance": 371,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "h",
+              "advance": 571,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 48.5,
+          "end": 775.5,
+          "top": -87,
+          "baseAnchor": [
+            202,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 727.0
+        }
+      ],
+      "hBreveSmallcap": 604,
+      "dDotAboveSmallcap": 583,
+      "jCaronSmallcap": {
+        "advance": 291,
+        "componentTranslate": [
+          342,
+          -125
+        ]
+      }
+    },
+    "BoldItalic": {
+      "doubleMacronPairs": [
+        {
+          "text": "TH",
+          "nativePair": [
+            {
+              "glyph": "T",
+              "advance": 530,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "H",
+              "advance": 656,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 70.0,
+          "end": 981.0,
+          "top": -82,
+          "baseAnchor": [
+            228,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 911.0
+        },
+        {
+          "text": "th",
+          "nativePair": [
+            {
+              "glyph": "t",
+              "advance": 376,
+              "x": 0,
+              "y": 0
+            },
+            {
+              "glyph": "h",
+              "advance": 567,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "start": 44.0,
+          "end": 783.0,
+          "top": -82,
+          "baseAnchor": [
+            202,
+            0
+          ],
+          "markAnchor": [
+            0,
+            0
+          ],
+          "span": 739.0
+        }
+      ],
+      "hBreveSmallcap": 599,
+      "dDotAboveSmallcap": 584,
+      "jCaronSmallcap": {
+        "advance": 292,
+        "componentTranslate": [
+          349,
+          -125
+        ]
+      }
+    }
+  },
+  "sign": {
+    "Regular": {
+      "scopedVowels": [
+        {
+          "base": "uni1EB9",
+          "mark": "U+030C",
+          "baseAnchor": [
+            556,
+            980
+          ],
+          "markAnchor": [
+            0,
+            980
+          ]
+        },
+        {
+          "base": "uni1ECD",
+          "mark": "U+030C",
+          "baseAnchor": [
+            550,
+            980
+          ],
+          "markAnchor": [
+            0,
+            980
+          ]
+        },
+        {
+          "base": "oti.uni1ECB.dotless",
+          "mark": "U+0300",
+          "baseAnchor": [
+            212,
+            980
+          ],
+          "markAnchor": [
+            0,
+            980
+          ]
+        },
+        {
+          "base": "oti.uni1ECB.dotless",
+          "mark": "U+0301",
+          "baseAnchor": [
+            212,
+            980
+          ],
+          "markAnchor": [
+            0,
+            980
+          ]
+        },
+        {
+          "base": "uni1EE5",
+          "mark": "U+0300",
+          "baseAnchor": [
+            524,
+            980
+          ],
+          "markAnchor": [
+            0,
+            980
+          ]
+        },
+        {
+          "base": "uni1EE5",
+          "mark": "U+0301",
+          "baseAnchor": [
+            524,
+            980
+          ],
+          "markAnchor": [
+            0,
+            980
+          ]
+        }
+      ]
+    },
+    "Medium": {
+      "scopedVowels": [
+        {
+          "base": "uni1EB9",
+          "mark": "U+030C",
+          "baseAnchor": [
+            559,
+            988
+          ],
+          "markAnchor": [
+            0,
+            988
+          ]
+        },
+        {
+          "base": "uni1ECD",
+          "mark": "U+030C",
+          "baseAnchor": [
+            558,
+            988
+          ],
+          "markAnchor": [
+            0,
+            988
+          ]
+        },
+        {
+          "base": "oti.uni1ECB.dotless",
+          "mark": "U+0300",
+          "baseAnchor": [
+            224,
+            988
+          ],
+          "markAnchor": [
+            0,
+            988
+          ]
+        },
+        {
+          "base": "oti.uni1ECB.dotless",
+          "mark": "U+0301",
+          "baseAnchor": [
+            224,
+            988
+          ],
+          "markAnchor": [
+            0,
+            988
+          ]
+        },
+        {
+          "base": "uni1EE5",
+          "mark": "U+0300",
+          "baseAnchor": [
+            536,
+            988
+          ],
+          "markAnchor": [
+            0,
+            988
+          ]
+        },
+        {
+          "base": "uni1EE5",
+          "mark": "U+0301",
+          "baseAnchor": [
+            536,
+            988
+          ],
+          "markAnchor": [
+            0,
+            988
+          ]
+        }
+      ]
+    },
+    "SemiBold": {
+      "scopedVowels": [
+        {
+          "base": "uni1EB9",
+          "mark": "U+030C",
+          "baseAnchor": [
+            560,
+            993
+          ],
+          "markAnchor": [
+            0,
+            993
+          ]
+        },
+        {
+          "base": "uni1ECD",
+          "mark": "U+030C",
+          "baseAnchor": [
+            563,
+            993
+          ],
+          "markAnchor": [
+            0,
+            993
+          ]
+        },
+        {
+          "base": "oti.uni1ECB.dotless",
+          "mark": "U+0300",
+          "baseAnchor": [
+            230,
+            993
+          ],
+          "markAnchor": [
+            0,
+            993
+          ]
+        },
+        {
+          "base": "oti.uni1ECB.dotless",
+          "mark": "U+0301",
+          "baseAnchor": [
+            230,
+            993
+          ],
+          "markAnchor": [
+            0,
+            993
+          ]
+        },
+        {
+          "base": "uni1EE5",
+          "mark": "U+0300",
+          "baseAnchor": [
+            542,
+            993
+          ],
+          "markAnchor": [
+            0,
+            993
+          ]
+        },
+        {
+          "base": "uni1EE5",
+          "mark": "U+0301",
+          "baseAnchor": [
+            542,
+            993
+          ],
+          "markAnchor": [
+            0,
+            993
+          ]
+        }
+      ]
+    },
+    "Bold": {
+      "scopedVowels": [
+        {
+          "base": "uni1EB9",
+          "mark": "U+030C",
+          "baseAnchor": [
+            562,
+            1000
+          ],
+          "markAnchor": [
+            0,
+            1000
+          ]
+        },
+        {
+          "base": "uni1ECD",
+          "mark": "U+030C",
+          "baseAnchor": [
+            570,
+            1000
+          ],
+          "markAnchor": [
+            0,
+            1000
+          ]
+        },
+        {
+          "base": "oti.uni1ECB.dotless",
+          "mark": "U+0300",
+          "baseAnchor": [
+            240,
+            1000
+          ],
+          "markAnchor": [
+            0,
+            1000
+          ]
+        },
+        {
+          "base": "oti.uni1ECB.dotless",
+          "mark": "U+0301",
+          "baseAnchor": [
+            240,
+            1000
+          ],
+          "markAnchor": [
+            0,
+            1000
+          ]
+        },
+        {
+          "base": "uni1EE5",
+          "mark": "U+0300",
+          "baseAnchor": [
+            552,
+            1000
+          ],
+          "markAnchor": [
+            0,
+            1000
+          ]
+        },
+        {
+          "base": "uni1EE5",
+          "mark": "U+0301",
+          "baseAnchor": [
+            552,
+            1000
+          ],
+          "markAnchor": [
+            0,
+            1000
+          ]
+        }
+      ]
+    }
+  }
+}

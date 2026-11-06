@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni2010" format="2">
+  <advance width="848"/>
+  <unicode hex="2010"/>
+  <anchor x="424" y="536" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <component base="hyphen" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

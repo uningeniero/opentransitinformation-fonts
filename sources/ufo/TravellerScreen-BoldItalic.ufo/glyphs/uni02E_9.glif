@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni02E9" format="2">
+  <advance width="369"/>
+  <unicode hex="02E9"/>
+  <outline>
+    <contour>
+      <point x="397" y="693" type="line"/>
+      <point x="300" y="0" type="line"/>
+      <point x="-5" y="0" type="line"/>
+      <point x="9" y="99" type="line"/>
+      <point x="203" y="99" type="line"/>
+      <point x="287" y="693" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 33 values pushed */
+3
+1
+2
+1
+2
+133
+0
+1
+0
+0
+1
+87
+0
+1
+1
+0
+96
+0
+0
+1
+0
+80
+0
+0
+0
+5
+0
+5
+17
+17
+4
+11
+24
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w369l397+693l300+0l-5+0l9+99l203+99l287+693|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

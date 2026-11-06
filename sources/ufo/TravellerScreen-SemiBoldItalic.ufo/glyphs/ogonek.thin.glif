@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="ogonek.thin" format="2">
+  <advance width="304"/>
+  <outline>
+    <contour>
+      <point x="203" y="0" type="line"/>
+      <point x="131" y="-27"/>
+      <point x="77" y="-82"/>
+      <point x="77" y="-111" type="qcurve"/>
+      <point x="77" y="-151"/>
+      <point x="127" y="-151" type="qcurve"/>
+      <point x="157" y="-151"/>
+      <point x="189" y="-144" type="qcurve"/>
+      <point x="172" y="-235" type="line"/>
+      <point x="135" y="-242"/>
+      <point x="103" y="-242" type="qcurve"/>
+      <point x="42" y="-242"/>
+      <point x="-31" y="-185"/>
+      <point x="-31" y="-137" type="qcurve"/>
+      <point x="-31" y="-70"/>
+      <point x="98" y="9"/>
+      <point x="201" y="18" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 26 values pushed */
+16
+7
+2
+0
+74
+0
+0
+1
+1
+0
+89
+0
+0
+0
+1
+97
+0
+1
+0
+1
+81
+35
+36
+2
+7
+24
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8e5c10f2e8df5f3c3ed38f86c94091cf73aea6d80326ed3c35edd4a40ff98a70830922358adf1e0a2fd13103d465f04f290ed130c9bd9beb2f453dd8eecb7a79</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

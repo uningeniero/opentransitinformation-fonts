@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0394" format="2">
+  <advance width="1199"/>
+  <unicode hex="0394"/>
+  <anchor x="600" y="1400" name="base__MarkToBase2__Anchor3__Anchor3"/>
+  <anchor x="600" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="600" y="0" name="base__MarkToBase2__Anchor5__Anchor5"/>
+  <outline>
+    <contour>
+      <point x="1208" y="0" type="line"/>
+      <point x="-10" y="0" type="line"/>
+      <point x="436" y="1400" type="line"/>
+      <point x="766" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="318" y="205" type="line"/>
+      <point x="873" y="205" type="line"/>
+      <point x="596" y="1193" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>1b82faae138ae5941209775e853261186de29c1f9a8cd458969b141bb0c1126c</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>kind</key>
+          <string>same-style native Screen supplementary drawing</string>
+          <key>normalisation</key>
+          <string>established Sign Greek cap frame</string>
+          <key>rounding</key>
+          <string>otRound, at most 0.5 unit per coordinate</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>592</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>477528</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-Medium.ttf</string>
+              <key>sha256</key>
+              <string>2591f772e5b2ba456dd56d833ae3a229c87f3edf626d44c407e6e96ea31d71b2</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni0394</string>
+            <key>unicode</key>
+            <string>U+0394</string>
+          </dict>
+          <key>uniformScale</key>
+          <real>2.0260492040520983</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="daggerdbl" format="2">
+  <advance width="520"/>
+  <unicode hex="2021"/>
+  <outline>
+    <contour>
+      <point x="320" y="425" type="line"/>
+      <point x="320" y="256" type="line"/>
+      <point x="487" y="256" type="line"/>
+      <point x="487" y="151" type="line"/>
+      <point x="320" y="151" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="200" y="0" type="line"/>
+      <point x="200" y="151" type="line"/>
+      <point x="33" y="151" type="line"/>
+      <point x="33" y="256" type="line"/>
+      <point x="200" y="256" type="line"/>
+      <point x="200" y="425" type="line"/>
+      <point x="33" y="425" type="line"/>
+      <point x="33" y="529" type="line"/>
+      <point x="200" y="529" type="line"/>
+      <point x="200" y="673" type="line"/>
+      <point x="320" y="673" type="line"/>
+      <point x="320" y="529" type="line"/>
+      <point x="487" y="529" type="line"/>
+      <point x="487" y="425" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+27
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 34 values pushed */
+4
+1
+0
+3
+1
+1
+2
+0
+1
+103
+0
+7
+7
+80
+77
+10
+9
+2
+5
+5
+6
+95
+8
+1
+6
+6
+83
+77
+0
+2
+2
+81
+2
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 34 values pushed */
+4
+1
+0
+3
+1
+1
+2
+0
+1
+103
+10
+9
+2
+5
+5
+6
+95
+8
+1
+6
+6
+83
+77
+0
+7
+7
+2
+95
+0
+2
+2
+81
+2
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 18 values pushed */
+0
+0
+0
+19
+0
+19
+17
+17
+17
+17
+17
+17
+17
+17
+17
+11
+11
+31
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>af24ac9df837baf598a5a3c2cc4c205821844b90c43d09c61599eac4eb04b82a1ed2d45222216b648a043ca8f53bcb7e12777bcdd5f1e7e564e42a2f9877ee2f</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="hookrightHELPER" format="2">
+  <advance width="412"/>
+  <outline>
+    <contour>
+      <point x="235" y="308"/>
+      <point x="156" y="374"/>
+      <point x="150" y="432" type="qcurve"/>
+      <point x="150" y="438" type="line"/>
+      <point x="33" y="372" type="line"/>
+      <point x="33" y="472" type="line"/>
+      <point x="144" y="530" type="line"/>
+      <point x="265" y="530" type="line"/>
+      <point x="265" y="468" type="line"/>
+      <point x="265" y="410"/>
+      <point x="319" y="410" type="qcurve"/>
+      <point x="338" y="410"/>
+      <point x="366" y="418"/>
+      <point x="385" y="427" type="qcurve"/>
+      <point x="427" y="346" type="line"/>
+      <point x="376" y="308"/>
+      <point x="304" y="308" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 13 values pushed */
+13
+5
+2
+3
+1
+0
+14
+4
+2
+2
+1
+2
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+10
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 23 values pushed */
+0
+0
+1
+1
+0
+112
+0
+1
+2
+2
+1
+89
+0
+1
+1
+2
+98
+3
+1
+2
+1
+2
+82
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 22 values pushed */
+0
+0
+1
+0
+133
+0
+1
+2
+2
+1
+89
+0
+1
+1
+2
+98
+3
+1
+2
+1
+2
+82
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 11 values pushed */
+0
+0
+0
+16
+0
+15
+34
+22
+4
+11
+24
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d3b4b26452ae0cc425ac15a4e86fa0028b5837f9fb34a5e27ebd02b50606114c5500610d628ffc55efdb7d8a6197833483b859275df8e30deed960a42ae86d22</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

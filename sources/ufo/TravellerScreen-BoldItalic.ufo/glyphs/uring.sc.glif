@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uring.sc" format="2">
+  <advance width="583"/>
+  <anchor x="255" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="367" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="334" y="568" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="581" y="568" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <component base="u.sc" identifier="component0"/>
+    <component base="uni030A.sc" xOffset="128" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

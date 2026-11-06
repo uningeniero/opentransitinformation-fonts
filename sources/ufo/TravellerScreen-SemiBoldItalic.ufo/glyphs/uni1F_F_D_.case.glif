@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1FFD.case" format="2">
+  <advance width="228"/>
+  <outline>
+    <contour>
+      <point x="258" y="692" type="line"/>
+      <point x="142" y="464" type="line"/>
+      <point x="61" y="486" type="line"/>
+      <point x="140" y="724" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 4 values pushed */
+3
+1
+1
+50
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w228l258+692l142+464l61+486l140+724|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

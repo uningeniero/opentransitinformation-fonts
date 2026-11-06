@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni031D" format="2">
+  <unicode hex="031D"/>
+  <anchor x="-220" y="0" name="_Anchor27__Anchor27"/>
+  <anchor x="-220" y="0" name="_Anchor33__Anchor33"/>
+  <anchor x="-220" y="0" name="_Anchor41__Anchor41"/>
+  <anchor x="-220" y="0" name="_Anchor47__Anchor47"/>
+  <anchor x="-220" y="0" name="_Anchor54_Anchor54_"/>
+  <anchor x="-220" y="0" name="_Anchor60_Anchor60_"/>
+  <anchor x="-261" y="-310" name="mark2__MarkToMark53__Anchor54_Anchor54_"/>
+  <outline>
+    <component base="uni02D4" xOffset="-460" yOffset="-500" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+1
+PUSHW[ ]	/* 1 value pushed */
+-500
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0[l349+190l51+190l59+249l176+249l198+409l261+409l239+249l357+249|(+1.0+0.0+0.0+1.0-460-500)]</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni2071" format="2">
+  <advance width="204"/>
+  <unicode hex="2071"/>
+  <outline>
+    <contour>
+      <point x="193" y="654" type="line"/>
+      <point x="162" y="400" type="line"/>
+      <point x="78" y="400" type="line"/>
+      <point x="109" y="654" type="line"/>
+    </contour>
+    <contour>
+      <point x="213" y="745" type="qcurve"/>
+      <point x="213" y="734"/>
+      <point x="204" y="714"/>
+      <point x="188" y="699"/>
+      <point x="167" y="690"/>
+      <point x="156" y="690" type="qcurve"/>
+      <point x="147" y="690"/>
+      <point x="131" y="697"/>
+      <point x="120" y="709"/>
+      <point x="113" y="726"/>
+      <point x="113" y="735" type="qcurve"/>
+      <point x="113" y="746"/>
+      <point x="122" y="767"/>
+      <point x="138" y="782"/>
+      <point x="158" y="791"/>
+      <point x="168" y="791" type="qcurve"/>
+      <point x="188" y="791"/>
+      <point x="213" y="764"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>11af6b0e085083f53fb3bd77f7a2f93febd71209e0bacb666451f04860336f61</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>kind</key>
+          <string>new imported purpose-coded editable Lato 2.015 drawing</string>
+          <key>normalisation</key>
+          <string>genuine same-cut modifier-n height and baseline; no body glyph scaling</string>
+          <key>rights</key>
+          <string>Retain original Lato OFL, copyright and reserved font name notice; this is a new source contribution, not an existing Traveller parent inferred from oti.L names.</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>399</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>698364</integer>
+              <key>path</key>
+              <string>https://github.com/google/fonts/blob/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/lato/Lato-BoldItalic.ttf</string>
+              <key>sha256</key>
+              <string>62c1b7f0d2e74b45960154c3520efc337b553db0961bfdc950d5618334596cc8</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni2071</string>
+            <key>unicode</key>
+            <string>U+2071</string>
+          </dict>
+          <key>sourceItalicAngle</key>
+          <real>-7.0</real>
+          <key>targetItalicAngle</key>
+          <real>-8.0</real>
+          <key>translateY</key>
+          <real>-68.4373831775701</real>
+          <key>uniformScale</key>
+          <real>0.5102803738317757</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

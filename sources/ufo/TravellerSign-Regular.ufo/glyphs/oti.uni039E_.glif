@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.uni039E" format="2">
+  <advance width="1038"/>
+  <unicode hex="039E"/>
+  <anchor x="519" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="904" y="1225" type="line"/>
+      <point x="91" y="1225" type="line"/>
+      <point x="91" y="1400" type="line"/>
+      <point x="931" y="1400" type="line"/>
+    </contour>
+    <contour>
+      <point x="807" y="624" type="line"/>
+      <point x="215" y="624" type="line"/>
+      <point x="215" y="797" type="line"/>
+      <point x="807" y="797" type="line"/>
+    </contour>
+    <contour>
+      <point x="947" y="0" type="line"/>
+      <point x="91" y="0" type="line"/>
+      <point x="91" y="177" type="line"/>
+      <point x="947" y="177" type="line"/>
+    </contour>
+  </outline>
+</glyph>

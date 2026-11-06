@@ -1,16 +1,14 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
-# OTI Traveller font bundle 1.0.1
+# Traveller font bundle 1.1.0
 
-OTI Traveller Sign and OTI Traveller Screen are transport typeface adaptations from [Open Transit Information](https://opentransitinformation.org). The font software version is 1.001.
+Traveller Sign and Traveller Screen are transport typeface families from [Open Transit Information](https://opentransitinformation.org). The font software version is 1.100.
 
-Install the required TTF files from `fonts/otitravellersign/` or `fonts/otitravellerscreen/` using your operating system's font installer. OTI Traveller Sign has four upright weights; OTI Traveller Screen has four upright weights and their genuine italics. Select the actual style in your application.
+Install the required TTF files from `fonts/travellersign/` or `fonts/travellerscreen/` using the operating system font installer. Sign has four upright weights; Screen has four upright weights and their genuine italics. Select the actual style in the application.
 
-For a website, serve the WOFF2 files and use the declarations in `examples/fonts.css`. Open `examples/index.html` for the included specimens. The `ss20` feature enables the optional Screen numeral profile.
+For a website, serve the WOFF2 files and use `examples/fonts.css`. Open `examples/index.html` for the included specimens. Sign offers optional `tnum` tabular figures and `pnum` proportional figures. Screen offers the optional `ss20` numeral profile.
 
-For Greek and Cyrillic sign rows, explicitly select the separate Source Sans 3 resource for the complete intended script run, including its figures, punctuation and marks. Use `companions/source-sans-3/fonts/`. Preserve deliberate Latin versus Cyrillic and mixed-script choices; a missing-glyph fallback stack does not provide the same resource selection.
+For the selected Greek and Cyrillic sign rows, explicitly select the separate Source Sans 3 resource for the complete script run, including figures, punctuation and marks. Its files are in `companions/source-sans-3/fonts/`. The native name and version 3.052 remain unchanged. The TTF files and unhinted WOFF2 builds are separate, unchanged official upstream resources.
 
-The Source Sans 3 files retain their original name and version 3.052. The TTF files and unhinted WOFF2 web builds are separately verified, unchanged official upstream resources. The companion provenance record identifies their exact source and digests.
+Keep the family `OFL.txt` files and the original Fira, Cabin, Lato and Adobe notices in `licenses/` and `companions/source-sans-3/LICENSE.md` with redistribution. Font software uses OFL 1.1; CSS code uses Apache-2.0; first-party documentation uses CC-BY-4.0.
 
-The font software uses the SIL Open Font License 1.1. Keep the original Fira, Cabin and Adobe notices in `licenses/` and `companions/source-sans-3/LICENSE.md` with redistribution. The included CSS code is Apache-2.0 and original documentation is CC-BY-4.0. Typeface sources, build instructions and release records are in the [technical font repository](https://github.com/uningeniero/opentransitinformation-fonts).
-
-Source-specific adaptations and release engineering: Open Transit Information, coordinated by Álvaro Marín Abril. The source families and their contributors retain the authorship and notices recorded in the accompanying licences. Exact file digests are in `fonts/checksums.json`; the selected repertoire and source boundaries are described in `docs/qa.md`.
+Source construction and release engineering: Open Transit Information, coordinated by Álvaro Marín Abril. The original source families and contributors retain the authorship and notices recorded in the accompanying licences. Editable UFOs and the one-command build are in the [technical font repository](https://github.com/uningeniero/opentransitinformation-fonts). Exact font digests are in `fonts/checksums.json`; finite checks and residuals are in `docs/qa.md`.

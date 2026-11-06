@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni04FA.loclBGR" format="2">
+  <advance width="519"/>
+  <anchor x="156" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="238" y="564" type="line"/>
+      <point x="238" y="425" type="line"/>
+      <point x="380" y="425" type="line"/>
+      <point x="380" y="327" type="line"/>
+      <point x="238" y="327" type="line"/>
+      <point x="238" y="125" type="line"/>
+      <point x="318" y="125" type="line"/>
+      <point x="318" y="-166" type="line"/>
+      <point x="204" y="-166" type="line"/>
+      <point x="186" y="0" type="line"/>
+      <point x="74" y="0" type="line"/>
+      <point x="74" y="327" type="line"/>
+      <point x="-4" y="327" type="line"/>
+      <point x="-4" y="425" type="line"/>
+      <point x="74" y="425" type="line"/>
+      <point x="74" y="693" type="line"/>
+      <point x="518" y="693" type="line"/>
+      <point x="501" y="564" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+45
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 34 values pushed */
+6
+1
+0
+5
+1
+1
+2
+0
+1
+103
+0
+2
+0
+3
+2
+3
+99
+9
+1
+8
+8
+7
+95
+0
+7
+7
+50
+77
+0
+4
+4
+51
+4
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 43 values pushed */
+0
+4
+2
+3
+2
+4
+3
+128
+0
+7
+9
+1
+8
+0
+7
+8
+103
+6
+1
+0
+5
+1
+1
+2
+0
+1
+103
+0
+2
+4
+3
+2
+87
+0
+2
+2
+3
+95
+0
+3
+2
+3
+79
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 17 values pushed */
+0
+0
+0
+17
+0
+17
+17
+17
+17
+17
+17
+17
+17
+17
+10
+9
+30
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>54871d120c8519c83806c7f87ac0ff6cbd3ed69d7d2aaa11065cee9d2cac17a03fd0f51941feeef77c290f9b00c20d307f76e42ce8149bdb06d76040d60f6358</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

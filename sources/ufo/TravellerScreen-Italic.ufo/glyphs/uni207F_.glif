@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni207F" format="2">
+  <advance width="299"/>
+  <unicode hex="207F"/>
+  <outline>
+    <contour>
+      <point x="275" y="673"/>
+      <point x="315" y="637"/>
+      <point x="315" y="605" type="qcurve"/>
+      <point x="315" y="595"/>
+      <point x="314" y="590" type="qcurve"/>
+      <point x="287" y="400" type="line"/>
+      <point x="211" y="400" type="line"/>
+      <point x="237" y="582" type="line"/>
+      <point x="238" y="586"/>
+      <point x="238" y="593" type="qcurve"/>
+      <point x="238" y="606"/>
+      <point x="227" y="614"/>
+      <point x="216" y="614" type="qcurve"/>
+      <point x="200" y="614"/>
+      <point x="166" y="601"/>
+      <point x="153" y="591" type="qcurve"/>
+      <point x="126" y="400" type="line"/>
+      <point x="50" y="400" type="line"/>
+      <point x="87" y="665" type="line"/>
+      <point x="153" y="665" type="line"/>
+      <point x="154" y="641" type="line"/>
+      <point x="192" y="673"/>
+      <point x="240" y="673" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 10 values pushed */
+20
+1
+1
+3
+9
+1
+0
+1
+2
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+29
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 19 values pushed */
+0
+1
+1
+3
+97
+5
+4
+2
+3
+3
+107
+77
+2
+1
+0
+0
+108
+0
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 23 values pushed */
+0
+3
+3
+107
+77
+0
+1
+1
+4
+97
+5
+1
+4
+4
+113
+77
+2
+1
+0
+0
+108
+0
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 13 values pushed */
+0
+0
+0
+22
+0
+21
+17
+19
+37
+21
+6
+13
+26
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>ba5dac0066a0cd345e404edcdfc5063fd63064408e2e14d7a4d4c358639e2a7b065805a5b25d77e8bd64a73eb9a4cab96e1bdf720cdac63b39603121e33cf896</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

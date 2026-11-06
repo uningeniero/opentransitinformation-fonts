@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni049D.loclBGR" format="2">
+  <advance width="565"/>
+  <outline>
+    <contour>
+      <point x="394" y="272" type="line"/>
+      <point x="499" y="0" type="line"/>
+      <point x="366" y="0" type="line"/>
+      <point x="287" y="232" type="line"/>
+      <point x="267" y="232" type="line"/>
+      <point x="251" y="118" type="line"/>
+      <point x="205" y="118" type="line"/>
+      <point x="221" y="232" type="line"/>
+      <point x="193" y="232" type="line"/>
+      <point x="161" y="0" type="line"/>
+      <point x="39" y="0" type="line"/>
+      <point x="143" y="740" type="line"/>
+      <point x="266" y="753" type="line"/>
+      <point x="205" y="317" type="line"/>
+      <point x="232" y="317" type="line"/>
+      <point x="248" y="432" type="line"/>
+      <point x="294" y="432" type="line"/>
+      <point x="278" y="317" type="line"/>
+      <point x="296" y="317" type="line"/>
+      <point x="357" y="427" type="line"/>
+      <point x="388" y="482"/>
+      <point x="453" y="529"/>
+      <point x="513" y="544" type="qcurve"/>
+      <point x="549" y="451" type="line"/>
+      <point x="510" y="437"/>
+      <point x="469" y="398"/>
+      <point x="442" y="352" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 6 values pushed */
+23
+22
+12
+3
+6
+74
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+10
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 30 values pushed */
+0
+6
+5
+5
+6
+112
+0
+2
+1
+0
+1
+2
+114
+7
+1
+5
+3
+1
+1
+2
+5
+1
+104
+4
+1
+0
+0
+51
+0
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 30 values pushed */
+0
+6
+5
+6
+133
+0
+2
+1
+0
+1
+2
+0
+128
+7
+1
+5
+3
+1
+1
+2
+5
+1
+104
+4
+1
+0
+0
+51
+0
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 11 values pushed */
+17
+17
+19
+17
+17
+17
+17
+17
+8
+9
+30
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>a8feeb114ac9e06ef1bfbc227de751804c73829481d2f7f4d0cbea9260763e157a3049fbf0d5f16a3ced4d00996d23c63ac2911f9438fae3e9e2468237075616</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

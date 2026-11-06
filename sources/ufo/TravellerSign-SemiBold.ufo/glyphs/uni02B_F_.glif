@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni02BF" format="2">
+  <advance width="395"/>
+  <unicode hex="02BF"/>
+  <anchor x="198" y="1139" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="302" y="1139" type="line"/>
+      <point x="203" y="1139"/>
+      <point x="94" y="1256"/>
+      <point x="94" y="1335" type="qcurve"/>
+      <point x="94" y="1413"/>
+      <point x="203" y="1532"/>
+      <point x="302" y="1532" type="qcurve"/>
+      <point x="302" y="1433" type="line"/>
+      <point x="261" y="1433"/>
+      <point x="205" y="1378"/>
+      <point x="205" y="1335" type="qcurve"/>
+      <point x="205" y="1290"/>
+      <point x="262" y="1237"/>
+      <point x="302" y="1237" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 31 values pushed */
+0
+1
+0
+2
+3
+1
+2
+105
+0
+3
+0
+0
+3
+89
+0
+3
+3
+0
+97
+0
+0
+3
+0
+81
+20
+17
+20
+16
+4
+8
+26
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>bf8591ecb3254aa891ababb5e52d5320ab112efaf4e66ece697f512d5715efed27d4e6d9300d4806e263de163970d04af4ed89d6c9be56ce92778f8ea1463b54</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

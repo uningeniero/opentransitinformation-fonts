@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="Thorn" format="2">
+  <advance width="1143"/>
+  <unicode hex="00DE"/>
+  <anchor x="627" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="157" y="0" type="line"/>
+      <point x="157" y="1400" type="line"/>
+      <point x="381" y="1400" type="line"/>
+      <point x="381" y="1098" type="line"/>
+      <point x="671" y="1098" type="line"/>
+      <point x="889" y="1098"/>
+      <point x="1097" y="900"/>
+      <point x="1097" y="729" type="qcurve"/>
+      <point x="1097" y="558"/>
+      <point x="888" y="360"/>
+      <point x="671" y="360" type="qcurve"/>
+      <point x="381" y="360" type="line"/>
+      <point x="381" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="381" y="549" type="line"/>
+      <point x="651" y="549" type="line"/>
+      <point x="768" y="549"/>
+      <point x="874" y="642"/>
+      <point x="874" y="729" type="qcurve"/>
+      <point x="874" y="820"/>
+      <point x="768" y="910"/>
+      <point x="651" y="910" type="qcurve"/>
+      <point x="381" y="910" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 44 values pushed */
+0
+1
+0
+5
+4
+1
+5
+103
+0
+4
+0
+2
+3
+4
+2
+103
+0
+0
+0
+31
+77
+6
+1
+3
+3
+32
+3
+78
+0
+0
+21
+19
+15
+13
+0
+12
+0
+12
+36
+33
+17
+7
+8
+25
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>3398ca902e2078af5403b23670a565df403db2054b153a3956619e9704b87154c968551f0c29e9d3242b2d722e5f02c6b1bf12c1539fbbe64a7ef4eab146be3e</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

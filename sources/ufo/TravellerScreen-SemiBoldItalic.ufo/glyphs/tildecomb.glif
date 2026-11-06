@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="tildecomb" format="2">
+  <unicode hex="0303"/>
+  <anchor x="-174" y="530" name="_Anchor28__Anchor28"/>
+  <anchor x="-174" y="530" name="_Anchor35__Anchor35"/>
+  <anchor x="-174" y="530" name="_Anchor40__Anchor40"/>
+  <anchor x="-174" y="530" name="_Anchor49__Anchor49"/>
+  <anchor x="-174" y="530" name="_Anchor56_Anchor56_"/>
+  <anchor x="-174" y="530" name="_Anchor62_Anchor62_"/>
+  <anchor x="-145" y="788" name="mark2__MarkToMark55__Anchor56_Anchor56_"/>
+  <outline>
+    <contour>
+      <point x="-115" y="640"/>
+      <point x="-146" y="654"/>
+      <point x="-165" y="667" type="qcurve"/>
+      <point x="-178" y="676"/>
+      <point x="-195" y="685"/>
+      <point x="-204" y="685" type="qcurve"/>
+      <point x="-222" y="685"/>
+      <point x="-248" y="663"/>
+      <point x="-265" y="639" type="qcurve"/>
+      <point x="-333" y="678" type="line"/>
+      <point x="-307" y="727"/>
+      <point x="-237" y="788"/>
+      <point x="-198" y="788" type="qcurve"/>
+      <point x="-176" y="788"/>
+      <point x="-146" y="774"/>
+      <point x="-127" y="760" type="qcurve"/>
+      <point x="-115" y="751"/>
+      <point x="-99" y="742"/>
+      <point x="-90" y="742" type="qcurve"/>
+      <point x="-74" y="742"/>
+      <point x="-47" y="763"/>
+      <point x="-30" y="787" type="qcurve"/>
+      <point x="38" y="748" type="line"/>
+      <point x="12" y="698"/>
+      <point x="-58" y="640"/>
+      <point x="-95" y="640" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 52 values pushed */
+22
+21
+2
+2
+1
+9
+1
+3
+0
+2
+76
+8
+1
+3
+73
+0
+2
+0
+3
+2
+89
+0
+1
+0
+0
+3
+1
+0
+105
+0
+2
+2
+3
+97
+4
+1
+3
+2
+3
+81
+0
+0
+0
+25
+0
+24
+36
+37
+36
+5
+11
+25
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>9fcb6e96a80def2f1c67ccc27d0cc608a27658b4f9503df51cae0a9afdb9f41ced6cdf3d0e6ad0c4c2ab04797ba8532ad550a8737be0fb32c245a28f1d03c95a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0500" format="2">
+  <advance width="574"/>
+  <unicode hex="0500"/>
+  <anchor x="287" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="287" y="689" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="474" y="689" type="line"/>
+      <point x="474" y="0" type="line"/>
+      <point x="282" y="0" type="line"/>
+      <point x="164" y="0"/>
+      <point x="25" y="102"/>
+      <point x="25" y="212" type="qcurve"/>
+      <point x="25" y="318"/>
+      <point x="165" y="430"/>
+      <point x="288" y="430" type="qcurve"/>
+      <point x="379" y="430" type="line"/>
+      <point x="379" y="689" type="line"/>
+    </contour>
+    <contour>
+      <point x="379" y="76" type="line"/>
+      <point x="379" y="356" type="line"/>
+      <point x="287" y="356" type="line"/>
+      <point x="208" y="356"/>
+      <point x="126" y="288"/>
+      <point x="126" y="212" type="qcurve"/>
+      <point x="126" y="134"/>
+      <point x="207" y="76"/>
+      <point x="284" y="76" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 45 values pushed */
+0
+1
+0
+3
+4
+1
+3
+103
+5
+1
+2
+2
+50
+77
+6
+1
+4
+4
+0
+96
+0
+0
+0
+51
+0
+78
+11
+11
+0
+0
+11
+19
+11
+18
+14
+12
+0
+10
+0
+10
+36
+33
+7
+9
+24
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>73a43ef9c9a6624fa50d0b04b27d03e146ec01281c50dcd30b30b04c3e5fb610d0d5ce00012aa6f1f1a631f56338ee6bd1734445aab42b0d2b8dbf6355dd4da8</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

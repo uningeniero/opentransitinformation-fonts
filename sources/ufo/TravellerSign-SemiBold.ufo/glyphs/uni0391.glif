@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0391" format="2">
+  <advance width="1186"/>
+  <unicode hex="0391"/>
+  <anchor x="595" y="1400" name="base__MarkToBase2__Anchor3__Anchor3"/>
+  <anchor x="595" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="595" y="0" name="base__MarkToBase2__Anchor5__Anchor5"/>
+  <outline>
+    <contour>
+      <point x="809" y="314" type="line"/>
+      <point x="370" y="314" type="line"/>
+      <point x="291" y="0" type="line"/>
+      <point x="-18" y="0" type="line"/>
+      <point x="413" y="1400" type="line"/>
+      <point x="775" y="1400" type="line"/>
+      <point x="1204" y="0" type="line"/>
+      <point x="888" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="753" y="534" type="line"/>
+      <point x="589" y="1179" type="line"/>
+      <point x="427" y="534" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>bac448fe4cc1a0bcbe24f6069dce5ff2e629ec445a95eca265efdf7c23a22e7c</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>kind</key>
+          <string>same-style native Screen supplementary drawing</string>
+          <key>normalisation</key>
+          <string>established Sign Greek cap frame</string>
+          <key>rounding</key>
+          <string>otRound, at most 0.5 unit per coordinate</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>586</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>509480</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-SemiBold.ttf</string>
+              <key>sha256</key>
+              <string>7078b9f92895b0c3b72306fce238334d2ac1d46bde624b0a9d76e9a8e5d04ed9</string>
+            </dict>
+            <key>glyph</key>
+            <string>Alpha</string>
+            <key>unicode</key>
+            <string>U+0391</string>
+          </dict>
+          <key>uniformScale</key>
+          <real>2.023121387283237</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

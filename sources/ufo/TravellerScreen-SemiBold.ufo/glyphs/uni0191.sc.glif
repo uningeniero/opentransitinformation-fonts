@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0191.sc" format="2">
+  <advance width="444"/>
+  <anchor x="144" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="252" y="567" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="215" y="467" type="line"/>
+      <point x="215" y="323" type="line"/>
+      <point x="390" y="323" type="line"/>
+      <point x="390" y="223" type="line"/>
+      <point x="215" y="223" type="line"/>
+      <point x="215" y="-38" type="line"/>
+      <point x="215" y="-126"/>
+      <point x="115" y="-220"/>
+      <point x="30" y="-220" type="qcurve"/>
+      <point x="-49" y="-220"/>
+      <point x="-106" y="-178" type="qcurve"/>
+      <point x="-56" y="-94" type="line"/>
+      <point x="-36" y="-105"/>
+      <point x="-6" y="-114"/>
+      <point x="15" y="-114" type="qcurve"/>
+      <point x="73" y="-114"/>
+      <point x="73" y="-50" type="qcurve"/>
+      <point x="73" y="567" type="line"/>
+      <point x="431" y="567" type="line"/>
+      <point x="416" y="467" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 51 values pushed */
+11
+1
+3
+1
+10
+1
+2
+3
+2
+76
+0
+0
+0
+1
+3
+0
+1
+103
+0
+3
+0
+2
+3
+2
+101
+6
+1
+5
+5
+4
+95
+0
+4
+4
+32
+5
+78
+0
+0
+0
+19
+0
+19
+18
+36
+35
+17
+17
+7
+7
+27
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>c8fcd4391030f7b542b5e8d1a6e3b74b370a142408814a2a1b4cf2f6fe304fee2f7c46da4775bbd55b29f9b568861d6e7545241a29eaf1ec9db6301b9ebb6120</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

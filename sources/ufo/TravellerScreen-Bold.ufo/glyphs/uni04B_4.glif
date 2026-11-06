@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni04B4" format="2">
+  <advance width="810"/>
+  <unicode hex="04B4"/>
+  <anchor x="407" y="-210" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="407" y="693" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="796" y="125" type="line"/>
+      <point x="796" y="-166" type="line"/>
+      <point x="682" y="-166" type="line"/>
+      <point x="664" y="0" type="line"/>
+      <point x="188" y="0" type="line"/>
+      <point x="188" y="569" type="line"/>
+      <point x="9" y="569" type="line"/>
+      <point x="9" y="693" type="line"/>
+      <point x="489" y="693" type="line"/>
+      <point x="472" y="569" type="line"/>
+      <point x="352" y="569" type="line"/>
+      <point x="352" y="128" type="line"/>
+      <point x="552" y="128" type="line"/>
+      <point x="552" y="693" type="line"/>
+      <point x="716" y="693" type="line"/>
+      <point x="716" y="125" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+45
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 30 values pushed */
+0
+0
+5
+0
+84
+4
+1
+2
+2
+3
+95
+6
+1
+3
+3
+50
+77
+8
+7
+2
+5
+5
+1
+96
+0
+1
+1
+51
+1
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 32 values pushed */
+6
+1
+3
+4
+1
+2
+5
+3
+2
+103
+8
+7
+2
+5
+0
+1
+0
+5
+1
+104
+8
+7
+2
+5
+5
+0
+96
+0
+0
+5
+0
+80
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 16 values pushed */
+0
+0
+0
+15
+0
+15
+17
+17
+17
+17
+17
+17
+17
+9
+9
+29
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w810l796+125l796-166l682-166l664+0l188+0l188+569l9+569l9+693l489+693l472+569l352+569l352+128l552+128l552+693l716+693l716+125|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

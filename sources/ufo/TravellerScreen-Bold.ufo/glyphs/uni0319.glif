@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0319" format="2">
+  <unicode hex="0319"/>
+  <anchor x="-138" y="0" name="_Anchor27__Anchor27"/>
+  <anchor x="-138" y="0" name="_Anchor33__Anchor33"/>
+  <anchor x="-138" y="0" name="_Anchor40__Anchor40"/>
+  <anchor x="-138" y="0" name="_Anchor47__Anchor47"/>
+  <anchor x="-138" y="0" name="_Anchor54_Anchor54_"/>
+  <anchor x="-138" y="0" name="_Anchor60_Anchor60_"/>
+  <anchor x="-138" y="-355" name="mark2__MarkToMark53__Anchor54_Anchor54_"/>
+  <outline>
+    <contour>
+      <point x="-151" y="-164" type="line"/>
+      <point x="-30" y="-164" type="line"/>
+      <point x="-30" y="-249" type="line"/>
+      <point x="-151" y="-249" type="line"/>
+      <point x="-151" y="-354" type="line"/>
+      <point x="-246" y="-354" type="line"/>
+      <point x="-246" y="-58" type="line"/>
+      <point x="-151" y="-58" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 31 values pushed */
+0
+3
+0
+2
+3
+87
+0
+0
+0
+1
+2
+0
+1
+103
+0
+3
+3
+2
+95
+0
+2
+3
+2
+79
+17
+17
+17
+16
+4
+11
+26
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l-151-164l-30-164l-30-249l-151-249l-151-354l-246-354l-246-58l-151-58|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

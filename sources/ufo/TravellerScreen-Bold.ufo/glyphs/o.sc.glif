@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="o.sc" format="2">
+  <advance width="616"/>
+  <anchor x="308" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="417" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="308" y="568" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="523" y="568" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="438" y="582"/>
+      <point x="583" y="425"/>
+      <point x="583" y="285" type="qcurve"/>
+      <point x="583" y="145"/>
+      <point x="438" y="-15"/>
+      <point x="308" y="-15" type="qcurve"/>
+      <point x="178" y="-15"/>
+      <point x="33" y="143"/>
+      <point x="33" y="286" type="qcurve"/>
+      <point x="33" y="423"/>
+      <point x="179" y="582"/>
+      <point x="308" y="582" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="251" y="469"/>
+      <point x="197" y="383"/>
+      <point x="197" y="286" type="qcurve"/>
+      <point x="197" y="186"/>
+      <point x="251" y="97"/>
+      <point x="308" y="97" type="qcurve"/>
+      <point x="366" y="97"/>
+      <point x="419" y="185"/>
+      <point x="419" y="285" type="qcurve"/>
+      <point x="419" y="383"/>
+      <point x="365" y="469"/>
+      <point x="308" y="469" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 41 values pushed */
+5
+1
+3
+3
+1
+97
+4
+1
+1
+1
+34
+77
+0
+2
+2
+0
+97
+0
+0
+0
+35
+0
+78
+12
+12
+0
+0
+12
+23
+12
+22
+18
+16
+0
+11
+0
+10
+36
+6
+7
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>5ca2338f024f78c0fac0731edd90aa08b993941a0603453380f03b015b370d484463f14ce4ce6f9e470b5cbd11740aa29ee4d77855f4f7ba4715871f76588fde</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni2086" format="2">
+  <advance width="390"/>
+  <unicode hex="2086"/>
+  <outline>
+    <component base="six.dnom" xOffset="-29" yOffset="-205" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+2
+PUSHW[ ]	/* 1 value pushed */
+-205
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>6d05ba12ebbb6db0df079d476465736f7c3d611e56addd5d791febeb732081159eba72430f4de051a493e4c84f406e3642a668191e1f40cc62cd97af4d80dd74</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

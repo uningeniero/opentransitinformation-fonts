@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0274" format="2">
+  <advance width="586"/>
+  <unicode hex="0274"/>
+  <anchor x="294" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="294" y="530" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="393" y="741" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="518" y="0" type="line"/>
+      <point x="346" y="0" type="line"/>
+      <point x="174" y="404" type="line"/>
+      <point x="184" y="342"/>
+      <point x="195" y="235"/>
+      <point x="195" y="165" type="qcurve"/>
+      <point x="195" y="0" type="line"/>
+      <point x="68" y="0" type="line"/>
+      <point x="68" y="530" type="line"/>
+      <point x="239" y="530" type="line"/>
+      <point x="412" y="126" type="line"/>
+      <point x="401" y="185"/>
+      <point x="391" y="266"/>
+      <point x="391" y="328" type="qcurve"/>
+      <point x="391" y="530" type="line"/>
+      <point x="518" y="530" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 7 values pushed */
+10
+2
+2
+0
+2
+1
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+47
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 13 values pushed */
+3
+1
+2
+2
+83
+77
+1
+1
+0
+0
+81
+0
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 19 values pushed */
+3
+1
+2
+0
+0
+2
+87
+3
+1
+2
+2
+0
+95
+1
+1
+0
+2
+0
+79
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 7 values pushed */
+21
+17
+21
+16
+4
+11
+26
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w586l518+0l346+0l174+404o184+342o195+235q195+165l195+0l68+0l68+530l239+530l412+126o401+185o391+266q391+328l391+530l518+530|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

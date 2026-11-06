@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.L1E6A" format="2">
+  <advance width="1108"/>
+  <unicode hex="1E6A"/>
+  <outline>
+    <contour>
+      <point x="426" y="0" type="line"/>
+      <point x="426" y="1152" type="line"/>
+      <point x="30" y="1152" type="line"/>
+      <point x="30" y="1400" type="line"/>
+      <point x="1078" y="1400" type="line"/>
+      <point x="1078" y="1152" type="line"/>
+      <point x="682" y="1152" type="line"/>
+      <point x="682" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="450" y="1584" type="line"/>
+      <point x="450" y="1778" type="line"/>
+      <point x="658" y="1778" type="line"/>
+      <point x="658" y="1584" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="three" format="2">
+  <advance width="1082"/>
+  <unicode hex="0033"/>
+  <anchor x="521" y="-28" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="480" y="-28" type="qcurve"/>
+      <point x="365" y="-28"/>
+      <point x="166" y="32"/>
+      <point x="80" y="78" type="qcurve"/>
+      <point x="126" y="254" type="line"/>
+      <point x="212" y="205"/>
+      <point x="379" y="144"/>
+      <point x="482" y="144" type="qcurve"/>
+      <point x="613" y="144"/>
+      <point x="760" y="275"/>
+      <point x="760" y="378" type="qcurve"/>
+      <point x="760" y="494"/>
+      <point x="600" y="634"/>
+      <point x="430" y="634" type="qcurve"/>
+      <point x="342" y="634" type="line"/>
+      <point x="342" y="806" type="line"/>
+      <point x="430" y="806" type="line"/>
+      <point x="559" y="806"/>
+      <point x="710" y="928"/>
+      <point x="710" y="1034" type="qcurve"/>
+      <point x="710" y="1147"/>
+      <point x="594" y="1256"/>
+      <point x="486" y="1256" type="qcurve"/>
+      <point x="401" y="1256"/>
+      <point x="253" y="1190"/>
+      <point x="182" y="1142" type="qcurve"/>
+      <point x="150" y="1336" type="line"/>
+      <point x="227" y="1380"/>
+      <point x="406" y="1428"/>
+      <point x="512" y="1428" type="qcurve"/>
+      <point x="707" y="1428"/>
+      <point x="918" y="1222"/>
+      <point x="918" y="1058" type="qcurve"/>
+      <point x="918" y="943"/>
+      <point x="804" y="773"/>
+      <point x="705" y="731" type="qcurve"/>
+      <point x="827" y="691"/>
+      <point x="962" y="520"/>
+      <point x="962" y="384" type="qcurve"/>
+      <point x="962" y="256"/>
+      <point x="835" y="71"/>
+      <point x="617" y="-28"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 71 values pushed */
+26
+1
+4
+5
+25
+1
+3
+4
+35
+1
+2
+3
+4
+1
+1
+2
+3
+1
+0
+1
+5
+76
+0
+3
+0
+2
+1
+3
+2
+105
+0
+4
+4
+5
+97
+0
+5
+5
+37
+77
+0
+1
+1
+0
+97
+6
+1
+0
+0
+38
+0
+78
+1
+0
+30
+28
+23
+21
+17
+15
+14
+12
+8
+6
+0
+41
+1
+41
+7
+8
+22
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>f365bb6c62db10f013b4c28079a05f0489f3b51788d25ae9cdf0aab49256ed6f9abd4c74f3538899f82a0a7d96c7be2cabdeaa9bcdceeefaeeda3ccfb70dd09d</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

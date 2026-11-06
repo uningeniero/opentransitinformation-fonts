@@ -1,142 +1,7 @@
 {
   "spdxLicense": "CC-BY-4.0",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "files": [
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-Regular.ttf",
-      "bytes": 475940,
-      "sha256": "8183335d93e288a8094fccb946d28dbd744a472735f8ce694f2d88d8eaa9a488"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-Regular.woff2",
-      "bytes": 150252,
-      "sha256": "8d94d1be1f44788d07df74d0052af019a0f292c41a6c0c70363e16676ef84d7f"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-Medium.ttf",
-      "bytes": 477528,
-      "sha256": "2591f772e5b2ba456dd56d833ae3a229c87f3edf626d44c407e6e96ea31d71b2"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-Medium.woff2",
-      "bytes": 154236,
-      "sha256": "5145ccf1be2392ca88346e4b83bfc302038fb0a93f7ad2012099c11bdac61583"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-SemiBold.ttf",
-      "bytes": 509480,
-      "sha256": "7078b9f92895b0c3b72306fce238334d2ac1d46bde624b0a9d76e9a8e5d04ed9"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-SemiBold.woff2",
-      "bytes": 161304,
-      "sha256": "18f85c383b99b58799502003d91d595fd3b8a52b445e20713958b374806abca7"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-Bold.ttf",
-      "bytes": 509824,
-      "sha256": "09d7a3acff53ff1dcf2c805a5eb1a713a4512d4b3bc70f3313b6390c7b1a38c2"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-Bold.woff2",
-      "bytes": 160736,
-      "sha256": "4a34ff62f12a5fa291327ec45bb6d5f9386a91dbf369617a1c249bb9b82613d3"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-Italic.ttf",
-      "bytes": 481068,
-      "sha256": "70016ce4ff9e0a88eb92d0cf55ef522f7af99c928a255c6f21ac3cdf82b1bbfb"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-Italic.woff2",
-      "bytes": 157052,
-      "sha256": "dc37ab5149c74dd824d19e7c0aa1323adebb2b1aa3faff58238492203a9118b6"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-MediumItalic.ttf",
-      "bytes": 483176,
-      "sha256": "8883e63a834003158498e2e23f52273201d6149462381cc5da1a41d0f5559008"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-MediumItalic.woff2",
-      "bytes": 161376,
-      "sha256": "a2a6897993c9d00ab847da07a18e8f601b654feb4f9708ed689547b80ea7071d"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-SemiBoldItalic.ttf",
-      "bytes": 515284,
-      "sha256": "e5091dd2e850aa04227586d2673efe9443788ec70bf363de8108ce78deaed2b3"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-SemiBoldItalic.woff2",
-      "bytes": 168472,
-      "sha256": "78fba1ff09244173a1ad03b83da10b405fdf51f22e0e1831ebad41b6909213e7"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-BoldItalic.ttf",
-      "bytes": 515096,
-      "sha256": "1eeb9ad892580a3bd7424f49cb1c9514ab73a521be7329032e5ee808819e868a"
-    },
-    {
-      "path": "fonts/otitravellerscreen/OTITravellerScreen-BoldItalic.woff2",
-      "bytes": 168864,
-      "sha256": "b82568f8fe3b551bbc9976fcb39cd4533dc3546948e19772f440104bbec79d1b"
-    },
-    {
-      "path": "fonts/otitravellersign/OTITravellerSign-Regular.ttf",
-      "bytes": 152236,
-      "sha256": "a88d8e7dc45bc7b92d2490b09fd515756c54a59a30bad222192ef37d4ee508a1"
-    },
-    {
-      "path": "fonts/otitravellersign/OTITravellerSign-Regular.woff2",
-      "bytes": 53860,
-      "sha256": "c200baae53f9950764ecbc8485f23c5f44e9d67e73985b404e67625fa95bb07a"
-    },
-    {
-      "path": "fonts/otitravellersign/OTITravellerSign-Medium.ttf",
-      "bytes": 153260,
-      "sha256": "8af6c38527ab421b279fcbc715d3d7f5a1fd8a7b73bbba793815efc2869cc282"
-    },
-    {
-      "path": "fonts/otitravellersign/OTITravellerSign-Medium.woff2",
-      "bytes": 55580,
-      "sha256": "5968c288bbdc504851c1c84cc85b362c1c947dbb20ae785aa19906751c4a24b9"
-    },
-    {
-      "path": "fonts/otitravellersign/OTITravellerSign-SemiBold.ttf",
-      "bytes": 153804,
-      "sha256": "a63f1e763cd51dff5f17104d5e352c1f02e75951895f432d3879aa44b50372df"
-    },
-    {
-      "path": "fonts/otitravellersign/OTITravellerSign-SemiBold.woff2",
-      "bytes": 55532,
-      "sha256": "e7448a4854edbd79d5fff29317489658425c15efd4745ccaa5693e71624b4ea3"
-    },
-    {
-      "path": "fonts/otitravellersign/OTITravellerSign-Bold.ttf",
-      "bytes": 151288,
-      "sha256": "01a0fd6fbcf62308669b698d649d0d817bf2b655f87188ef01b6c63a6a0d3a23"
-    },
-    {
-      "path": "fonts/otitravellersign/OTITravellerSign-Bold.woff2",
-      "bytes": 53232,
-      "sha256": "44f7a617d2fb9d70bac650eb247eef9af8bbed2bdf416d8bcf8ca1561746498d"
-    },
-    {
-      "path": "companions/source-sans-3/fonts/SourceSans3-Regular.ttf",
-      "bytes": 431196,
-      "sha256": "4644c81b86ec9caaa76b634889968ed3c4f4f52f054855933acc7c2b21e53b0f"
-    },
-    {
-      "path": "companions/source-sans-3/fonts/SourceSans3-Medium.ttf",
-      "bytes": 424748,
-      "sha256": "a7af35c1cab5dd0b29d742f86f2edfdf83fa7ec213643e765c5c51a2dc24edbc"
-    },
-    {
-      "path": "companions/source-sans-3/fonts/SourceSans3-Semibold.ttf",
-      "bytes": 425904,
-      "sha256": "a3f4f8dcf343a8f24dc61951de93f3ba1558b15cd250ba24af8a40e957081b7d"
-    },
     {
       "path": "companions/source-sans-3/fonts/SourceSans3-Bold.ttf",
       "bytes": 428176,
@@ -148,9 +13,19 @@
       "sha256": "8d35c6d40e750a4ee23bbbba2bd604ad098d172907369b43281507e16b8e2e7a"
     },
     {
+      "path": "companions/source-sans-3/fonts/SourceSans3-Medium.ttf",
+      "bytes": 424748,
+      "sha256": "a7af35c1cab5dd0b29d742f86f2edfdf83fa7ec213643e765c5c51a2dc24edbc"
+    },
+    {
       "path": "companions/source-sans-3/fonts/SourceSans3-Medium.ttf.woff2",
       "bytes": 108844,
       "sha256": "437a67034cb2ce4cb20d7f808e748e08ac201e15077a075a69baf67d8376a0c3"
+    },
+    {
+      "path": "companions/source-sans-3/fonts/SourceSans3-Regular.ttf",
+      "bytes": 431196,
+      "sha256": "4644c81b86ec9caaa76b634889968ed3c4f4f52f054855933acc7c2b21e53b0f"
     },
     {
       "path": "companions/source-sans-3/fonts/SourceSans3-Regular.ttf.woff2",
@@ -158,9 +33,134 @@
       "sha256": "53492fb3a0def77354f166a55d09b63a10855e91c206c7620a81cf56e97f8ec3"
     },
     {
+      "path": "companions/source-sans-3/fonts/SourceSans3-Semibold.ttf",
+      "bytes": 425904,
+      "sha256": "a3f4f8dcf343a8f24dc61951de93f3ba1558b15cd250ba24af8a40e957081b7d"
+    },
+    {
       "path": "companions/source-sans-3/fonts/SourceSans3-Semibold.ttf.woff2",
       "bytes": 108900,
       "sha256": "47b9b661b9f395fe7f0d0e119637fba5c8dad97bde3df60066fd24229c0792f4"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-Bold.ttf",
+      "bytes": 562504,
+      "sha256": "0d592c479c60eb82aa7c215e18a88f62409f137b76bbf12165df23c68a364ddb"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-Bold.woff2",
+      "bytes": 162380,
+      "sha256": "010b490a8e7fde125540146f98a0fea236ae528397d6ae5605c6e2deafe48a5e"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-BoldItalic.ttf",
+      "bytes": 563440,
+      "sha256": "62f71543c944cf5404a95d5c4018c8d96c97e8857642d56a5236f70cb9262635"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-BoldItalic.woff2",
+      "bytes": 167320,
+      "sha256": "ac995157c435ad0d3c22bab044a508ad1a6f9663b43176043cb12b769fd3ecd0"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-Italic.ttf",
+      "bytes": 528800,
+      "sha256": "c99a0a7eeca7eea3c9a16e78d34cbf0501e83fde84c090a4f4fdfbf07ce559ac"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-Italic.woff2",
+      "bytes": 155480,
+      "sha256": "fd665771c477b58fb29e0cbe739cc143cce14f83f7a73edfde431736f8a85dc3"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-Medium.ttf",
+      "bytes": 529820,
+      "sha256": "a74e958a4b553546aa43c6ef946d3f54f265bba96c9759aa3096bf9d3b6c9fd1"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-Medium.woff2",
+      "bytes": 155776,
+      "sha256": "099a6103c456dd023e22742ac33f2878f782e1ac5949f59c7a147afb6d715f2b"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-MediumItalic.ttf",
+      "bytes": 530768,
+      "sha256": "425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-MediumItalic.woff2",
+      "bytes": 160264,
+      "sha256": "374489a557f6f3925bc89bc028b8ef8effce7ecb12a4b80afd0733113df6f855"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-Regular.ttf",
+      "bytes": 528104,
+      "sha256": "0f388a18474fdac15af1af4d6e12d6924abea889da38bad2e205c7c6a28bf236"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-Regular.woff2",
+      "bytes": 151404,
+      "sha256": "a10304df252e7b6191c5ebeb103152f74094d26ceb7c79add130ec09064fabc8"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-SemiBold.ttf",
+      "bytes": 562120,
+      "sha256": "da74a0af1056581f1f2ab31a7155fd46ec518f2d55c30b8a07d235e6e8878cad"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-SemiBold.woff2",
+      "bytes": 162744,
+      "sha256": "43222da0819993a04e82a1a161f26257d7932f75ab68a4a282a39534e203f42f"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-SemiBoldItalic.ttf",
+      "bytes": 563396,
+      "sha256": "9502f1dcfebb12629946ee36cd398341cf475ca1db4c1087ea0e1ca573e4f427"
+    },
+    {
+      "path": "fonts/travellerscreen/TravellerScreen-SemiBoldItalic.woff2",
+      "bytes": 167220,
+      "sha256": "594811e818d3e84661b0a76247da7e4726d557fd002b59496a61f2dd91cf27df"
+    },
+    {
+      "path": "fonts/travellersign/TravellerSign-Bold.ttf",
+      "bytes": 237204,
+      "sha256": "18841e11d0650ded90343c4de337de26031e551959be42e03df5f8bc603b699d"
+    },
+    {
+      "path": "fonts/travellersign/TravellerSign-Bold.woff2",
+      "bytes": 59120,
+      "sha256": "b479ee34f2212d051f56f06f4629a2b44bbe3a49dd815ca3da43852c36c877f8"
+    },
+    {
+      "path": "fonts/travellersign/TravellerSign-Medium.ttf",
+      "bytes": 241884,
+      "sha256": "4a9c042a8c099318b4fda3ec43bc22d3c8b04acb8653ea0e76a29dc83212f186"
+    },
+    {
+      "path": "fonts/travellersign/TravellerSign-Medium.woff2",
+      "bytes": 61600,
+      "sha256": "de5f165fa3be83e406fbf232e170870140fd0394bfa8aab126d6c0430f0814e1"
+    },
+    {
+      "path": "fonts/travellersign/TravellerSign-Regular.ttf",
+      "bytes": 233796,
+      "sha256": "5159687003f6a9e4bce205b946b6030f2bb20b42f5ad0896408185934a2ba405"
+    },
+    {
+      "path": "fonts/travellersign/TravellerSign-Regular.woff2",
+      "bytes": 59248,
+      "sha256": "54951885bc3269bd6094eee034841da75979e0c52b330c1311798ac0ba9b3e64"
+    },
+    {
+      "path": "fonts/travellersign/TravellerSign-SemiBold.ttf",
+      "bytes": 242376,
+      "sha256": "bf44340907d61b0c869c13e1d82695697581eb6ce4f4d23a62c5a7927286131b"
+    },
+    {
+      "path": "fonts/travellersign/TravellerSign-SemiBold.woff2",
+      "bytes": 61424,
+      "sha256": "b38ffe726b4e1b415666d6e228f6043723daa94126c5687e4955dbd5838a4214"
     }
   ]
 }

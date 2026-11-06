@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni02B4" format="2">
+  <advance width="248"/>
+  <unicode hex="02B4"/>
+  <outline>
+    <contour>
+      <point x="273" y="666" type="line"/>
+      <point x="235" y="400" type="line"/>
+      <point x="173" y="400" type="line"/>
+      <point x="167" y="455" type="line"/>
+      <point x="153" y="425"/>
+      <point x="111" y="393"/>
+      <point x="84" y="393" type="qcurve"/>
+      <point x="65" y="393"/>
+      <point x="51" y="399" type="qcurve"/>
+      <point x="72" y="473" type="line"/>
+      <point x="79" y="470"/>
+      <point x="96" y="470" type="qcurve"/>
+      <point x="123" y="470"/>
+      <point x="159" y="510"/>
+      <point x="174" y="548" type="qcurve"/>
+      <point x="191" y="666" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+34
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 14 values pushed */
+9
+1
+2
+3
+3
+1
+0
+2
+2
+76
+8
+1
+0
+73
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 14 values pushed */
+9
+1
+2
+3
+3
+1
+0
+2
+8
+1
+1
+0
+3
+76
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+34
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 18 values pushed */
+4
+1
+3
+3
+107
+77
+0
+2
+2
+0
+97
+1
+1
+0
+0
+108
+0
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 22 values pushed */
+4
+1
+3
+3
+107
+77
+0
+0
+0
+108
+77
+0
+2
+2
+1
+97
+0
+1
+1
+114
+1
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 12 values pushed */
+0
+0
+0
+15
+0
+15
+35
+35
+17
+5
+13
+25
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w248l273+666l235+400l173+400l167+455o153+425o111+393q84+393o65+393q51+399l72+473o79+470q96+470o123+470o159+510q174+548l191+666|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

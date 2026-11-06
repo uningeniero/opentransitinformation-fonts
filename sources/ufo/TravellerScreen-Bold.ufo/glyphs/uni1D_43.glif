@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1D43" format="2">
+  <advance width="290"/>
+  <unicode hex="1D43"/>
+  <outline>
+    <contour>
+      <point x="172" y="506" type="line"/>
+      <point x="150" y="505"/>
+      <point x="123" y="499"/>
+      <point x="107" y="492"/>
+      <point x="101" y="481"/>
+      <point x="101" y="476" type="qcurve"/>
+      <point x="101" y="465"/>
+      <point x="114" y="455"/>
+      <point x="127" y="455" type="qcurve"/>
+      <point x="140" y="455"/>
+      <point x="161" y="464"/>
+      <point x="172" y="475" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="29" y="632" type="line"/>
+      <point x="54" y="653"/>
+      <point x="115" y="675"/>
+      <point x="150" y="675" type="qcurve"/>
+      <point x="175" y="675"/>
+      <point x="215" y="658"/>
+      <point x="242" y="629"/>
+      <point x="257" y="590"/>
+      <point x="257" y="567" type="qcurve"/>
+      <point x="257" y="400" type="line"/>
+      <point x="217" y="400" type="line"/>
+      <point x="205" y="400"/>
+      <point x="192" y="407"/>
+      <point x="188" y="418" type="qcurve"/>
+      <point x="183" y="429" type="line"/>
+      <point x="163" y="413"/>
+      <point x="126" y="396"/>
+      <point x="99" y="396" type="qcurve"/>
+      <point x="61" y="396"/>
+      <point x="17" y="435"/>
+      <point x="17" y="471" type="qcurve"/>
+      <point x="17" y="485"/>
+      <point x="31" y="515"/>
+      <point x="66" y="540"/>
+      <point x="126" y="558"/>
+      <point x="172" y="559" type="qcurve"/>
+      <point x="172" y="567" type="line"/>
+      <point x="172" y="588"/>
+      <point x="155" y="605"/>
+      <point x="138" y="605" type="qcurve"/>
+      <point x="125" y="605"/>
+      <point x="108" y="599"/>
+      <point x="95" y="593"/>
+      <point x="81" y="588"/>
+      <point x="71" y="588" type="qcurve"/>
+      <point x="62" y="588"/>
+      <point x="49" y="597"/>
+      <point x="45" y="603" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>60268e2f1ba7c35df5227b73af474232875c4fb6035c8b6748066fc6e2a43842</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>kind</key>
+          <string>new imported purpose-coded editable Lato 2.015 drawing</string>
+          <key>normalisation</key>
+          <string>genuine same-cut modifier-n height and baseline; no body glyph scaling</string>
+          <key>rights</key>
+          <string>Retain original Lato OFL, copyright and reserved font name notice; this is a new source contribution, not an existing Traveller parent inferred from oti.L names.</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>571</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>656544</integer>
+              <key>path</key>
+              <string>https://github.com/google/fonts/blob/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/lato/Lato-Bold.ttf</string>
+              <key>sha256</key>
+              <string>8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni1D43</string>
+            <key>unicode</key>
+            <string>U+1D43</string>
+          </dict>
+          <key>sourceItalicAngle</key>
+          <real>0.0</real>
+          <key>targetItalicAngle</key>
+          <real>0.0</real>
+          <key>translateY</key>
+          <real>-66.18435754189943</real>
+          <key>uniformScale</key>
+          <real>0.5083798882681564</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

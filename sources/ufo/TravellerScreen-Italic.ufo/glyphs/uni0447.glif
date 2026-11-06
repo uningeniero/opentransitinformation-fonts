@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0447" format="2">
+  <advance width="546"/>
+  <unicode hex="0447"/>
+  <anchor x="236" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="290" y="527" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="415" y="0" type="line"/>
+      <point x="324" y="0" type="line"/>
+      <point x="356" y="230" type="line"/>
+      <point x="286" y="162"/>
+      <point x="196" y="162" type="qcurve"/>
+      <point x="130" y="162"/>
+      <point x="60" y="234"/>
+      <point x="60" y="295" type="qcurve"/>
+      <point x="60" y="317"/>
+      <point x="62" y="328" type="qcurve"/>
+      <point x="91" y="527" type="line"/>
+      <point x="182" y="527" type="line"/>
+      <point x="154" y="333" type="line"/>
+      <point x="152" y="322"/>
+      <point x="152" y="304" type="qcurve"/>
+      <point x="152" y="268"/>
+      <point x="185" y="234"/>
+      <point x="220" y="234" type="qcurve"/>
+      <point x="261" y="234"/>
+      <point x="341" y="282"/>
+      <point x="369" y="319" type="qcurve"/>
+      <point x="398" y="527" type="line"/>
+      <point x="489" y="527" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 34 values pushed */
+2
+1
+1
+3
+1
+76
+0
+3
+0
+1
+0
+3
+1
+106
+4
+1
+2
+2
+52
+77
+0
+0
+0
+51
+0
+78
+19
+37
+21
+34
+16
+5
+9
+27
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>3727b1409207b908764d8607b405f107abb7ad6912b201b1154d7d6addbc6a248c686f357cf4c2fe821e37922f93232c92194c929e6935d022f2494f93b5d37b</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

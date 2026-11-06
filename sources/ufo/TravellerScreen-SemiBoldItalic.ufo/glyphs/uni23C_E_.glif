@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni23CE" format="2">
+  <advance width="1000"/>
+  <unicode hex="23CE"/>
+  <outline>
+    <contour>
+      <point x="636" y="723"/>
+      <point x="664" y="750"/>
+      <point x="686" y="750" type="qcurve"/>
+      <point x="845" y="750" type="line"/>
+      <point x="868" y="750"/>
+      <point x="895" y="723"/>
+      <point x="895" y="700" type="qcurve"/>
+      <point x="895" y="239" type="line"/>
+      <point x="895" y="217"/>
+      <point x="868" y="189"/>
+      <point x="845" y="189" type="qcurve"/>
+      <point x="333" y="189" type="line"/>
+      <point x="333" y="15" type="line"/>
+      <point x="35" y="313" type="line"/>
+      <point x="333" y="612" type="line"/>
+      <point x="333" y="438" type="line"/>
+      <point x="636" y="438" type="line"/>
+      <point x="636" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="681" y="706" type="line"/>
+      <point x="681" y="393" type="line"/>
+      <point x="288" y="393" type="line"/>
+      <point x="288" y="504" type="line"/>
+      <point x="99" y="313" type="line"/>
+      <point x="288" y="122" type="line"/>
+      <point x="288" y="233" type="line"/>
+      <point x="849" y="233" type="line"/>
+      <point x="849" y="706" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 64 values pushed */
+21
+14
+2
+2
+5
+22
+13
+2
+4
+3
+2
+76
+23
+12
+2
+1
+73
+0
+0
+6
+1
+5
+2
+0
+5
+103
+0
+2
+0
+3
+4
+2
+3
+103
+0
+4
+1
+1
+4
+87
+0
+4
+4
+1
+95
+0
+1
+4
+1
+79
+18
+18
+18
+26
+18
+26
+20
+19
+20
+37
+49
+7
+6
+27
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>9550a0a26378d2edae8251f5795e91b24c15252e9e63efe1b9fb51928ff6d65a21f5ce20f33e7ae1d430285f717bd55b94947820df6dc1c0355eee4dd71c927a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

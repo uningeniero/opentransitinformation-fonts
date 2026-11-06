@@ -5,3 +5,6 @@
 *.zip binary
 licenses/** -text
 companions/source-sans-3/LICENSE.md -text
+docs/specimens/*.svg -text
+sources/ufo/source-contributions.json -text
+tests/data/glyphsets-provenance.json -text

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1D4B" format="2">
+  <advance width="236"/>
+  <unicode hex="1D4B"/>
+  <outline>
+    <contour>
+      <point x="242" y="605" type="line"/>
+      <point x="236" y="597"/>
+      <point x="228" y="593"/>
+      <point x="222" y="593" type="qcurve"/>
+      <point x="217" y="593"/>
+      <point x="209" y="597"/>
+      <point x="199" y="604"/>
+      <point x="185" y="608"/>
+      <point x="175" y="608" type="qcurve"/>
+      <point x="161" y="608"/>
+      <point x="144" y="597"/>
+      <point x="144" y="585" type="qcurve"/>
+      <point x="144" y="565"/>
+      <point x="176" y="565" type="qcurve"/>
+      <point x="204" y="565" type="line"/>
+      <point x="197" y="511" type="line"/>
+      <point x="169" y="511" type="line"/>
+      <point x="148" y="511"/>
+      <point x="132" y="497"/>
+      <point x="132" y="481" type="qcurve"/>
+      <point x="132" y="472"/>
+      <point x="143" y="460"/>
+      <point x="155" y="460" type="qcurve"/>
+      <point x="167" y="460"/>
+      <point x="183" y="467"/>
+      <point x="195" y="476"/>
+      <point x="206" y="482"/>
+      <point x="214" y="482" type="qcurve"/>
+      <point x="218" y="482"/>
+      <point x="226" y="478"/>
+      <point x="228" y="474" type="qcurve"/>
+      <point x="249" y="443" type="line"/>
+      <point x="234" y="428"/>
+      <point x="204" y="409"/>
+      <point x="176" y="399"/>
+      <point x="152" y="396"/>
+      <point x="142" y="396" type="qcurve"/>
+      <point x="125" y="396"/>
+      <point x="92" y="406"/>
+      <point x="66" y="425"/>
+      <point x="51" y="453"/>
+      <point x="51" y="471" type="qcurve"/>
+      <point x="51" y="499"/>
+      <point x="78" y="534"/>
+      <point x="98" y="543" type="qcurve"/>
+      <point x="81" y="552"/>
+      <point x="68" y="579"/>
+      <point x="68" y="592" type="qcurve"/>
+      <point x="68" y="608"/>
+      <point x="84" y="638"/>
+      <point x="114" y="660"/>
+      <point x="155" y="673"/>
+      <point x="181" y="673" type="qcurve"/>
+      <point x="212" y="673"/>
+      <point x="252" y="654"/>
+      <point x="265" y="638" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>c4ee535af3bd500a075e50cb7cfa7c863ff38aeb004605ed811bdda832b708ab</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>kind</key>
+          <string>new imported purpose-coded editable Lato 2.015 drawing</string>
+          <key>normalisation</key>
+          <string>genuine same-cut modifier-n height and baseline; no body glyph scaling</string>
+          <key>rights</key>
+          <string>Retain original Lato OFL, copyright and reserved font name notice; this is a new source contribution, not an existing Traveller parent inferred from oti.L names.</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>463</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>698364</integer>
+              <key>path</key>
+              <string>https://github.com/google/fonts/blob/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/lato/Lato-BoldItalic.ttf</string>
+              <key>sha256</key>
+              <string>62c1b7f0d2e74b45960154c3520efc337b553db0961bfdc950d5618334596cc8</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni1D4B</string>
+            <key>unicode</key>
+            <string>U+1D4B</string>
+          </dict>
+          <key>sourceItalicAngle</key>
+          <real>-7.0</real>
+          <key>targetItalicAngle</key>
+          <real>-8.0</real>
+          <key>translateY</key>
+          <real>-68.4373831775701</real>
+          <key>uniformScale</key>
+          <real>0.5102803738317757</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

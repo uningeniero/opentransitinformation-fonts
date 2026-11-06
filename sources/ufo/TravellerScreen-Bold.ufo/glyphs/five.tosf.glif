@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="five.tosf" format="2">
+  <advance width="560"/>
+  <outline>
+    <contour>
+      <point x="469" y="455" type="line"/>
+      <point x="219" y="455" type="line"/>
+      <point x="219" y="313" type="line"/>
+      <point x="265" y="336"/>
+      <point x="322" y="336" type="qcurve"/>
+      <point x="378" y="336"/>
+      <point x="467" y="284"/>
+      <point x="518" y="184"/>
+      <point x="518" y="116" type="qcurve"/>
+      <point x="518" y="45"/>
+      <point x="452" y="-63"/>
+      <point x="331" y="-124"/>
+      <point x="251" y="-124" type="qcurve"/>
+      <point x="113" y="-124"/>
+      <point x="24" y="-21" type="qcurve"/>
+      <point x="112" y="60" type="line"/>
+      <point x="167" y="-5"/>
+      <point x="245" y="-5" type="qcurve"/>
+      <point x="299" y="-5"/>
+      <point x="358" y="57"/>
+      <point x="358" y="115" type="qcurve"/>
+      <point x="358" y="228"/>
+      <point x="259" y="228" type="qcurve"/>
+      <point x="238" y="228"/>
+      <point x="201" y="217"/>
+      <point x="177" y="204" type="qcurve"/>
+      <point x="69" y="204" type="line"/>
+      <point x="69" y="568" type="line"/>
+      <point x="487" y="568" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 64 values pushed */
+2
+1
+4
+1
+15
+1
+3
+5
+14
+1
+2
+3
+3
+76
+0
+5
+4
+3
+4
+5
+3
+128
+0
+6
+0
+0
+1
+6
+0
+103
+0
+1
+0
+4
+5
+1
+4
+105
+0
+3
+2
+2
+3
+89
+0
+3
+3
+2
+97
+0
+2
+3
+2
+81
+17
+18
+35
+35
+38
+34
+16
+7
+9
+29
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>d3ed63a3323dd9996fb22d339f41ab95c5d5e007a996ddc6fa72e45fe10ee1830c030c4c79f948cc3bd5a7a83b28422527bd23b12248aa555230ccca6e0333ce</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

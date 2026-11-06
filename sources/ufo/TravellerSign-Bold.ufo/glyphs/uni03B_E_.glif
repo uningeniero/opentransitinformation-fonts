@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni03BE" format="2">
+  <advance width="909"/>
+  <unicode hex="03BE"/>
+  <anchor x="580" y="1499" name="base__MarkToBase2__Anchor3__Anchor3"/>
+  <anchor x="455" y="-448" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="455" y="-448" name="base__MarkToBase2__Anchor5__Anchor5"/>
+  <outline>
+    <contour>
+      <point x="947" y="1412" type="qcurve"/>
+      <point x="808" y="1238" type="line"/>
+      <point x="756" y="1273"/>
+      <point x="667" y="1307"/>
+      <point x="610" y="1307" type="qcurve"/>
+      <point x="535" y="1307"/>
+      <point x="459" y="1226"/>
+      <point x="459" y="1154" type="qcurve"/>
+      <point x="459" y="1075"/>
+      <point x="545" y="988"/>
+      <point x="626" y="988" type="qcurve"/>
+      <point x="752" y="988" type="line"/>
+      <point x="719" y="774" type="line"/>
+      <point x="618" y="774" type="line"/>
+      <point x="515" y="774"/>
+      <point x="388" y="651"/>
+      <point x="388" y="547" type="qcurve"/>
+      <point x="388" y="469"/>
+      <point x="438" y="372"/>
+      <point x="556" y="297"/>
+      <point x="669" y="248" type="qcurve"/>
+      <point x="818" y="186"/>
+      <point x="947" y="57"/>
+      <point x="947" y="-61" type="qcurve"/>
+      <point x="947" y="-186"/>
+      <point x="772" y="-368"/>
+      <point x="582" y="-448" type="qcurve"/>
+      <point x="463" y="-259" type="line"/>
+      <point x="543" y="-214"/>
+      <point x="620" y="-143"/>
+      <point x="620" y="-93" type="qcurve"/>
+      <point x="620" y="-61"/>
+      <point x="594" y="-18"/>
+      <point x="521" y="24"/>
+      <point x="448" y="57" type="qcurve"/>
+      <point x="309" y="119"/>
+      <point x="152" y="222"/>
+      <point x="57" y="390"/>
+      <point x="57" y="521" type="qcurve"/>
+      <point x="57" y="683"/>
+      <point x="236" y="867"/>
+      <point x="388" y="897" type="qcurve"/>
+      <point x="135" y="968"/>
+      <point x="135" y="1196" type="qcurve"/>
+      <point x="135" y="1293"/>
+      <point x="246" y="1446"/>
+      <point x="442" y="1533"/>
+      <point x="564" y="1533" type="qcurve"/>
+      <point x="685" y="1533"/>
+      <point x="869" y="1475"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>6f742c903553b224aee7e05f0e951fea8cccd8279b0b85c5e59896956e54155d</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>kind</key>
+          <string>same-style native Screen supplementary drawing</string>
+          <key>normalisation</key>
+          <string>established Sign Greek cap frame</string>
+          <key>rounding</key>
+          <string>otRound, at most 0.5 unit per coordinate</string>
+          <key>semanticAnchorCorrection</key>
+          <string>New Sign bottom anchors use the actual complete ink bottom, including a below mark; covered native anchors elsewhere are untouched. Above-mark canonical composites do not invent an additional top route absent from the native model.</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>450</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>509824</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-Bold.ttf</string>
+              <key>sha256</key>
+              <string>09d7a3acff53ff1dcf2c805a5eb1a713a4512d4b3bc70f3313b6390c7b1a38c2</string>
+            </dict>
+            <key>glyph</key>
+            <string>xi</string>
+            <key>unicode</key>
+            <string>U+03BE</string>
+          </dict>
+          <key>uniformScale</key>
+          <real>2.0202020202020203</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

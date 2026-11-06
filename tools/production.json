@@ -1,0 +1,18 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "python": "3.12.14",
+  "dependencyLock": "requirements-build.lock",
+  "sourceFormat": "UFO 3",
+  "compiler": {"package": "fontmake", "version": "3.12.2"},
+  "outlineCompiler": {"package": "ufo2ft", "version": "3.11.0"},
+  "componentPolicy": {"flattenNestedComponents": true, "decomposeTransformedComponents": true, "removeOverlaps": false, "reverseDirection": false},
+  "hinting": {
+    "wrapper": {"package": "ttfautohint-py", "version": "0.6.1", "license": "MIT", "source": "https://github.com/fonttools/ttfautohint-py"},
+    "engineVersion": "ttfautohint 1.8.4.16-eb64",
+    "execution": "Separate external executable bundled by the pinned wrapper wheel.",
+    "engineLicensing": "FreeType License (FTL) or GNU GPLv2, as reported by the executable.",
+    "source": "https://freetype.org/ttfautohint/",
+    "options": {"no_info": true, "epochFrom": "release.json sourceDateEpoch"},
+    "sourceAssembly": "Imported native instruction assembly remains in the UFO. Output instructions are regenerated after component normalisation."
+  }
+}

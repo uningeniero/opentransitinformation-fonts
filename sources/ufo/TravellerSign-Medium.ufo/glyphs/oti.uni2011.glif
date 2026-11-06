@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.uni2011" format="2">
+  <advance width="843"/>
+  <unicode hex="2011"/>
+  <anchor x="421" y="533" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="111" y="533" type="line"/>
+      <point x="111" y="711" type="line"/>
+      <point x="731" y="711" type="line"/>
+      <point x="731" y="533" type="line"/>
+    </contour>
+  </outline>
+</glyph>

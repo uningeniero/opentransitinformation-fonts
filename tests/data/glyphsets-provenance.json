@@ -1,0 +1,15 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "source": "https://github.com/googlefonts/glyphsets",
+  "revision": "0ac0e515473e39247683ed473fd74728671e2364",
+  "license": "Apache-2.0",
+  "licenseFile": "licenses/glyphsets/LICENSE",
+  "licenseSha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+  "file": {
+    "path": "tests/data/GF_Latin_Core.nam",
+    "upstreamPath": "Lib/glyphsets/results/nam/GF_Latin_Core.nam",
+    "bytes": 11385,
+    "sha256": "26936a4812ff33ee62a2e8156b9976173755909be84138ca4794a33f123b7d18"
+  },
+  "encodedScalarCount": 319
+}

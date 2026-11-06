@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="five.numr" format="2">
+  <advance width="668"/>
+  <anchor x="336" y="628" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <component base="five.dnom" yOffset="656" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+1
+PUSHW[ ]	/* 1 value pushed */
+656
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8ea3abd6bac437965d58524056c644a94417ac876d48e0573aee9569f93fd821b03f05cae8f28687c8a2b50cb149499b67a4c0ab98a5eab967609ce813ab37da</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

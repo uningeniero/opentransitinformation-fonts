@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.L01B7" format="2">
+  <advance width="1105"/>
+  <unicode hex="01B7"/>
+  <outline>
+    <contour>
+      <point x="1051" y="414" type="qcurve"/>
+      <point x="1051" y="287"/>
+      <point x="917" y="83"/>
+      <point x="665" y="-34"/>
+      <point x="491" y="-34" type="qcurve"/>
+      <point x="327" y="-34"/>
+      <point x="93" y="71"/>
+      <point x="8" y="172" type="qcurve"/>
+      <point x="178" y="337" type="line"/>
+      <point x="248" y="271"/>
+      <point x="384" y="212"/>
+      <point x="475" y="212" type="qcurve"/>
+      <point x="586" y="212"/>
+      <point x="709" y="325"/>
+      <point x="709" y="428" type="qcurve"/>
+      <point x="709" y="622"/>
+      <point x="457" y="622" type="qcurve"/>
+      <point x="257" y="622" type="line"/>
+      <point x="257" y="808" type="line"/>
+      <point x="614" y="1160" type="line"/>
+      <point x="87" y="1160" type="line"/>
+      <point x="87" y="1400" type="line"/>
+      <point x="980" y="1400" type="line"/>
+      <point x="980" y="1168" type="line"/>
+      <point x="620" y="814" type="line"/>
+      <point x="828" y="806"/>
+      <point x="1051" y="596"/>
+    </contour>
+  </outline>
+</glyph>

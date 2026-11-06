@@ -1,52 +1,50 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
-# OTI Traveller Sign and OTI Traveller Screen
+# Traveller Sign and Traveller Screen
 
 Two transport typeface families from [Open Transit Information](https://opentransitinformation.org).
 
-[Release 1.0.1](https://github.com/uningeniero/opentransitinformation-fonts/releases/tag/v1.0.1) uses font software version 1.001. It updates the family names and release metadata; the glyph drawings, metrics, hints, repertoire and layout tables match the immutable 1.0.0 predecessor. The separate Source Sans 3 files remain unchanged.
+Traveller Sign has four upright weights: Regular, Medium, SemiBold and Bold. Traveller Screen has those four weights and their genuine italics. The distribution provides desktop TTFs, WOFF2 web fonts and twelve editable UFO sources.
 
-OTI Traveller Sign uses Cabin 3.001 as its principal source, with selected Fira Sans supplements and source-specific additions. It contains four upright weights: Regular, Medium, SemiBold and Bold. OTI Traveller Screen uses Fira Sans 4.301 as its principal source, with four upright weights and their genuine italics.
-
-The release includes TTF and WOFF2 files. The font software is licensed under the SIL Open Font License 1.1. The original copyright notices, Reserved Font Names and contributor records are retained in `licenses/`. Build code is Apache-2.0; original documentation is CC-BY-4.0.
+Release 1.1.0 uses font software version 1.100. Source, binaries, checksums and the matching [GitHub release](https://github.com/uningeniero/opentransitinformation-fonts/releases/tag/v1.1.0) identify the same version. Earlier releases remain available through their immutable tags and assets.
 
 ## Use
 
-Install the TTF files for desktop applications, or serve the WOFF2 files with your application. Set the document language and use a shaping engine that applies the native OpenType language, composition, kerning and mark features. The `ss20` feature in OTI Traveller Screen selects its transport numeral profile; the default source numerals remain available.
+Install the required TTF files, or serve the WOFF2 files with your application. The declarations in `examples/fonts.css` identify each real weight and style. Set the document language so the shaping engine can apply its language rules.
 
-For Greek and Cyrillic sign text, use the separately bundled, unchanged **Source Sans 3 version 3.052**. Select that resource for the complete script run, including its figures, punctuation and marks. Its native family name, genuine four weights and Adobe licence remain separate from OTI Traveller Sign. Selecting individual missing glyphs from a fallback stack can mix the partial Greek repertoire inherited from Cabin with a different resource.
+Sign retains proportional default figures. Its optional `tnum` feature selects tabular figures; `pnum` restores proportional figures. Screen retains its default numerals and offers the optional `ss20` numeral profile. Select an available genuine style rather than synthesising bold or italic.
 
-The selected release profile contains 1,730 encoded scalars in each OTI Traveller Screen cut and 791 in each OTI Traveller Sign cut. The native Sign companion covers the 238 scalars required by the selected Greek and Cyrillic profile. These counts describe this repertoire and its software checks; the locale requirements and exact function cases are in `tests/validation-spec.json`.
+For the selected Greek and Cyrillic sign rows, choose the separately bundled **Source Sans 3 version 3.052** for the complete script run, including its figures, punctuation and marks. Its native family name, four weights and Adobe notices remain separate. The companion TTF and WOFF2 resources are unchanged official upstream files.
+
+The repertoire and finite software checks are recorded in `tests/validation-spec.json`, `fonts/manifest.json` and `docs/qa.md`.
 
 ## Build
 
-Use Python 3.12.14 and the hash-pinned dependencies:
+Use CPython 3.12.14 and the complete hash-pinned dependency lock:
 
 ```sh
 python -m venv .venv
 # Activate the environment using your shell's activation command.
 python -m pip install --require-hashes --only-binary=:all: -r requirements-build.lock
-python scripts/build_baselines.py --output-dir build/baselines
-python scripts/build_release.py --baselines build/baselines --output-dir build/release
-python scripts/validate_release.py build/release
-python scripts/check_naming_successor.py build/release
-python scripts/check_reproduction.py build/release
-python scripts/check_ttx.py
+python scripts/build_ufo.py
+python scripts/validate_ufo.py build/production-1.1.0
+python scripts/check_reproduction.py build/production-1.1.0
 ```
 
-The first step downloads the exact pinned upstream TTF carriers into an ignored cache and verifies their byte counts and SHA-256 digests. It reproduces 24 comparison files before the public successor build proceeds. All paths used by the build are relative to this repository. `release.json` fixes the numeric version and deterministic font timestamp.
+The production command reads the editable UFO contours, components, anchors and text features. It uses Fontmake/ufo2ft, followed by the separate ttfautohint executable. `release.json` fixes the version and timestamp; `tools/production.json` identifies the tools and options. Validation separately checks the immutable 1.0.1 predecessor.
 
-The naming comparison downloads the immutable 1.0.0 release archive, verifies its pinned SHA-256 digest and compares all twelve primary cuts in both formats, plus the eight unchanged companion files. The editable TTX readback uses the corresponding files in `sources/ttx/`.
+Read `sources/ufo/README.md` for the source structure, recorded conversion inputs and subsequent constructions. Component normalisation can change point order; output hints are regenerated after that step.
 
-The source records in `sources/` define the numeral profile, mathematical fence, additive contours, canonical composition routes and separate scoped Lithuanian and Yoruba attachment rules. Retained glyph drawings, advances and instructions are checked against the exact carriers. The public Screen successor excludes one unencoded source artwork glyph and explicitly aliases four nonconforming source glyph identifiers. Reordered composite GIDs are compared through named logical records.
+The full primary Google Fonts profile runs without check exclusions or severity overrides. Raw FAIL, ERROR and FATAL findings retain their severity and produce a nonzero QA command status. Their exact disposition belongs in `docs/qa.md`; a recorded residual does not establish catalogue acceptance.
 
-This source recipe uses the released Fira 4.301 and Cabin 3.001 TTF carriers. It does not represent recovered native Fira 4.301 drawing masters. The mathematical fence comes from the pinned editable Fira 4.202 source. The Source Sans 3 TTF and WOFF2 files are unchanged official upstream resources. Its web builds omit the TTF hinting programs; the outline, spacing and layout comparisons are recorded separately from binary and hint identity.
+## Sources and licences
 
-## Sources and attribution
+Font software and derivative drawings use the SIL Open Font License 1.1. Original notices, Reserved Font Names and contributor records accompany the fonts. Build code and CSS use Apache-2.0; first-party documentation uses CC-BY-4.0.
 
-- Fira Sans: Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH. Preserve the original notices under `licenses/fira/`.
-- Cabin: the Cabin Project Authors. Preserve the original author, contributor, trademark and OFL records under `licenses/cabin/`.
-- Source Sans 3: Adobe and the upstream contributors. Preserve `companions/source-sans-3/LICENSE.md` and its native font metadata.
-- CLDR and Unicode character data: the pinned public sources and applicable data terms are identified in `tests/validation-spec.json`. Character reference material supplies identities and language requirements, rather than copied reference-font outlines.
-- Source-specific adaptations and release engineering: Open Transit Information, coordinated by Álvaro Marín Abril. Project: [opentransitinformation.org](https://opentransitinformation.org).
+- Fira Sans supplies the principal Screen source and selected Sign supplements. Retain the Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH notices in `licenses/fira/`.
+- Cabin supplies the principal Sign source. Retain the Cabin Project Authors, contributor and trademark records in `licenses/cabin/`.
+- Selected purpose-coded Lato 2.015 drawings supply the recorded Screen supplements. Retain tyPoland, Łukasz Dziedzic and the Lato Reserved Font Name notice in `licenses/lato/OFL.txt`.
+- Source Sans 3 remains a separate native resource. Retain Adobe and upstream contributor attribution in `companions/source-sans-3/LICENSE.md`.
+- The selected language data uses the pinned CLDR and Unicode sources in `tests/validation-spec.json`. The pinned Google Fonts Latin Core character list and its Apache-2.0 licence are identified in `tests/data/glyphsets-provenance.json`.
+- Source construction and release engineering are coordinated by Álvaro Marín Abril for Open Transit Information. Project: [opentransitinformation.org](https://opentransitinformation.org).
 
-The source revisions and exact input digests are recorded in `sources/inputs.json` and the companion provenance record. Google Fonts catalogue submission has separate source and curation requirements; this repository is the independent font distribution.
+AI coding tools assisted source conversion, build implementation and QA analysis. Source records identify the retained upstream material and specific additions. Their copyright and licence obligations remain in force. The [catalogue route](docs/google-fonts-route.md) has separate curation, contributor and disclosure requirements.

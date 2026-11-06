@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni02EE" format="2">
+  <advance width="408"/>
+  <unicode hex="02EE"/>
+  <outline>
+    <contour>
+      <point x="207" y="759"/>
+      <point x="245" y="723"/>
+      <point x="245" y="695" type="qcurve"/>
+      <point x="245" y="675"/>
+      <point x="232" y="639"/>
+      <point x="215" y="613" type="qcurve"/>
+      <point x="135" y="484" type="line"/>
+      <point x="63" y="484" type="line"/>
+      <point x="121" y="627" type="line"/>
+      <point x="95" y="648"/>
+      <point x="95" y="681" type="qcurve"/>
+      <point x="95" y="714"/>
+      <point x="142" y="759"/>
+      <point x="177" y="759" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="392" y="759"/>
+      <point x="430" y="723"/>
+      <point x="430" y="695" type="qcurve"/>
+      <point x="430" y="675"/>
+      <point x="416" y="640"/>
+      <point x="400" y="613" type="qcurve"/>
+      <point x="320" y="484" type="line"/>
+      <point x="247" y="484" type="line"/>
+      <point x="305" y="627" type="line"/>
+      <point x="279" y="650"/>
+      <point x="279" y="681" type="qcurve"/>
+      <point x="279" y="714"/>
+      <point x="327" y="759"/>
+      <point x="362" y="759" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 38 values pushed */
+22
+8
+2
+0
+1
+1
+76
+5
+3
+4
+3
+1
+0
+1
+133
+2
+1
+0
+0
+118
+14
+14
+0
+0
+14
+27
+14
+26
+21
+20
+0
+13
+0
+12
+22
+6
+11
+23
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>02656c29aff1ae059651ee7c79b50eae948f479a3a5abbf4c4a5cfbacab8c85bc7589de58b2f5c89ace81a2c331681688b3a49963a23e41395099ccf23131022</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

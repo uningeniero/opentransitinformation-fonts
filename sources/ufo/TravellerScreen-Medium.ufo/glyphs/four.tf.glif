@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="four.tf" format="2">
+  <advance width="560"/>
+  <outline>
+    <contour>
+      <point x="524" y="154" type="line"/>
+      <point x="446" y="154" type="line"/>
+      <point x="446" y="0" type="line"/>
+      <point x="322" y="0" type="line"/>
+      <point x="322" y="154" type="line"/>
+      <point x="36" y="154" type="line"/>
+      <point x="36" y="242" type="line"/>
+      <point x="232" y="706" type="line"/>
+      <point x="340" y="665" type="line"/>
+      <point x="169" y="252" type="line"/>
+      <point x="323" y="252" type="line"/>
+      <point x="336" y="433" type="line"/>
+      <point x="446" y="433" type="line"/>
+      <point x="446" y="252" type="line"/>
+      <point x="524" y="252" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 41 values pushed */
+6
+1
+0
+3
+1
+76
+8
+7
+2
+4
+74
+5
+1
+3
+2
+1
+0
+1
+3
+0
+103
+0
+4
+4
+1
+95
+0
+1
+1
+51
+1
+78
+17
+17
+20
+17
+17
+16
+6
+9
+28
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w560l524+154l446+154l446+0l322+0l322+154l36+154l36+242l232+706l340+665l169+252l323+252l336+433l446+433l446+252l524+252|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

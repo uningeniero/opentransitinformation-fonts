@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni200F" format="2">
+  <unicode hex="200F"/>
+  <outline>
+    <contour>
+      <point x="13" y="813" type="line"/>
+      <point x="-37" y="758" type="line"/>
+      <point x="72" y="758" type="line"/>
+      <point x="-55" y="-150" type="line"/>
+      <point x="-71" y="-150" type="line"/>
+      <point x="54" y="742" type="line"/>
+      <point x="-40" y="742" type="line"/>
+      <point x="-4" y="687" type="line"/>
+      <point x="-18" y="678" type="line"/>
+      <point x="-63" y="750" type="line"/>
+      <point x="0" y="822" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 15 values pushed */
+9
+1
+2
+0
+8
+7
+2
+1
+2
+2
+76
+10
+1
+0
+74
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+18
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 16 values pushed */
+0
+1
+2
+1
+134
+0
+2
+2
+0
+95
+0
+0
+0
+82
+2
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 21 values pushed */
+0
+1
+2
+1
+134
+0
+0
+2
+2
+0
+87
+0
+0
+0
+2
+95
+0
+2
+0
+2
+79
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 6 values pushed */
+17
+17
+17
+3
+11
+25
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0l13+813l-37+758l72+758l-55-150l-71-150l54+742l-40+742l-4+687l-18+678l-63+750l0+822|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

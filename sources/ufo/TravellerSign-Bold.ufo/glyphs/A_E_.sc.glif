@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="AE.sc" format="2">
+  <advance width="1536"/>
+  <anchor x="726" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="-20" y="0" type="line"/>
+      <point x="580" y="1162" type="line"/>
+      <point x="1456" y="1162" type="line"/>
+      <point x="1456" y="922" type="line"/>
+      <point x="946" y="922" type="line"/>
+      <point x="946" y="724" type="line"/>
+      <point x="1338" y="724" type="line"/>
+      <point x="1338" y="486" type="line"/>
+      <point x="946" y="486" type="line"/>
+      <point x="946" y="240" type="line"/>
+      <point x="1472" y="240" type="line"/>
+      <point x="1472" y="0" type="line"/>
+      <point x="704" y="0" type="line"/>
+      <point x="704" y="270" type="line"/>
+      <point x="376" y="270" type="line"/>
+      <point x="240" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="490" y="506" type="line"/>
+      <point x="704" y="506" type="line"/>
+      <point x="704" y="918" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 66 values pushed */
+18
+1
+2
+1
+1
+76
+0
+0
+0
+1
+2
+0
+1
+103
+0
+2
+0
+3
+6
+2
+3
+103
+0
+8
+0
+6
+4
+8
+6
+103
+0
+4
+5
+5
+4
+87
+0
+4
+4
+5
+95
+9
+7
+2
+5
+4
+5
+79
+0
+0
+17
+16
+0
+15
+0
+15
+17
+17
+17
+17
+17
+17
+17
+10
+6
+29
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>f22ff5370aac84b079dbd41ae8e281af861901dee444d558f4499df57b5f6d7fc38ead55b644ca97f9874404b4deefb9c8dd2dfc90faa3fe492e594dfa3f433b</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

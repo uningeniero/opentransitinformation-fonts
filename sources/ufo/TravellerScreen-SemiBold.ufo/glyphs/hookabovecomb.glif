@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="hookabovecomb" format="2">
+  <unicode hex="0309"/>
+  <anchor x="-152" y="530" name="_Anchor28__Anchor28"/>
+  <anchor x="-152" y="530" name="_Anchor35__Anchor35"/>
+  <anchor x="-152" y="530" name="_Anchor41__Anchor41"/>
+  <anchor x="-152" y="530" name="_Anchor49__Anchor49"/>
+  <anchor x="-152" y="530" name="_Anchor56_Anchor56_"/>
+  <anchor x="-152" y="530" name="_Anchor62_Anchor62_"/>
+  <anchor x="-138" y="851" name="mark2__MarkToMark55__Anchor56_Anchor56_"/>
+  <outline>
+    <contour>
+      <point x="-197" y="705" type="line"/>
+      <point x="-159" y="707"/>
+      <point x="-126" y="724"/>
+      <point x="-126" y="744" type="qcurve"/>
+      <point x="-126" y="759"/>
+      <point x="-148" y="776"/>
+      <point x="-166" y="776" type="qcurve"/>
+      <point x="-193" y="776"/>
+      <point x="-226" y="763" type="qcurve"/>
+      <point x="-251" y="825" type="line"/>
+      <point x="-207" y="851"/>
+      <point x="-146" y="851" type="qcurve"/>
+      <point x="-89" y="851"/>
+      <point x="-25" y="797"/>
+      <point x="-25" y="752" type="qcurve"/>
+      <point x="-25" y="714"/>
+      <point x="-69" y="667"/>
+      <point x="-109" y="660" type="qcurve"/>
+      <point x="-109" y="606" type="line"/>
+      <point x="-197" y="606" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 45 values pushed */
+9
+1
+1
+2
+8
+1
+0
+1
+17
+1
+3
+0
+3
+76
+0
+2
+0
+1
+0
+2
+1
+105
+0
+0
+3
+3
+0
+89
+0
+0
+0
+3
+95
+0
+3
+0
+3
+79
+22
+35
+36
+16
+4
+11
+26
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>93dc9cf49a88193565cf350da42993522b58e523e0d598e7e45c30c701fb51383e3dd160973f75e4ab800349d8b343a96602e756ea6b401adea442a4be4b57de</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

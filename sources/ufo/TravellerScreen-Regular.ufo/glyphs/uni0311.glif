@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0311" format="2">
+  <unicode hex="0311"/>
+  <anchor x="-181" y="527" name="_Anchor28__Anchor28"/>
+  <anchor x="-181" y="527" name="_Anchor35__Anchor35"/>
+  <anchor x="-181" y="527" name="_Anchor41__Anchor41"/>
+  <anchor x="-181" y="527" name="_Anchor49__Anchor49"/>
+  <anchor x="-181" y="527" name="_Anchor56_Anchor56_"/>
+  <anchor x="-181" y="527" name="_Anchor62_Anchor62_"/>
+  <anchor x="-179" y="760" name="mark2__MarkToMark55__Anchor56_Anchor56_"/>
+  <outline>
+    <contour>
+      <point x="-121" y="760"/>
+      <point x="-36" y="689"/>
+      <point x="-30" y="627" type="qcurve"/>
+      <point x="-91" y="614" type="line"/>
+      <point x="-112" y="690"/>
+      <point x="-183" y="690" type="qcurve"/>
+      <point x="-251" y="690"/>
+      <point x="-272" y="614" type="qcurve"/>
+      <point x="-333" y="627" type="line"/>
+      <point x="-327" y="689"/>
+      <point x="-244" y="760"/>
+      <point x="-183" y="760" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 35 values pushed */
+8
+7
+3
+2
+4
+0
+73
+2
+1
+1
+0
+0
+1
+89
+2
+1
+1
+1
+0
+97
+0
+0
+1
+0
+81
+0
+0
+0
+11
+0
+10
+36
+3
+11
+23
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w0o-121+760o-36+689q-30+627l-91+614o-112+690q-183+690o-251+690q-272+614l-333+627o-327+689o-244+760q-183+760|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

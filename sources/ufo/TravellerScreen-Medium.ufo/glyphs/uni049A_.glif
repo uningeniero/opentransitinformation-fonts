@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni049A" format="2">
+  <advance width="608"/>
+  <unicode hex="049A"/>
+  <anchor x="304" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="619" y="104" type="line"/>
+      <point x="619" y="-158" type="line"/>
+      <point x="523" y="-158" type="line"/>
+      <point x="506" y="0" type="line"/>
+      <point x="458" y="0" type="line"/>
+      <point x="296" y="311" type="line"/>
+      <point x="213" y="311" type="line"/>
+      <point x="213" y="0" type="line"/>
+      <point x="81" y="0" type="line"/>
+      <point x="81" y="691" type="line"/>
+      <point x="213" y="691" type="line"/>
+      <point x="213" y="412" type="line"/>
+      <point x="298" y="412" type="line"/>
+      <point x="454" y="691" type="line"/>
+      <point x="588" y="691" type="line"/>
+      <point x="407" y="373" type="line"/>
+      <point x="551" y="104" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 51 values pushed */
+15
+1
+2
+5
+1
+76
+0
+5
+0
+2
+7
+5
+2
+103
+8
+1
+7
+0
+0
+7
+0
+99
+6
+1
+4
+4
+50
+77
+3
+1
+1
+1
+51
+1
+78
+0
+0
+0
+16
+0
+16
+17
+17
+17
+17
+17
+17
+17
+9
+9
+29
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8f686f4699438f86d85c2b8d605578df6325e07b83ed898cb3b44e362ccbdf3675ede53502029e91504024ad2f781d89d986fb5497c55fd2ad43c7ff4f42ec20</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

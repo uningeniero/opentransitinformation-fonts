@@ -1,33 +1,37 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
-# Release 1.0.1 engineering checks
+# Release 1.1.0 engineering checks
 
-OTI Traveller Sign and OTI Traveller Screen are the naming-only successors to the 1.0.0 families. All 24 primary TTF and WOFF2 files were compared with the immutable predecessor archive. Glyph order and all font tables except the name table and the declared version, timestamp and checksum fields in the font header remain identical. Original copyright and licence records remain unchanged. The eight Source Sans 3 files are byte-identical to the predecessor.
+Traveller Sign and Traveller Screen use font software version 1.100. The release contains twelve primary cuts in TTF and WOFF2 formats and eight unchanged official Source Sans 3 resources. Screen encodes 1,775 Unicode scalars in each cut; Sign encodes 821. All twelve cuts contain the 319 characters in the pinned Google Fonts Latin Core list.
 
-The serialized release was checked against the selected repertoire and source rules. The local validation contains 2,520 passing assertions, including retained drawings, metrics and instructions, layout definitions, canonical sequences, 108 Lithuanian cases, 32 Yoruba cases and 216 native-composite word/pair fixtures. Original Source Sans 3 web resources are compared with their corresponding TTF outlines, spacing, language layout and notices; their upstream hinting difference is retained.
+## Source and production
 
-The twelve renamed TTF cuts were loaded privately through Windows GDI. The actual selected name, glyph and OS/2 tables matched the requested files, and the temporary font and drawing resources were removed. The offline web specimens loaded all sixteen declared faces at widths of 390 and 1440 px, including the unchanged Source Sans 3 resources for the complete selected Greek and Cyrillic rows. These are software checks rather than measurements of reading performance or a manufactured sign.
+The editable UFOs contain contours, components, advances, anchors, source bindings and text OpenType rules. CPython 3.12.14 and the hash-pinned dependency lock produce the fonts through Fontmake 3.12.2 and ufo2ft 3.11.0. The separate ttfautohint 1.8.4.16-eb64 executable regenerates instructions after component normalisation. `tools/production.json` records the options. The builder checks that hinting preserves cmap, metrics and layout tables.
 
-The Screen `head.flags` bit 3 requests integer PPEM scaler mathematics, following the [OpenType recommendation for hinted fonts](https://learn.microsoft.com/en-us/typography/opentype/spec/head). The predecessor's Windows Edge 156.0.4314.58 Canvas comparison used eight cuts, eight sizes from 12 to 24.25 px and three finite code/diacritic/fence strings. Its 192 flag-on/flag-off comparisons had equal advances; 144 raster masks differed. That flag comparison was not repeated for the naming-only successor. The flag and hint instructions are unchanged between these two releases.
+The source-edit probe changed one actual Screen Regular GLIF anchor by two units and recompiled it. HarfBuzz measured the corresponding two-unit change in the attached mark position; outlines, horizontal metrics and hint programs stayed unchanged. The original source tree was preserved.
+
+## Serialized functions and native use
+
+The corrected candidate passed 2,379 baseline checks and 520 finite function checks. These cover source and binary bindings, retained drawings and metrics, the selected language profile, canonical composition, Lithuanian positioning, optional Sign tabular figures, Screen small capitals and the source-reviewed mark constructions. The final j-caron successor passed a further 264 targeted checks, including all retained Screen contours and metrics, genuine native small-cap construction, NFC/NFD substitution, unchanged default shaping and inherited pair spacing. Sign and the companion resources are byte-identical to the corrected candidate. The underlying receipts preserve these separate executions and their exact input hashes.
+
+The Windows GDI probe privately selected the twelve actual cuts and matched nine serialized tables for each selected face: name, glyf, OS/2, hmtx, GSUB, GPOS, fpgm, prep and cvt. Temporary font and drawing resources were removed. The fifteen Sign glyphs affected by component normalisation were also drawn at 12, 14, 16, 18, 20 and 24 px in Regular and Bold, alongside the immutable predecessor. The four native images were inspected for missing shapes, clipping, counters, carons and direction changes.
+
+The offline example was checked in Windows Edge 156.0.4314.58 at 390 and 1440 px. The browser's actual font records identified all sixteen intended styles, including the separate Source Sans 3 resource for complete Greek and Cyrillic rows. The checks recorded no external network requests, page errors or horizontal overflow. Sign's `tnum` and Screen's `ss20` declarations were active. These are finite software and rendering checks.
 
 ## Fontspector 1.9.0
 
-The full Google Fonts profile completed for both families. Counts below are tool subresults, not independent outline defects or a catalogue admission result.
+The full Google Fonts profile includes the real family OFL files. Raw results are retained in [the release QA directory](qa/1.1.0/summary.json), including every severity and the exact reported glyph records.
 
 | Family | Pass | Warn | Fail | Skip | Info |
 |---|---:|---:|---:|---:|---:|
-| OTI Traveller Screen | 665 | 159 | 72 | 460 | 39 |
-| OTI Traveller Sign | 332 | 72 | 84 | 252 | 21 |
+| Traveller Screen | 694 | 163 | 24 | 442 | 40 |
+| Traveller Sign | 365 | 68 | 0 | 242 | 20 |
 
-The remaining failing check categories have explicit source or repertoire dispositions:
+Screen's 24 failing subresults comprise eight missing-`smcp` records, eight missing-`c2sc` records and eight Church Slavic language-shaping records. The small-cap lists include phonetic characters and case-linked Latin and Cyrillic letters; the raw metadata identifies each glyph. The genuine native U+01F0 j-caron route is included in this release. The remaining repertoire is partial: no identity substitutions or scaled capitals were added to suppress the findings.
 
-| Check | Disposition |
-|---|---|
-| `googlefonts/family_name_compliance` | The adopted OTI prefix is reported as an abbreviation under the Google Fonts family-name rules. This independent distribution retains its project prefix and records the finding. It does not claim an exception or catalogue acceptance. |
-| `case_mapping` | Some inherited extra characters have missing case counterparts. The selected profile is checked independently; Sign uses a separate native resource for whole selected Greek and Cyrillic rows. |
-| `missing_small_caps_glyphs` | Screen retains the original partial small-cap feature repertoire. It does not add artificial small capitals for every inherited phonetic character. |
-| `nested_components` | Retained source composites are checked through their logical names and actual recursion metadata. They are not decomposed automatically to satisfy a production preference. The [OpenType maximum profile](https://learn.microsoft.com/en-us/typography/opentype/spec/maxp) records component recursion. |
-| `transformed_components` | Sign retains native transformed component constructions and their instructions. These include inverted punctuation and source letter constructions. |
-| `googlefonts/font_copyright` | Screen preserves the inherited Fira copyright and Reserved Font Name notice instead of replacing it with a catalogue-specific notice pattern. |
-| `googlefonts/glyphsets/shape_languages` | The tool tests additional orthographies beyond the selected profile. Screen's failing orthographies are outside that profile. Sign's remaining Yoruba finding concerns U+0329, an alternative below-line input outside the selected CLDR 49 dot-below profile; the selected dot-below plus tone cases are checked separately. The other failing Sign orthographies are outside the profile. |
+The Church Slavic finding names eighteen missing historical Cyrillic scalars: U+047A-U+0481, U+A640-U+A643, U+A64A-U+A64D and U+A656-U+A657. The full profile also retains its warnings, including auxiliary-language characters and attachment cases beyond the selected finite fixtures. The raw reports provide their exact input sequences and statuses.
 
-The CI policy retains these named findings and rejects unexpected failing categories or new selected-language attachment failures. This is a source-preserving build policy; it does not turn the full Google Fonts profile into a clean pass. Numeric repertoire, software shaping, native rendering, participant reading and physical sign measurements remain different kinds of evidence.
+An additional j-caron plus acute/dot diagnostic is preserved in [the finite diagnostic record](qa/1.1.0/j-caron-diagnostic.json). It recorded sixteen failed comparisons with plain j, whose native shaping selects a different dotless base. Both observed Regular acute runs also select `acutecomb.sc` with a 300-unit advance and zero offset. This spacing-mark result remains an unsupported extra-stack case; the bounded j-caron construction and pair-spacing checks are recorded separately in [the successor checks](qa/1.1.0/j-caron-validation.json).
+
+Family licence, font copyright, OFL copyright/body, licence URL and trailing-space checks pass. The catalogue `METADATA.pb` licence check is skipped because this independent source distribution has no catalogue metadata file.
+
+The QA command preserves FAIL, ERROR and FATAL severities and returns a nonzero status for the unresolved Screen findings. No exclusions or severity overrides apply. Google Fonts curation and contributor requirements remain a separate [catalogue route](google-fonts-route.md).

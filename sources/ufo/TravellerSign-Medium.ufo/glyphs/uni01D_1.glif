@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni01D1" format="2">
+  <advance width="1532"/>
+  <unicode hex="01D1"/>
+  <anchor x="766" y="-28" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="766" y="-28" name="base__MarkToBase2__Anchor5__Anchor5"/>
+  <outline>
+    <contour>
+      <point x="766" y="-28" type="qcurve"/>
+      <point x="566" y="-28"/>
+      <point x="254" y="152"/>
+      <point x="76" y="479"/>
+      <point x="76" y="700" type="qcurve"/>
+      <point x="76" y="921"/>
+      <point x="254" y="1248"/>
+      <point x="566" y="1428"/>
+      <point x="766" y="1428" type="qcurve"/>
+      <point x="966" y="1428"/>
+      <point x="1277" y="1248"/>
+      <point x="1456" y="921"/>
+      <point x="1456" y="700" type="qcurve"/>
+      <point x="1456" y="479"/>
+      <point x="1277" y="152"/>
+      <point x="966" y="-28"/>
+    </contour>
+    <contour>
+      <point x="766" y="183" type="qcurve"/>
+      <point x="918" y="183"/>
+      <point x="1122" y="320"/>
+      <point x="1225" y="554"/>
+      <point x="1225" y="700" type="qcurve"/>
+      <point x="1225" y="846"/>
+      <point x="1122" y="1080"/>
+      <point x="918" y="1217"/>
+      <point x="766" y="1217" type="qcurve"/>
+      <point x="614" y="1217"/>
+      <point x="410" y="1080"/>
+      <point x="307" y="846"/>
+      <point x="307" y="700" type="qcurve"/>
+      <point x="307" y="554"/>
+      <point x="410" y="320"/>
+      <point x="614" y="183"/>
+    </contour>
+    <contour>
+      <point x="508" y="1869" type="line"/>
+      <point x="508" y="1736" type="line"/>
+      <point x="766" y="1555" type="line"/>
+      <point x="1024" y="1736" type="line"/>
+      <point x="1024" y="1869" type="line"/>
+      <point x="766" y="1732" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>61f00de2c244fb55ae59a9a3ee9ef1dd0d8fa9020e342e6ae5e14fef18ae5391</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>baselineFont</key>
+          <dict>
+            <key>bytes</key>
+            <integer>153260</integer>
+            <key>path</key>
+            <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellersign/OTITravellerSign-Medium.ttf</string>
+            <key>sha256</key>
+            <string>8af6c38527ab421b279fcbc715d3d7f5a1fd8a7b73bbba793815efc2869cc282</string>
+          </dict>
+          <key>kind</key>
+          <string>native canonical composition</string>
+          <key>nativeNfd</key>
+          <array>
+            <dict>
+              <key>advance</key>
+              <integer>1532</integer>
+              <key>glyph</key>
+              <string>O</string>
+              <key>x</key>
+              <integer>0</integer>
+              <key>y</key>
+              <integer>0</integer>
+            </dict>
+            <dict>
+              <key>advance</key>
+              <integer>0</integer>
+              <key>glyph</key>
+              <string>uni030C.case</string>
+              <key>x</key>
+              <integer>-766</integer>
+              <key>y</key>
+              <integer>412</integer>
+            </dict>
+          </array>
+          <key>semanticAnchorCorrection</key>
+          <string>New Sign bottom anchors use the actual complete ink bottom, including a below mark; covered native anchors elsewhere are untouched. Above-mark canonical composites do not invent an additional top route absent from the native model.</string>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

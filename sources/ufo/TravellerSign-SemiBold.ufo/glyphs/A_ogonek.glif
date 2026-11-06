@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="Aogonek" format="2">
+  <advance width="1243"/>
+  <unicode hex="0104"/>
+  <anchor x="642" y="-420" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <anchor x="642" y="1490" name="base__MarkToBase1346__Anchor1347__Anchor1347"/>
+  <outline>
+    <component base="A" identifier="component0"/>
+    <component base="uni0328" xOffset="1118" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

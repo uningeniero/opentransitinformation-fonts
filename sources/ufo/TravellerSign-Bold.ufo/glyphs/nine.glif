@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="nine" format="2">
+  <advance width="1124"/>
+  <unicode hex="0039"/>
+  <anchor x="568" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="420" y="0" type="qcurve"/>
+      <point x="242" y="140" type="line"/>
+      <point x="293" y="165"/>
+      <point x="433" y="254"/>
+      <point x="583" y="378"/>
+      <point x="714" y="533"/>
+      <point x="756" y="624" type="qcurve"/>
+      <point x="708" y="593"/>
+      <point x="585" y="558"/>
+      <point x="506" y="558" type="qcurve"/>
+      <point x="389" y="558"/>
+      <point x="204" y="666"/>
+      <point x="96" y="856"/>
+      <point x="96" y="980" type="qcurve"/>
+      <point x="96" y="1113"/>
+      <point x="208" y="1315"/>
+      <point x="415" y="1428"/>
+      <point x="556" y="1428" type="qcurve"/>
+      <point x="702" y="1428"/>
+      <point x="920" y="1298"/>
+      <point x="1040" y="1063"/>
+      <point x="1040" y="906" type="qcurve"/>
+      <point x="1040" y="743"/>
+      <point x="925" y="458"/>
+      <point x="740" y="225"/>
+      <point x="523" y="52"/>
+    </contour>
+    <contour>
+      <point x="552" y="778" type="qcurve"/>
+      <point x="648" y="778"/>
+      <point x="772" y="899"/>
+      <point x="772" y="990" type="qcurve"/>
+      <point x="772" y="1082"/>
+      <point x="648" y="1208"/>
+      <point x="552" y="1208" type="qcurve"/>
+      <point x="458" y="1208"/>
+      <point x="332" y="1082"/>
+      <point x="332" y="990" type="qcurve"/>
+      <point x="332" y="899"/>
+      <point x="458" y="778"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 42 values pushed */
+6
+1
+0
+2
+1
+76
+1
+1
+0
+73
+4
+1
+2
+0
+0
+2
+0
+101
+0
+3
+3
+1
+97
+0
+1
+1
+37
+3
+78
+27
+26
+33
+31
+26
+37
+27
+37
+38
+40
+5
+8
+24
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>943d81333c344e98f94a53bb8af64bed694b98cb181e9299b7d294a8a30f3ae8874afedc6dcd4985cd8ea41631e2c9d62ea5b4f4de705ac5efe8cfd9c2a8875c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="f.loclEWE_short" format="2">
+  <advance width="329"/>
+  <outline>
+    <contour>
+      <point x="289" y="676"/>
+      <point x="245" y="637"/>
+      <point x="240" y="597" type="qcurve"/>
+      <point x="230" y="527" type="line"/>
+      <point x="337" y="527" type="line"/>
+      <point x="317" y="456" type="line"/>
+      <point x="220" y="456" type="line"/>
+      <point x="156" y="0" type="line"/>
+      <point x="65" y="0" type="line"/>
+      <point x="129" y="456" type="line"/>
+      <point x="36" y="456" type="line"/>
+      <point x="46" y="527" type="line"/>
+      <point x="139" y="527" type="line"/>
+      <point x="150" y="602" type="line"/>
+      <point x="159" y="670"/>
+      <point x="253" y="750"/>
+      <point x="329" y="750" type="qcurve"/>
+      <point x="372" y="750"/>
+      <point x="410" y="734" type="qcurve"/>
+      <point x="383" y="668" type="line"/>
+      <point x="359" y="676"/>
+      <point x="332" y="676" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 52 values pushed */
+18
+1
+6
+5
+19
+1
+0
+6
+2
+76
+0
+5
+7
+1
+6
+0
+5
+6
+105
+3
+1
+1
+1
+0
+95
+4
+1
+0
+0
+52
+77
+0
+2
+2
+51
+2
+78
+0
+0
+0
+21
+0
+20
+35
+17
+17
+17
+17
+19
+8
+9
+28
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>ddaad80ac7a84259fee285da02ca4049dc60e3e589466ee706d7a57c1bc3c9a469d962c7a2adf332541df42ba42abaced77db798e696d4f09306286ca4885de4</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1E2A.sc" format="2">
+  <advance width="599"/>
+  <anchor x="262" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="342" y="568" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="302" y="285" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <component base="h.sc"/>
+    <component base="uni032E" xOffset="513"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>baseAnchor</key>
+        <array>
+          <integer>262</integer>
+          <integer>0</integer>
+        </array>
+        <key>kind</key>
+        <string>Genuine native smallcap and native breve-below</string>
+        <key>markAnchor</key>
+        <array>
+          <integer>-251</integer>
+          <integer>0</integer>
+        </array>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+        <key>sourceSmallcap</key>
+        <string>h.sc</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

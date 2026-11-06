@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="daggerdbl.tf" format="2">
+  <advance width="560"/>
+  <outline>
+    <contour>
+      <point x="347" y="435" type="line"/>
+      <point x="347" y="281" type="line"/>
+      <point x="518" y="281" type="line"/>
+      <point x="518" y="166" type="line"/>
+      <point x="347" y="166" type="line"/>
+      <point x="347" y="0" type="line"/>
+      <point x="213" y="0" type="line"/>
+      <point x="213" y="166" type="line"/>
+      <point x="42" y="166" type="line"/>
+      <point x="42" y="281" type="line"/>
+      <point x="213" y="281" type="line"/>
+      <point x="213" y="435" type="line"/>
+      <point x="39" y="435" type="line"/>
+      <point x="39" y="550" type="line"/>
+      <point x="213" y="550" type="line"/>
+      <point x="213" y="692" type="line"/>
+      <point x="347" y="692" type="line"/>
+      <point x="347" y="550" type="line"/>
+      <point x="520" y="550" type="line"/>
+      <point x="520" y="435" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+25
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 34 values pushed */
+4
+1
+0
+3
+1
+1
+2
+0
+1
+103
+0
+7
+7
+50
+77
+10
+9
+2
+5
+5
+6
+95
+8
+1
+6
+6
+52
+77
+0
+2
+2
+51
+2
+78
+ELSE[ ]	/* Else */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+47
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 32 values pushed */
+8
+1
+6
+10
+9
+2
+5
+0
+6
+5
+103
+4
+1
+0
+3
+1
+1
+2
+0
+1
+103
+0
+7
+7
+50
+77
+0
+2
+2
+51
+2
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 37 values pushed */
+0
+7
+6
+2
+7
+87
+8
+1
+6
+10
+9
+2
+5
+0
+6
+5
+103
+4
+1
+0
+3
+1
+1
+2
+0
+1
+103
+0
+7
+7
+2
+95
+0
+2
+7
+2
+79
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 18 values pushed */
+0
+0
+0
+19
+0
+19
+17
+17
+17
+17
+17
+17
+17
+17
+17
+11
+9
+31
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>733e547ba2cf0473931923f8b979ac0fcc5dc3a5d9bd042e5fc8cc36c1226e642c89ddcc92a446201d1b645685408da1025f9b1ab0c266072d0046d7b0ce591a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

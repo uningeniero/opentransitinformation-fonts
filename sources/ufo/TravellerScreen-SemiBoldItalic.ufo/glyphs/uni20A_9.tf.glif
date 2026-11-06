@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni20A9.tf" format="2">
+  <advance width="900"/>
+  <outline>
+    <contour>
+      <point x="819" y="427" type="line"/>
+      <point x="862" y="427" type="line"/>
+      <point x="852" y="357" type="line"/>
+      <point x="797" y="357" type="line"/>
+      <point x="784" y="313" type="line"/>
+      <point x="846" y="313" type="line"/>
+      <point x="836" y="243" type="line"/>
+      <point x="762" y="243" type="line"/>
+      <point x="686" y="0" type="line"/>
+      <point x="503" y="0" type="line"/>
+      <point x="497" y="243" type="line"/>
+      <point x="394" y="243" type="line"/>
+      <point x="316" y="0" type="line"/>
+      <point x="137" y="0" type="line"/>
+      <point x="132" y="243" type="line"/>
+      <point x="56" y="243" type="line"/>
+      <point x="66" y="313" type="line"/>
+      <point x="130" y="313" type="line"/>
+      <point x="129" y="357" type="line"/>
+      <point x="72" y="357" type="line"/>
+      <point x="82" y="427" type="line"/>
+      <point x="128" y="427" type="line"/>
+      <point x="122" y="692" type="line"/>
+      <point x="260" y="692" type="line"/>
+      <point x="256" y="427" type="line"/>
+      <point x="352" y="427" type="line"/>
+      <point x="436" y="692" type="line"/>
+      <point x="586" y="692" type="line"/>
+      <point x="591" y="427" type="line"/>
+      <point x="690" y="427" type="line"/>
+      <point x="768" y="692" type="line"/>
+      <point x="902" y="692" type="line"/>
+    </contour>
+    <contour>
+      <point x="452" y="427" type="line"/>
+      <point x="493" y="427" type="line"/>
+      <point x="490" y="545" type="line"/>
+    </contour>
+    <contour>
+      <point x="255" y="313" type="line"/>
+      <point x="316" y="313" type="line"/>
+      <point x="330" y="357" type="line"/>
+      <point x="255" y="357" type="line"/>
+    </contour>
+    <contour>
+      <point x="496" y="313" type="line"/>
+      <point x="494" y="357" type="line"/>
+      <point x="430" y="357" type="line"/>
+      <point x="416" y="313" type="line"/>
+    </contour>
+    <contour>
+      <point x="670" y="357" type="line"/>
+      <point x="593" y="357" type="line"/>
+      <point x="594" y="313" type="line"/>
+      <point x="657" y="313" type="line"/>
+    </contour>
+    <contour>
+      <point x="294" y="243" type="line"/>
+      <point x="254" y="243" type="line"/>
+      <point x="252" y="111" type="line"/>
+    </contour>
+    <contour>
+      <point x="637" y="243" type="line"/>
+      <point x="595" y="243" type="line"/>
+      <point x="598" y="111" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 11 values pushed */
+34
+1
+0
+11
+52
+49
+2
+4
+3
+2
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+47
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 47 values pushed */
+16
+14
+12
+10
+4
+0
+21
+19
+18
+9
+4
+1
+2
+0
+1
+104
+22
+25
+20
+17
+8
+5
+2
+24
+23
+7
+5
+4
+3
+4
+2
+3
+103
+15
+13
+2
+11
+11
+50
+77
+6
+1
+4
+4
+51
+4
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 59 values pushed */
+15
+13
+2
+11
+0
+11
+133
+6
+1
+4
+3
+4
+134
+16
+14
+12
+10
+4
+0
+21
+19
+18
+9
+4
+1
+2
+0
+1
+104
+22
+25
+20
+17
+8
+5
+2
+3
+3
+2
+87
+22
+25
+20
+17
+8
+5
+2
+2
+3
+95
+24
+23
+7
+5
+4
+3
+2
+3
+79
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 48 values pushed */
+39
+39
+51
+50
+48
+47
+46
+45
+44
+43
+39
+42
+39
+42
+41
+40
+38
+37
+36
+35
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+17
+17
+17
+17
+17
+17
+17
+16
+26
+9
+31
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>3581cb2030fdc6786299336b54c2d78670079a998f007375abbc3dc0f35deafe9ad7069488f9628669f32428d75891e362ffb3d2009b8c9c8da5ac9e4c6740ea</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

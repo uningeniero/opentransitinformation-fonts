@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="o" format="2">
+  <advance width="1140"/>
+  <unicode hex="006F"/>
+  <anchor x="570" y="1000" name="base__MarkToBase2__Anchor3__Anchor3"/>
+  <anchor x="704" y="1000" name="base__MarkToBase2__Anchor4__Anchor4"/>
+  <anchor x="570" y="0" name="base__MarkToBase2__Anchor5__Anchor5"/>
+  <anchor x="650" y="0" name="base__MarkToBase2__Anchor6__Anchor6"/>
+  <anchor x="570" y="-20" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="570" y="-20" type="qcurve"/>
+      <point x="407" y="-20"/>
+      <point x="177" y="122"/>
+      <point x="56" y="358"/>
+      <point x="56" y="498" type="qcurve"/>
+      <point x="56" y="639"/>
+      <point x="177" y="877"/>
+      <point x="407" y="1020"/>
+      <point x="570" y="1020" type="qcurve"/>
+      <point x="733" y="1020"/>
+      <point x="963" y="877"/>
+      <point x="1084" y="639"/>
+      <point x="1084" y="498" type="qcurve"/>
+      <point x="1084" y="358"/>
+      <point x="963" y="122"/>
+      <point x="733" y="-20"/>
+    </contour>
+    <contour>
+      <point x="570" y="184" type="qcurve"/>
+      <point x="695" y="184"/>
+      <point x="830" y="359"/>
+      <point x="830" y="498" type="qcurve"/>
+      <point x="830" y="639"/>
+      <point x="695" y="816"/>
+      <point x="570" y="816" type="qcurve"/>
+      <point x="446" y="816"/>
+      <point x="310" y="639"/>
+      <point x="310" y="498" type="qcurve"/>
+      <point x="310" y="359"/>
+      <point x="446" y="184"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 42 values pushed */
+0
+3
+3
+1
+97
+0
+1
+1
+40
+77
+5
+1
+2
+2
+0
+97
+4
+1
+0
+0
+41
+0
+78
+17
+16
+1
+0
+23
+21
+16
+27
+17
+27
+9
+7
+0
+15
+1
+15
+6
+8
+22
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>e5a39eebc09784a6c1b44c1f9c5b15dcdb8e3a5b70bf76863e360d51d8c4432179298daeb0724efcf2629bda8e5de0c864a257150d7a730bea1dadd82aa9ec30</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

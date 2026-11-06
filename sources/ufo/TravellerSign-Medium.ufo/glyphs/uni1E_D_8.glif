@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1ED8" format="2">
+  <advance width="1532"/>
+  <unicode hex="1ED8"/>
+  <anchor x="766" y="-348" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <component base="O" identifier="component0"/>
+    <component base="uni0302" xOffset="766" yOffset="412" identifier="component1"/>
+    <component base="dotbelowcomb" xOffset="766" identifier="component2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <true/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component2</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+2
+1
+PUSHW[ ]	/* 1 value pushed */
+412
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8950b327dd21c21226b7b51b84266b632133db4330ba806872f839c163527cecf39b76197fb9bfc72086e29dd5174850e25b8ac589f5efca18ce1efbf0c62c56</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

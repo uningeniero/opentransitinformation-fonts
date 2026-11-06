@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="tilde.case" format="2">
+  <advance width="426"/>
+  <anchor x="213" y="875" name="mark2__MarkToMark55__Anchor56_Anchor56_"/>
+  <outline>
+    <component base="tildecomb" xOffset="426" yOffset="126" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+1
+PUSHB[ ]	/* 1 value pushed */
+126
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>f03179dc3a5b1bc9343a79cd40247ebeb6203b552a15d55523e75057ceba06d737f0f6177dbb2e1a5cca1a84f473859e33655056bb9b9b0a58ed2c03536d084e</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

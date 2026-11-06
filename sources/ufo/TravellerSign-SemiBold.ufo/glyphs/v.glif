@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="v" format="2">
+  <advance width="989"/>
+  <unicode hex="0076"/>
+  <anchor x="495" y="0" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="391" y="0" type="line"/>
+      <point x="10" y="993" type="line"/>
+      <point x="238" y="993" type="line"/>
+      <point x="495" y="268" type="line"/>
+      <point x="750" y="993" type="line"/>
+      <point x="979" y="993" type="line"/>
+      <point x="599" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 30 values pushed */
+3
+1
+2
+0
+1
+76
+1
+1
+0
+0
+34
+77
+3
+1
+2
+2
+32
+2
+78
+0
+0
+0
+6
+0
+6
+18
+17
+4
+8
+24
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w989l391+0l10+993l238+993l495+268l750+993l979+993l599+0|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

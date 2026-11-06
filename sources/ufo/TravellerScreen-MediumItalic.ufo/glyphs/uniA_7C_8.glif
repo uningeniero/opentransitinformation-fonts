@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA7C8" format="2">
+  <advance width="586"/>
+  <unicode hex="A7C8"/>
+  <anchor x="256" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="340" y="741" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="514" y="791" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="294" y="265" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="577" y="740" type="line"/>
+      <point x="473" y="0" type="line"/>
+      <point x="362" y="0" type="line"/>
+      <point x="363" y="81" type="line"/>
+      <point x="300" y="-15"/>
+      <point x="204" y="-15" type="qcurve"/>
+      <point x="123" y="-15"/>
+      <point x="37" y="98"/>
+      <point x="37" y="197" type="qcurve"/>
+      <point x="37" y="275"/>
+      <point x="90" y="435"/>
+      <point x="203" y="544"/>
+      <point x="288" y="544" type="qcurve"/>
+      <point x="366" y="544"/>
+      <point x="415" y="486" type="qcurve"/>
+      <point x="453" y="753" type="line"/>
+    </contour>
+    <contour>
+      <point x="262" y="448"/>
+      <point x="197" y="366"/>
+      <point x="169" y="249"/>
+      <point x="169" y="193" type="qcurve"/>
+      <point x="169" y="82"/>
+      <point x="241" y="82" type="qcurve"/>
+      <point x="279" y="82"/>
+      <point x="341" y="138"/>
+      <point x="374" y="190" type="qcurve"/>
+      <point x="403" y="398" type="line"/>
+      <point x="385" y="423"/>
+      <point x="342" y="448"/>
+      <point x="314" y="448" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="368" y="224" type="line"/>
+      <point x="192" y="224" type="line"/>
+      <point x="204" y="306" type="line"/>
+      <point x="380" y="306" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>23390b7034b28f7b1e586d783a91eee29b8551a7a6e5799274475ef1ab4b339f</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>barBounds</key>
+          <array>
+            <integer>192</integer>
+            <integer>224</integer>
+            <integer>380</integer>
+            <integer>306</integer>
+          </array>
+          <key>barEndCuts</key>
+          <dict>
+            <key>advance</key>
+            <integer>683</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>483176</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-MediumItalic.ttf</string>
+              <key>sha256</key>
+              <string>8883e63a834003158498e2e23f52273201d6149462381cc5da1a41d0f5559008</string>
+            </dict>
+            <key>glyph</key>
+            <string>Theta</string>
+            <key>unicode</key>
+            <string>U+0398</string>
+          </dict>
+          <key>body</key>
+          <dict>
+            <key>advance</key>
+            <integer>586</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>483176</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-MediumItalic.ttf</string>
+              <key>sha256</key>
+              <string>8883e63a834003158498e2e23f52273201d6149462381cc5da1a41d0f5559008</string>
+            </dict>
+            <key>glyph</key>
+            <string>d</string>
+            <key>unicode</key>
+            <string>U+0064</string>
+          </dict>
+          <key>counterBounds</key>
+          <array>
+            <integer>169</integer>
+            <integer>82</integer>
+            <integer>403</integer>
+            <integer>448</integer>
+          </array>
+          <key>kind</key>
+          <string>new short internal bowl bar on unchanged native D/d</string>
+          <key>lowercaseBarWeightSource</key>
+          <dict>
+            <key>advance</key>
+            <integer>565</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>483176</integer>
+              <key>path</key>
+              <string>https://github.com/uningeniero/opentransitinformation-fonts/blob/v1.0.1/fonts/otitravellerscreen/OTITravellerScreen-MediumItalic.ttf</string>
+              <key>sha256</key>
+              <string>8883e63a834003158498e2e23f52273201d6149462381cc5da1a41d0f5559008</string>
+            </dict>
+            <key>glyph</key>
+            <string>theta</string>
+            <key>unicode</key>
+            <string>U+03B8</string>
+          </dict>
+          <key>lowercaseCounterSpanFraction</key>
+          <real>0.8</real>
+          <key>notDcroatOrEthAlias</key>
+          <true/>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="period" format="2">
+  <advance width="240"/>
+  <unicode hex="002E"/>
+  <outline>
+    <contour>
+      <point x="157" y="164"/>
+      <point x="210" y="111"/>
+      <point x="210" y="74" type="qcurve"/>
+      <point x="210" y="36"/>
+      <point x="157" y="-17"/>
+      <point x="120" y="-17" type="qcurve"/>
+      <point x="82" y="-17"/>
+      <point x="29" y="36"/>
+      <point x="29" y="74" type="qcurve"/>
+      <point x="29" y="111"/>
+      <point x="82" y="164"/>
+      <point x="120" y="164" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+45
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 12 values pushed */
+2
+1
+1
+1
+0
+97
+0
+0
+0
+87
+0
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 18 values pushed */
+2
+1
+1
+0
+0
+1
+89
+2
+1
+1
+1
+0
+97
+0
+0
+1
+0
+81
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 10 values pushed */
+0
+0
+0
+11
+0
+10
+36
+3
+11
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w240o157+164o210+111q210+74o210+36o157-17q120-17o82-17o29+36q29+74o29+111o82+164q120+164|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

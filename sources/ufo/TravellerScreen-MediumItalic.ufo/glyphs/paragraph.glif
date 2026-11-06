@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="paragraph" format="2">
+  <advance width="755"/>
+  <unicode hex="00B6"/>
+  <outline>
+    <contour>
+      <point x="689" y="691" type="line"/>
+      <point x="563" y="-204" type="line"/>
+      <point x="452" y="-219" type="line"/>
+      <point x="565" y="597" type="line"/>
+      <point x="461" y="597" type="line"/>
+      <point x="349" y="-204" type="line"/>
+      <point x="238" y="-219" type="line"/>
+      <point x="306" y="272" type="line"/>
+      <point x="206" y="276"/>
+      <point x="104" y="371"/>
+      <point x="104" y="450" type="qcurve"/>
+      <point x="104" y="525"/>
+      <point x="176" y="634"/>
+      <point x="306" y="691"/>
+      <point x="390" y="691" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 33 values pushed */
+6
+2
+2
+1
+73
+0
+1
+0
+1
+134
+0
+0
+0
+2
+95
+3
+1
+2
+2
+80
+0
+78
+0
+0
+0
+14
+0
+13
+19
+19
+4
+11
+24
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w755l689+691l563-204l452-219l565+597l461+597l349-204l238-219l306+272o206+276o104+371q104+450o104+525o176+634o306+691q390+691|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

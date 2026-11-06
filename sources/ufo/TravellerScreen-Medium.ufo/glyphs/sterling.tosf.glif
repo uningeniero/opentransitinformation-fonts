@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="sterling.tosf" format="2">
+  <advance width="560"/>
+  <outline>
+    <contour>
+      <point x="263" y="176"/>
+      <point x="237" y="120"/>
+      <point x="201" y="100" type="qcurve"/>
+      <point x="507" y="100" type="line"/>
+      <point x="492" y="0" type="line"/>
+      <point x="55" y="0" type="line"/>
+      <point x="55" y="95" type="line"/>
+      <point x="91" y="107"/>
+      <point x="125" y="137"/>
+      <point x="137" y="181"/>
+      <point x="137" y="220" type="qcurve"/>
+      <point x="137" y="316" type="line"/>
+      <point x="70" y="316" type="line"/>
+      <point x="70" y="388" type="line"/>
+      <point x="137" y="388" type="line"/>
+      <point x="137" y="487" type="line"/>
+      <point x="137" y="575"/>
+      <point x="241" y="685"/>
+      <point x="335" y="685" type="qcurve"/>
+      <point x="451" y="685"/>
+      <point x="522" y="593" type="qcurve"/>
+      <point x="442" y="533" type="line"/>
+      <point x="420" y="561"/>
+      <point x="375" y="586"/>
+      <point x="345" y="586" type="qcurve"/>
+      <point x="306" y="586"/>
+      <point x="263" y="535"/>
+      <point x="263" y="487" type="qcurve"/>
+      <point x="263" y="388" type="line"/>
+      <point x="452" y="388" type="line"/>
+      <point x="452" y="316" type="line"/>
+      <point x="263" y="316" type="line"/>
+      <point x="263" y="224" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 56 values pushed */
+20
+1
+5
+4
+21
+1
+3
+5
+6
+1
+1
+0
+3
+76
+6
+1
+3
+7
+1
+2
+0
+3
+2
+103
+0
+5
+5
+4
+97
+0
+4
+4
+50
+77
+0
+0
+0
+1
+95
+0
+1
+1
+51
+1
+78
+17
+19
+36
+35
+17
+22
+17
+18
+8
+9
+30
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>a6affb1dfa80c1bc23b7a04695e436b7b6f90326ecef9e385a0491c53471d840e804cd0cacf4edec8d3c10873a7b47b30ef6dc993d0957e73ecb3eeeace4ca07</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

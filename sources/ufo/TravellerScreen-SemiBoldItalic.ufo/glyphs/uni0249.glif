@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0249" format="2">
+  <advance width="331"/>
+  <unicode hex="0249"/>
+  <anchor x="98" y="-208" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="245" y="803" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="160" y="741" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="167" y="245" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <component base="uni025F" identifier="component0"/>
+    <component base="uni0307" xOffset="286" identifier="component1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+        <key>component1</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <false/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

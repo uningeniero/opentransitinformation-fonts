@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="Sigma" format="2">
+  <advance width="503"/>
+  <unicode hex="03A3"/>
+  <anchor x="252" y="0" name="base__Extension45__Anchor40__Anchor40"/>
+  <anchor x="252" y="693" name="base__Extension45__Anchor41__Anchor41"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor42__Anchor42"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor43__Anchor43"/>
+  <anchor x="0" y="0" name="base__Extension45__Anchor44__Anchor44"/>
+  <outline>
+    <contour>
+      <point x="482" y="574" type="line"/>
+      <point x="202" y="574" type="line"/>
+      <point x="370" y="374" type="line"/>
+      <point x="370" y="309" type="line"/>
+      <point x="201" y="122" type="line"/>
+      <point x="482" y="122" type="line"/>
+      <point x="482" y="0" type="line"/>
+      <point x="21" y="0" type="line"/>
+      <point x="21" y="119" type="line"/>
+      <point x="213" y="340" type="line"/>
+      <point x="21" y="574" type="line"/>
+      <point x="21" y="693" type="line"/>
+      <point x="482" y="693" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 17 values pushed */
+9
+3
+2
+3
+1
+0
+8
+1
+2
+1
+2
+76
+10
+1
+0
+1
+75
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+29
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 21 values pushed */
+0
+0
+0
+3
+95
+0
+3
+3
+64
+77
+0
+1
+1
+2
+95
+0
+2
+2
+65
+2
+78
+ELSE[ ]	/* Else */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+45
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 18 values pushed */
+0
+1
+0
+2
+1
+2
+99
+0
+0
+0
+3
+95
+0
+3
+3
+64
+0
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 24 values pushed */
+0
+3
+0
+0
+1
+3
+0
+103
+0
+1
+2
+2
+1
+87
+0
+1
+1
+2
+95
+0
+2
+1
+2
+79
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 7 values pushed */
+20
+17
+19
+16
+4
+10
+26
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>w503l482+574l202+574l370+374l370+309l201+122l482+122l482+0l21+0l21+119l213+340l21+574l21+693l482+693|</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

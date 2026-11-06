@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="zero" format="2">
+  <advance width="1396"/>
+  <unicode hex="0030"/>
+  <anchor x="698" y="-28" name="base__MarkToBase12__Anchor13__Anchor13"/>
+  <outline>
+    <contour>
+      <point x="698" y="-28" type="qcurve"/>
+      <point x="513" y="-28"/>
+      <point x="249" y="162"/>
+      <point x="108" y="496"/>
+      <point x="108" y="712" type="qcurve"/>
+      <point x="108" y="928"/>
+      <point x="258" y="1250"/>
+      <point x="524" y="1428"/>
+      <point x="698" y="1428" type="qcurve"/>
+      <point x="876" y="1428"/>
+      <point x="1141" y="1250"/>
+      <point x="1288" y="928"/>
+      <point x="1288" y="712" type="qcurve"/>
+      <point x="1288" y="496"/>
+      <point x="1148" y="162"/>
+      <point x="884" y="-28"/>
+    </contour>
+    <contour>
+      <point x="698" y="144" type="qcurve"/>
+      <point x="884" y="144"/>
+      <point x="1086" y="439"/>
+      <point x="1086" y="712" type="qcurve"/>
+      <point x="1086" y="985"/>
+      <point x="875" y="1256"/>
+      <point x="698" y="1256" type="qcurve"/>
+      <point x="530" y="1256"/>
+      <point x="310" y="985"/>
+      <point x="310" y="712" type="qcurve"/>
+      <point x="310" y="439"/>
+      <point x="512" y="144"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 42 values pushed */
+0
+3
+3
+1
+97
+0
+1
+1
+37
+77
+5
+1
+2
+2
+0
+97
+4
+1
+0
+0
+38
+0
+78
+17
+16
+1
+0
+23
+21
+16
+27
+17
+27
+9
+7
+0
+15
+1
+15
+6
+8
+22
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>9ade810661989ab7c9a25fc15c09b8bd4a043e74e3e143256f9d131f4e0f6a3a22d00c3af0772a271dfd23d4f97c3bafc94da647fe8125037cf8fd0d879043c3</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

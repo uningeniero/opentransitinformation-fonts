@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1DB6" format="2">
+  <advance width="338"/>
+  <unicode hex="1DB6"/>
+  <outline>
+    <contour>
+      <point x="209" y="513" type="line"/>
+      <point x="123" y="513" type="line"/>
+      <point x="123" y="498" type="line"/>
+      <point x="123" y="479"/>
+      <point x="142" y="457"/>
+      <point x="161" y="457" type="qcurve"/>
+      <point x="174" y="457"/>
+      <point x="198" y="468"/>
+      <point x="209" y="478" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="317" y="513" type="line"/>
+      <point x="287" y="513" type="line"/>
+      <point x="287" y="400" type="line"/>
+      <point x="239" y="400" type="line"/>
+      <point x="225" y="400"/>
+      <point x="220" y="413" type="qcurve"/>
+      <point x="216" y="429" type="line"/>
+      <point x="200" y="414"/>
+      <point x="163" y="396"/>
+      <point x="137" y="396" type="qcurve"/>
+      <point x="114" y="396"/>
+      <point x="81" y="411"/>
+      <point x="57" y="438"/>
+      <point x="46" y="476"/>
+      <point x="46" y="498" type="qcurve"/>
+      <point x="46" y="513" type="line"/>
+      <point x="20" y="513" type="line"/>
+      <point x="20" y="566" type="line"/>
+      <point x="46" y="566" type="line"/>
+      <point x="46" y="669" type="line"/>
+      <point x="123" y="669" type="line"/>
+      <point x="123" y="566" type="line"/>
+      <point x="209" y="566" type="line"/>
+      <point x="209" y="669" type="line"/>
+      <point x="287" y="669" type="line"/>
+      <point x="287" y="566" type="line"/>
+      <point x="317" y="566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>glifSha256</key>
+        <string>e9d217dde01e47b43dd780498da39aa0bc2b25adfd858f9c355fb32773fb37fe</string>
+        <key>kind</key>
+        <string>Reviewed finite source construction</string>
+        <key>recipe</key>
+        <dict>
+          <key>kind</key>
+          <string>new imported purpose-coded editable Lato 2.015 drawing</string>
+          <key>normalisation</key>
+          <string>genuine same-cut modifier-n height and baseline; no body glyph scaling</string>
+          <key>rights</key>
+          <string>Retain original Lato OFL, copyright and reserved font name notice; this is a new source contribution, not an existing Traveller parent inferred from oti.L names.</string>
+          <key>source</key>
+          <dict>
+            <key>advance</key>
+            <integer>658</integer>
+            <key>font</key>
+            <dict>
+              <key>bytes</key>
+              <integer>668548</integer>
+              <key>path</key>
+              <string>https://github.com/google/fonts/blob/2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc/ofl/lato/Lato-SemiBold.ttf</string>
+              <key>sha256</key>
+              <string>71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c</string>
+            </dict>
+            <key>glyph</key>
+            <string>uni1DB6</string>
+            <key>unicode</key>
+            <string>U+1DB6</string>
+          </dict>
+          <key>sourceItalicAngle</key>
+          <real>0.0</real>
+          <key>targetItalicAngle</key>
+          <real>0.0</real>
+          <key>translateY</key>
+          <real>-70.0526315789474</real>
+          <key>uniformScale</key>
+          <real>0.5131578947368421</real>
+        </dict>
+        <key>sourcePlanSha256</key>
+        <string>a613ea44acaf0707dd659fe925858efa21235f9c584bd1245489ae83f38e9c2c</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

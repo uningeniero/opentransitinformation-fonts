@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="dieresisgravecomb.case" format="2">
+  <advance width="429"/>
+  <outline>
+    <contour>
+      <point x="266" y="901" type="line"/>
+      <point x="216" y="855" type="line"/>
+      <point x="69" y="989" type="line"/>
+      <point x="141" y="1059" type="line"/>
+    </contour>
+    <contour>
+      <point x="130" y="885"/>
+      <point x="170" y="845"/>
+      <point x="170" y="816" type="qcurve"/>
+      <point x="170" y="787"/>
+      <point x="130" y="747"/>
+      <point x="101" y="747" type="qcurve"/>
+      <point x="71" y="747"/>
+      <point x="30" y="787"/>
+      <point x="30" y="816" type="qcurve"/>
+      <point x="30" y="845"/>
+      <point x="71" y="885"/>
+      <point x="101" y="885" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="359" y="885"/>
+      <point x="399" y="845"/>
+      <point x="399" y="816" type="qcurve"/>
+      <point x="399" y="787"/>
+      <point x="359" y="747"/>
+      <point x="329" y="747" type="qcurve"/>
+      <point x="300" y="747"/>
+      <point x="259" y="787"/>
+      <point x="259" y="816" type="qcurve"/>
+      <point x="259" y="845"/>
+      <point x="300" y="885"/>
+      <point x="329" y="885" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 52 values pushed */
+1
+1
+0
+1
+1
+76
+3
+2
+2
+1
+74
+5
+3
+4
+3
+1
+0
+0
+1
+89
+5
+3
+4
+3
+1
+1
+0
+97
+2
+1
+0
+1
+0
+81
+16
+16
+4
+4
+16
+27
+16
+26
+22
+20
+4
+15
+4
+14
+40
+6
+9
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>8e8d9718750e366fe9a888bf7d3b2dee50ee7725a9b155bba55c9daa87abff12f71b1fe6b9536b386f5f6f9be12633cd6f0809cd67c02c50714340380fc18f05</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

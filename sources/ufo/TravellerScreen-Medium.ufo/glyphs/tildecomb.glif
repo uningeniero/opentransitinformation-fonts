@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="tildecomb" format="2">
+  <unicode hex="0303"/>
+  <anchor x="-209" y="529" name="_Anchor28__Anchor28"/>
+  <anchor x="-209" y="529" name="_Anchor35__Anchor35"/>
+  <anchor x="-209" y="529" name="_Anchor41__Anchor41"/>
+  <anchor x="-209" y="529" name="_Anchor49__Anchor49"/>
+  <anchor x="-209" y="529" name="_Anchor56_Anchor56_"/>
+  <anchor x="-209" y="529" name="_Anchor62_Anchor62_"/>
+  <anchor x="-209" y="747" name="mark2__MarkToMark55__Anchor56_Anchor56_"/>
+  <outline>
+    <contour>
+      <point x="-184" y="644"/>
+      <point x="-218" y="669" type="qcurve"/>
+      <point x="-235" y="681"/>
+      <point x="-254" y="691"/>
+      <point x="-265" y="691" type="qcurve"/>
+      <point x="-282" y="691"/>
+      <point x="-305" y="670"/>
+      <point x="-318" y="646" type="qcurve"/>
+      <point x="-387" y="680" type="line"/>
+      <point x="-367" y="727"/>
+      <point x="-307" y="784"/>
+      <point x="-267" y="784" type="qcurve"/>
+      <point x="-246" y="784"/>
+      <point x="-215" y="771"/>
+      <point x="-198" y="759" type="qcurve"/>
+      <point x="-183" y="748"/>
+      <point x="-162" y="738"/>
+      <point x="-151" y="738" type="qcurve"/>
+      <point x="-136" y="738"/>
+      <point x="-112" y="758"/>
+      <point x="-98" y="781" type="qcurve"/>
+      <point x="-30" y="747" type="line"/>
+      <point x="-50" y="699"/>
+      <point x="-112" y="644"/>
+      <point x="-150" y="644" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+6
+100
+WCVTP[ ]	/* WriteCVTInPixels */
+NPUSHB[ ]	/* 49 values pushed */
+21
+20
+2
+2
+1
+8
+7
+2
+3
+0
+2
+76
+0
+2
+0
+3
+2
+89
+0
+1
+0
+0
+3
+1
+0
+105
+0
+2
+2
+3
+97
+4
+1
+3
+2
+3
+81
+0
+0
+0
+24
+0
+23
+36
+37
+35
+5
+11
+25
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 2 values pushed */
+6
+0
+WCVTP[ ]	/* WriteCVTInPixels */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>17e0d9b90ae07442865082471c66ee09607e405429fe741ed6d93940734a392006ec7f0a68223299fef7f05fc689fbe674cbd5cf4660979cf763028123b9d479</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

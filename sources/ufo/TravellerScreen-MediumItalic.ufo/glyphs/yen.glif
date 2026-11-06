@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="yen" format="2">
+  <advance width="546"/>
+  <unicode hex="00A5"/>
+  <outline>
+    <contour>
+      <point x="379" y="349" type="line"/>
+      <point x="482" y="349" type="line"/>
+      <point x="472" y="276" type="line"/>
+      <point x="338" y="276" type="line"/>
+      <point x="327" y="196" type="line"/>
+      <point x="460" y="196" type="line"/>
+      <point x="450" y="124" type="line"/>
+      <point x="317" y="124" type="line"/>
+      <point x="300" y="0" type="line"/>
+      <point x="173" y="0" type="line"/>
+      <point x="190" y="124" type="line"/>
+      <point x="57" y="124" type="line"/>
+      <point x="67" y="196" type="line"/>
+      <point x="200" y="196" type="line"/>
+      <point x="211" y="276" type="line"/>
+      <point x="78" y="276" type="line"/>
+      <point x="88" y="349" type="line"/>
+      <point x="191" y="349" type="line"/>
+      <point x="56" y="673" type="line"/>
+      <point x="190" y="673" type="line"/>
+      <point x="291" y="385" type="line"/>
+      <point x="472" y="673" type="line"/>
+      <point x="605" y="673" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 6 values pushed */
+20
+1
+0
+9
+1
+76
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+27
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+NPUSHB[ ]	/* 32 values pushed */
+8
+1
+0
+7
+1
+1
+2
+0
+1
+104
+6
+1
+2
+5
+1
+3
+4
+2
+3
+103
+10
+1
+9
+9
+80
+77
+0
+4
+4
+81
+4
+78
+ELSE[ ]	/* Else */
+NPUSHB[ ]	/* 32 values pushed */
+10
+1
+9
+0
+9
+133
+8
+1
+0
+7
+1
+1
+2
+0
+1
+104
+6
+1
+2
+5
+1
+3
+4
+2
+3
+103
+0
+4
+4
+81
+4
+78
+EIF[ ]	/* EndIf */
+NPUSHB[ ]	/* 16 values pushed */
+22
+21
+19
+18
+17
+17
+17
+17
+17
+17
+17
+17
+16
+11
+11
+31
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>4841adbbd820f069de2dcff2e3a6f74f86e24db04c03eef20f5ce2330665d7927f5e61fb473c9d61c9daf343c3c5ab47d600cfb6ce7949ca392367074c5c9dec</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

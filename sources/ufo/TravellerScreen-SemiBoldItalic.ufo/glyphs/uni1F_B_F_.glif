@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1FBF" format="2">
+  <advance width="209"/>
+  <unicode hex="1FBF"/>
+  <anchor x="203" y="829" name="mark2__MarkToMark61__Anchor62_Anchor62_"/>
+  <outline>
+    <component base="uni0326" xOffset="335" yOffset="899" identifier="component0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>component0</key>
+        <dict>
+          <key>public.truetype.roundOffsetToGrid</key>
+          <true/>
+          <key>public.truetype.useMyMetrics</key>
+          <false/>
+        </dict>
+      </dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>PUSHB[ ]	/* 2 values pushed */
+0
+1
+PUSHW[ ]	/* 1 value pushed */
+899
+PUSHB[ ]	/* 1 value pushed */
+53
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>0c0d202e59fe48244ede2c15c1a5ee6bc9c4767611ec29e86427c336306128605bd6df3b70fdde906762c1bb0eaad7074c5b851cca725231e9ba5ab77b147e42</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

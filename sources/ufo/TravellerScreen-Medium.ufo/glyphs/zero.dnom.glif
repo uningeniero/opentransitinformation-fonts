@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="zero.dnom" format="2">
+  <advance width="400"/>
+  <outline>
+    <contour>
+      <point x="280" y="428"/>
+      <point x="365" y="315"/>
+      <point x="365" y="209" type="qcurve"/>
+      <point x="365" y="104"/>
+      <point x="280" y="-11"/>
+      <point x="200" y="-11" type="qcurve"/>
+      <point x="120" y="-11"/>
+      <point x="35" y="103"/>
+      <point x="35" y="209" type="qcurve"/>
+      <point x="35" y="315"/>
+      <point x="119" y="428"/>
+      <point x="200" y="428" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="167" y="354"/>
+      <point x="139" y="290"/>
+      <point x="139" y="209" type="qcurve"/>
+      <point x="139" y="127"/>
+      <point x="167" y="64"/>
+      <point x="200" y="64" type="qcurve"/>
+      <point x="233" y="64"/>
+      <point x="262" y="127"/>
+      <point x="262" y="209" type="qcurve"/>
+      <point x="262" y="292"/>
+      <point x="233" y="354"/>
+      <point x="200" y="354" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.truetype.instructions</key>
+      <dict>
+        <key>assembly</key>
+        <string>NPUSHB[ ]	/* 39 values pushed */
+4
+1
+1
+5
+1
+3
+2
+1
+3
+105
+0
+2
+2
+0
+97
+0
+0
+0
+56
+0
+78
+12
+12
+0
+0
+12
+23
+12
+22
+18
+16
+0
+11
+0
+10
+36
+6
+9
+23
+CALL[ ]	/* CallFunction */</string>
+        <key>formatVersion</key>
+        <string>1</string>
+        <key>id</key>
+        <string>dd57eeda77eef53bd231fbbfd64ccbd9f3961e25f7b7092e1eb1bc5bd5d45039ae804ed3eb17ecaa37fe7194542c1718f6bb45b8ea60cd4e79449f4beb8ff6e9</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
