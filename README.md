@@ -40,10 +40,8 @@ The full primary Google Fonts profile runs without check exclusions or severity 
 
 Font software and derivative drawings use the SIL Open Font License 1.1. Original notices, Reserved Font Names and contributor records accompany the fonts. Build code and CSS use Apache-2.0; first-party documentation uses CC-BY-4.0.
 
-- Fira Sans supplies the principal Screen source and selected Sign supplements. Retain the Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH notices in `licenses/fira/`.
-- Cabin supplies the principal Sign source. Retain the Cabin Project Authors, contributor and trademark records in `licenses/cabin/`.
-- Selected purpose-coded Lato 2.015 drawings supply the recorded Screen supplements. Retain tyPoland, Łukasz Dziedzic and the Lato Reserved Font Name notice in `licenses/lato/OFL.txt`.
-- Source Sans 3 remains a separate native resource. Retain Adobe and upstream contributor attribution in `companions/source-sans-3/LICENSE.md`.
+Keep the family OFL files and the copyright, Reserved Font Name and contributor notices in [NOTICE.md](NOTICE.md), `licenses/` and `companions/source-sans-3/LICENSE.md` with redistribution. Technical source and contributor records remain in [the source documentation](sources/ufo/README.md).
+
 - The selected language data uses the pinned CLDR and Unicode sources in `tests/validation-spec.json`. The pinned Google Fonts Latin Core character list and its Apache-2.0 licence are identified in `tests/data/glyphsets-provenance.json`.
 - Source construction and release engineering are coordinated by Álvaro Marín Abril for Open Transit Information. Project: [opentransitinformation.org](https://opentransitinformation.org).
 
