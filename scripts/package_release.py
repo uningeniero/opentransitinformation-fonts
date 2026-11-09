@@ -10,7 +10,8 @@ def main():
     assert published['version']==version and published['fontVersion']==policy['fontVersion'], 'Promote the verified matching production fonts before packaging.'
     dest=ROOT/'dist';dest.mkdir(exist_ok=True)
     archive=dest/policy['archiveName'];assert archive.name==policy['archiveName'] and not archive.exists()
-    files=[ROOT/'INSTALL.md',ROOT/'LICENSE',ROOT/'NOTICE.md',ROOT/'release.json']
+    files=[ROOT/name for name in ['INSTALL.md','LICENSE','NOTICE.md','OFL.txt','AUTHORS.txt','CONTRIBUTORS.txt','release.json']]
+    assert all(path.is_file() for path in files)
     for folder in ['fonts','licenses','companions','examples','docs']:
         files.extend(p for p in (ROOT/folder).rglob('*') if p.is_file())
     stamp=datetime.fromtimestamp(policy['sourceDateEpoch'],timezone.utc);names=[]

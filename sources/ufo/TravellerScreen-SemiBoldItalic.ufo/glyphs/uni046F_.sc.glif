@@ -4,7 +4,7 @@
   <advance width="478"/>
   <anchor x="0" y="0" name="base__Extension38__Anchor33__Anchor33"/>
   <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
-  <anchor x="277" y="567" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="305" y="836" name="base__Extension38__Anchor35__Anchor35"/>
   <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
   <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
   <outline>
@@ -13,6 +13,65 @@
   </outline>
   <lib>
     <dict>
+      <key>org.opentransitinformation.stackingAnchorSource</key>
+      <dict>
+        <key>kind</key>
+        <string>Native mark-to-mark role transformed through stored component geometry</string>
+        <key>sourcePoint</key>
+        <dict>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>child</key>
+              <string>uni030C.sc</string>
+              <key>parent</key>
+              <string>uni046F.sc</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>20</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>nativeAnchor</key>
+          <string>mark2__MarkToMark55__Anchor56_Anchor56_</string>
+          <key>nativeGlyph</key>
+          <string>uni030C</string>
+          <key>point</key>
+          <array>
+            <integer>305</integer>
+            <integer>836</integer>
+          </array>
+          <key>spacingGlyph</key>
+          <string>uni030C.sc</string>
+          <key>spacingTranslation</key>
+          <array>
+            <integer>427</integer>
+            <integer>30</integer>
+          </array>
+        </dict>
+        <key>updatedAboveAnchors</key>
+        <array>
+          <dict>
+            <key>after</key>
+            <array>
+              <integer>305</integer>
+              <integer>836</integer>
+            </array>
+            <key>anchor</key>
+            <string>base__Extension38__Anchor35__Anchor35</string>
+            <key>before</key>
+            <array>
+              <integer>277</integer>
+              <integer>567</integer>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

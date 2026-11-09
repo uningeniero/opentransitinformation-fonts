@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0480.sc" format="2">
+  <advance width="497"/>
+  <anchor x="271" y="-139" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="352" y="564" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="505" y="513" type="line"/>
+      <point x="438" y="574"/>
+      <point x="343" y="574" type="qcurve" smooth="yes"/>
+      <point x="245" y="574"/>
+      <point x="114" y="467"/>
+      <point x="54" y="307"/>
+      <point x="54" y="225" type="qcurve" smooth="yes"/>
+      <point x="54" y="112"/>
+      <point x="172" y="-11"/>
+      <point x="272" y="-11" type="qcurve" smooth="yes"/>
+      <point x="327" y="-11"/>
+      <point x="373" y="8" type="qcurve"/>
+      <point x="377" y="9"/>
+      <point x="380" y="10" type="qcurve"/>
+      <point x="380" y="-139" type="line"/>
+      <point x="448" y="-139" type="line"/>
+      <point x="479" y="85" type="line"/>
+      <point x="430" y="85" type="line"/>
+      <point x="409" y="114" type="line"/>
+      <point x="375" y="90"/>
+      <point x="315" y="64"/>
+      <point x="277" y="64" type="qcurve" smooth="yes"/>
+      <point x="217" y="64"/>
+      <point x="149" y="140"/>
+      <point x="149" y="220" type="qcurve" smooth="yes"/>
+      <point x="149" y="290"/>
+      <point x="188" y="418"/>
+      <point x="277" y="501"/>
+      <point x="348" y="501" type="qcurve" smooth="yes"/>
+      <point x="405" y="501"/>
+      <point x="453" y="462" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.historicalCyrillicConstruction</key>
+      <dict>
+        <key>advancePreservesNativeBodyRightBearing</key>
+        <integer>-8</integer>
+        <key>body</key>
+        <string>uni0441.sc</string>
+        <key>bottomAnchorFollowsNewDescender</key>
+        <true/>
+        <key>construction</key>
+        <string>Attach the exact same-cut native Cyrillic Tse right-descender drawing to the native Cyrillic Es lower terminal. The clipped join is unioned inside the body. Preserve genuine italic contours and native stroke/terminal cuts; this is a new distinct Koppa drawing, not an Es alias.</string>
+        <key>kind</key>
+        <string>Same-cut native Cyrillic Koppa construction</string>
+        <key>nativeLowerTerminalPoints</key>
+        <array>
+          <array>
+            <integer>409</integer>
+            <integer>114</integer>
+          </array>
+          <array>
+            <integer>450</integer>
+            <integer>55</integer>
+          </array>
+        </array>
+        <key>noGlyphScaling</key>
+        <true/>
+        <key>rightDescenderSource</key>
+        <string>uni0446.sc</string>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>528800</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-Italic.ttf</string>
+            <key>sha256</key>
+            <string>c99a0a7eeca7eea3c9a16e78d34cbf0501e83fde84c090a4f4fdfbf07ce559ac</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>uni0441.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>887</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni0441.sc.glif</string>
+                <key>sha256</key>
+                <string>94743954b8b7f082c0966dd4d653b2f7d36964db4c4024dfb47d09f8a6466ffb</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni0446.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1578</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni0446.sc.glif</string>
+                <key>sha256</key>
+                <string>0e53d78724a7ffa5d46435d33350e82b6c612dcd9afc88718162d63b1a8627d7</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+        <key>tailClip</key>
+        <dict>
+          <key>left</key>
+          <integer>470</integer>
+          <key>top</key>
+          <integer>74</integer>
+        </dict>
+        <key>tailTranslation</key>
+        <array>
+          <real>-90.0</real>
+          <real>10.5</real>
+        </array>
+        <key>upperBodyAnchorPreservedWithoutAdvanceBasedRecentering</key>
+        <true/>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>93d27b9834266143b0aa2eada7d8be10a677b4063bba6e022af5a9c3a497d91a</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-HISTORICAL-CYRILLIC-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>53b50df1024449ff04626dca680639771282392c7de226505bd7d7278b4226e7</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

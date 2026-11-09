@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni2C6E.sc" format="2">
+  <advance width="703"/>
+  <anchor x="352" y="566" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="357" y="-206" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="357" y="-206" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="352" y="283" name="base__Extension52__Anchor51__Anchor51"/>
+  <anchor x="615" y="566" name="base__Extension52__Anchor50__Anchor50"/>
+  <outline>
+    <contour>
+      <point x="657" y="1" type="line"/>
+      <point x="655" y="1" type="line"/>
+      <point x="639" y="198" type="line"/>
+      <point x="610" y="566" type="line"/>
+      <point x="448" y="566" type="line"/>
+      <point x="352" y="173" type="line"/>
+      <point x="255" y="566" type="line"/>
+      <point x="93" y="566" type="line"/>
+      <point x="46" y="0" type="line"/>
+      <point x="170" y="0" type="line"/>
+      <point x="183" y="224" type="line" smooth="yes"/>
+      <point x="186" y="287"/>
+      <point x="186" y="346" type="qcurve" smooth="yes"/>
+      <point x="186" y="399"/>
+      <point x="183" y="468" type="qcurve"/>
+      <point x="289" y="60" type="line"/>
+      <point x="411" y="60" type="line"/>
+      <point x="514" y="470" type="line"/>
+      <point x="512" y="414"/>
+      <point x="512" y="389" type="qcurve" smooth="yes"/>
+      <point x="512" y="336"/>
+      <point x="518" y="226" type="qcurve" smooth="yes"/>
+      <point x="520" y="198" type="line"/>
+      <point x="520" y="198" type="line"/>
+      <point x="531" y="0" type="line"/>
+      <point x="532" y="0" type="line"/>
+      <point x="519" y="-54" type="line"/>
+      <point x="517" y="-121"/>
+      <point x="457" y="-121" type="qcurve" smooth="yes"/>
+      <point x="436" y="-121"/>
+      <point x="406" y="-111"/>
+      <point x="385" y="-100" type="qcurve"/>
+      <point x="340" y="-177" type="line"/>
+      <point x="394" y="-218"/>
+      <point x="469" y="-218" type="qcurve" smooth="yes"/>
+      <point x="550" y="-218"/>
+      <point x="645" y="-128"/>
+      <point x="650" y="-43" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.mHookSmallcapConstruction</key>
+      <dict>
+        <key>construction</key>
+        <string>Retain the entire genuine same-cut SC M body. Attach the purpose-coded native U0271 descending hook. Match both measured SC right-stem edges through the baseline, blending horizontally to the translated unchanged deep native hook below the joining band. No capital reduction, ordinary M alias, synthetic italic or reference outline.</string>
+        <key>contoursBeforeOutputRounding</key>
+        <integer>1</integer>
+        <key>guideY</key>
+        <real>198.1</real>
+        <key>joiningBandRange</key>
+        <array>
+          <real>-67.92</real>
+          <real>198.1</real>
+        </array>
+        <key>joiningBlendWeight</key>
+        <string>Smoothstep t*t*(3-2*t) on control-point horizontal fitting across the below-baseline band. This removes the linear-weight endpoint change while keeping the actual SC stem target and translated deep native hook. Actual rounded curve tangents and optical junctions still require inspection.</string>
+        <key>missingNativeScBodyAreaBeforeOutputRounding</key>
+        <real>0.0</real>
+        <key>nativeBodyBounds</key>
+        <array>
+          <integer>46</integer>
+          <integer>0</integer>
+          <integer>655</integer>
+          <integer>566</integer>
+        </array>
+        <key>nativeExtendedGlyph</key>
+        <string>uni0271</string>
+        <key>nativeFrame</key>
+        <integer>566</integer>
+        <key>nativeOverlapWitnessBox</key>
+        <array>
+          <real>635.2</real>
+          <integer>-3</integer>
+          <real>788.8</real>
+          <real>198.1</real>
+        </array>
+        <key>nativePlainLowercase</key>
+        <string>m</string>
+        <key>nativeScBody</key>
+        <string>m.sc</string>
+        <key>newLatinPositionsBeforeRounding</key>
+        <dict>
+          <key>bottom</key>
+          <array>
+            <real>357.0</real>
+            <real>-206.0</real>
+          </array>
+          <key>middle</key>
+          <array>
+            <real>352.0</real>
+            <real>283.0</real>
+          </array>
+          <key>ogonek</key>
+          <array>
+            <real>357.0</real>
+            <real>-206.0</real>
+          </array>
+          <key>side</key>
+          <array>
+            <real>614.5</real>
+            <integer>566</integer>
+          </array>
+          <key>top</key>
+          <array>
+            <real>352.0</real>
+            <real>566.0</real>
+          </array>
+        </dict>
+        <key>roleRationale</key>
+        <string>Retain native SC top role, put below/ogonek at the SC body horizontal position and native defining-hook below depth, and design side/middle roles on the actual SC frame. These explicit active-role hypotheses require real compiled mark/stack tests; native zero coordinates are not treated as inactive.</string>
+        <key>scStemIntervals</key>
+        <array>
+          <array>
+            <real>519.6049</real>
+            <real>639.25</real>
+          </array>
+          <array>
+            <real>516.488</real>
+            <real>634.75</real>
+          </array>
+        </array>
+        <key>secondGuideY</key>
+        <real>254.70000000000002</real>
+        <key>semanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>529776</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-Medium.ttf</string>
+          <key>sha256</key>
+          <string>67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4</string>
+        </dict>
+        <key>sourceGlifs</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>m.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1952</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/m.sc.glif</string>
+              <key>sha256</key>
+              <string>4a8844d463465a13d4753f47f090753455662223799fb6d2971ce55c240aca40</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>uni0271</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>3278</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni0271.glif</string>
+              <key>sha256</key>
+              <string>fdb44e41bb1ed38b0e24613ffb9bed62da07d096faac8bf9f7e432a64c69a771</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>m</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2679</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/m.glif</string>
+              <key>sha256</key>
+              <string>dee329c4f14677cdfb64c580f1fbe18d586e00ae0ba6742563a9d557b900b0d7</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1559</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>30b7627378c19e650c296bebe8c389e5deeab9bb4c1e807ab9577b77f474f711</string>
+            </dict>
+          </dict>
+        </array>
+        <key>sourceStemIntervals</key>
+        <array>
+          <array>
+            <real>648.0</real>
+            <real>776.0</real>
+          </array>
+          <array>
+            <real>648.0</real>
+            <real>776.0</real>
+          </array>
+        </array>
+        <key>spacing</key>
+        <string>Preserve native SC body ink-edge bearings through one whole x translation and an advance reflecting actual added ink extent. Kerning inheritance is a candidate test, not an instruction to cancel the defining hook.</string>
+        <key>tailCutY</key>
+        <integer>-1</integer>
+        <key>tailTranslationX</key>
+        <real>-132.57254999999998</real>
+        <key>wholeTranslationX</key>
+        <integer>0</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>e622bc770190235d8b7b27b6cd96dd0209b66dc1f1285955e6e2c92b64af02fd</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-LATIN-M-HOOK-SMALLCAP-R2-2026-11-07</string>
+        <key>planSha256</key>
+        <string>cb484fb16ace46ca2980b65a940d83b386f5a27f3b8f5ed0d6fb0b9e404c9097</string>
+        <key>reviewSha256</key>
+        <string>9824a134ef56d8504471b49126275b25e5e4929e53df3ae34b16f07e2a722039</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

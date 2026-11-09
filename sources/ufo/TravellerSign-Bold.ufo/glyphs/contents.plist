@@ -685,6 +685,10 @@
     <string>oslash.glif</string>
     <key>oslashacute</key>
     <string>oslashacute.glif</string>
+    <key>oti.006A.dotless120</key>
+    <string>oti.006A_.dotless120.glif</string>
+    <key>oti.012F.dotless120</key>
+    <string>oti.012F_.dotless120.glif</string>
     <key>oti.L0181</key>
     <string>oti.L_0181.glif</string>
     <key>oti.L018A</key>
@@ -1709,6 +1713,10 @@
     <string>uni2010.glif</string>
     <key>uni2015</key>
     <string>uni2015.glif</string>
+    <key>uni2028</key>
+    <string>uni2028.glif</string>
+    <key>uni2029</key>
+    <string>uni2029.glif</string>
     <key>uni2070</key>
     <string>uni2070.glif</string>
     <key>uni2074</key>
@@ -1775,6 +1783,8 @@
     <string>uni2215.glif</string>
     <key>uni2219</key>
     <string>uni2219.glif</string>
+    <key>uni25CC</key>
+    <string>uni25C_C_.glif</string>
     <key>uogonek</key>
     <string>uogonek.glif</string>
     <key>uring</key>

@@ -1,11 +1,11 @@
 {
   "spdxLicense": "CC-BY-4.0",
-  "version": "1.1.0",
-  "fontVersion": "1.100",
-  "archiveName": "Traveller-1.1.0-fonts.zip",
+  "version": "1.2.0",
+  "fontVersion": "1.200",
+  "archiveName": "Traveller-1.2.0-fonts.zip",
   "canonicalOrigin": "https://opentransitinformation.org",
   "repository": "https://github.com/uningeniero/opentransitinformation-fonts",
-  "sourceDateEpoch": 1793923200,
+  "sourceDateEpoch": 1794009600,
   "families": {
     "screen": "Traveller Screen",
     "sign": "Traveller Sign"

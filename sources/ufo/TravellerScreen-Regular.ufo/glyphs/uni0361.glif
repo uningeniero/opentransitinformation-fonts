@@ -2,6 +2,7 @@
 <!-- SPDX-License-Identifier: OFL-1.1 -->
 <glyph name="uni0361" format="2">
   <unicode hex="0361"/>
+  <anchor x="1" y="794" name="mark2__MarkToMark55__Anchor56_Anchor56_"/>
   <outline>
     <contour>
       <point x="294" y="609" type="line"/>
@@ -20,6 +21,15 @@
   </outline>
   <lib>
     <dict>
+      <key>org.opentransitinformation.successorOverbridgeSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>a11cecd141528210c547a6db0cb19628401ce76ee8eb5e30818279bce5a0a6be</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-FINITE-CGJ-OVERBRIDGE-2026-11-07</string>
+        <key>planSha256</key>
+        <string>3ce2b061375f483bc2af247a173946828f7270d5c9ba52cdc68cce5a23248d7a</string>
+      </dict>
       <key>public.truetype.instructions</key>
       <dict>
         <key>assembly</key>

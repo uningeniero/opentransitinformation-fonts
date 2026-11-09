@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA7E2.sc" format="2">
+  <advance width="449"/>
+  <anchor x="266" y="566" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="145" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="145" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="145" y="283" name="base__Extension52__Anchor51__Anchor51"/>
+  <anchor x="436" y="566" name="base__Extension52__Anchor50__Anchor50"/>
+  <outline>
+    <contour>
+      <point x="429" y="465" type="line"/>
+      <point x="208" y="465" type="line"/>
+      <point x="208" y="0" type="line"/>
+      <point x="81" y="0" type="line"/>
+      <point x="81" y="566" type="line"/>
+      <point x="445" y="566" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.longLegRSmallcapConstruction</key>
+      <dict>
+        <key>caseIdentity</key>
+        <string>The input remains Latin U027C; its official formal capital is A7E2. The new unencoded target has no Greek scalar or new encoded uppercase input.</string>
+        <key>construction</key>
+        <string>Reuse the exact genuine same-cut Gamma SC drawing and advance for the attested Gamma-shaped formal capital. Keep a separate Latin target with explicit Latin attachment roles. Transfer the measured semantic top/bottom positions; design side, middle and ogonek positions on the actual new-role body.</string>
+        <key>defaultLatinInputRoute</key>
+        <array>
+          <dict>
+            <key>advance</key>
+            <array>
+              <integer>392</integer>
+              <integer>0</integer>
+            </array>
+            <key>cluster</key>
+            <integer>0</integer>
+            <key>glyph</key>
+            <string>uni027C</string>
+            <key>offset</key>
+            <array>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
+        </array>
+        <key>kerningSourceBody</key>
+        <string>gamma.sc</string>
+        <key>kind</key>
+        <string>Attested Gamma-shaped formal-case Latin small capital</string>
+        <key>nativeGreekAnchors</key>
+        <dict>
+          <key>base__Extension45__Anchor40__Anchor40</key>
+          <array>
+            <real>145.0</real>
+            <real>0.0</real>
+          </array>
+          <key>base__Extension45__Anchor41__Anchor41</key>
+          <array>
+            <real>266.0</real>
+            <real>566.0</real>
+          </array>
+          <key>base__Extension45__Anchor42__Anchor42</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+          <key>base__Extension45__Anchor43__Anchor43</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+          <key>base__Extension45__Anchor44__Anchor44</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+        </dict>
+        <key>nativeGreekScRoute</key>
+        <array>
+          <dict>
+            <key>advance</key>
+            <array>
+              <integer>449</integer>
+              <integer>0</integer>
+            </array>
+            <key>cluster</key>
+            <integer>0</integer>
+            <key>glyph</key>
+            <string>gamma.sc</string>
+            <key>offset</key>
+            <array>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
+        </array>
+        <key>nativeScBody</key>
+        <string>gamma.sc</string>
+        <key>newLatinSemanticPositions</key>
+        <dict>
+          <key>bottom</key>
+          <array>
+            <real>145.0</real>
+            <real>0.0</real>
+          </array>
+          <key>middle</key>
+          <array>
+            <real>144.5</real>
+            <real>283.0</real>
+          </array>
+          <key>ogonek</key>
+          <array>
+            <real>144.5</real>
+            <integer>0</integer>
+          </array>
+          <key>side</key>
+          <array>
+            <real>436.0337</real>
+            <integer>566</integer>
+          </array>
+          <key>top</key>
+          <array>
+            <real>266.0</real>
+            <real>566.0</real>
+          </array>
+        </dict>
+        <key>noCurveOrAdvanceChange</key>
+        <true/>
+        <key>roleBoundary</key>
+        <string>Greek zero coordinates are not treated as inactive or transferred to unrelated Latin classes. New side/middle/ogonek positions require actual compiled mark/stack testing.</string>
+        <key>semanticRoleEvidence</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>sourceBody</key>
+        <dict>
+          <key>bytes</key>
+          <integer>891</integer>
+          <key>path</key>
+          <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/gamma.sc.glif</string>
+          <key>sha256</key>
+          <string>c8d98ff4ebd76dc42969a224ec79cda98b8256113180b81e4803ed89ac942c76</string>
+        </dict>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>529776</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-Medium.ttf</string>
+          <key>sha256</key>
+          <string>67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4</string>
+        </dict>
+        <key>sourceLatinInput</key>
+        <dict>
+          <key>bytes</key>
+          <integer>2416</integer>
+          <key>path</key>
+          <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni027C_.glif</string>
+          <key>sha256</key>
+          <string>1e2d1cdbec4cfaa1a038835592c092931b3ec22ae1a82bfa15455c093c99cdfe</string>
+        </dict>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>45f149604ef6273d5048d2a655bbfac09c122a6f8761412493b79b3ec49becf3</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-LATIN-LONG-LEG-R-SMALLCAP-2026-11-07</string>
+        <key>planSha256</key>
+        <string>70f8467e9460bd1d52b2cd8ab1e981a71838b4a45acbe8bd1ceb30f0a354647a</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

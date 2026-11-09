@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0486" format="2">
+  <unicode hex="0486"/>
+  <anchor x="-110" y="530" name="_Anchor35__Anchor35"/>
+  <anchor x="-110" y="530" name="_Anchor56_Anchor56_"/>
+  <anchor x="-110" y="530" name="_Anchor62_Anchor62_"/>
+  <anchor x="-97" y="764" name="mark2__MarkToMark55__Anchor56_Anchor56_"/>
+  <outline>
+    <contour>
+      <point x="-156" y="605" type="line" smooth="yes"/>
+      <point x="-156" y="612"/>
+      <point x="-145" y="620"/>
+      <point x="-133" y="622" type="qcurve" smooth="yes"/>
+      <point x="-114" y="626"/>
+      <point x="-96" y="644"/>
+      <point x="-94" y="663" type="qcurve"/>
+      <point x="-100" y="661"/>
+      <point x="-107" y="661" type="qcurve" smooth="yes"/>
+      <point x="-123" y="661"/>
+      <point x="-146" y="669"/>
+      <point x="-160" y="683"/>
+      <point x="-166" y="700"/>
+      <point x="-166" y="709" type="qcurve" smooth="yes"/>
+      <point x="-166" y="733"/>
+      <point x="-136" y="764"/>
+      <point x="-108" y="764" type="qcurve" smooth="yes"/>
+      <point x="-76" y="764"/>
+      <point x="-41" y="721"/>
+      <point x="-41" y="686" type="qcurve" smooth="yes"/>
+      <point x="-41" y="664"/>
+      <point x="-55" y="626"/>
+      <point x="-83" y="599"/>
+      <point x="-127" y="583"/>
+      <point x="-156" y="583" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.cyrillicPsiliConstruction</key>
+      <dict>
+        <key>anchorPolicy</key>
+        <string>Retain the genuine Lato psili shape and its optical horizontal attachment relation. Place its lower ink at the same-cut native comma-above lower-ink height. Use the actual native Cyrillic above/MKM input role y, and derive one receiving-stack role from the actual native acute ink-relative receiver. These new roles require actual candidate authentic-stack and clipping review.</string>
+        <key>construction</key>
+        <string>Normalise the genuine same-cut existing-parent psili outline from2000 to1000 UPM, then translate it without distortion into the measured native above-mark frame. Preserve genuine italic and weight-specific shape; add only explicit new attachment/receiving roles.</string>
+        <key>existingParent</key>
+        <dict>
+          <key>actualCyrillicMarkBaseObservations</key>
+          <array>
+            <dict>
+              <key>actualLowercaseCyrillicOAnchor</key>
+              <array>
+                <integer>573</integer>
+                <integer>1120</integer>
+              </array>
+              <key>actualMarkAnchor</key>
+              <array>
+                <integer>400</integer>
+                <integer>1120</integer>
+              </array>
+              <key>lookup</key>
+              <integer>4</integer>
+              <key>markClass</key>
+              <integer>0</integer>
+              <key>subtable</key>
+              <integer>0</integer>
+            </dict>
+          </array>
+          <key>actualParentLowercaseORun</key>
+          <array>
+            <dict>
+              <key>advance</key>
+              <array>
+                <integer>1142</integer>
+                <integer>0</integer>
+              </array>
+              <key>cluster</key>
+              <integer>0</integer>
+              <key>glyph</key>
+              <string>uni043E</string>
+              <key>offset</key>
+              <array>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>advance</key>
+              <array>
+                <integer>0</integer>
+                <integer>0</integer>
+              </array>
+              <key>cluster</key>
+              <integer>0</integer>
+              <key>glyph</key>
+              <string>uni0486</string>
+              <key>offset</key>
+              <array>
+                <integer>-969</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>copyright</key>
+          <string>Copyright (c) 2011-2015 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL). </string>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>668548</integer>
+            <key>sha256</key>
+            <string>71b8b7decbe75a881ed267be539d402bd1e9420b799658aada4e0d1bd5af803c</string>
+            <key>sourceFamily</key>
+            <string>Lato</string>
+            <key>sourceFile</key>
+            <string>Lato-SemiBold.ttf</string>
+            <key>sourceVersion</key>
+            <string>2.015</string>
+          </dict>
+          <key>fontVersion</key>
+          <string>Version 2.015; 2015-08-06; http://www.latofonts.com/</string>
+          <key>glyph</key>
+          <string>uni0486</string>
+          <key>originalUnitsPerEm</key>
+          <integer>2000</integer>
+          <key>preservedLicence</key>
+          <dict>
+            <key>bytes</key>
+            <integer>4407</integer>
+            <key>path</key>
+            <string>licenses/lato/OFL.txt</string>
+            <key>sha256</key>
+            <string>74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e</string>
+          </dict>
+        </dict>
+        <key>kind</key>
+        <string>Purpose-coded Cyrillic psili pneumata from inherited Lato</string>
+        <key>nativePlacementControl</key>
+        <dict>
+          <key>bounds</key>
+          <array>
+            <integer>-177</integer>
+            <integer>583</integer>
+            <integer>-30</integer>
+            <integer>831</integer>
+          </array>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>562072</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-SemiBold.ttf</string>
+            <key>sha256</key>
+            <string>3bab32b938c638d9c79df61a6c486a6288e5b988245c527a9913a7dadbf45a05</string>
+          </dict>
+          <key>glyph</key>
+          <string>uni0313</string>
+          <key>source</key>
+          <dict>
+            <key>bytes</key>
+            <integer>1375</integer>
+            <key>path</key>
+            <string>sources/ufo/TravellerScreen-SemiBold.ufo/glyphs/uni0313.glif</string>
+            <key>sha256</key>
+            <string>84ce9862435f254a281ed9651973e8acf862750ab7e3a03dfd600731504f8beb</string>
+          </dict>
+        </dict>
+        <key>nativeReceivingStackControl</key>
+        <dict>
+          <key>bounds</key>
+          <array>
+            <integer>-300</integer>
+            <integer>626</integer>
+            <integer>-30</integer>
+            <integer>827</integer>
+          </array>
+          <key>glyph</key>
+          <string>acutecomb</string>
+          <key>inkRelativeReceiverOffset</key>
+          <array>
+            <real>6.0</real>
+            <real>0.0</real>
+          </array>
+          <key>source</key>
+          <dict>
+            <key>bytes</key>
+            <integer>1168</integer>
+            <key>path</key>
+            <string>sources/ufo/TravellerScreen-SemiBold.ufo/glyphs/acutecomb.glif</string>
+            <key>sha256</key>
+            <string>c1d5412f34b5be54c021112df8d9b42e687c66bcf17f75a703efa6f077aefe64</string>
+          </dict>
+        </dict>
+        <key>outlineTranslation</key>
+        <array>
+          <real>-310.25</real>
+          <real>25.029411764705856</real>
+        </array>
+        <key>rights</key>
+        <string>Existing inherited Lato/Fira OFL 1.1, copyright and Reserved Font Name notices remain. No Noto outline or new parent.</string>
+        <key>scope</key>
+        <string>Only U+0486 for the named authentic Church Slavonic contexts. U+0483/0484/0485/0487 remain unsupported in this bounded candidate.</string>
+        <key>sourceIdentity</key>
+        <string>Nominal U+0486 is new and remains U+0486. The source is the purpose-coded original Lato U+0486, not U+0313, U+0305 or a Unicode decomposition. Native U+0313 is a positioning control only; no outline is copied from it.</string>
+        <key>unicode</key>
+        <string>U+0486</string>
+        <key>unitsPerEmNormalisation</key>
+        <real>0.5</real>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>cb408c786c53789e04b8ab601f1381b5248f8fa5d0c5d3e43169fea7917fd0e3</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-FINITE-CYRILLIC-ISO-2026-11-07</string>
+        <key>planSha256</key>
+        <string>1df1bdcfa9a84fb444119b67326934ca113a1fc53acae4a49c30d19f786485e8</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA7DC.sc" format="2">
+  <advance width="518"/>
+  <anchor x="259" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="262" y="567" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="150" y="307" type="line"/>
+      <point x="169" y="318" type="line"/>
+      <point x="-5" y="0" type="line"/>
+      <point x="145" y="0" type="line"/>
+      <point x="257" y="249" type="line"/>
+      <point x="368" y="0" type="line"/>
+      <point x="522" y="0" type="line"/>
+      <point x="330" y="355" type="line"/>
+      <point x="330" y="418" type="line"/>
+      <point x="413" y="470" type="line"/>
+      <point x="367" y="543" type="line"/>
+      <point x="330" y="520" type="line"/>
+      <point x="330" y="567" type="line"/>
+      <point x="188" y="567" type="line"/>
+      <point x="188" y="432" type="line"/>
+      <point x="105" y="381" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.successorSmallcapDesign</key>
+      <dict>
+        <key>geometry</key>
+        <dict>
+          <key>barCentre</key>
+          <array>
+            <real>259.0</real>
+            <real>425.25</real>
+          </array>
+          <key>barLengthRule</key>
+          <string>Preserve the reviewed capital form span/advance proportion; shorten only the native small-cap slash along its axis, retaining transverse weight and terminal cuts.</string>
+          <key>barPoints</key>
+          <array>
+            <array>
+              <real>150.0939108061749</real>
+              <real>306.9580234244896</real>
+            </array>
+            <array>
+              <real>105.0939108061749</real>
+              <real>380.9580234244896</real>
+            </array>
+            <array>
+              <real>367.4060891938251</real>
+              <real>543.0419765755105</real>
+            </array>
+            <array>
+              <real>413.4060891938251</real>
+              <real>470.0419765755105</real>
+            </array>
+          </array>
+          <key>nativeBody</key>
+          <string>y.sc rotated 180 degrees</string>
+          <key>nativeSlash</key>
+          <string>lslash.sc</string>
+          <key>notGreekLambdaAlias</key>
+          <true/>
+          <key>rotation</key>
+          <array>
+            <integer>-1</integer>
+            <integer>0</integer>
+            <integer>0</integer>
+            <integer>-1</integer>
+            <integer>518</integer>
+            <integer>567</integer>
+          </array>
+          <key>sourceSlashPointIndices</key>
+          <array>
+            <integer>4</integer>
+            <integer>5</integer>
+            <integer>10</integer>
+            <integer>11</integer>
+          </array>
+        </dict>
+        <key>kind</key>
+        <string>Same-cut genuine native small-cap construction</string>
+        <key>noCapitalScaling</key>
+        <true/>
+        <key>noSyntheticItalic</key>
+        <true/>
+        <key>rounding</key>
+        <string>Only output contour coordinates and new intersection points are rounded with otRound, at most 0.5 unit per coordinate.</string>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>562072</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-SemiBold.ttf</string>
+            <key>sha256</key>
+            <string>3bab32b938c638d9c79df61a6c486a6288e5b988245c527a9913a7dadbf45a05</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>y.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1400</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-SemiBold.ufo/glyphs/y.sc.glif</string>
+                <key>sha256</key>
+                <string>5dcd74f18f269873ccd6e3780ad2b71f6cacd32bd444fea2207ccd25d9625d11</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>lslash.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1693</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-SemiBold.ufo/glyphs/lslash.sc.glif</string>
+                <key>sha256</key>
+                <string>796004f934267c25821d53e1973ccf15c9ec60f9122125d4772d6ed998af6977</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>624af19f6c0711ba09c99aacf547397fbaed8e5ae8d93f9171c50e7893e94378</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-SCREEN-NATIVE-SMALLCAPS-2026-11-07</string>
+        <key>planSha256</key>
+        <string>dc99b52a8d6e8d8da0cca112965d43939e65ea2e077c5dee9d59b987db23f0c7</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

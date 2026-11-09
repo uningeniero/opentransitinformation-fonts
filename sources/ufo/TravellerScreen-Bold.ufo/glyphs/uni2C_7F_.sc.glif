@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni2C7F.sc" format="2">
+  <advance width="518"/>
+  <anchor x="252" y="568" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="223" y="-210" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="223" y="-210" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="252" y="284" name="base__Extension52__Anchor51__Anchor51"/>
+  <anchor x="459" y="568" name="base__Extension52__Anchor50__Anchor50"/>
+  <outline>
+    <contour>
+      <point x="459" y="451" type="line"/>
+      <point x="459" y="568" type="line"/>
+      <point x="46" y="568" type="line"/>
+      <point x="46" y="449" type="line"/>
+      <point x="279" y="449" type="line"/>
+      <point x="65" y="172" type="line"/>
+      <point x="63" y="170" type="line"/>
+      <point x="18" y="112" type="line"/>
+      <point x="22" y="0" type="line"/>
+      <point x="74" y="-4"/>
+      <point x="143" y="-38"/>
+      <point x="185" y="-83"/>
+      <point x="213" y="-119" type="qcurve" smooth="yes"/>
+      <point x="241" y="-154"/>
+      <point x="282" y="-194"/>
+      <point x="344" y="-221"/>
+      <point x="387" y="-221" type="qcurve" smooth="yes"/>
+      <point x="450" y="-221"/>
+      <point x="491" y="-191" type="qcurve"/>
+      <point x="459" y="-95" type="line"/>
+      <point x="444" y="-101"/>
+      <point x="422" y="-106"/>
+      <point x="405" y="-106" type="qcurve" smooth="yes"/>
+      <point x="376" y="-106"/>
+      <point x="339" y="-73"/>
+      <point x="317" y="-36" type="qcurve" smooth="yes"/>
+      <point x="288" y="8"/>
+      <point x="222" y="67"/>
+      <point x="169" y="86" type="qcurve"/>
+      <point x="236" y="170" type="line"/>
+      <point x="237" y="172" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>e892d4315f1540f14252274ee2fb0b3c83837198a18e7ae4cbe5bd16d2240beb</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-LATIN-Z-SWASH-SMALLCAP-2026-11-07</string>
+        <key>planSha256</key>
+        <string>cdf2a08a59c70a734f3265ecd9c215d11b9619a077269440cf9bb4eaeac4580e</string>
+        <key>reviewSha256</key>
+        <string>ca88442b897f88702e85a68b4552f4336a672ea8abb86ba65c5669679dfa09a5</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+      <key>org.opentransitinformation.zSwashSmallcapConstruction</key>
+      <dict>
+        <key>boundary</key>
+        <string>Two-cut structural source prototype. The explicit flat-foot replacement is an intentional body cost. Rounded transition, swash weight, native edge bearings, all-cut roles and actual target-size spacing require later review. Smoothstep control-point fitting is not a C1 curve guarantee.</string>
+        <key>bounds</key>
+        <array>
+          <real>17.900689125061035</real>
+          <real>-221.0</real>
+          <real>491.3175048828125</real>
+          <real>568.0</real>
+        </array>
+        <key>construction</key>
+        <string>Retain the genuine same-cut SC Z top and upper diagonal. Remove its flat lower bar and replace the lower terminal with the purpose-coded native U0240 swash. Fit both diagonal edges through the baseline using two measured straight diagonal guides, blending only below baseline to an unchanged translated deep swash. Do not paste a swash under a retained flat Z bar, reduce a whole capital or use a reference outline.</string>
+        <key>deepSwashTranslationX</key>
+        <real>1.3174999999999955</real>
+        <key>guideY</key>
+        <real>170.4</real>
+        <key>intentionallyRemovedFlatScFootArea</key>
+        <real>28767.044235229492</real>
+        <key>joiningBlendRange</key>
+        <array>
+          <real>-68.16</real>
+          <integer>0</integer>
+        </array>
+        <key>nativeDefiningExtendedSource</key>
+        <string>uni0240</string>
+        <key>nativeFrame</key>
+        <integer>568</integer>
+        <key>nativeScBody</key>
+        <string>z.sc</string>
+        <key>nativeScBounds</key>
+        <array>
+          <integer>18</integer>
+          <integer>0</integer>
+          <integer>461</integer>
+          <integer>568</integer>
+        </array>
+        <key>newLatinPositionsBeforeRounding</key>
+        <dict>
+          <key>bottom</key>
+          <array>
+            <real>223.3175</real>
+            <real>-210.0</real>
+          </array>
+          <key>middle</key>
+          <array>
+            <real>252.0</real>
+            <real>284.0</real>
+          </array>
+          <key>ogonek</key>
+          <array>
+            <real>223.3175</real>
+            <real>-210.0</real>
+          </array>
+          <key>side</key>
+          <array>
+            <real>459.0</real>
+            <integer>568</integer>
+          </array>
+          <key>top</key>
+          <array>
+            <real>252.0</real>
+            <real>568.0</real>
+          </array>
+        </dict>
+        <key>preservedNativeUpperBodyMissingArea</key>
+        <real>0.0</real>
+        <key>roleRationale</key>
+        <string>Retain the genuine SC Z top role through whole-source translation. Move the purpose-coded native U0240 below role with the unchanged deep swash; ogonek shares that below-tail source point. Set middle and side explicitly on the genuine SC frame/upper body. All positions are source hypotheses requiring actual marks/stacks; native zeros are not treated as inactive.</string>
+        <key>scDiagonalIntervals</key>
+        <array>
+          <array>
+            <real>60.1477</real>
+            <real>232.893</real>
+          </array>
+          <array>
+            <real>104.155</real>
+            <real>278.055</real>
+          </array>
+        </array>
+        <key>secondGuideY</key>
+        <real>227.20000000000002</real>
+        <key>semanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>sourceBounds</key>
+        <array>
+          <integer>13</integer>
+          <integer>-221</integer>
+          <integer>487</integer>
+          <integer>531</integer>
+        </array>
+        <key>sourceDiagonalIntervals</key>
+        <array>
+          <array>
+            <real>59.9147</real>
+            <real>230.491</real>
+          </array>
+          <array>
+            <real>105.544</real>
+            <real>277.2575</real>
+          </array>
+        </array>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>562504</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-Bold.ttf</string>
+          <key>sha256</key>
+          <string>0d592c479c60eb82aa7c215e18a88f62409f137b76bbf12165df23c68a364ddb</string>
+        </dict>
+        <key>sourceGlifs</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>z.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1472</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Bold.ufo/glyphs/z.sc.glif</string>
+              <key>sha256</key>
+              <string>7ea31164bbc1feacfd18a289a7c66e4c0efd3a45fc70eb3b804abb72f903d73e</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>uni0240</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2463</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Bold.ufo/glyphs/uni0240.glif</string>
+              <key>sha256</key>
+              <string>cdfa759aab8a73ff9f5d0c0d14acd249dec6f109e5990b191f5a59ea5b7bc05f</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>z</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1784</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Bold.ufo/glyphs/z.glif</string>
+              <key>sha256</key>
+              <string>54c465fdb691a67fd3c38c564ba39362c903c60bc652b23523b2958b29bb7fbd</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1559</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Bold.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>d8b0a0e89b98c542dc3c84cc26c1a9bf1f841e16d944a2b9064583583594de71</string>
+            </dict>
+          </dict>
+        </array>
+        <key>wholeTranslationX</key>
+        <integer>3</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

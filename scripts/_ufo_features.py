@@ -129,7 +129,9 @@ def inherit_kerning(ufo,aliases):
         nonlocal changed
         for item in statements:
             if isinstance(item,ast.PairPosStatement):
+                specific=item.enumerated or (isinstance(item.glyphs1,ast.GlyphName) and isinstance(item.glyphs2,ast.GlyphName))
                 item.glyphs1,left=expand(item.glyphs1);item.glyphs2,right=expand(item.glyphs2)
+                if (left or right) and specific:item.enumerated=True
                 changed+=int(left or right)
             elif hasattr(item,'statements'):visit(item.statements)
     visit(tree.statements)

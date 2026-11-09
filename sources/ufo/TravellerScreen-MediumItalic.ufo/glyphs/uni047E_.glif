@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni047E" format="2">
+  <advance width="857"/>
+  <unicode hex="047E"/>
+  <anchor x="391" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="511" y="853" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="52" y="203" type="qcurve" smooth="yes"/>
+      <point x="52" y="-15"/>
+      <point x="234" y="-15" type="qcurve" smooth="yes"/>
+      <point x="355" y="-15"/>
+      <point x="405" y="106" type="qcurve"/>
+      <point x="421" y="-15"/>
+      <point x="549" y="-15" type="qcurve" smooth="yes"/>
+      <point x="693" y="-15"/>
+      <point x="818" y="250"/>
+      <point x="818" y="454" type="qcurve" smooth="yes"/>
+      <point x="818" y="579"/>
+      <point x="784" y="691" type="qcurve"/>
+      <point x="660" y="691" type="line"/>
+      <point x="674" y="628"/>
+      <point x="689" y="521"/>
+      <point x="689" y="457" type="qcurve" smooth="yes"/>
+      <point x="689" y="313"/>
+      <point x="623" y="86"/>
+      <point x="542" y="86" type="qcurve" smooth="yes"/>
+      <point x="477" y="86"/>
+      <point x="477" y="153" type="qcurve" smooth="yes"/>
+      <point x="477" y="167"/>
+      <point x="480" y="185" type="qcurve" smooth="yes"/>
+      <point x="510" y="398" type="line"/>
+      <point x="381" y="398" type="line"/>
+      <point x="352" y="190" type="line" smooth="yes"/>
+      <point x="337" y="86"/>
+      <point x="255" y="86" type="qcurve" smooth="yes"/>
+      <point x="216" y="86"/>
+      <point x="181" y="137"/>
+      <point x="181" y="199" type="qcurve" smooth="yes"/>
+      <point x="181" y="312"/>
+      <point x="255" y="576"/>
+      <point x="315" y="691" type="qcurve"/>
+      <point x="191" y="691" type="line"/>
+      <point x="127" y="579"/>
+      <point x="52" y="322"/>
+    </contour>
+    <contour>
+      <point x="701" y="853" type="qcurve"/>
+      <point x="304" y="853" type="line"/>
+      <point x="303" y="847"/>
+      <point x="303" y="838"/>
+      <point x="303" y="834" type="qcurve"/>
+      <point x="315" y="745" type="line"/>
+      <point x="315" y="739"/>
+      <point x="322" y="733"/>
+      <point x="330" y="733"/>
+      <point x="339" y="739"/>
+      <point x="341" y="745" type="qcurve" smooth="yes"/>
+      <point x="363" y="804" type="line"/>
+      <point x="469" y="804" type="line"/>
+      <point x="476" y="745" type="line" smooth="yes"/>
+      <point x="477" y="739"/>
+      <point x="484" y="733"/>
+      <point x="492" y="733"/>
+      <point x="501" y="739"/>
+      <point x="503" y="745" type="qcurve" smooth="yes"/>
+      <point x="524" y="804" type="line"/>
+      <point x="630" y="804" type="line"/>
+      <point x="637" y="745" type="line" smooth="yes"/>
+      <point x="638" y="739"/>
+      <point x="645" y="733"/>
+      <point x="653" y="733"/>
+      <point x="661" y="739"/>
+      <point x="664" y="745" type="qcurve"/>
+      <point x="697" y="834" type="line"/>
+      <point x="698" y="839"/>
+      <point x="700" y="847"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.historicalCyrillicConstruction</key>
+      <dict>
+        <key>actualHeadBodyFilledInkIntersectionSquareFontUnits</key>
+        <real>0.0</real>
+        <key>anchorPolicy</key>
+        <string>Retain native body roles below; put the top role above the actual fixed component ink in the native italic axis. Actual candidate coverage, stacked paint and line clipping remain required.</string>
+        <key>bodyAdvanceUnchanged</key>
+        <true/>
+        <key>donorBodyTop</key>
+        <integer>1450</integer>
+        <key>fixedHeadContours</key>
+        <integer>1</integer>
+        <key>fixedHeadSource</key>
+        <dict>
+          <key>copyright</key>
+          <string>Copyright (c) 2011-2015 by tyPoland Lukasz Dziedzic (http://www.typoland.com/) with Reserved Font Name "Lato". Licensed under the SIL Open Font License, Version 1.1 (http://scripts.sil.org/OFL). </string>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>694924</integer>
+            <key>sha256</key>
+            <string>ecbce6cffa42d8a67afeb27a9d6e85d515e81481d4b2cece989e833a48048405</string>
+            <key>sourceFamily</key>
+            <string>Lato</string>
+            <key>sourceFile</key>
+            <string>Lato-MediumItalic.ttf</string>
+            <key>sourceVersion</key>
+            <string>2.015</string>
+          </dict>
+          <key>fontVersion</key>
+          <string>Version 2.015; 2015-08-06; http://www.latofonts.com/</string>
+          <key>glyph</key>
+          <string>uni047E</string>
+          <key>originalUnitsPerEm</key>
+          <integer>2000</integer>
+          <key>preservedLicence</key>
+          <dict>
+            <key>bytes</key>
+            <integer>4407</integer>
+            <key>path</key>
+            <string>licenses/lato/OFL.txt</string>
+            <key>sha256</key>
+            <string>74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e</string>
+          </dict>
+          <key>unicode</key>
+          <string>U+047E</string>
+        </dict>
+        <key>headTranslation</key>
+        <array>
+          <real>-75.0499700690317</real>
+          <real>-34.0</real>
+        </array>
+        <key>kind</key>
+        <string>Ot with fixed three-tooth head</string>
+        <key>nativeBodyConstruction</key>
+        <dict>
+          <key>body</key>
+          <string>uni0460</string>
+          <key>kind</key>
+          <string>Unchanged genuine native Cyrillic omega body</string>
+        </dict>
+        <key>nativeBodyTop</key>
+        <integer>691</integer>
+        <key>rights</key>
+        <string>Retain both inherited Fira and Lato OFL copyright and Reserved Font Name notices. The existing Lato original and acquisition evidence remain unchanged.</string>
+        <key>smallcapUsesRealNativeSmallcapBodyAndLowercaseFixedComponent</key>
+        <false/>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>530768</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-MediumItalic.ttf</string>
+            <key>sha256</key>
+            <string>425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>uni0421</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>905</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni0421.glif</string>
+                <key>sha256</key>
+                <string>01ed44d98ee342748c367f883136792c27d2b3be1fd6f23493a32b4cccf02803</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni0460</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>911</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni0460.glif</string>
+                <key>sha256</key>
+                <string>99db04ee8e38b2cc3c52c2fb16f6f0e3563c1147bec00ca25b9012ee167fa786</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+        <key>sourceChoice</key>
+        <string>Native Screen bodies have the required genuine case and small-cap construction. The existing inherited Lato 2.015 parent supplies only its purpose-coded fixed letter ornament or head, separately for each genuine weight/italic. No additional font parent or Noto outline is adopted. Only units-per-em normalisation and placement are applied to the fixed component; its internal contours are unchanged.</string>
+        <key>unicodeIdentity</key>
+        <string>The fixed ornament/head is part of this encoded historical letter. It is not optional U+0483, not an OpenType combining-mark substitute, and no Unicode decomposition is added.</string>
+        <key>unitsPerEmNormalisation</key>
+        <real>0.5</real>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>280fafcef90c6d4f685a4b3c245aefbf83647ac82b280806013e6bfc06f85e91</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-HISTORICAL-CYRILLIC-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>99fb8d104a9a51da690f3e65e2a911901a40318e68e473c1cfd2666d007045fc</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni01AB.sc" format="2">
+  <advance width="456"/>
+  <anchor x="229" y="564" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="293" y="-213" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="293" y="-213" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="229" y="283" name="base__Extension52__Anchor51__Anchor51"/>
+  <anchor x="446" y="564" name="base__Extension52__Anchor50__Anchor50"/>
+  <outline>
+    <contour>
+      <point x="437" y="488" type="line"/>
+      <point x="446" y="564" type="line"/>
+      <point x="15" y="564" type="line"/>
+      <point x="15" y="488" type="line"/>
+      <point x="183" y="488" type="line"/>
+      <point x="183" y="138" type="line" smooth="yes"/>
+      <point x="183" y="66"/>
+      <point x="256" y="-12"/>
+      <point x="315" y="-12" type="qcurve" smooth="yes"/>
+      <point x="337" y="-12"/>
+      <point x="354" y="-5" type="qcurve"/>
+      <point x="354" y="-65" type="line" smooth="yes"/>
+      <point x="354" y="-139"/>
+      <point x="287" y="-139" type="qcurve" smooth="yes"/>
+      <point x="264" y="-139"/>
+      <point x="233" y="-128"/>
+      <point x="213" y="-116" type="qcurve"/>
+      <point x="177" y="-175" type="line"/>
+      <point x="227" y="-213"/>
+      <point x="292" y="-213" type="qcurve" smooth="yes"/>
+      <point x="363" y="-213"/>
+      <point x="443" y="-133"/>
+      <point x="443" y="-57" type="qcurve" smooth="yes"/>
+      <point x="443" y="24" type="line"/>
+      <point x="415" y="74" type="line"/>
+      <point x="373" y="60"/>
+      <point x="338" y="60" type="qcurve" smooth="yes"/>
+      <point x="304" y="60"/>
+      <point x="275" y="97"/>
+      <point x="275" y="138" type="qcurve" smooth="yes"/>
+      <point x="275" y="488" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.tNativeTerminalScConstruction</key>
+      <dict>
+        <key>boundary</key>
+        <string>Two-cut structural prototype only. The lower SC shaft replacement is deliberate and is not labelled whole-body conservation. The four-unit overlap and smooth control field do not prove C1 or raster continuity; actual curve/junction/weight/roles/spacing need review. Independent of held R17 kerning.</string>
+        <key>caseSpecificRationale</key>
+        <string>Preserve the complete palatal hook, curved foot and deep return.</string>
+        <key>construction</key>
+        <string>Retain the genuine same-cut SC T crossbar and upper shaft exactly. Intentionally replace the lower shaft below the declared joining band with the complete native lower terminal, including every curl above baseline and every deep palatal-hook curve. Match both actual straight-stem edges across a narrow upper overlap, blending only the straight joining stem above the highest terminal control; every complete terminal curve/counter remains translated unchanged. No clipped-below-baseline fragment, retained square stem stub, generic T alias or capital reduction.</string>
+        <key>fullNativeTerminalControlTop</key>
+        <integer>138</integer>
+        <key>guideY</key>
+        <real>282.0</real>
+        <key>intentionallyRemovedLowerScSelectionArea</key>
+        <real>25760.0</real>
+        <key>joiningStemBand</key>
+        <array>
+          <integer>138</integer>
+          <real>280.0</real>
+        </array>
+        <key>keptUpperScMissingArea</key>
+        <real>0.0</real>
+        <key>kerningBoundary</key>
+        <string>No automatic ordinary T/t.sc or native-input donor. A separate explicit edge policy must preserve complete actual first-applicable native effects under both current R17 holds. The complete curl/hook and advance/negative-bearing costs require actual all-cut kern0/1 and native16/24px review.</string>
+        <key>lowerRoleSample</key>
+        <dict>
+          <key>intervals</key>
+          <array>
+            <array>
+              <real>271.363</real>
+              <real>313.6545</real>
+            </array>
+          </array>
+          <key>y</key>
+          <real>-212.0</real>
+        </dict>
+        <key>nativeFrame</key>
+        <integer>564</integer>
+        <key>nativeInputAnchorCoordinates</key>
+        <dict>
+          <key>base__Extension52__Anchor47__Anchor47</key>
+          <array>
+            <real>181.0</real>
+            <real>-202.0</real>
+          </array>
+          <key>base__Extension52__Anchor48__Anchor48</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+          <key>base__Extension52__Anchor49__Anchor49</key>
+          <array>
+            <real>147.0</real>
+            <real>646.0</real>
+          </array>
+          <key>base__Extension52__Anchor50__Anchor50</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+          <key>base__Extension52__Anchor51__Anchor51</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+        </dict>
+        <key>nativePurposeCodedTerminal</key>
+        <string>uni01AB</string>
+        <key>nativeScAnchorCoordinates</key>
+        <dict>
+          <key>base__Extension52__Anchor47__Anchor47</key>
+          <array>
+            <real>229.0</real>
+            <real>0.0</real>
+          </array>
+          <key>base__Extension52__Anchor48__Anchor48</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+          <key>base__Extension52__Anchor49__Anchor49</key>
+          <array>
+            <real>229.0</real>
+            <real>564.0</real>
+          </array>
+          <key>base__Extension52__Anchor50__Anchor50</key>
+          <array>
+            <real>0.0</real>
+            <real>0.0</real>
+          </array>
+          <key>base__Extension52__Anchor51__Anchor51</key>
+          <array>
+            <real>229.0</real>
+            <real>283.0</real>
+          </array>
+        </dict>
+        <key>nativeScBody</key>
+        <string>t.sc</string>
+        <key>nativeTailTranslationX</key>
+        <real>82.0</real>
+        <key>newLatinPositionsBeforeRounding</key>
+        <dict>
+          <key>bottom</key>
+          <array>
+            <real>292.50874999999996</real>
+            <real>-213.0</real>
+          </array>
+          <key>middle</key>
+          <array>
+            <real>229.0</real>
+            <real>283.0</real>
+          </array>
+          <key>ogonek</key>
+          <array>
+            <real>292.50874999999996</real>
+            <real>-213.0</real>
+          </array>
+          <key>side</key>
+          <array>
+            <integer>446</integer>
+            <integer>564</integer>
+          </array>
+          <key>top</key>
+          <array>
+            <real>229.0</real>
+            <real>564.0</real>
+          </array>
+        </dict>
+        <key>originalFullScBodyMissingArea</key>
+        <real>2566.598398844401</real>
+        <key>roleRationale</key>
+        <string>Keep genuine SC T top and middle optical roles because their upper body and shaft are retained. Place side at the retained upper crossbar right edge. Below/ogonek use the complete terminal ink bottom and the centre of its one-unit-above-bottom ink slice. Do not copy native zero default roles or an unrelated deep native anchor: the two terminals have different actual extents. New source roles are explicit placement hypotheses; actual attachments/stacks remain required.</string>
+        <key>scStemIntervals</key>
+        <array>
+          <array>
+            <real>183.0</real>
+            <real>275.0</real>
+          </array>
+          <array>
+            <real>183.0</real>
+            <real>275.0</real>
+          </array>
+        </array>
+        <key>secondGuideY</key>
+        <real>338.4</real>
+        <key>semanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>sourceChoice</key>
+        <string>The lower SC shaft is intentionally replaced, not conserved. Complete native terminal curves/counters remain translated; only the straight joining stem above the highest terminal control is fitted to both SC shaft edges. The genuine SC upper crossbar and shaft remain exact before output rounding.</string>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>528104</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-Regular.ttf</string>
+          <key>sha256</key>
+          <string>0f388a18474fdac15af1af4d6e12d6924abea889da38bad2e205c7c6a28bf236</string>
+        </dict>
+        <key>sourceGlifs</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>uni01AB</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2578</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Regular.ufo/glyphs/uni01A_B_.glif</string>
+              <key>sha256</key>
+              <string>25a2341021a0fb0b6929987cf8ead7a75198cd2494f49eb7faa5e195f80406d0</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>t.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1348</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Regular.ufo/glyphs/t.sc.glif</string>
+              <key>sha256</key>
+              <string>62fe1c9a1c5436425c9a9635f94fb22d933a2db299ce26cc6b07fa164891bfdc</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1563</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Regular.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>4035ea655ba1be4850d93de0018008088048eb4f5666c73482f23f889aeb3f09</string>
+            </dict>
+          </dict>
+        </array>
+        <key>sourceStemIntervals</key>
+        <array>
+          <array>
+            <real>101.0</real>
+            <real>193.0</real>
+          </array>
+          <array>
+            <real>101.0</real>
+            <real>193.0</real>
+          </array>
+        </array>
+        <key>spacing</key>
+        <string>Preserve genuine SC outer-bearing roles through actual new ink extent and one whole translation. Native terminal widths/overhangs remain explicit spacing costs; no automatic donor or actual native16/24px acceptance.</string>
+        <key>translatedUnchangedLowerControlPoints</key>
+        <integer>25</integer>
+        <key>twoUnitOverlapBand</key>
+        <array>
+          <real>280.0</real>
+          <real>284.0</real>
+        </array>
+        <key>wholeTranslationX</key>
+        <integer>0</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni047A" format="2">
+  <advance width="691"/>
+  <unicode hex="047A"/>
+  <anchor x="346" y="-77" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="457" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="346" y="769" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="563" y="691" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="648" y="346" type="qcurve" smooth="yes"/>
+      <point x="648" y="460"/>
+      <point x="575" y="622"/>
+      <point x="507" y="664" type="qcurve" smooth="yes"/>
+      <point x="470" y="687"/>
+      <point x="426" y="697" type="qcurve"/>
+      <point x="424" y="726"/>
+      <point x="404" y="746" type="qcurve" smooth="yes"/>
+      <point x="382" y="769"/>
+      <point x="346" y="769" type="qcurve" smooth="yes"/>
+      <point x="311" y="769"/>
+      <point x="288" y="746" type="qcurve" smooth="yes"/>
+      <point x="268" y="726"/>
+      <point x="266" y="697" type="qcurve"/>
+      <point x="222" y="686"/>
+      <point x="186" y="663" type="qcurve" smooth="yes"/>
+      <point x="117" y="620"/>
+      <point x="43" y="457"/>
+      <point x="43" y="345" type="qcurve" smooth="yes"/>
+      <point x="43" y="231"/>
+      <point x="117" y="69"/>
+      <point x="185" y="27" type="qcurve" smooth="yes"/>
+      <point x="222" y="4"/>
+      <point x="266" y="-6" type="qcurve"/>
+      <point x="267" y="-35"/>
+      <point x="288" y="-55" type="qcurve" smooth="yes"/>
+      <point x="311" y="-77"/>
+      <point x="346" y="-77" type="qcurve" smooth="yes"/>
+      <point x="382" y="-77"/>
+      <point x="404" y="-55" type="qcurve" smooth="yes"/>
+      <point x="425" y="-35"/>
+      <point x="426" y="-6" type="qcurve"/>
+      <point x="470" y="5"/>
+      <point x="506" y="28" type="qcurve" smooth="yes"/>
+      <point x="574" y="71"/>
+      <point x="648" y="233"/>
+    </contour>
+    <contour>
+      <point x="182" y="345" type="qcurve" smooth="yes"/>
+      <point x="182" y="480"/>
+      <point x="266" y="605"/>
+      <point x="426" y="605"/>
+      <point x="509" y="481"/>
+      <point x="509" y="346" type="qcurve" smooth="yes"/>
+      <point x="509" y="210"/>
+      <point x="426" y="86"/>
+      <point x="346" y="86" type="qcurve" smooth="yes"/>
+      <point x="182" y="86"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.historicalCyrillicConstruction</key>
+      <dict>
+        <key>body</key>
+        <string>uni041E</string>
+        <key>dotSource</key>
+        <string>dotaccent</string>
+        <key>identity</key>
+        <string>The two spots are fixed letterform parts in the licensed comparison form. They are not optional Unicode combining marks, and no text decomposition is introduced.</string>
+        <key>kind</key>
+        <string>Same-cut native round omega with two fixed letter spots</string>
+        <key>markBoundary</key>
+        <string>These are proposed source anchors. Actual candidate breathing, acute and stacked-mark placement still requires compiled paint and shaping review.</string>
+        <key>nativeDotBounds</key>
+        <array>
+          <integer>30</integer>
+          <integer>642</integer>
+          <integer>191</integer>
+          <integer>797</integer>
+        </array>
+        <key>noGlyphScaling</key>
+        <true/>
+        <key>placements</key>
+        <array>
+          <dict>
+            <key>dotTranslation</key>
+            <array>
+              <real>235.5</real>
+              <real>-28.5</real>
+            </array>
+            <key>nativeCentre</key>
+            <array>
+              <integer>346</integer>
+              <integer>691</integer>
+            </array>
+          </dict>
+          <dict>
+            <key>dotTranslation</key>
+            <array>
+              <real>235.5</real>
+              <real>-719.5</real>
+            </array>
+            <key>nativeCentre</key>
+            <array>
+              <integer>346</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
+        </array>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>529776</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-Medium.ttf</string>
+            <key>sha256</key>
+            <string>67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>uni041E</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>911</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni041E_.glif</string>
+                <key>sha256</key>
+                <string>d6623a649b47f7a4c293e554481fa9b8abf55b66eef400a6431daab1b3b1ac51</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>dotaccent</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>651</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/dotaccent.glif</string>
+                <key>sha256</key>
+                <string>da0843828c929220c39aff76476a459b250adde55a33d0eef450c7fb45c65a2a</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+        <key>topAndBottomMarkAnchorsFollowFixedLetterSpots</key>
+        <true/>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>3580f1da5298dc4a1044c14b565e4b7823300b65805d68cf4507230c05fd300e</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-HISTORICAL-CYRILLIC-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>53b50df1024449ff04626dca680639771282392c7de226505bd7d7278b4226e7</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

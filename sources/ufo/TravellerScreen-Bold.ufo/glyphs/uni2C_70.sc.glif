@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni2C70.sc" format="2">
+  <advance width="619"/>
+  <anchor x="307" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="359" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="307" y="568" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="524" y="568" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="307" y="284" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="28" y="471" type="qcurve"/>
+      <point x="74" y="585" type="line"/>
+      <point x="127" y="576"/>
+      <point x="190" y="538"/>
+      <point x="207" y="507" type="qcurve"/>
+      <point x="239" y="545"/>
+      <point x="318" y="585"/>
+      <point x="369" y="585" type="qcurve" smooth="yes"/>
+      <point x="435" y="585"/>
+      <point x="533" y="514"/>
+      <point x="586" y="383"/>
+      <point x="586" y="294" type="qcurve" smooth="yes"/>
+      <point x="586" y="203"/>
+      <point x="529" y="63"/>
+      <point x="425" y="-14"/>
+      <point x="355" y="-14" type="qcurve" smooth="yes"/>
+      <point x="311" y="-14"/>
+      <point x="246" y="17"/>
+      <point x="218" y="51" type="qcurve"/>
+      <point x="209" y="0" type="line"/>
+      <point x="71" y="0" type="line"/>
+      <point x="71" y="391" type="line" smooth="yes"/>
+      <point x="71" y="426"/>
+      <point x="53" y="460"/>
+    </contour>
+    <contour>
+      <point x="229" y="419" type="qcurve"/>
+      <point x="229" y="146" type="line"/>
+      <point x="249" y="123"/>
+      <point x="288" y="101"/>
+      <point x="316" y="101" type="qcurve" smooth="yes"/>
+      <point x="422" y="101"/>
+      <point x="422" y="294" type="qcurve" smooth="yes"/>
+      <point x="422" y="392"/>
+      <point x="372" y="469"/>
+      <point x="328" y="469" type="qcurve" smooth="yes"/>
+      <point x="297" y="469"/>
+      <point x="251" y="444"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.orientedSmallcapConstruction</key>
+      <dict>
+        <key>actualSemanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>anchorBoundary</key>
+        <string>Top/bottom roles follow the corresponding oriented native body position. Side, ogonek and middle are deliberately designed in the new orientation using actual per-cut class membership, not rotated indiscriminately or inferred inactive from zero.</string>
+        <key>anchorRoleObservations</key>
+        <array>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor47__Anchor47</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>307.0</real>
+              <real>0.0</real>
+            </array>
+            <key>semanticRole</key>
+            <string>bottom</string>
+            <key>sourceBodyCoordinate</key>
+            <string>No source anchor exists</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor48__Anchor48</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>358.91715</real>
+              <integer>0</integer>
+            </array>
+            <key>semanticRole</key>
+            <string>ogonek</string>
+            <key>sourceBodyCoordinate</key>
+            <string>No source anchor exists</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor49__Anchor49</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>307.0</real>
+              <real>568.0</real>
+            </array>
+            <key>semanticRole</key>
+            <string>top</string>
+            <key>sourceBodyCoordinate</key>
+            <string>No source anchor exists</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor50__Anchor50</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>523.7503</real>
+              <integer>568</integer>
+            </array>
+            <key>semanticRole</key>
+            <string>side</string>
+            <key>sourceBodyCoordinate</key>
+            <string>No source anchor exists</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor51__Anchor51</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>307.0</real>
+              <real>284.0</real>
+            </array>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceBodyCoordinate</key>
+            <string>No source anchor exists</string>
+          </dict>
+        </array>
+        <key>caseBoundary</key>
+        <string>The real formal capital is absent from the frozen cmap. This unit proposes only the actual lowercase smcp target and does not invent, encode or alias a capital input.</string>
+        <key>construction</key>
+        <string>Use the existing genuine same-cut small-cap body in the orientation required by the actual formal case pair. Turning preserves its complete native curves and stroke weights; reflection is within the actual genuine italic axis. No whole capital reduction, upright-to-italic synthesis or new donor. Opposite source edge-spacing roles are retained with one whole translation and an adjusted advance.</string>
+        <key>frame</key>
+        <integer>568</integer>
+        <key>kind</key>
+        <string>Native formally cased turned small-cap construction</string>
+        <key>nativeItalicAngle</key>
+        <real>0.0</real>
+        <key>nativeScBody</key>
+        <string>uni0251.sc</string>
+        <key>nativeScRouteControl</key>
+        <array>
+          <dict>
+            <key>advance</key>
+            <array>
+              <integer>619</integer>
+              <integer>0</integer>
+            </array>
+            <key>cluster</key>
+            <integer>0</integer>
+            <key>glyph</key>
+            <string>uni0251.sc</string>
+            <key>offset</key>
+            <array>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
+        </array>
+        <key>noGlyphScaling</key>
+        <true/>
+        <key>noNewParent</key>
+        <true/>
+        <key>noSyntheticItalic</key>
+        <true/>
+        <key>orientation</key>
+        <string>turn</string>
+        <key>orientationMatrix</key>
+        <array>
+          <integer>-1</integer>
+          <integer>0</integer>
+          <integer>0</integer>
+          <integer>-1</integer>
+          <integer>619</integer>
+          <integer>568</integer>
+        </array>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>562504</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-Bold.ttf</string>
+          <key>sha256</key>
+          <string>0d592c479c60eb82aa7c215e18a88f62409f137b76bbf12165df23c68a364ddb</string>
+        </dict>
+        <key>sources</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>uni0252</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>3234</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Bold.ufo/glyphs/uni0252.glif</string>
+              <key>sha256</key>
+              <string>20234b5c09413e526863be554cc65aaa585ee6a13c928dd6218277d60e1303db</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>uni0251.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2652</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Bold.ufo/glyphs/uni0251.sc.glif</string>
+              <key>sha256</key>
+              <string>d6cdf29a9eb4399b57917dfb2ce4fe172c8ea8781bb6040d5a74c33e1512ebd1</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1559</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Bold.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>d8b0a0e89b98c542dc3c84cc26c1a9bf1f841e16d944a2b9064583583594de71</string>
+            </dict>
+          </dict>
+        </array>
+        <key>wholeTranslationX</key>
+        <integer>0</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>778cf96f4f29d2f87f14935ea3ef86b85545f314d40b2bcd2b213e51216afa2c</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-FIVE-CASE-ORIENTATION-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>654a03a1c1a7eac0ede40a9c568ee8473c7b91d847944c0e06affd9a385fcc83</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+# SPDX-License-Identifier: CC-BY-4.0
+# Copyright authors and organisations from retained notices; this list makes no CLA assertion.
+The Traveller Sign Project Authors (https://github.com/uningeniero/opentransitinformation-fonts)
+The Traveller Screen Project Authors (https://github.com/uningeniero/opentransitinformation-fonts)
+# Cabin - original records at licenses/cabin/AUTHORS.txt
+The Cabin Project Authors (https://github.com/impallari/Cabin)
+Pablo Impallari <impallari@gmail.com>
+Kalapi Gajjar-Bordawekar <hello@kalapigajjar.com>
+Igino Marini <mail@iginomarini.com>
+# Fira - original notices at licenses/fira/
+The Mozilla Foundation
+Telefonica S.A.
+Carrois Corporate GbR
+bBox Type GmbH
+# Selected Lato drawings - original notice at licenses/lato/OFL.txt
+tyPoland Lukasz Dziedzic (http://www.typoland.com/)
+# Separate unchanged companion resource - companions/source-sans-3/LICENSE.md
+Adobe (https://github.com/adobe-fonts/source-sans)

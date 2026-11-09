@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1D7B.sc" format="2">
+  <advance width="409"/>
+  <anchor x="246" y="566" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="166" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="231" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="209" y="305" name="base__Extension52__Anchor51__Anchor51"/>
+  <anchor x="301" y="566" name="base__Extension52__Anchor50__Anchor50"/>
+  <outline>
+    <contour>
+      <point x="229" y="0" type="line"/>
+      <point x="265" y="254" type="line"/>
+      <point x="352" y="254" type="line"/>
+      <point x="366" y="356" type="line"/>
+      <point x="279" y="356" type="line"/>
+      <point x="309" y="566" type="line"/>
+      <point x="183" y="566" type="line"/>
+      <point x="153" y="356" type="line"/>
+      <point x="67" y="356" type="line"/>
+      <point x="53" y="254" type="line"/>
+      <point x="139" y="254" type="line"/>
+      <point x="103" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.phoneticSmallcapConstruction</key>
+      <dict>
+        <key>barTranslation</key>
+        <array>
+          <real>7.03133856332704</real>
+          <real>18.5</real>
+        </array>
+        <key>boundary</key>
+        <string>Two-cut prototype for encoded U1D7B. No ordinary I alias, unchanged-glyph self-substitution or empty-uppercase feature exemption. All-cut roles, actual inheritance/kerning and target-size repeated/adjacent spacing remain separate.</string>
+        <key>construction</key>
+        <string>Keep the entire genuine same-cut SC I stem. Extract the complete native U1D7B crossbar between its actual two interior levels and translate it without scaling to the genuine SC shaft. Add equal shaft length above/below that native bar, preserving its optical offset above halfway. Preserve the defining phonetic glyph outer-bar bearing roles, including their negative values, rather than adding ordinary I stem bearings outside both arms.</string>
+        <key>kerningBoundary</key>
+        <string>The ordinary SC bodies are construction controls, not automatic new-glyph edge-kerning aliases. Preserve the stated actual outer-bearing policy and measure both edges/adjacent contexts; no forced correction cancels the reflected branch or defining crossbar.</string>
+        <key>nativeBarCentre</key>
+        <array>
+          <real>142.00756143667297</real>
+          <real>286.0</real>
+        </array>
+        <key>nativeBarYRange</key>
+        <array>
+          <integer>235</integer>
+          <integer>337</integer>
+        </array>
+        <key>nativeDefiningGlyphEdgeBearings</key>
+        <array>
+          <integer>-14</integer>
+          <integer>-21</integer>
+        </array>
+        <key>nativeDefiningInput</key>
+        <string>uni1D7B</string>
+        <key>nativeFrame</key>
+        <integer>566</integer>
+        <key>nativeScBody</key>
+        <string>i.sc</string>
+        <key>newBarCentre</key>
+        <array>
+          <real>149.0389</real>
+          <real>304.5</real>
+        </array>
+        <key>newBounds</key>
+        <array>
+          <real>-13.968661308288574</real>
+          <real>0.0</real>
+          <real>299.0313415527344</real>
+          <real>566.0</real>
+        </array>
+        <key>newLatinPositionsBeforeRounding</key>
+        <dict>
+          <key>bottom</key>
+          <array>
+            <real>99.0</real>
+            <real>0.0</real>
+          </array>
+          <key>middle</key>
+          <array>
+            <real>142.0389</real>
+            <real>304.5</real>
+          </array>
+          <key>ogonek</key>
+          <array>
+            <real>163.6</real>
+            <integer>0</integer>
+          </array>
+          <key>side</key>
+          <array>
+            <real>234.0</real>
+            <integer>566</integer>
+          </array>
+          <key>top</key>
+          <array>
+            <real>179.0</real>
+            <real>566.0</real>
+          </array>
+        </dict>
+        <key>roleRationale</key>
+        <string>Inverted R top/bottom follow the actual opposite vertical-reflected native SC roles; middle is explicitly centred between those roles. Stroked I retains the genuine SC shaft top/bottom after whole-source translation and puts middle at the actual translated defining crossbar. Side/ogonek are explicit new source positions. Native zero coordinates are not treated as inactive. All roles require actual attachment/stack review.</string>
+        <key>semanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>530768</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-MediumItalic.ttf</string>
+          <key>sha256</key>
+          <string>425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c</string>
+        </dict>
+        <key>sourceGlifs</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>uni1D7B</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1591</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni1D_7B_.glif</string>
+              <key>sha256</key>
+              <string>46832c76e973c2f1c1cb28ac315b35518ce756b1860c011544e0300e142ac70f</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>i.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1125</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/i.sc.glif</string>
+              <key>sha256</key>
+              <string>f245acd938757d3c22f74a58ad8169b2be1b1f78559c27b017fae67c58ad3e5b</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1561</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>620ea2b8b24a60b00be19d913e43a5cb19cde850c66771369eb441a52833d095</string>
+            </dict>
+          </dict>
+        </array>
+        <key>wholeTranslationX</key>
+        <integer>-7</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>f0d0e5bc0b8644604235ade4065dd54d713a1e03ddb7adc86a4cbff29f8958d2</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-PHONETIC-INVERTED-R-AND-STROKED-I-SMALLCAPS-2026-11-07</string>
+        <key>planSha256</key>
+        <string>3ce7bfbd7c4ab795b48982fc9f38d9c0a2d3bf19c0cd5f265664f70aad268bd8</string>
+        <key>reviewSha256</key>
+        <string>4e9fe5026b5f29a7aca824f3a83535c6e2879f48012c05b7aa2cb99c2ce43161</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

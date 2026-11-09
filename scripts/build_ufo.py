@@ -3,6 +3,7 @@
 from pathlib import Path
 import argparse,hashlib,json,os,sys,importlib.metadata
 from fontTools.ttLib import TTFont
+from fontTools.otlLib.builder import buildStatTable
 from fontmake.font_project import FontProject
 from ufoLib2 import Font
 from ufo2ft.filters.decomposeTransformedComponents import DecomposeTransformedComponentsFilter
@@ -50,15 +51,44 @@ def production_environment():
     return {'python':policy['python'],'distributions':versions,'externalHinter':{'name':engine.name,'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest(),'version':version}}
 
 
-def main(output):
-    os.chdir(ROOT);policy=read(ROOT/'release.json');environment=production_environment();os.environ['SOURCE_DATE_EPOCH']=str(policy['sourceDateEpoch'])
+def static_stat_axes(font,metadata):
+    """Retain family axis definitions and only this static face's values."""
+    actual={'wght':font['OS/2'].usWeightClass,'ital':int(bool(font['OS/2'].fsSelection & 1))}
+    axes=[]
+    for definition in metadata['statAxes']:
+        axis={key:value for key,value in definition.items() if key!='values'}
+        axis['values']=[dict(row) for row in definition['values'] if row['value']==actual[axis['tag']]]
+        assert len(axis['values'])==1,(font['name'].getBestFamilyName(),axis)
+        axes.append(axis)
+    return axes
+
+
+def finalize_compiled(target,web_target,policy,metadata,family,license_data):
+    """Serialize shared static metadata and the equivalent webfont."""
+    font=TTFont(target,recalcTimestamp=False,recalcBBoxes=False)
+    buildStatTable(font,static_stat_axes(font,metadata),elidedFallbackName='Regular')
+    assert font['name'].getBestFamilyName()==family and font['name'].getDebugName(5)=='Version '+policy['fontVersion']
+    assert all(n.toUnicode()==license_data.decode('utf-8').splitlines()[0] for n in font['name'].names if n.nameID==0)
+    assert font['OS/2'].fsSelection & (1<<8)
+    postscript_name=font['name'].getDebugName(6)
+    assert 0<len(postscript_name)<=63 and all(33<=ord(c)<=126 and c not in '[](){}<>/%' for c in postscript_name)
+    assert font['meta'].data=={'dlng':','.join(metadata['designedScripts']),'slng':','.join(metadata['supportedScripts'])}
+    font['head'].created=policy['sourceDateEpoch']+2082844800;font['head'].modified=font['head'].created
+    font.save(target,reorderTables=False);font.close()
+    font=TTFont(target,recalcTimestamp=False,recalcBBoxes=False);font.flavor='woff2';font.save(web_target,reorderTables=False);font.close()
+
+
+def main(output,selected_family='all'):
+    os.chdir(ROOT);policy=read(ROOT/'release.json');configuration=read(ROOT/'sources/config.json');environment=production_environment();os.environ['SOURCE_DATE_EPOCH']=str(policy['sourceDateEpoch'])
     output=output.resolve();output.relative_to(ROOT/'build');assert not output.exists();output.mkdir(parents=True)
     cuts=[];licenses=[]
-    for role in ['screen','sign']:
+    roles=['screen','sign'] if selected_family=='all' else [selected_family]
+    for role in roles:
         family=policy['families'][role];prefix=family.replace(' ','')
         license_source=ROOT/'licenses'/('traveller-'+role)/'OFL.txt';license_data=license_source.read_bytes()
         assert b'SIL OPEN FONT LICENSE Version 1.1' in license_data
-        folder=output/'fonts'/prefix.lower();folder.mkdir(parents=True,exist_ok=True)
+        folder=output/'fonts'/'ttf'/('traveller'+role);folder.mkdir(parents=True,exist_ok=True)
+        web_folder=output/'fonts'/'woff2'/('traveller'+role);web_folder.mkdir(parents=True,exist_ok=True)
         license_target=folder/'OFL.txt';license_target.write_bytes(license_data);licenses.append({'role':role,'source':rec(license_source),'file':rec(license_target)})
         styles=['Regular','Medium','SemiBold','Bold']+(['Italic','MediumItalic','SemiBoldItalic','BoldItalic'] if role=='screen' else [])
         for style in styles:
@@ -66,15 +96,13 @@ def main(output):
             assert source.info.familyName==family
             assert (source.info.versionMajor,source.info.versionMinor)==tuple(map(int,policy['fontVersion'].split('.')))
             assert source.info.copyright==license_data.decode('utf-8').splitlines()[0]
+            metadata=configuration['families'][role]
+            assert source.lib['public.openTypeMeta']=={'dlng':metadata['designedScripts'],'slng':metadata['supportedScripts']}
             source.close()
             target=folder/(prefix+'-'+style+'.ttf');compile_source(path,target,policy['sourceDateEpoch'])
-            font=TTFont(target,recalcTimestamp=False,recalcBBoxes=False)
-            assert font['name'].getBestFamilyName()==family and font['name'].getDebugName(5)=='Version '+policy['fontVersion']
-            assert all(n.toUnicode()==license_data.decode('utf-8').splitlines()[0] for n in font['name'].names if n.nameID==0)
-            font['head'].created=policy['sourceDateEpoch']+2082844800;font['head'].modified=font['head'].created
-            font.save(target,reorderTables=False);font.close()
-            font=TTFont(target,recalcTimestamp=False,recalcBBoxes=False);font.flavor='woff2';font.save(target.with_suffix('.woff2'),reorderTables=False);font.close()
-            cuts.append({'role':role,'style':style,'ufo':source_tree(path),'ttf':rec(target),'woff2':rec(target.with_suffix('.woff2'))})
+            web_target=web_folder/(prefix+'-'+style+'.woff2')
+            finalize_compiled(target,web_target,policy,metadata,family,license_data)
+            cuts.append({'role':role,'style':style,'ufo':source_tree(path),'ttf':rec(target),'woff2':rec(web_target)})
             print(json.dumps({'compiled':prefix+'-'+style,'ttf':cuts[-1]['ttf']}),flush=True)
     companions=[];provenance=read(ROOT/'companions/source-sans-3/provenance.json')
     for record in provenance['fonts']:
@@ -83,7 +111,8 @@ def main(output):
         web_source=ROOT/web['path'];assert rec(web_source)['sha256']==web['sha256']
         folder=output/'companions';folder.mkdir(exist_ok=True);target=folder/source.name;target.write_bytes(source.read_bytes());web_target=folder/web_source.name;web_target.write_bytes(web_source.read_bytes())
         companions.append({'ttf':rec(target),'woff2':rec(web_target),'unchangedOfficialResources':True})
-    manifest={'spdxLicense':'CC-BY-4.0','version':policy['version'],'fontVersion':policy['fontVersion'],'releasePolicy':rec(ROOT/'release.json'),'environment':environment,
+    implementation=[rec(ROOT/path) for path in ['scripts/build_ufo.py','scripts/_ufo_features.py','scripts/_ufo_io.py','scripts/_common.py','build.py','sources/build.sh','sources/config.json','tools/production.json','requirements-build.lock']]
+    manifest={'spdxLicense':'CC-BY-4.0','version':policy['version'],'fontVersion':policy['fontVersion'],'selectedFamilies':roles,'releasePolicy':rec(ROOT/'release.json'),'environment':environment,'implementationSources':implementation,
               'production':'Editable UFO contours, components, GLIF anchors and text features compiled with Fontmake/ufo2ft; external ttfautohint regenerates output instructions after component normalisation.',
               'hinting':{'wrapperVersion':importlib.metadata.version('ttfautohint-py'),'engineVersion':ttfautohint.run(['--version'],capture_output=True).stdout.decode().splitlines()[0],'options':{'no_info':True,'epoch':policy['sourceDateEpoch']},'retainedSourceAssembly':'Imported native TrueType instructions remain in the UFO sources and are not carried into the normalised output.'},
               'cuts':cuts,'companions':companions,'familyLicenses':licenses}
@@ -93,4 +122,5 @@ def main(output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--output-dir',type=Path,default=ROOT/'build'/('production-'+read(ROOT/'release.json')['version']))
-    main(p.parse_args().output_dir)
+    p.add_argument('--family',choices=['all','sign','screen'],default='all');args=p.parse_args()
+    main(args.output_dir,args.family)

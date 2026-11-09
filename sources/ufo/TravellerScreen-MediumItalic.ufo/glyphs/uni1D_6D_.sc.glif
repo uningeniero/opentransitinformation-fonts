@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1D6D.sc" format="2">
+  <advance width="684"/>
+  <anchor x="280" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="234" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="365" y="566" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="534" y="566" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="349" y="284" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="598" y="343" type="qcurve" smooth="yes"/>
+      <point x="598" y="467"/>
+      <point x="450" y="566"/>
+      <point x="327" y="566" type="qcurve" smooth="yes"/>
+      <point x="174" y="566" type="line"/>
+      <point x="141" y="333" type="line"/>
+      <point x="89" y="305"/>
+      <point x="43" y="251" type="qcurve"/>
+      <point x="124" y="213" type="line"/>
+      <point x="94" y="0" type="line"/>
+      <point x="265" y="0" type="line" smooth="yes"/>
+      <point x="439" y="0"/>
+      <point x="519" y="97" type="qcurve" smooth="yes"/>
+      <point x="574" y="163"/>
+      <point x="591" y="256" type="qcurve"/>
+      <point x="622" y="280"/>
+      <point x="649" y="312" type="qcurve"/>
+      <point x="598" y="336" type="line"/>
+      <point x="598" y="339"/>
+    </contour>
+    <contour>
+      <point x="287" y="473" type="line"/>
+      <point x="337" y="473" type="line" smooth="yes"/>
+      <point x="399" y="473"/>
+      <point x="468" y="419"/>
+      <point x="468" y="347" type="qcurve" smooth="yes"/>
+      <point x="468" y="324"/>
+      <point x="466" y="302" type="qcurve"/>
+      <point x="461" y="302"/>
+      <point x="455" y="302" type="qcurve" smooth="yes"/>
+      <point x="435" y="302"/>
+      <point x="404" y="314"/>
+      <point x="378" y="327" type="qcurve"/>
+      <point x="348" y="344"/>
+      <point x="322" y="353" type="qcurve" smooth="yes"/>
+      <point x="301" y="360"/>
+      <point x="271" y="362" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="312" y="240" type="qcurve" smooth="yes"/>
+      <point x="343" y="223"/>
+      <point x="398" y="204"/>
+      <point x="438" y="204" type="qcurve" smooth="yes"/>
+      <point x="440" y="204"/>
+      <point x="443" y="204" type="qcurve"/>
+      <point x="435" y="185"/>
+      <point x="426" y="168" type="qcurve" smooth="yes"/>
+      <point x="383" y="93"/>
+      <point x="283" y="93" type="qcurve" smooth="yes"/>
+      <point x="233" y="93" type="line"/>
+      <point x="257" y="263" type="line"/>
+      <point x="266" y="262"/>
+      <point x="273" y="259" type="qcurve" smooth="yes"/>
+      <point x="288" y="253"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.middleTildeSmallcapConstruction</key>
+      <dict>
+        <key>actualSemanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>anchorBoundary</key>
+        <string>Anchor classes are identified by actual per-cut mark membership. Explicit new coordinates for active native zero roles are hypotheses for this new composite; actual compiled coverage, side/below/stack paint and screen sizes must be reviewed.</string>
+        <key>body</key>
+        <string>d.sc</string>
+        <key>construction</key>
+        <string>Retain the genuine same-cut designed small-cap letter body without resizing. Fit only the native middle-wave component horizontally to the actual body ink width plus visible native-wave-derived end clearance. Keep its vertical coordinates, amplitude and vertical stroke thickness unchanged, and centre it at half the actual SC frame. Preserve native body edge-spacing roles through one whole horizontal translation and a new advance. This is explicit optical width fitting of a fixed modifier, not a whole letter/capital reduction or ordinary unmodified SC alias.</string>
+        <key>fixedWave</key>
+        <string>uni0334</string>
+        <key>fixedWaveOpticalHorizontalFactor</key>
+        <real>1.324113785557987</real>
+        <key>fixedWaveTranslation</key>
+        <array>
+          <real>612.1252516411379</real>
+          <real>-36.0</real>
+        </array>
+        <key>identity</key>
+        <string>The encoded source letter retains its distinguishing fixed middle tilde under smcp. No uppercase scalar is invented, no self-substitution is used and the fishhook-r case is not included.</string>
+        <key>kind</key>
+        <string>Native fixed-middle-tilde real small-cap construction</string>
+        <key>nativeBodyAdvance</key>
+        <integer>583</integer>
+        <key>newActiveRoleCoordinates</key>
+        <array>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor48__Anchor48</string>
+            <key>newCoordinateBeforeBodyTranslation</key>
+            <array>
+              <real>183.34220000000002</real>
+              <integer>0</integer>
+            </array>
+            <key>reason</key>
+            <string>The class is active in actual GPOS. Supply a deliberate coordinate for this new composite; a zero native source coordinate is not treated as inactive.</string>
+            <key>semanticRole</key>
+            <string>ogonek</string>
+            <key>sourceCoordinate</key>
+            <array>
+              <real>0.0</real>
+              <real>0.0</real>
+            </array>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor50__Anchor50</string>
+            <key>newCoordinateBeforeBodyTranslation</key>
+            <array>
+              <real>482.7273</real>
+              <integer>566</integer>
+            </array>
+            <key>reason</key>
+            <string>The class is active in actual GPOS. Supply a deliberate coordinate for this new composite; a zero native source coordinate is not treated as inactive.</string>
+            <key>semanticRole</key>
+            <string>side</string>
+            <key>sourceCoordinate</key>
+            <array>
+              <real>0.0</real>
+              <real>0.0</real>
+            </array>
+          </dict>
+        </array>
+        <key>noNewParent</key>
+        <true/>
+        <key>noSyntheticItalic</key>
+        <true/>
+        <key>noWholeLetterScaling</key>
+        <true/>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>530768</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-MediumItalic.ttf</string>
+          <key>sha256</key>
+          <string>425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c</string>
+        </dict>
+        <key>sources</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>uni1D6D</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>3551</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni1D_6D_.glif</string>
+              <key>sha256</key>
+              <string>714a452086a39c9c972bfebc2b8960fec255684c1c954f06d98ae0e860677678</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>d.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1816</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/d.sc.glif</string>
+              <key>sha256</key>
+              <string>8d497b17b4f15e0fa35e25ae71f724f6d6d66e6944580c10815d8c0d84ca9aa8</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>uni0334</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>777</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni0334.glif</string>
+              <key>sha256</key>
+              <string>b1145eaa5bf40d4c1b7dce6e06d94f7786421a3956d4fb524337d8149d345aa8</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1561</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>620ea2b8b24a60b00be19d913e43a5cb19cde850c66771369eb441a52833d095</string>
+            </dict>
+          </dict>
+        </array>
+        <key>targetWaveWidth</key>
+        <real>605.12</real>
+        <key>unchangedNativeSmallcapBody</key>
+        <true/>
+        <key>visibleWaveAreaSquareFontUnits</key>
+        <real>29122.917624818787</real>
+        <key>visibleWaveFraction</key>
+        <real>0.5142623335167051</real>
+        <key>waveVerticalAmplitudeAndVerticalThicknessUnchanged</key>
+        <true/>
+        <key>wholeTranslationX</key>
+        <integer>51</integer>
+        <key>wholeWaveAreaSquareFontUnits</key>
+        <real>56630.46995035806</real>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>4bfd2d3c780604329d98ea5adb53475ad0a9361818404b8a05e53484ec0a6d43</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-MIDDLE-TILDE-SMALLCAPS-R2-2026-11-07</string>
+        <key>planSha256</key>
+        <string>03f4e2fd625f91096eec5040ba569f8120969bd3aa525c2498e0728d663c63ed</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

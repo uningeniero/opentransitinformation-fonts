@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA64A.sc" format="2">
+  <advance width="617"/>
+  <anchor x="309" y="-13" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="409" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="309" y="566" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="513" y="566" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="574" y="163" type="qcurve" smooth="yes"/>
+      <point x="574" y="246"/>
+      <point x="504" y="292" type="qcurve" smooth="yes"/>
+      <point x="471" y="313"/>
+      <point x="428" y="324" type="qcurve"/>
+      <point x="558" y="566" type="line"/>
+      <point x="428" y="566" type="line"/>
+      <point x="309" y="344" type="line"/>
+      <point x="190" y="566" type="line"/>
+      <point x="55" y="566" type="line"/>
+      <point x="185" y="322" type="line"/>
+      <point x="176" y="320"/>
+      <point x="168" y="317" type="qcurve" smooth="yes"/>
+      <point x="108" y="296"/>
+      <point x="43" y="217"/>
+      <point x="43" y="163" type="qcurve" smooth="yes"/>
+      <point x="43" y="80"/>
+      <point x="185" y="-13"/>
+      <point x="309" y="-13" type="qcurve" smooth="yes"/>
+      <point x="432" y="-13"/>
+      <point x="574" y="81"/>
+    </contour>
+    <contour>
+      <point x="176" y="163" type="qcurve" smooth="yes"/>
+      <point x="176" y="205"/>
+      <point x="210" y="225" type="qcurve" smooth="yes"/>
+      <point x="224" y="233"/>
+      <point x="244" y="237" type="qcurve"/>
+      <point x="244" y="173" type="line"/>
+      <point x="373" y="173" type="line"/>
+      <point x="373" y="238" type="line"/>
+      <point x="393" y="233"/>
+      <point x="408" y="225" type="qcurve"/>
+      <point x="441" y="205"/>
+      <point x="441" y="163" type="qcurve" smooth="yes"/>
+      <point x="441" y="120"/>
+      <point x="375" y="81"/>
+      <point x="309" y="81" type="qcurve" smooth="yes"/>
+      <point x="244" y="81"/>
+      <point x="176" y="120"/>
+    </contour>
+    <contour>
+      <point x="309" y="344" type="line"/>
+      <point x="312" y="338" type="line"/>
+      <point x="310" y="338"/>
+      <point x="309" y="338" type="qcurve" smooth="yes"/>
+      <point x="307" y="338"/>
+      <point x="305" y="338" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.historicalCyrillicConstruction</key>
+      <dict>
+        <key>armAndStrokeSource</key>
+        <string>y.sc</string>
+        <key>construction</key>
+        <string>Individually fit the genuine native O contours into the broad lower oval, retaining native horizontal stroke weights and side profiles. Build rising arms at measured native Y diagonal weight and a hanging interior stroke. Use each cut separately in its own italic axis; this is optical reconstruction of this letter, not uniform cap reduction or upright shearing.</string>
+        <key>counterApertureControl</key>
+        <string>uni0194.sc</string>
+        <key>hangingStrokeBottom</key>
+        <real>172.98760000000001</real>
+        <key>hangingStrokeWidth</key>
+        <real>129.0</real>
+        <key>kind</key>
+        <string>Native capital or genuine small-cap monograph uk construction</string>
+        <key>nativeHorizontalStrokeWeights</key>
+        <array>
+          <integer>94</integer>
+          <integer>94</integer>
+        </array>
+        <key>nativeItalicAngle</key>
+        <real>0.0</real>
+        <key>newArmNormalWidths</key>
+        <array>
+          <real>118.83800184823747</real>
+          <real>114.76050554293522</real>
+        </array>
+        <key>newInnerArmApex</key>
+        <array>
+          <real>308.5</real>
+          <real>343.58000000000004</real>
+        </array>
+        <key>newOvalInnerTop</key>
+        <real>243.92000000000002</real>
+        <key>newOvalTop</key>
+        <real>337.92</real>
+        <key>ovalInnerBoundsBefore</key>
+        <array>
+          <real>176.0</real>
+          <integer>81</integer>
+          <real>441.0</real>
+          <integer>484</integer>
+        </array>
+        <key>ovalOuterBoundsBefore</key>
+        <array>
+          <real>43.0</real>
+          <integer>-13</integer>
+          <real>574.0</real>
+          <integer>578</integer>
+        </array>
+        <key>ovalSource</key>
+        <string>uni043E.sc</string>
+        <key>referenceStructure</key>
+        <string>A broad oval with two rising arms and a hanging interior stroke is distinct from the older O-y uk digraph and from a descending gamma. The separate licensed reference informs structure only; no Noto outline is adopted.</string>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>529776</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-Medium.ttf</string>
+            <key>sha256</key>
+            <string>67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>uni043E.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>893</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni043E_.sc.glif</string>
+                <key>sha256</key>
+                <string>ce3732d8f17345fdfa478329ff710d5b8d58efcc1dab76d3a9f5163a9796898d</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>y.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1400</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/y.sc.glif</string>
+                <key>sha256</key>
+                <string>a0811dd3d7fbd5f58e10ddbbaf6ab8d2c1eb419e248c796260b9ce4bcc951b02</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni0194.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>2212</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni0194.sc.glif</string>
+                <key>sha256</key>
+                <string>7343d21aa634f23db34759e40dccd3388c7b131958efd313965350ac2ecc7387</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+        <key>sourceLoopCounterHeight</key>
+        <integer>130</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>ffeb706e9ff0db29cf4ce9afff1be81b66a058d01a3c6dc5c8b6a9aacd93a541</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-HISTORICAL-CYRILLIC-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>99fb8d104a9a51da690f3e65e2a911901a40318e68e473c1cfd2666d007045fc</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

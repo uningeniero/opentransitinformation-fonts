@@ -2,11 +2,21 @@
 <!-- SPDX-License-Identifier: OFL-1.1 -->
 <glyph name="uni0336" format="2">
   <unicode hex="0336"/>
+  <anchor x="-403" y="313" name="_Traveller120CircleOverlayClass"/>
   <outline>
     <component base="emdash" xOffset="-801" identifier="component0"/>
   </outline>
   <lib>
     <dict>
+      <key>org.opentransitinformation.successorAttachmentSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>c42c57017c023f73d33456e21717e3de2beaeb80858e39e87760f0c0fa277b62</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-ATTACHMENT-SUPPLEMENT-2026-11-07</string>
+        <key>planSha256</key>
+        <string>7e21528a244b8146c164fd14024366123b095a1e93001fa643c28541ee6f94f3</string>
+      </dict>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

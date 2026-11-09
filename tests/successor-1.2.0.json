@@ -1,0 +1,292 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "id": "OTI-TRAVELLER-SUCCESSOR-120-ACCEPTANCE-INPUTS",
+  "schemaVersion": 1,
+  "release": "1.2.0",
+  "fontMetadata": "1.200",
+  "purpose": "Full acceptance inputs. This file contains requirements, not execution results.",
+  "frozenBaseline": {
+    "tag": "v1.1.0",
+    "commit": "972468d665e0fb334c2aefefeebcd71eaff8e04d"
+  },
+  "unicodeCaseData": {
+    "version": "18.0.0",
+    "url": "https://www.unicode.org/Public/18.0.0/ucd/UnicodeData.txt",
+    "sha256": "0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950"
+  },
+  "screen": {
+    "cutCount": 8,
+    "historicalCyrillic": [
+      1146,
+      1147,
+      1148,
+      1149,
+      1150,
+      1151,
+      1152,
+      1153,
+      42560,
+      42561,
+      42562,
+      42563,
+      42570,
+      42571,
+      42572,
+      42573,
+      42582,
+      42583
+    ],
+    "authenticCyrillic": {
+      "newEncodedMark": 1158,
+      "standaloneGlyph": "uni0486",
+      "isoGlyph": "uni0486_acutecomb",
+      "isoInput": [1158, 769],
+      "isoFeature": "ccmp",
+      "adjacentOrderRequired": true,
+      "lookupPriority": "Select the exact adjacent nominal psili-acute compound before native ccmp case-alternate lookups can change its acute input.",
+      "contexts": ["\u047b\u0486\u0301", "\ua657\u0486\u0301", "\u047a\u0486"],
+      "reverseContexts": ["\u047b\u0301\u0486", "\ua657\u0301\u0486"],
+      "unsupportedNeighbouringMarks": [1155, 1156, 1157, 1159],
+      "sourceCriterion": "Correct-order iso is a centred side-by-side breathing/acute compound. Reverse order remains distinct. No lookalike Unicode alias or broader Church Slavonic coverage is inferred."
+    },
+    "cgjOverbridge": {
+      "scalar": 847,
+      "glyph": "uni034F",
+      "generalCategory": "Mn",
+      "canonicalCombiningClass": 0,
+      "zeroInkAndAdvance": true,
+      "gdefGlyphClass": 3,
+      "aboveClassControl": "acutecomb",
+      "requiredAboveAttachmentMembers": ["uni0486", "uni0486_acutecomb", "uni0361", "uni1DC4"],
+      "cgjExcludedFromAboveAttachmentClass": true,
+      "contexts": ["t\u0361\u034f\u0301\u0283", "d\u0361\u034f\u0301\u0292", "\u25cc\u0361\u034f\u0301\u25cc"],
+      "boundary": "Nominal CGJ support, default-ignorable handling, actual over-bridge parent and later tie movement are separate requirements. No generic body-height rule or ordinary exterior-accent acceptance follows."
+    },
+    "smallcapInputs": {
+      "smcp": [
+        397,
+        411,
+        426,
+        427,
+        442,
+        446,
+        545,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        575,
+        576,
+        592,
+        594,
+        597,
+        602,
+        604,
+        605,
+        606,
+        607,
+        609,
+        610,
+        612,
+        615,
+        619,
+        621,
+        622,
+        624,
+        625,
+        627,
+        628,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        638,
+        639,
+        641,
+        642,
+        644,
+        645,
+        646,
+        647,
+        653,
+        654,
+        655,
+        656,
+        657,
+        659,
+        662,
+        663,
+        664,
+        665,
+        666,
+        667,
+        668,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        1205,
+        7306,
+        7532,
+        7533,
+        7534,
+        7535,
+        7536,
+        7537,
+        7538,
+        7539,
+        7540,
+        7541,
+        7542,
+        7547,
+        7549,
+        7569,
+        8458,
+        8467,
+        11377,
+        42892,
+        42933,
+        42952,
+        43859
+      ],
+      "c2sc": [
+        1204,
+        7305,
+        11363,
+        42891,
+        42951,
+        42955,
+        42972
+      ]
+    },
+    "smallcapCriterion": "Real optical forms or a separately evidenced upstream checker disposition. Identity substitutions, uppercase aliases and generic capital scaling do not satisfy this criterion."
+  },
+  "sign": {
+    "cutCount": 4,
+    "uprightsOnly": true,
+    "stylisticSetNames": {
+      "ss01": "Alternate at sign"
+    }
+  },
+  "bothFamilies": {
+    "newSeparators": [
+      8232,
+      8233
+    ],
+    "dottedCircle": 9676,
+    "expectedEncodedScalars": {
+      "screen": 1798,
+      "sign": 824
+    },
+    "metadata": [
+      "WWS naming bit",
+      "STAT axes",
+      "Accurate script meta tags",
+      "PostScript names at most 27 characters",
+      "Original required notices retained"
+    ],
+    "staticStatCriterion": "Each static font declares only its actual weight and, where relevant to its family, its actual italic coordinate. Shared family axis definitions do not make the static file variable.",
+    "statAxes": {
+      "screen": ["wght", "ital"],
+      "sign": ["wght"]
+    }
+  },
+  "normalizations": [
+    "NFC",
+    "NFD"
+  ],
+  "featureModes": [
+    {
+      "name": "off",
+      "features": {}
+    },
+    {
+      "name": "smcp",
+      "features": {
+        "smcp": 1
+      }
+    },
+    {
+      "name": "c2sc",
+      "features": {
+        "c2sc": 1
+      }
+    },
+    {
+      "name": "both",
+      "features": {
+        "smcp": 1,
+        "c2sc": 1
+      }
+    }
+  ],
+  "softDotInputs": [
+    "\u012f\u0301",
+    "\u1ecb\u0301",
+    "\u1e2d\u0301",
+    "\u0268\u0301",
+    "i\u0301",
+    "j\u0301",
+    "\u0456\u0301",
+    "\u0458\u0301",
+    "i\u0307\u0301",
+    "i\u0327",
+    "i\u0327\u0301",
+    "\u012f\u0330\u0301"
+  ],
+  "stackDiagnosticInputs": [
+    "j\u030c\u0301",
+    "j\u030c\u0307",
+    "a\u0304\u0301",
+    "\u0113\u0304",
+    "\u00ed\u0301"
+  ],
+  "stackDiagnosticScope": "Finite attachment controls, not a claim that every arbitrary double-accent string is ordinary orthography.",
+  "sideRoleDiagnosticInputs": [
+    "\u013a\u031a",
+    "\u013a\u031b",
+    "\u0139\u031a",
+    "\u0139\u031b",
+    "\u04e7\u031a",
+    "\u04e7\u031b",
+    "\u04e6\u031a",
+    "\u04e6\u031b"
+  ],
+  "sideRoleCriterion": "Preserve frozen native side/horn attachment positions, including actual case variants; do not infer roles from anchor height or zero coordinates.",
+  "runtimeBoundary": "C HarfBuzz, Rust Harfrust and native browser/GDI runs retain their actual versions and separate receipts.",
+  "qaPolicy": {
+    "profile": "googlefonts",
+    "checkExclusions": [],
+    "severityOverrides": false,
+    "retainAllRawSeverities": true,
+    "noCheckerSilencingGeometry": true,
+    "upstreamCheckerFixRequiredBeforeStockGreenClaim": true
+  },
+  "nativeChecks": [
+    "Actual selected font bytes",
+    "Menu and style selection",
+    "Required feature and mark paint",
+    "Small intended pixel sizes",
+    "Independent clean Linux reproduction",
+    "Actual CI"
+  ]
+}

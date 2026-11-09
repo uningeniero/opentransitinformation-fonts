@@ -65,9 +65,9 @@
     <key>openTypeNameManufacturerURL</key>
     <string>https://opentransitinformation.org</string>
     <key>openTypeNameUniqueID</key>
-    <string>1.100;OTI;TravellerScreen-Regular</string>
+    <string>1.200;OTI;TravellerScreen-Regular</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.100</string>
+    <string>Version 1.200</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>2</integer>
@@ -84,6 +84,7 @@
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
+      <integer>8</integer>
     </array>
     <key>openTypeOS2StrikeoutPosition</key>
     <integer>316</integer>
@@ -123,6 +124,8 @@
     <integer>1265</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>355</integer>
+    <key>postscriptFontName</key>
+    <string>TravellerScreen-Regular</string>
     <key>postscriptUnderlinePosition</key>
     <integer>-75</integer>
     <key>postscriptUnderlineThickness</key>
@@ -138,7 +141,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>100</integer>
+    <integer>200</integer>
     <key>xHeight</key>
     <integer>527</integer>
   </dict>

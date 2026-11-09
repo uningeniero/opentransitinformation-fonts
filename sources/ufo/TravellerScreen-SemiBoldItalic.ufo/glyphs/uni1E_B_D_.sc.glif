@@ -4,7 +4,7 @@
   <advance width="474"/>
   <anchor x="220" y="0" name="base__Extension52__Anchor47__Anchor47"/>
   <anchor x="378" y="0" name="base__Extension52__Anchor48__Anchor48"/>
-  <anchor x="298" y="567" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="328" y="818" name="base__Extension52__Anchor49__Anchor49"/>
   <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
   <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
   <outline>
@@ -13,6 +13,65 @@
   </outline>
   <lib>
     <dict>
+      <key>org.opentransitinformation.stackingAnchorSource</key>
+      <dict>
+        <key>kind</key>
+        <string>Native mark-to-mark role transformed through stored component geometry</string>
+        <key>sourcePoint</key>
+        <dict>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>child</key>
+              <string>tildecomb.sc</string>
+              <key>parent</key>
+              <string>uni1EBD.sc</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>47</integer>
+                <integer>0</integer>
+              </array>
+            </dict>
+          </array>
+          <key>nativeAnchor</key>
+          <string>mark2__MarkToMark55__Anchor56_Anchor56_</string>
+          <key>nativeGlyph</key>
+          <string>tildecomb</string>
+          <key>point</key>
+          <array>
+            <integer>328</integer>
+            <integer>818</integer>
+          </array>
+          <key>spacingGlyph</key>
+          <string>tildecomb.sc</string>
+          <key>spacingTranslation</key>
+          <array>
+            <integer>426</integer>
+            <integer>30</integer>
+          </array>
+        </dict>
+        <key>updatedAboveAnchors</key>
+        <array>
+          <dict>
+            <key>after</key>
+            <array>
+              <integer>328</integer>
+              <integer>818</integer>
+            </array>
+            <key>anchor</key>
+            <string>base__Extension52__Anchor49__Anchor49</string>
+            <key>before</key>
+            <array>
+              <integer>298</integer>
+              <integer>567</integer>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.012F.dotless120" format="2">
+  <advance width="280"/>
+  <anchor x="140" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="204" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="141" y="531" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="140" y="285" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="61" y="531" type="line"/>
+      <point x="219" y="531" type="line"/>
+      <point x="219" y="0" type="line"/>
+      <point x="194" y="0" type="line"/>
+      <point x="76" y="-45"/>
+      <point x="76" y="-102" type="qcurve"/>
+      <point x="76" y="-148"/>
+      <point x="129" y="-148" type="qcurve"/>
+      <point x="153" y="-148"/>
+      <point x="190" y="-140" type="qcurve"/>
+      <point x="179" y="-238" type="line"/>
+      <point x="145" y="-246"/>
+      <point x="109" y="-246" type="qcurve"/>
+      <point x="44" y="-246"/>
+      <point x="-38" y="-182"/>
+      <point x="-38" y="-129" type="qcurve"/>
+      <point x="-38" y="-43"/>
+      <point x="61" y="10" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>kind</key>
+        <string>Native body contours with the isolated soft dot omitted</string>
+        <key>removedContourIndex</key>
+        <integer>0</integer>
+        <key>retainedAdvance</key>
+        <integer>280</integer>
+        <key>scope</key>
+        <string>ccmp before an above combining mark, retaining intervening below marks</string>
+        <key>sourceGlyph</key>
+        <string>iogonek</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

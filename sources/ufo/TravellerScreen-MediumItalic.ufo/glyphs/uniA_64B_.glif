@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA64B" format="2">
+  <advance width="518"/>
+  <unicode hex="A64B"/>
+  <anchor x="225" y="-3" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="296" y="529" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="325" y="275" type="line"/>
+      <point x="348" y="227"/>
+      <point x="369" y="157"/>
+      <point x="369" y="122" type="qcurve" smooth="yes"/>
+      <point x="369" y="55"/>
+      <point x="293" y="-15"/>
+      <point x="225" y="-15" type="qcurve" smooth="yes"/>
+      <point x="170" y="-15"/>
+      <point x="107" y="39"/>
+      <point x="107" y="84" type="qcurve" smooth="yes"/>
+      <point x="107" y="125"/>
+      <point x="154" y="218"/>
+      <point x="200" y="278" type="qcurve"/>
+      <point x="50" y="529" type="line"/>
+      <point x="185" y="529" type="line"/>
+      <point x="274" y="361" type="line"/>
+      <point x="409" y="529" type="line"/>
+      <point x="543" y="529" type="line"/>
+      <point x="325" y="276" type="line"/>
+    </contour>
+    <contour>
+      <point x="270" y="119" type="qcurve" smooth="yes"/>
+      <point x="270" y="151"/>
+      <point x="253" y="202" type="qcurve"/>
+      <point x="234" y="173"/>
+      <point x="207" y="114"/>
+      <point x="207" y="95" type="qcurve" smooth="yes"/>
+      <point x="207" y="70"/>
+      <point x="232" y="70" type="qcurve" smooth="yes"/>
+      <point x="252" y="70"/>
+      <point x="270" y="97"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.historicalCyrillicConstruction</key>
+      <dict>
+        <key>anchorNamespaceDonor</key>
+        <string>uni043E</string>
+        <key>construction</key>
+        <string>Keep the genuine lowercase loop, counter and terminal cuts. Bring loop and inner fork to the normal round baseline in the native italic axis, then draw the new straight joins to the unchanged upper terminals. This is distinct from a descending gamma or the O-y digraph; no whole glyph scaling or synthetic italic.</string>
+        <key>kind</key>
+        <string>Native lowercase monograph uk construction</string>
+        <key>loopAndForkTranslation</key>
+        <array>
+          <real>28.529789444585465</real>
+          <integer>203</integer>
+        </array>
+        <key>nativeLoopAndTerminals</key>
+        <string>uni0263</string>
+        <key>nativeSpacingReference</key>
+        <string>w</string>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>530768</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-MediumItalic.ttf</string>
+            <key>sha256</key>
+            <string>425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>uni0263</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>2264</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni0263.glif</string>
+                <key>sha256</key>
+                <string>7d89292119557b37fd3f902b4a8ff86d5c3b269f85f90de155e0335c87f23d48</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>w</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1623</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/w.glif</string>
+                <key>sha256</key>
+                <string>d0f69392b8e153d234560c4522540e0c085f15804de61ef5d66a0a9d33181705</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni043E</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>911</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni043E_.glif</string>
+                <key>sha256</key>
+                <string>8bbfaa14ce89fd737461a2b43e60c9dd79760023086ae0356557c1eb85c81155</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+        <key>upperTerminalsRetained</key>
+        <true/>
+        <key>wholeTranslateX</key>
+        <integer>11</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>9ea4bdfb1e2969c8ec515f9a721065db28d6823d29cb7e3f9d4c40b566ae2d48</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-HISTORICAL-CYRILLIC-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>99fb8d104a9a51da690f3e65e2a911901a40318e68e473c1cfd2666d007045fc</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

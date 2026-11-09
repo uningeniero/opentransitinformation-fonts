@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni2C6F.sc" format="2">
+  <advance width="505"/>
+  <anchor x="210" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="212" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="289" y="566" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="522" y="566" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="291" y="283" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="179" y="441" type="line"/>
+      <point x="365" y="441" type="line"/>
+      <point x="415" y="566" type="line"/>
+      <point x="548" y="566" type="line"/>
+      <point x="286" y="0" type="line"/>
+      <point x="134" y="0" type="line"/>
+      <point x="33" y="566" type="line"/>
+      <point x="163" y="566" type="line"/>
+    </contour>
+    <contour>
+      <point x="191" y="348" type="line"/>
+      <point x="224" y="89" type="line"/>
+      <point x="328" y="348" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.orientedSmallcapConstruction</key>
+      <dict>
+        <key>actualSemanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>anchorBoundary</key>
+        <string>Top/bottom roles follow the corresponding oriented native body position. Side, ogonek and middle are deliberately designed in the new orientation using actual per-cut class membership, not rotated indiscriminately or inferred inactive from zero.</string>
+        <key>anchorRoleObservations</key>
+        <array>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor47__Anchor47</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>210.0</real>
+              <real>0.0</real>
+            </array>
+            <key>semanticRole</key>
+            <string>bottom</string>
+            <key>sourceBodyCoordinate</key>
+            <array>
+              <real>216.0</real>
+              <real>0.0</real>
+            </array>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor48__Anchor48</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>211.61</real>
+              <integer>0</integer>
+            </array>
+            <key>semanticRole</key>
+            <string>ogonek</string>
+            <key>sourceBodyCoordinate</key>
+            <array>
+              <real>430.0</real>
+              <real>0.0</real>
+            </array>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor49__Anchor49</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>289.0</real>
+              <real>566.0</real>
+            </array>
+            <key>semanticRole</key>
+            <string>top</string>
+            <key>sourceBodyCoordinate</key>
+            <array>
+              <real>295.0</real>
+              <real>566.0</real>
+            </array>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor50__Anchor50</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>521.8</real>
+              <integer>566</integer>
+            </array>
+            <key>semanticRole</key>
+            <string>side</string>
+            <key>sourceBodyCoordinate</key>
+            <array>
+              <real>0.0</real>
+              <real>0.0</real>
+            </array>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor51__Anchor51</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>290.5</real>
+              <real>283.0</real>
+            </array>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceBodyCoordinate</key>
+            <array>
+              <real>0.0</real>
+              <real>0.0</real>
+            </array>
+          </dict>
+        </array>
+        <key>caseBoundary</key>
+        <string>The real formal capital is absent from the frozen cmap. This unit proposes only the actual lowercase smcp target and does not invent, encode or alias a capital input.</string>
+        <key>construction</key>
+        <string>Use the existing genuine same-cut small-cap body in the orientation required by the actual formal case pair. Turning preserves its complete native curves and stroke weights; reflection is within the actual genuine italic axis. No whole capital reduction, upright-to-italic synthesis or new donor. Opposite source edge-spacing roles are retained with one whole translation and an adjusted advance.</string>
+        <key>frame</key>
+        <integer>566</integer>
+        <key>kind</key>
+        <string>Native formally cased turned small-cap construction</string>
+        <key>nativeItalicAngle</key>
+        <real>-8.0</real>
+        <key>nativeScBody</key>
+        <string>a.sc</string>
+        <key>nativeScRouteControl</key>
+        <array>
+          <dict>
+            <key>advance</key>
+            <array>
+              <integer>505</integer>
+              <integer>0</integer>
+            </array>
+            <key>cluster</key>
+            <integer>0</integer>
+            <key>glyph</key>
+            <string>a.sc</string>
+            <key>offset</key>
+            <array>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
+        </array>
+        <key>noGlyphScaling</key>
+        <true/>
+        <key>noNewParent</key>
+        <true/>
+        <key>noSyntheticItalic</key>
+        <true/>
+        <key>orientation</key>
+        <string>turn</string>
+        <key>orientationMatrix</key>
+        <array>
+          <integer>-1</integer>
+          <integer>0</integer>
+          <integer>0</integer>
+          <integer>-1</integer>
+          <integer>505</integer>
+          <integer>566</integer>
+        </array>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>530768</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-MediumItalic.ttf</string>
+          <key>sha256</key>
+          <string>425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c</string>
+        </dict>
+        <key>sources</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>uni0250</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2887</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni0250.glif</string>
+              <key>sha256</key>
+              <string>e5aa51128cbcee76a919748f38552aac1e35dd801e51daa76280ff65f3a6fc14</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>a.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1559</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/a.sc.glif</string>
+              <key>sha256</key>
+              <string>ec03d292603b71ceec44f6eb0725db05fb6c002ac94615a07f5cee54c4d75798</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1561</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>620ea2b8b24a60b00be19d913e43a5cb19cde850c66771369eb441a52833d095</string>
+            </dict>
+          </dict>
+        </array>
+        <key>wholeTranslationX</key>
+        <integer>0</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>6ad9556c43a650e270161c534ad70bc6e65d6ddb50d0e67a5bb7b07ffc05d5c9</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-FIVE-CASE-ORIENTATION-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>654a03a1c1a7eac0ede40a9c568ee8473c7b91d847944c0e06affd9a385fcc83</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

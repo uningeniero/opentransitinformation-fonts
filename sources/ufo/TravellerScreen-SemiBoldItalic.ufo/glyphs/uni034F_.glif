@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni034F" format="2">
+  <unicode hex="034F"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.finiteCgjProperties</key>
+      <dict>
+        <key>canonicalCombiningClass</key>
+        <integer>0</integer>
+        <key>canonicalDecomposition</key>
+        <string>None in official Unicode18 data</string>
+        <key>construction</key>
+        <string>A new nominal U+034F glyph with no outline, anchors, components or advance. No SPACE, joiner/lookalike or canonical alias is used.</string>
+        <key>defaultIgnorable</key>
+        <true/>
+        <key>derivedCoreProperties</key>
+        <dict>
+          <key>bytes</key>
+          <integer>1159889</integer>
+          <key>sha256</key>
+          <string>09c928886a178fcafd93c29e4bd59073a058e5a100b716d425cb563ab50f68c9</string>
+          <key>sourceURL</key>
+          <string>https://www.unicode.org/Public/18.0.0/ucd/DerivedCoreProperties.txt</string>
+        </dict>
+        <key>generalCategory</key>
+        <string>Mn</string>
+        <key>name</key>
+        <string>COMBINING GRAPHEME JOINER</string>
+        <key>propertyWitness</key>
+        <array>
+          <dict>
+            <key>line</key>
+            <integer>10943</integer>
+            <key>text</key>
+            <string>034F          ; Default_Ignorable_Code_Point # Mn       COMBINING GRAPHEME JOINER</string>
+          </dict>
+        </array>
+        <key>shaperBoundary</key>
+        <string>Actual normalisation inhibition, default-ignorable treatment and nominal cmap support must be distinguished in the candidate.</string>
+        <key>unicodeData</key>
+        <dict>
+          <key>bytes</key>
+          <integer>2243593</integer>
+          <key>sha256</key>
+          <string>0736451de439ae7baf1425136617da495e09ee5afbe6e394374db7009ea08950</string>
+          <key>sourceURL</key>
+          <string>https://www.unicode.org/Public/18.0.0/ucd/UnicodeData.txt</string>
+        </dict>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>b4b3d11f129475043aeafe3d5b382bb347bf82e75b53e064d63d05a09941ed79</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-FINITE-CGJ-OVERBRIDGE-2026-11-07</string>
+        <key>planSha256</key>
+        <string>3ce2b061375f483bc2af247a173946828f7270d5c9ba52cdc68cce5a23248d7a</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

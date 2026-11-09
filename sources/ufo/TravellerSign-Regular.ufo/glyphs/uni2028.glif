@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni2028" format="2">
+  <unicode hex="2028"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>advance</key>
+        <integer>0</integer>
+        <key>kind</key>
+        <string>Unpainted Unicode separator</string>
+        <key>unicode</key>
+        <string>U+2028</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

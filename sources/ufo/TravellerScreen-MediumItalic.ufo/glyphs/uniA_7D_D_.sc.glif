@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA7DD.sc" format="2">
+  <advance width="757"/>
+  <anchor x="420" y="566" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="343" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="487" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="382" y="283" name="base__Extension52__Anchor51__Anchor51"/>
+  <anchor x="644" y="566" name="base__Extension52__Anchor50__Anchor50"/>
+  <outline>
+    <contour>
+      <point x="714" y="307" type="qcurve" smooth="yes"/>
+      <point x="712" y="213"/>
+      <point x="659" y="71"/>
+      <point x="556" y="-15"/>
+      <point x="484" y="-15" type="qcurve" smooth="yes"/>
+      <point x="363" y="-15"/>
+      <point x="356" y="103" type="qcurve"/>
+      <point x="332" y="40"/>
+      <point x="256" y="-15"/>
+      <point x="196" y="-15" type="qcurve" smooth="yes"/>
+      <point x="123" y="-15"/>
+      <point x="35" y="81"/>
+      <point x="35" y="176" type="qcurve" smooth="yes"/>
+      <point x="37" y="306"/>
+      <point x="132" y="491"/>
+      <point x="303" y="578"/>
+      <point x="421" y="578" type="qcurve" smooth="yes"/>
+      <point x="565" y="578"/>
+      <point x="717" y="446"/>
+    </contour>
+    <contour>
+      <point x="590" y="304" type="qcurve" smooth="yes"/>
+      <point x="592" y="400"/>
+      <point x="507" y="485"/>
+      <point x="411" y="485" type="qcurve" smooth="yes"/>
+      <point x="286" y="485"/>
+      <point x="162" y="327"/>
+      <point x="159" y="176" type="qcurve" smooth="yes"/>
+      <point x="159" y="127"/>
+      <point x="189" y="82"/>
+      <point x="220" y="82" type="qcurve" smooth="yes"/>
+      <point x="293" y="82"/>
+      <point x="307" y="186" type="qcurve" smooth="yes"/>
+      <point x="325" y="320" type="line"/>
+      <point x="447" y="339" type="line"/>
+      <point x="425" y="178" type="line" smooth="yes"/>
+      <point x="422" y="162"/>
+      <point x="422" y="146" type="qcurve" smooth="yes"/>
+      <point x="422" y="82"/>
+      <point x="477" y="82" type="qcurve" smooth="yes"/>
+      <point x="532" y="82"/>
+      <point x="588" y="200"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.closedOmegaSmallcapConstruction</key>
+      <dict>
+        <key>construction</key>
+        <string>Keep the native closed-omega lower lobes, central defining stroke and lower-zone points. Translate the upper cap to the genuine same-cut rounded SC top; interpolate only the middle-zone control-point displacement with smoothstep, along the native italic axis. Upper cap and lower-lobe stroke geometry are not uniformly scaled. No ordinary Omega alias, reduced capital or reference outline.</string>
+        <key>designBoundary</key>
+        <string>Two-cut source hypothesis. A moved control-point field is not a C1 curve guarantee. Width, native lower-case versus SC stroke weights, central-stroke proportion, upper curvature, spacing and all-cut consistency require actual design review before a source target or route is accepted.</string>
+        <key>movedControlPoints</key>
+        <integer>19</integer>
+        <key>nativeAdvance</key>
+        <integer>755</integer>
+        <key>nativeDefiningSource</key>
+        <string>uni0277</string>
+        <key>nativeFrame</key>
+        <integer>566</integer>
+        <key>nativeItalicAxisSlope</key>
+        <real>0.14054083470239145</real>
+        <key>nativeOgonekBaselineInkInterval</key>
+        <array>
+          <real>412.2891</real>
+          <real>561.8878</real>
+        </array>
+        <key>newLatinPositionsBeforeRounding</key>
+        <dict>
+          <key>bottom</key>
+          <array>
+            <real>343.0</real>
+            <real>0.0</real>
+          </array>
+          <key>middle</key>
+          <array>
+            <real>381.60000544199426</real>
+            <real>283.0</real>
+          </array>
+          <key>ogonek</key>
+          <array>
+            <real>487.08844999999997</real>
+            <integer>0</integer>
+          </array>
+          <key>side</key>
+          <array>
+            <real>643.6741</real>
+            <integer>566</integer>
+          </array>
+          <key>top</key>
+          <array>
+            <real>420.2000108839885</real>
+            <integer>566</integer>
+          </array>
+        </dict>
+        <key>newSideInkIntervalAtNineTenthsFrame</key>
+        <array>
+          <real>176.5272</real>
+          <real>643.6741</real>
+        </array>
+        <key>ordinaryOmegaComparisonOnly</key>
+        <string>omega.sc</string>
+        <key>roleRationale</key>
+        <string>Use the genuine SC frame for the new top/middle/side role heights. Keep the native closed-omega below anchor and its actual optical centre. Extend the native top centre along its own italic axis. Place ogonek on the actual right-lobe baseline ink interval, and side at the new outer-right upper bowl. Native zero-coordinate roles are not treated as inactive; these are explicit new source positions requiring actual attachment/stack review.</string>
+        <key>scRoundedHeightControl</key>
+        <string>o.sc</string>
+        <key>semanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>sourceBounds</key>
+        <array>
+          <integer>35</integer>
+          <integer>-15</integer>
+          <integer>712</integer>
+          <integer>544</integer>
+        </array>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>530768</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-MediumItalic.ttf</string>
+          <key>sha256</key>
+          <string>425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c</string>
+        </dict>
+        <key>sourceGlifs</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>uni0277</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2645</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni0277.glif</string>
+              <key>sha256</key>
+              <string>acad3272ceb2ac5d2eefbae77bd05184ab37c8d52942171002a9732183b405ed</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>o.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2091</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/o.sc.glif</string>
+              <key>sha256</key>
+              <string>d8103bfcf2177f2ace1a839270078cf5ee0d07ac686d0cdd9b23767a57565b8d</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1561</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>620ea2b8b24a60b00be19d913e43a5cb19cde850c66771369eb441a52833d095</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>omega.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2240</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/omega.sc.glif</string>
+              <key>sha256</key>
+              <string>f47ebfd982edcac192e69838fcfaaff04a1dde381bbc786c77f78e1c3154d79d</string>
+            </dict>
+          </dict>
+        </array>
+        <key>targetBounds</key>
+        <array>
+          <real>35.0</real>
+          <integer>-15</integer>
+          <real>714.2400832142521</real>
+          <integer>578</integer>
+        </array>
+        <key>targetTop</key>
+        <integer>578</integer>
+        <key>transitionRange</key>
+        <array>
+          <real>190.39999999999998</real>
+          <real>408.0</real>
+        </array>
+        <key>unchangedControlPoints</key>
+        <integer>23</integer>
+        <key>upperCapTranslation</key>
+        <integer>34</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>cc1a2a26deb788143968b9debb3bed12dd32377783ce64b89b0f880e2e27abb7</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-LATIN-CLOSED-OMEGA-SMALLCAP-2026-11-07</string>
+        <key>planSha256</key>
+        <string>240afa8bc9878be6a9e4e1ee2ae61df8e54af0b1f895dfa90fc66479d607e454</string>
+        <key>reviewSha256</key>
+        <string>977ecdb04cefc196f62bf66c3bb60911c0be7ac7d251fa246271fa461d6b632d</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

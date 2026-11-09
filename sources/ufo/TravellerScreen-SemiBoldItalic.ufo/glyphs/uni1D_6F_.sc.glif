@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni1D6F.sc" format="2">
+  <advance width="1096"/>
+  <anchor x="515" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="750" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="589" y="567" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="849" y="567" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="529" y="284" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="817" y="0" type="line"/>
+      <point x="831" y="213" type="line"/>
+      <point x="864" y="221"/>
+      <point x="895" y="232" type="qcurve" smooth="yes"/>
+      <point x="983" y="264"/>
+      <point x="1055" y="315" type="qcurve"/>
+      <point x="891" y="360" type="line"/>
+      <point x="865" y="342"/>
+      <point x="838" y="330" type="qcurve"/>
+      <point x="853" y="567" type="line"/>
+      <point x="675" y="567" type="line"/>
+      <point x="591" y="332" type="line"/>
+      <point x="555" y="344"/>
+      <point x="521" y="352" type="qcurve"/>
+      <point x="503" y="567" type="line"/>
+      <point x="329" y="567" type="line"/>
+      <point x="284" y="361" type="line"/>
+      <point x="130" y="340"/>
+      <point x="2" y="250" type="qcurve"/>
+      <point x="166" y="205" type="line"/>
+      <point x="204" y="232"/>
+      <point x="244" y="246" type="qcurve"/>
+      <point x="251" y="249"/>
+      <point x="259" y="251" type="qcurve"/>
+      <point x="204" y="0" type="line"/>
+      <point x="340" y="0" type="line"/>
+      <point x="380" y="215" type="line" smooth="yes"/>
+      <point x="384" y="237"/>
+      <point x="387" y="257" type="qcurve"/>
+      <point x="394" y="256"/>
+      <point x="401" y="255" type="qcurve"/>
+      <point x="416" y="251"/>
+      <point x="435" y="246" type="qcurve"/>
+      <point x="452" y="59" type="line"/>
+      <point x="585" y="59" type="line"/>
+      <point x="638" y="201" type="line"/>
+      <point x="660" y="200"/>
+      <point x="685" y="200" type="qcurve" smooth="yes"/>
+      <point x="693" y="200"/>
+      <point x="701" y="200" type="qcurve"/>
+      <point x="682" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="712" y="307" type="qcurve"/>
+      <point x="694" y="307"/>
+      <point x="678" y="309" type="qcurve"/>
+      <point x="737" y="466" type="line"/>
+      <point x="723" y="397"/>
+    </contour>
+    <contour>
+      <point x="423" y="366" type="line"/>
+      <point x="414" y="367"/>
+      <point x="404" y="367" type="qcurve"/>
+      <point x="409" y="409"/>
+      <point x="414" y="467" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="549" y="214" type="qcurve"/>
+      <point x="535" y="175" type="line"/>
+      <point x="532" y="218" type="line"/>
+      <point x="540" y="216"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.middleWaveOpticalSuccessor</key>
+      <dict>
+        <key>bodyTranslationDifferenceFromR2</key>
+        <integer>148</integer>
+        <key>clearanceInNativeWaveHeights</key>
+        <real>2.4</real>
+        <key>kind</key>
+        <string>Native fixed-middle-wave terminal-clearance optical successor</string>
+        <key>missingNativeBodyAreaBeforeOutputRounding</key>
+        <real>0.0</real>
+        <key>nativeBody</key>
+        <string>m.sc</string>
+        <key>nativeBodyAdvance</key>
+        <integer>693</integer>
+        <key>nativeBodyBounds</key>
+        <array>
+          <integer>2</integer>
+          <integer>0</integer>
+          <integer>651</integer>
+          <integer>567</integer>
+        </array>
+        <key>nativeBodyCurvesBeforeUnionUnchanged</key>
+        <true/>
+        <key>nativeWaveBounds</key>
+        <array>
+          <integer>-477</integer>
+          <integer>236</integer>
+          <integer>-7</integer>
+          <integer>404</integer>
+        </array>
+        <key>opticalRationale</key>
+        <string>Expose more of both native-wave terminals beyond dense SC bodies, so the modifier has an exterior curve rather than only a small cross-stroke remnant. This deliberately costs horizontal space; the actual compiled comparison must assess that cost.</string>
+        <key>preservedR2Source</key>
+        <dict>
+          <key>bytes</key>
+          <integer>10832</integer>
+          <key>sha256</key>
+          <string>1ebd618f08f60e819be08612c089918da9cf51940dc662d0d6d83ee30a1fb72e</string>
+          <key>sourceFragmentId</key>
+          <string>middle-tilde-r2/SemiBoldItalic/uni1D6F.sc.glif</string>
+        </dict>
+        <key>roleChange</key>
+        <string>Translate all accepted Latin anchors by the exact whole-body x difference. Names and every y coordinate remain unchanged. No mark class is removed.</string>
+        <key>selectionBoundary</key>
+        <string>This is the selected source hypothesis for controlled testing after the two-cut source exploration. No visibility-area threshold or actual target-size pass is asserted.</string>
+        <key>sourceDrawingProvenance</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>uni1D6F</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>4332</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-SemiBoldItalic.ufo/glyphs/uni1D_6F_.glif</string>
+              <key>sha256</key>
+              <string>f4fd0a48e80ec2f363dd35acbec24b4f158d04507ef398296cacfb5c3d1d1e5c</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>m.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1824</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-SemiBoldItalic.ufo/glyphs/m.sc.glif</string>
+              <key>sha256</key>
+              <string>1c1afb4279be797bdaa875a48e484baab193cf0212ab23986f3a8eb703f82f16</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>uni0334</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>777</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-SemiBoldItalic.ufo/glyphs/uni0334.glif</string>
+              <key>sha256</key>
+              <string>da75cb8aaffc07d8b62602cb22ba9ba7e5d86cae630c1f1bea6aba1c65145a43</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1561</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-SemiBoldItalic.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>b91c7e45612f48b318dffac82709bd10a374e0f4c0b093ae6bad77f75a955064</string>
+            </dict>
+          </dict>
+        </array>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>563396</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-SemiBoldItalic.ttf</string>
+          <key>sha256</key>
+          <string>9502f1dcfebb12629946ee36cd398341cf475ca1db4c1087ea0e1ca573e4f427</string>
+        </dict>
+        <key>targetWaveWidth</key>
+        <real>1052.2</real>
+        <key>waveTransform</key>
+        <array>
+          <real>2.2387234042553192</real>
+          <integer>0</integer>
+          <integer>0</integer>
+          <integer>1</integer>
+          <real>868.2710638297873</real>
+          <real>-36.5</real>
+        </array>
+        <key>waveVerticalAmplitudeAndThicknessBeforeUnionUnchanged</key>
+        <true/>
+        <key>wholeTranslationX</key>
+        <integer>202</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>9eeecba76ff065564cbaae6ddbe29fb19f8d106038774fb0c9107201594ee06b</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-MIDDLE-WAVE-OPTICAL-SOURCE-R3-2026-11-07</string>
+        <key>planSha256</key>
+        <string>2dbc7296d819cc606f6d413698f3d78e12147d4d11141c4c12e052ea23439c04</string>
+        <key>predecessorPlanId</key>
+        <string>OTI-DESIGN-MIDDLE-TILDE-SMALLCAPS-R2-2026-11-07</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

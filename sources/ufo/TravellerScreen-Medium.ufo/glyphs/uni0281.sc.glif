@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni0281.sc" format="2">
+  <advance width="556"/>
+  <anchor x="286" y="566" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="282" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="228" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="284" y="283" name="base__Extension52__Anchor51__Anchor51"/>
+  <anchor x="510" y="566" name="base__Extension52__Anchor50__Anchor50"/>
+  <outline>
+    <contour>
+      <point x="272" y="346" type="line"/>
+      <point x="209" y="346" type="line"/>
+      <point x="209" y="566" type="line"/>
+      <point x="81" y="566" type="line"/>
+      <point x="81" y="0" type="line"/>
+      <point x="267" y="0" type="line" smooth="yes"/>
+      <point x="509" y="0"/>
+      <point x="509" y="169" type="qcurve" smooth="yes"/>
+      <point x="509" y="226"/>
+      <point x="452" y="301"/>
+      <point x="392" y="324" type="qcurve"/>
+      <point x="546" y="566" type="line"/>
+      <point x="401" y="566" type="line"/>
+    </contour>
+    <contour>
+      <point x="209" y="257" type="line"/>
+      <point x="274" y="257" type="line" smooth="yes"/>
+      <point x="326" y="257"/>
+      <point x="378" y="216"/>
+      <point x="378" y="171" type="qcurve" smooth="yes"/>
+      <point x="378" y="129"/>
+      <point x="324" y="90"/>
+      <point x="267" y="90" type="qcurve" smooth="yes"/>
+      <point x="209" y="90" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.phoneticSmallcapConstruction</key>
+      <dict>
+        <key>boundary</key>
+        <string>Two-cut prototype for encoded U0281, not a formal uppercase mapping. Actual phonetic identity, all-cut source/roles, reflected edge kerning and target-size spacing require separate review.</string>
+        <key>construction</key>
+        <string>Reflect the entire genuine same-cut SC R vertically in its own unsheared axis, returning it to the genuine italic axis. The left stem stays left, the bowl moves below and the defining branch moves above. Preserve every native curve/stroke/counter and native SC edge-bearing roles, with an advance for the actual reflected ink. No ordinary R alias, half-turn, capital reduction or synthetic italic.</string>
+        <key>kerningBoundary</key>
+        <string>The ordinary SC bodies are construction controls, not automatic new-glyph edge-kerning aliases. Preserve the stated actual outer-bearing policy and measure both edges/adjacent contexts; no forced correction cancels the reflected branch or defining crossbar.</string>
+        <key>nativeDefiningInput</key>
+        <string>uni0281</string>
+        <key>nativeEdgeBearings</key>
+        <array>
+          <integer>81</integer>
+          <integer>10</integer>
+        </array>
+        <key>nativeFrame</key>
+        <integer>566</integer>
+        <key>nativeItalicAngle</key>
+        <real>0.0</real>
+        <key>nativeScBody</key>
+        <string>r.sc</string>
+        <key>newBounds</key>
+        <array>
+          <real>81.0</real>
+          <real>0.0</real>
+          <real>546.0</real>
+          <real>566.0</real>
+        </array>
+        <key>newLatinPositionsBeforeRounding</key>
+        <dict>
+          <key>bottom</key>
+          <array>
+            <real>282.0</real>
+            <real>0.0</real>
+          </array>
+          <key>middle</key>
+          <array>
+            <real>284.0</real>
+            <real>283.0</real>
+          </array>
+          <key>ogonek</key>
+          <array>
+            <real>228.43695</real>
+            <integer>0</integer>
+          </array>
+          <key>side</key>
+          <array>
+            <real>509.9818</real>
+            <integer>566</integer>
+          </array>
+          <key>top</key>
+          <array>
+            <real>286.0</real>
+            <real>566.0</real>
+          </array>
+        </dict>
+        <key>orientation</key>
+        <string>Vertical reflection within the genuine native italic axis, not a half-turn.</string>
+        <key>orientationMatrix</key>
+        <array>
+          <integer>1</integer>
+          <integer>0</integer>
+          <real>0.0</real>
+          <integer>-1</integer>
+          <real>-0.0</real>
+          <integer>566</integer>
+        </array>
+        <key>roleRationale</key>
+        <string>Inverted R top/bottom follow the actual opposite vertical-reflected native SC roles; middle is explicitly centred between those roles. Stroked I retains the genuine SC shaft top/bottom after whole-source translation and puts middle at the actual translated defining crossbar. Side/ogonek are explicit new source positions. Native zero coordinates are not treated as inactive. All roles require actual attachment/stack review.</string>
+        <key>semanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>sourceAdvance</key>
+        <integer>556</integer>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>529776</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-Medium.ttf</string>
+          <key>sha256</key>
+          <string>67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4</string>
+        </dict>
+        <key>sourceGlifs</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>uni0281</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2072</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni0281.glif</string>
+              <key>sha256</key>
+              <string>ece68f5104021581cc965cd90ebfafc216c2df2200fb4a60e0d019f8ac7a43c4</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>r.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1998</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/r.sc.glif</string>
+              <key>sha256</key>
+              <string>c3bf360bdd65126dea281cd535a096ba1dc932802df9ddebe546524f02e2ccae</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1559</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>30b7627378c19e650c296bebe8c389e5deeab9bb4c1e807ab9577b77f474f711</string>
+            </dict>
+          </dict>
+        </array>
+        <key>wholeTranslationX</key>
+        <integer>0</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>1b18809b93984ad8ea737e4d601ca724d6e4cb51bd0334fbf668921e1cef83c7</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-PHONETIC-INVERTED-R-AND-STROKED-I-SMALLCAPS-2026-11-07</string>
+        <key>planSha256</key>
+        <string>3ce7bfbd7c4ab795b48982fc9f38d9c0a2d3bf19c0cd5f265664f70aad268bd8</string>
+        <key>reviewSha256</key>
+        <string>4e9fe5026b5f29a7aca824f3a83535c6e2879f48012c05b7aa2cb99c2ce43161</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

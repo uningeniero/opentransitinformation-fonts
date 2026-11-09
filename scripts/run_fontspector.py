@@ -9,7 +9,10 @@ def main(binary,folder,output):
     manifest=read(folder/'build-manifest.json');results=[]
     version=subprocess.check_output([str(binary),'--version'],text=True,encoding='utf-8').strip()
     assert read(ROOT/'tools/fontspector.json')['version'] in version
-    for role,count in [('screen',8),('sign',4)]:
+    roles=manifest.get('selectedFamilies',['screen','sign'])
+    assert roles and set(roles)<= {'screen','sign'}
+    for role in roles:
+        count=8 if role=='screen' else 4
         paths=[c['ttf']['path'] for c in manifest['cuts'] if c['role']==role];assert len(paths)==count
         license_record=next(r['file'] for r in manifest['familyLicenses'] if r['role']==role)
         assert rec(ROOT/license_record['path'])==license_record

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.0268.dotless120" format="2">
+  <advance width="311"/>
+  <anchor x="118" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="143" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="228" y="527" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="159" y="285" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="294" y="247" type="line"/>
+      <point x="199" y="247" type="line"/>
+      <point x="164" y="0" type="line"/>
+      <point x="73" y="0" type="line"/>
+      <point x="108" y="247" type="line"/>
+      <point x="13" y="247" type="line"/>
+      <point x="24" y="325" type="line"/>
+      <point x="119" y="325" type="line"/>
+      <point x="147" y="527" type="line"/>
+      <point x="238" y="527" type="line"/>
+      <point x="210" y="325" type="line"/>
+      <point x="305" y="325" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>kind</key>
+        <string>Native body contours with the isolated soft dot omitted</string>
+        <key>removedContourIndex</key>
+        <integer>0</integer>
+        <key>retainedAdvance</key>
+        <integer>311</integer>
+        <key>scope</key>
+        <string>ccmp before an above combining mark, retaining intervening below marks</string>
+        <key>sourceGlyph</key>
+        <string>uni0268</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

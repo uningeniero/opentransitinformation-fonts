@@ -1,0 +1,1592 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni25CC" format="2">
+  <advance width="655"/>
+  <unicode hex="25CC"/>
+  <anchor x="291" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="385" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="365" y="527" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="328" y="264" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="552" y="527" name="base__Extension38__Anchor37__Anchor37"/>
+  <anchor x="328" y="264" name="base__Traveller120CircleOverlay__Traveller120CircleOverlayClass"/>
+  <outline>
+    <contour>
+      <point x="542" y="261" type="qcurve" smooth="yes"/>
+      <point x="542" y="275"/>
+      <point x="561" y="295"/>
+      <point x="575" y="295" type="qcurve" smooth="yes"/>
+      <point x="588" y="295"/>
+      <point x="604" y="279"/>
+      <point x="604" y="266" type="qcurve" smooth="yes"/>
+      <point x="604" y="252"/>
+      <point x="584" y="232"/>
+      <point x="570" y="232" type="qcurve" smooth="yes"/>
+      <point x="558" y="232"/>
+      <point x="542" y="248"/>
+    </contour>
+    <contour>
+      <point x="526" y="383" type="qcurve" smooth="yes"/>
+      <point x="526" y="397"/>
+      <point x="546" y="417"/>
+      <point x="560" y="417" type="qcurve" smooth="yes"/>
+      <point x="572" y="417"/>
+      <point x="588" y="401"/>
+      <point x="588" y="389" type="qcurve" smooth="yes"/>
+      <point x="588" y="374"/>
+      <point x="568" y="354"/>
+      <point x="554" y="354" type="qcurve" smooth="yes"/>
+      <point x="542" y="354"/>
+      <point x="526" y="371"/>
+    </contour>
+    <contour>
+      <point x="449" y="472" type="qcurve" smooth="yes"/>
+      <point x="449" y="486"/>
+      <point x="469" y="506"/>
+      <point x="483" y="506" type="qcurve" smooth="yes"/>
+      <point x="495" y="506"/>
+      <point x="511" y="490"/>
+      <point x="511" y="478" type="qcurve" smooth="yes"/>
+      <point x="511" y="464"/>
+      <point x="491" y="444"/>
+      <point x="477" y="444" type="qcurve" smooth="yes"/>
+      <point x="465" y="444"/>
+      <point x="449" y="460"/>
+    </contour>
+    <contour>
+      <point x="331" y="505" type="qcurve" smooth="yes"/>
+      <point x="331" y="519"/>
+      <point x="351" y="539"/>
+      <point x="365" y="539" type="qcurve" smooth="yes"/>
+      <point x="377" y="539"/>
+      <point x="393" y="523"/>
+      <point x="393" y="511" type="qcurve" smooth="yes"/>
+      <point x="393" y="496"/>
+      <point x="373" y="476"/>
+      <point x="359" y="476" type="qcurve" smooth="yes"/>
+      <point x="347" y="476"/>
+      <point x="331" y="493"/>
+    </contour>
+    <contour>
+      <point x="205" y="472" type="qcurve" smooth="yes"/>
+      <point x="205" y="486"/>
+      <point x="224" y="506"/>
+      <point x="238" y="506" type="qcurve" smooth="yes"/>
+      <point x="250" y="506"/>
+      <point x="266" y="490"/>
+      <point x="266" y="478" type="qcurve" smooth="yes"/>
+      <point x="266" y="464"/>
+      <point x="246" y="444"/>
+      <point x="232" y="444" type="qcurve" smooth="yes"/>
+      <point x="220" y="444"/>
+      <point x="205" y="460"/>
+    </contour>
+    <contour>
+      <point x="102" y="383" type="qcurve" smooth="yes"/>
+      <point x="102" y="397"/>
+      <point x="122" y="417"/>
+      <point x="136" y="417" type="qcurve" smooth="yes"/>
+      <point x="148" y="417"/>
+      <point x="164" y="401"/>
+      <point x="164" y="389" type="qcurve" smooth="yes"/>
+      <point x="164" y="374"/>
+      <point x="144" y="354"/>
+      <point x="130" y="354" type="qcurve" smooth="yes"/>
+      <point x="118" y="354"/>
+      <point x="102" y="371"/>
+    </contour>
+    <contour>
+      <point x="52" y="261" type="qcurve" smooth="yes"/>
+      <point x="52" y="275"/>
+      <point x="72" y="295"/>
+      <point x="86" y="295" type="qcurve" smooth="yes"/>
+      <point x="98" y="295"/>
+      <point x="114" y="279"/>
+      <point x="114" y="266" type="qcurve" smooth="yes"/>
+      <point x="114" y="252"/>
+      <point x="94" y="232"/>
+      <point x="80" y="232" type="qcurve" smooth="yes"/>
+      <point x="68" y="232"/>
+      <point x="52" y="248"/>
+    </contour>
+    <contour>
+      <point x="68" y="138" type="qcurve" smooth="yes"/>
+      <point x="68" y="153"/>
+      <point x="87" y="173"/>
+      <point x="101" y="173" type="qcurve" smooth="yes"/>
+      <point x="114" y="173"/>
+      <point x="130" y="156"/>
+      <point x="130" y="144" type="qcurve" smooth="yes"/>
+      <point x="130" y="130"/>
+      <point x="110" y="110"/>
+      <point x="96" y="110" type="qcurve" smooth="yes"/>
+      <point x="84" y="110"/>
+      <point x="68" y="126"/>
+    </contour>
+    <contour>
+      <point x="145" y="49" type="qcurve" smooth="yes"/>
+      <point x="145" y="63"/>
+      <point x="164" y="83"/>
+      <point x="178" y="83" type="qcurve" smooth="yes"/>
+      <point x="191" y="83"/>
+      <point x="207" y="67"/>
+      <point x="207" y="55" type="qcurve" smooth="yes"/>
+      <point x="207" y="41"/>
+      <point x="187" y="21"/>
+      <point x="173" y="21" type="qcurve" smooth="yes"/>
+      <point x="161" y="21"/>
+      <point x="145" y="37"/>
+    </contour>
+    <contour>
+      <point x="263" y="16" type="qcurve" smooth="yes"/>
+      <point x="263" y="31"/>
+      <point x="282" y="51"/>
+      <point x="296" y="51" type="qcurve" smooth="yes"/>
+      <point x="309" y="51"/>
+      <point x="325" y="34"/>
+      <point x="325" y="22" type="qcurve" smooth="yes"/>
+      <point x="325" y="8"/>
+      <point x="305" y="-12"/>
+      <point x="291" y="-12" type="qcurve" smooth="yes"/>
+      <point x="279" y="-12"/>
+      <point x="263" y="4"/>
+    </contour>
+    <contour>
+      <point x="390" y="49" type="qcurve" smooth="yes"/>
+      <point x="390" y="63"/>
+      <point x="409" y="83"/>
+      <point x="423" y="83" type="qcurve" smooth="yes"/>
+      <point x="436" y="83"/>
+      <point x="451" y="67"/>
+      <point x="451" y="55" type="qcurve" smooth="yes"/>
+      <point x="451" y="41"/>
+      <point x="432" y="21"/>
+      <point x="418" y="21" type="qcurve" smooth="yes"/>
+      <point x="406" y="21"/>
+      <point x="390" y="37"/>
+    </contour>
+    <contour>
+      <point x="492" y="138" type="qcurve" smooth="yes"/>
+      <point x="492" y="153"/>
+      <point x="511" y="173"/>
+      <point x="525" y="173" type="qcurve" smooth="yes"/>
+      <point x="538" y="173"/>
+      <point x="554" y="156"/>
+      <point x="554" y="144" type="qcurve" smooth="yes"/>
+      <point x="554" y="130"/>
+      <point x="534" y="110"/>
+      <point x="520" y="110" type="qcurve" smooth="yes"/>
+      <point x="508" y="110"/>
+      <point x="492" y="126"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.dottedCircleConstruction</key>
+      <dict>
+        <key>actualPerCutRoleEvidence</key>
+        <array>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>3</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-113</integer>
+              <integer>527</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>0</integer>
+            <key>actualMarkGlyph</key>
+            <string>acutecomb</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension31</string>
+            <key>semanticRole</key>
+            <string>top</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension31__Anchor28__Anchor28</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>330</integer>
+                  <integer>527</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni210A</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension31__Anchor28__Anchor28</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>843</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni210A_.glif</string>
+                  <key>sha256</key>
+                  <string>05772f40df479daa821fb5fb426576ab9053d241d2ae4d0946ff7bc2b9130727</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0301</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>3</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-132</integer>
+              <integer>0</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>1</integer>
+            <key>actualMarkGlyph</key>
+            <string>dotbelowcomb</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension31</string>
+            <key>semanticRole</key>
+            <string>bottom</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension31__Anchor27__Anchor27</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>209</integer>
+                  <integer>-202</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni210A</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension31__Anchor27__Anchor27</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>843</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni210A_.glif</string>
+                  <key>sha256</key>
+                  <string>05772f40df479daa821fb5fb426576ab9053d241d2ae4d0946ff7bc2b9130727</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0323</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>3</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-102</integer>
+              <integer>527</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>2</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni031B</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension31</string>
+            <key>semanticRole</key>
+            <string>side</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension31__Anchor29__Anchor29</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>458</integer>
+                  <integer>739</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni210A</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension31__Anchor29__Anchor29</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>843</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni210A_.glif</string>
+                  <key>sha256</key>
+                  <string>05772f40df479daa821fb5fb426576ab9053d241d2ae4d0946ff7bc2b9130727</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+031B</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>3</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-238</integer>
+              <integer>317</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>3</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0334</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension31</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension31__Anchor30__Anchor30</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>0</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni210A</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension31__Anchor30__Anchor30</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>843</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni210A_.glif</string>
+                  <key>sha256</key>
+                  <string>05772f40df479daa821fb5fb426576ab9053d241d2ae4d0946ff7bc2b9130727</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0334</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>3</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-192</integer>
+              <integer>312</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>3</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0335</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension31</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension31__Anchor30__Anchor30</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>0</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni210A</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension31__Anchor30__Anchor30</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>843</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni210A_.glif</string>
+                  <key>sha256</key>
+                  <string>05772f40df479daa821fb5fb426576ab9053d241d2ae4d0946ff7bc2b9130727</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0335</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>4</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-113</integer>
+              <integer>527</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>0</integer>
+            <key>actualMarkGlyph</key>
+            <string>acutecomb</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension38</string>
+            <key>semanticRole</key>
+            <string>top</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension38__Anchor35__Anchor35</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>326</integer>
+                  <integer>527</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni043E</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension38__Anchor35__Anchor35</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni043E_.glif</string>
+                  <key>sha256</key>
+                  <string>8b6ee06445cde4e559123d85334cf2b982b09eea9112823e591d462475fba7cd</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0301</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>4</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-132</integer>
+              <integer>0</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>1</integer>
+            <key>actualMarkGlyph</key>
+            <string>dotbelowcomb</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension38</string>
+            <key>semanticRole</key>
+            <string>bottom</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension38__Anchor33__Anchor33</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>254</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni043E</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension38__Anchor33__Anchor33</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni043E_.glif</string>
+                  <key>sha256</key>
+                  <string>8b6ee06445cde4e559123d85334cf2b982b09eea9112823e591d462475fba7cd</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0323</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>4</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-102</integer>
+              <integer>527</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>2</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni031B</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension38</string>
+            <key>semanticRole</key>
+            <string>side</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension38__Anchor37__Anchor37</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>512</integer>
+                  <integer>527</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni043E</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension38__Anchor37__Anchor37</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni043E_.glif</string>
+                  <key>sha256</key>
+                  <string>8b6ee06445cde4e559123d85334cf2b982b09eea9112823e591d462475fba7cd</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+031B</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>4</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-59</integer>
+              <integer>0</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>3</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0328</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension38</string>
+            <key>semanticRole</key>
+            <string>ogonek</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension38__Anchor34__Anchor34</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>342</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni043E</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension38__Anchor34__Anchor34</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni043E_.glif</string>
+                  <key>sha256</key>
+                  <string>8b6ee06445cde4e559123d85334cf2b982b09eea9112823e591d462475fba7cd</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0328</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>4</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-238</integer>
+              <integer>317</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>4</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0334</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension38</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension38__Anchor36__Anchor36</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>0</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni043E</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension38__Anchor36__Anchor36</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni043E_.glif</string>
+                  <key>sha256</key>
+                  <string>8b6ee06445cde4e559123d85334cf2b982b09eea9112823e591d462475fba7cd</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0334</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>4</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-192</integer>
+              <integer>312</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>4</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0335</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension38</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension38__Anchor36__Anchor36</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>0</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>uni043E</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension38__Anchor36__Anchor36</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni043E_.glif</string>
+                  <key>sha256</key>
+                  <string>8b6ee06445cde4e559123d85334cf2b982b09eea9112823e591d462475fba7cd</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0335</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>5</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-113</integer>
+              <integer>527</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>0</integer>
+            <key>actualMarkGlyph</key>
+            <string>acutecomb</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension45</string>
+            <key>semanticRole</key>
+            <string>top</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension45__Anchor40__Anchor40</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>326</integer>
+                  <integer>527</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>omicron</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension45__Anchor40__Anchor40</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/omicron.glif</string>
+                  <key>sha256</key>
+                  <string>b6bdf36892ed539fbf476be2f2ea119a2a264ff30c5fa5aff50373d67c79475f</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0301</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>5</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-132</integer>
+              <integer>0</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>1</integer>
+            <key>actualMarkGlyph</key>
+            <string>dotbelowcomb</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension45</string>
+            <key>semanticRole</key>
+            <string>bottom</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension45__Anchor41__Anchor41</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>254</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>omicron</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension45__Anchor41__Anchor41</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/omicron.glif</string>
+                  <key>sha256</key>
+                  <string>b6bdf36892ed539fbf476be2f2ea119a2a264ff30c5fa5aff50373d67c79475f</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0323</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>5</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-102</integer>
+              <integer>527</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>2</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni031B</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension45</string>
+            <key>semanticRole</key>
+            <string>side</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension45__Anchor44__Anchor44</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>512</integer>
+                  <integer>527</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>omicron</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension45__Anchor44__Anchor44</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/omicron.glif</string>
+                  <key>sha256</key>
+                  <string>b6bdf36892ed539fbf476be2f2ea119a2a264ff30c5fa5aff50373d67c79475f</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+031B</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>5</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-59</integer>
+              <integer>0</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>3</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0328</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension45</string>
+            <key>semanticRole</key>
+            <string>ogonek</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension45__Anchor42__Anchor42</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>342</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>omicron</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension45__Anchor42__Anchor42</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/omicron.glif</string>
+                  <key>sha256</key>
+                  <string>b6bdf36892ed539fbf476be2f2ea119a2a264ff30c5fa5aff50373d67c79475f</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0328</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>5</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-238</integer>
+              <integer>317</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>4</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0334</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension45</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension45__Anchor43__Anchor43</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>0</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>omicron</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension45__Anchor43__Anchor43</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/omicron.glif</string>
+                  <key>sha256</key>
+                  <string>b6bdf36892ed539fbf476be2f2ea119a2a264ff30c5fa5aff50373d67c79475f</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0334</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>5</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-192</integer>
+              <integer>312</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>4</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0335</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension45</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension45__Anchor43__Anchor43</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>0</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>omicron</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension45__Anchor43__Anchor43</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>911</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/omicron.glif</string>
+                  <key>sha256</key>
+                  <string>b6bdf36892ed539fbf476be2f2ea119a2a264ff30c5fa5aff50373d67c79475f</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0335</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>6</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-113</integer>
+              <integer>527</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>0</integer>
+            <key>actualMarkGlyph</key>
+            <string>acutecomb</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension52</string>
+            <key>semanticRole</key>
+            <string>top</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension52__Anchor49__Anchor49</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>326</integer>
+                  <integer>527</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>o</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension52__Anchor49__Anchor49</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>2081</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/o.glif</string>
+                  <key>sha256</key>
+                  <string>20c03190af10621635d255784b389f66ad859741ed955f6415f2b4bfb76ed657</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0301</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>6</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-132</integer>
+              <integer>0</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>1</integer>
+            <key>actualMarkGlyph</key>
+            <string>dotbelowcomb</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension52</string>
+            <key>semanticRole</key>
+            <string>bottom</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension52__Anchor47__Anchor47</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>254</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>o</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension52__Anchor47__Anchor47</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>2081</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/o.glif</string>
+                  <key>sha256</key>
+                  <string>20c03190af10621635d255784b389f66ad859741ed955f6415f2b4bfb76ed657</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0323</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>6</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-102</integer>
+              <integer>527</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>2</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni031B</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension52</string>
+            <key>semanticRole</key>
+            <string>side</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension52__Anchor50__Anchor50</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>512</integer>
+                  <integer>527</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>o</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension52__Anchor50__Anchor50</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>2081</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/o.glif</string>
+                  <key>sha256</key>
+                  <string>20c03190af10621635d255784b389f66ad859741ed955f6415f2b4bfb76ed657</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+031B</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>6</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-59</integer>
+              <integer>0</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>3</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0328</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension52</string>
+            <key>semanticRole</key>
+            <string>ogonek</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension52__Anchor48__Anchor48</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>342</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>o</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension52__Anchor48__Anchor48</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>2081</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/o.glif</string>
+                  <key>sha256</key>
+                  <string>20c03190af10621635d255784b389f66ad859741ed955f6415f2b4bfb76ed657</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0328</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>6</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-238</integer>
+              <integer>317</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>4</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0334</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension52</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension52__Anchor51__Anchor51</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>0</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>o</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension52__Anchor51__Anchor51</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>2081</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/o.glif</string>
+                  <key>sha256</key>
+                  <string>20c03190af10621635d255784b389f66ad859741ed955f6415f2b4bfb76ed657</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0334</string>
+          </dict>
+          <dict>
+            <key>actualLookupIndex</key>
+            <integer>6</integer>
+            <key>actualMarkAnchor</key>
+            <array>
+              <integer>-192</integer>
+              <integer>312</integer>
+            </array>
+            <key>actualMarkClass</key>
+            <integer>4</integer>
+            <key>actualMarkGlyph</key>
+            <string>uni0335</string>
+            <key>actualSubtableIndex</key>
+            <integer>0</integer>
+            <key>namespace</key>
+            <string>Extension52</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceAnchorName</key>
+            <string>base__Extension52__Anchor51__Anchor51</string>
+            <key>sourceBaseObservations</key>
+            <array>
+              <dict>
+                <key>actualBaseAnchor</key>
+                <array>
+                  <integer>0</integer>
+                  <integer>0</integer>
+                </array>
+                <key>baseGlyph</key>
+                <string>o</string>
+                <key>matchingNativeNames</key>
+                <array>
+                  <string>base__Extension52__Anchor51__Anchor51</string>
+                </array>
+                <key>source</key>
+                <dict>
+                  <key>bytes</key>
+                  <integer>2081</integer>
+                  <key>path</key>
+                  <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/o.glif</string>
+                  <key>sha256</key>
+                  <string>20c03190af10621635d255784b389f66ad859741ed955f6415f2b4bfb76ed657</string>
+                </dict>
+              </dict>
+            </array>
+            <key>witnessScalar</key>
+            <string>U+0335</string>
+          </dict>
+        </array>
+        <key>advance</key>
+        <integer>655</integer>
+        <key>anchorPolicy</key>
+        <string>These are deliberately designed new functional coordinates for top, bottom, side, ogonek and middle mark roles. The original native zero coordinates are not treated as inactive. Side and middle are separate semantic roles, not a broad y-coordinate filter.</string>
+        <key>construction</key>
+        <string>Place twelve actual same-cut native period drawings around the o round-height frame. Reduce only the dot components optically, retaining their genuine weight and italic contours. Preserve native o edge-spacing roles. No capital, whole letter or upright is scaled into a small cap or synthetic italic.</string>
+        <key>dotPlacementsBeforeWholeTranslation</key>
+        <array>
+          <array>
+            <real>492.49999999999994</real>
+            <real>237.625</real>
+          </array>
+          <array>
+            <real>476.88155834855337</real>
+            <real>359.73749999999995</real>
+          </array>
+          <array>
+            <real>399.8875968665594</real>
+            <real>449.1300542392545</real>
+          </array>
+          <array>
+            <real>282.1485853551915</real>
+            <real>481.85</real>
+          </array>
+          <array>
+            <real>155.21259686655947</real>
+            <real>449.13005423925455</real>
+          </array>
+          <array>
+            <real>53.09202700663821</real>
+            <real>359.73749999999995</real>
+          </array>
+          <array>
+            <real>3.1499999999999915</real>
+            <real>237.62500000000006</real>
+          </array>
+          <array>
+            <real>18.768441651446643</real>
+            <real>115.51250000000007</real>
+          </array>
+          <array>
+            <real>95.76240313344047</real>
+            <real>26.11994576074551</real>
+          </array>
+          <array>
+            <real>213.5014146448084</real>
+            <real>-6.599999999999994</real>
+          </array>
+          <array>
+            <real>340.4374031334406</real>
+            <real>26.11994576074548</real>
+          </array>
+          <array>
+            <real>442.55797299336166</real>
+            <real>115.51249999999987</real>
+          </array>
+        </array>
+        <key>dots</key>
+        <integer>12</integer>
+        <key>engineeringBoundary</key>
+        <string>Multiple Screen namespaces may cover the same marks. Confirm actual compiled coverage and applied lookup order before choosing the final integration; duplicate XML names alone do not prove attachment. Preserve unrelated contextual helpers and native sources.</string>
+        <key>kind</key>
+        <string>Dotted-circle mark demonstration base</string>
+        <key>nativeItalicAngle</key>
+        <real>-8.0</real>
+        <key>periodComponentOpticalFactor</key>
+        <real>0.45</real>
+        <key>rights</key>
+        <string>Existing family OFL 1.1 and all inherited copyright and Reserved Font Name notices remain attached.</string>
+        <key>roundFrame</key>
+        <array>
+          <integer>52</integer>
+          <integer>-12</integer>
+          <integer>526</integer>
+          <integer>539</integer>
+        </array>
+        <key>roundFrameSource</key>
+        <string>o</string>
+        <key>semanticAnchorRoles</key>
+        <array>
+          <dict>
+            <key>name</key>
+            <string>base__Extension31__Anchor27__Anchor27</string>
+            <key>semanticRole</key>
+            <string>bottom</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension31__Anchor28__Anchor28</string>
+            <key>semanticRole</key>
+            <string>top</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension31__Anchor29__Anchor29</string>
+            <key>semanticRole</key>
+            <string>side</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension31__Anchor30__Anchor30</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension38__Anchor33__Anchor33</string>
+            <key>semanticRole</key>
+            <string>bottom</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension38__Anchor34__Anchor34</string>
+            <key>semanticRole</key>
+            <string>ogonek</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension38__Anchor35__Anchor35</string>
+            <key>semanticRole</key>
+            <string>top</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension38__Anchor36__Anchor36</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension38__Anchor37__Anchor37</string>
+            <key>semanticRole</key>
+            <string>side</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension45__Anchor40__Anchor40</string>
+            <key>semanticRole</key>
+            <string>top</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension45__Anchor41__Anchor41</string>
+            <key>semanticRole</key>
+            <string>bottom</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension45__Anchor42__Anchor42</string>
+            <key>semanticRole</key>
+            <string>ogonek</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension45__Anchor43__Anchor43</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension45__Anchor44__Anchor44</string>
+            <key>semanticRole</key>
+            <string>side</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor47__Anchor47</string>
+            <key>semanticRole</key>
+            <string>bottom</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor48__Anchor48</string>
+            <key>semanticRole</key>
+            <string>ogonek</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor49__Anchor49</string>
+            <key>semanticRole</key>
+            <string>top</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor50__Anchor50</string>
+            <key>semanticRole</key>
+            <string>side</string>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor51__Anchor51</string>
+            <key>semanticRole</key>
+            <string>middle</string>
+          </dict>
+        </array>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>528800</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-Italic.ttf</string>
+          <key>sha256</key>
+          <string>c99a0a7eeca7eea3c9a16e78d34cbf0501e83fde84c090a4f4fdfbf07ce559ac</string>
+        </dict>
+        <key>sources</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>period</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1112</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/period.glif</string>
+              <key>sha256</key>
+              <string>7cdd724cfaa552dd4f24e44748ebf3bffdbc08d3857061882732c0aead91ca56</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>o</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2081</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/o.glif</string>
+              <key>sha256</key>
+              <string>20c03190af10621635d255784b389f66ad859741ed955f6415f2b4bfb76ed657</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>H</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1596</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/H_.glif</string>
+              <key>sha256</key>
+              <string>b38237616d9d8d86c6971ceb02ca290d2789230b14bad7d03b1e1d4abbd639f8</string>
+            </dict>
+          </dict>
+        </array>
+        <key>wholeTranslateX</key>
+        <integer>39</integer>
+      </dict>
+      <key>org.opentransitinformation.successorAttachmentSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>4b82fbb7e5f2f84045109b4c59ed05e7aad9ec1427a89ef42238a8aad2aa519a</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-ATTACHMENT-SUPPLEMENT-2026-11-07</string>
+        <key>planSha256</key>
+        <string>7e21528a244b8146c164fd14024366123b095a1e93001fa643c28541ee6f94f3</string>
+      </dict>
+      <key>org.opentransitinformation.successorCircleCoverageSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>f641d9f490cb3acd9c6d43fb75375c610a77de13c915bfb48f615a66a244c7d4</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-CIRCLE-CYRILLIC-CONSOLIDATION-2026-11-07</string>
+        <key>planSha256</key>
+        <string>4639b583ec8bb5f647f1772d4c51c9b3371223eac537a238dfcfe85790e34536</string>
+        <key>removedRedundantAnchors</key>
+        <array>
+          <string>base__Extension31__Anchor27__Anchor27</string>
+          <string>base__Extension31__Anchor28__Anchor28</string>
+          <string>base__Extension31__Anchor29__Anchor29</string>
+          <string>base__Extension31__Anchor30__Anchor30</string>
+          <string>base__Extension45__Anchor40__Anchor40</string>
+          <string>base__Extension45__Anchor41__Anchor41</string>
+          <string>base__Extension45__Anchor42__Anchor42</string>
+          <string>base__Extension45__Anchor43__Anchor43</string>
+          <string>base__Extension45__Anchor44__Anchor44</string>
+          <string>base__Extension52__Anchor47__Anchor47</string>
+          <string>base__Extension52__Anchor48__Anchor48</string>
+          <string>base__Extension52__Anchor49__Anchor49</string>
+          <string>base__Extension52__Anchor50__Anchor50</string>
+          <string>base__Extension52__Anchor51__Anchor51</string>
+        </array>
+        <key>retainedNativeNamespace</key>
+        <string>Extension38</string>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>58ab5f7b6b5f6f218b025e682f2ea4357d82f5157d81ac59712a264202ca50f7</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        <key>planSha256</key>
+        <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

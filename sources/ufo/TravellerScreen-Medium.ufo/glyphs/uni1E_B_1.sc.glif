@@ -4,7 +4,7 @@
   <advance width="513"/>
   <anchor x="255" y="0" name="base__Extension52__Anchor47__Anchor47"/>
   <anchor x="474" y="0" name="base__Extension52__Anchor48__Anchor48"/>
-  <anchor x="257" y="725" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="257" y="726" name="base__Extension52__Anchor49__Anchor49"/>
   <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
   <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
   <outline>
@@ -13,6 +13,73 @@
   </outline>
   <lib>
     <dict>
+      <key>org.opentransitinformation.stackingAnchorSource</key>
+      <dict>
+        <key>kind</key>
+        <string>Native mark-to-mark role transformed through stored component geometry</string>
+        <key>sourcePoint</key>
+        <dict>
+          <key>components</key>
+          <array>
+            <dict>
+              <key>child</key>
+              <string>uni0306.case</string>
+              <key>parent</key>
+              <string>brevegrave</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>386</integer>
+                <integer>-154</integer>
+              </array>
+            </dict>
+            <dict>
+              <key>child</key>
+              <string>brevegrave</string>
+              <key>parent</key>
+              <string>uni1EB1.sc</string>
+              <key>transformation</key>
+              <array>
+                <integer>1</integer>
+                <integer>0</integer>
+                <integer>0</integer>
+                <integer>1</integer>
+                <integer>64</integer>
+                <integer>37</integer>
+              </array>
+            </dict>
+          </array>
+          <key>nativeAnchor</key>
+          <string>mark2__MarkToMark55__Anchor56_Anchor56_</string>
+          <key>nativeGlyph</key>
+          <string>uni0306.case</string>
+          <key>point</key>
+          <array>
+            <integer>257</integer>
+            <integer>726</integer>
+          </array>
+        </dict>
+        <key>updatedAboveAnchors</key>
+        <array>
+          <dict>
+            <key>after</key>
+            <array>
+              <integer>257</integer>
+              <integer>726</integer>
+            </array>
+            <key>anchor</key>
+            <string>base__Extension52__Anchor49__Anchor49</string>
+            <key>before</key>
+            <array>
+              <integer>257</integer>
+              <integer>725</integer>
+            </array>
+          </dict>
+        </array>
+      </dict>
       <key>public.objectLibs</key>
       <dict>
         <key>component0</key>

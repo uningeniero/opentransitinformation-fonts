@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="oti.1E2D.dotless120" format="2">
+  <advance width="278"/>
+  <anchor x="102" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="141" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="213" y="529" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="143" y="285" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="165" y="0" type="line"/>
+      <point x="39" y="0" type="line"/>
+      <point x="113" y="529" type="line"/>
+      <point x="239" y="529" type="line"/>
+    </contour>
+    <contour>
+      <point x="116" y="-199"/>
+      <point x="85" y="-184"/>
+      <point x="66" y="-170" type="qcurve"/>
+      <point x="57" y="-163"/>
+      <point x="37" y="-152"/>
+      <point x="28" y="-152" type="qcurve"/>
+      <point x="10" y="-152"/>
+      <point x="-17" y="-175"/>
+      <point x="-34" y="-199" type="qcurve"/>
+      <point x="-97" y="-162" type="line"/>
+      <point x="-72" y="-116"/>
+      <point x="-5" y="-59"/>
+      <point x="33" y="-59" type="qcurve"/>
+      <point x="55" y="-59"/>
+      <point x="86" y="-74"/>
+      <point x="103" y="-87" type="qcurve"/>
+      <point x="115" y="-96"/>
+      <point x="131" y="-105"/>
+      <point x="140" y="-105" type="qcurve"/>
+      <point x="156" y="-105"/>
+      <point x="184" y="-83"/>
+      <point x="200" y="-60" type="qcurve"/>
+      <point x="265" y="-97" type="line"/>
+      <point x="238" y="-145"/>
+      <point x="172" y="-199"/>
+      <point x="137" y="-199" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.construction</key>
+      <dict>
+        <key>kind</key>
+        <string>Native body contours with the isolated soft dot omitted</string>
+        <key>removedContourIndex</key>
+        <integer>1</integer>
+        <key>retainedAdvance</key>
+        <integer>278</integer>
+        <key>scope</key>
+        <string>ccmp before an above combining mark, retaining intervening below marks</string>
+        <key>sourceGlyph</key>
+        <string>uni1E2D</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

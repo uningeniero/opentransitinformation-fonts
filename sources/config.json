@@ -1,0 +1,35 @@
+{
+  "spdxLicense": "CC-BY-4.0",
+  "families": {
+    "screen": {
+      "designedScripts": ["Latn", "Grek", "Cyrl"],
+      "supportedScripts": ["Latn", "Grek", "Cyrl"],
+      "postScriptStyleNames": {},
+      "statAxes": [
+        {"tag": "wght", "name": "Weight", "ordering": 0, "values": [
+          {"value": 400, "name": "Regular", "flags": 2},
+          {"value": 500, "name": "Medium"},
+          {"value": 600, "name": "SemiBold"},
+          {"value": 700, "name": "Bold"}
+        ]},
+        {"tag": "ital", "name": "Italic", "ordering": 1, "values": [
+          {"value": 0, "name": "Roman", "flags": 2},
+          {"value": 1, "name": "Italic"}
+        ]}
+      ]
+    },
+    "sign": {
+      "designedScripts": ["Latn"],
+      "supportedScripts": ["Latn"],
+      "postScriptStyleNames": {},
+      "statAxes": [
+        {"tag": "wght", "name": "Weight", "ordering": 0, "values": [
+          {"value": 400, "name": "Regular", "flags": 2},
+          {"value": 500, "name": "Medium"},
+          {"value": 600, "name": "SemiBold"},
+          {"value": 700, "name": "Bold"}
+        ]}
+      ]
+    }
+  }
+}

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni04B4.sc" format="2">
+  <advance width="714"/>
+  <anchor x="353" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="358" y="566" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="704" y="97" type="line"/>
+      <point x="624" y="97" type="line"/>
+      <point x="624" y="566" type="line"/>
+      <point x="496" y="566" type="line"/>
+      <point x="496" y="98" type="line"/>
+      <point x="298" y="98" type="line"/>
+      <point x="298" y="467" type="line"/>
+      <point x="450" y="467" type="line"/>
+      <point x="463" y="566" type="line"/>
+      <point x="12" y="566" type="line"/>
+      <point x="12" y="467" type="line"/>
+      <point x="170" y="467" type="line"/>
+      <point x="170" y="0" type="line"/>
+      <point x="594" y="0" type="line"/>
+      <point x="611" y="-158" type="line"/>
+      <point x="704" y="-158" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.successorSmallcapDesign</key>
+      <dict>
+        <key>geometry</key>
+        <dict>
+          <key>bodyStemInterval</key>
+          <array>
+            <real>81.0</real>
+            <real>209.0</real>
+          </array>
+          <key>headStemInterval</key>
+          <array>
+            <real>170.0</real>
+            <real>298.0</real>
+          </array>
+          <key>headTranslateX</key>
+          <real>-89.0</real>
+          <key>stemAlignmentScanlineY</key>
+          <integer>150</integer>
+          <key>topAnchorRepair</key>
+          <dict>
+            <key>new</key>
+            <array>
+              <integer>358</integer>
+              <integer>566</integer>
+            </array>
+            <key>previousPlaceholder</key>
+            <array>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+            <key>reason</key>
+            <string>The frozen Cyrillic smallcap GPOS lookup has an actual top-mark class at the inherited zero coordinate, not an absent anchor. Use the native T.sc top anchor centred on the new advance; keep the native bottom route. Actual candidate top/below/stacked placement still requires review.</string>
+            <key>sameCutDonor</key>
+            <string>uni0442.sc</string>
+          </dict>
+          <key>wholeTranslateX</key>
+          <real>89.0</real>
+        </dict>
+        <key>kind</key>
+        <string>Same-cut genuine native small-cap construction</string>
+        <key>noCapitalScaling</key>
+        <true/>
+        <key>noSyntheticItalic</key>
+        <true/>
+        <key>rounding</key>
+        <string>Only output contour coordinates and new intersection points are rounded with otRound, at most 0.5 unit per coordinate.</string>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>529776</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-Medium.ttf</string>
+            <key>sha256</key>
+            <string>67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>uni0446.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1576</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni0446.sc.glif</string>
+                <key>sha256</key>
+                <string>9b470be16f697b89d5d0ebee8fb17bfea310bdab51f028f9d7681140e3241145</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni0442.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>891</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni0442.sc.glif</string>
+                <key>sha256</key>
+                <string>63caf517a038b9197f233c2371ca44ef50dc9d232478dd1c6a6eb2601e4c7993</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>92d7bafbec898f1e304b70718a4b1e3c881f5d30240d2ac778d450a37b3edcfe</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-SCREEN-NATIVE-SMALLCAPS-2026-11-07</string>
+        <key>planSha256</key>
+        <string>dc99b52a8d6e8d8da0cca112965d43939e65ea2e077c5dee9d59b987db23f0c7</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

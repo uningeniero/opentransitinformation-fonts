@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA7AB.sc" format="2">
+  <advance width="467"/>
+  <anchor x="204" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="175" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="283" y="566" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="436" y="566" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="215" y="283" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="54" y="507" type="qcurve"/>
+      <point x="104" y="441" type="line"/>
+      <point x="172" y="484"/>
+      <point x="238" y="484" type="qcurve" smooth="yes"/>
+      <point x="281" y="484"/>
+      <point x="320" y="442"/>
+      <point x="311" y="409" type="qcurve" smooth="yes"/>
+      <point x="302" y="378"/>
+      <point x="250" y="346"/>
+      <point x="211" y="346" type="qcurve" smooth="yes"/>
+      <point x="146" y="346" type="line"/>
+      <point x="149" y="251" type="line"/>
+      <point x="197" y="251" type="line" smooth="yes"/>
+      <point x="254" y="251"/>
+      <point x="306" y="203"/>
+      <point x="293" y="159" type="qcurve" smooth="yes"/>
+      <point x="283" y="123"/>
+      <point x="227" y="86"/>
+      <point x="185" y="86" type="qcurve" smooth="yes"/>
+      <point x="113" y="86"/>
+      <point x="64" y="133" type="qcurve"/>
+      <point x="-20" y="62" type="line"/>
+      <point x="13" y="26"/>
+      <point x="111" y="-12"/>
+      <point x="171" y="-12" type="qcurve" smooth="yes"/>
+      <point x="268" y="-12"/>
+      <point x="406" y="76"/>
+      <point x="426" y="148" type="qcurve" smooth="yes"/>
+      <point x="444" y="211"/>
+      <point x="382" y="292"/>
+      <point x="313" y="300" type="qcurve"/>
+      <point x="421" y="327"/>
+      <point x="445" y="413" type="qcurve" smooth="yes"/>
+      <point x="458" y="461"/>
+      <point x="423" y="538"/>
+      <point x="336" y="580"/>
+      <point x="276" y="580" type="qcurve" smooth="yes"/>
+      <point x="213" y="580"/>
+      <point x="108" y="544"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.orientedSmallcapConstruction</key>
+      <dict>
+        <key>actualSemanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>anchorBoundary</key>
+        <string>Top/bottom roles follow the corresponding oriented native body position. Side, ogonek and middle are deliberately designed in the new orientation using actual per-cut class membership, not rotated indiscriminately or inferred inactive from zero.</string>
+        <key>anchorRoleObservations</key>
+        <array>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor47__Anchor47</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>203.76958551156275</real>
+              <real>0.0</real>
+            </array>
+            <key>semanticRole</key>
+            <string>bottom</string>
+            <key>sourceBodyCoordinate</key>
+            <array>
+              <real>198.0</real>
+              <real>0.0</real>
+            </array>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor48__Anchor48</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>174.7377</real>
+              <integer>0</integer>
+            </array>
+            <key>semanticRole</key>
+            <string>ogonek</string>
+            <key>sourceBodyCoordinate</key>
+            <array>
+              <real>0.0</real>
+              <real>0.0</real>
+            </array>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor49__Anchor49</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>282.8618103946699</real>
+              <real>566.0</real>
+            </array>
+            <key>semanticRole</key>
+            <string>top</string>
+            <key>sourceBodyCoordinate</key>
+            <array>
+              <real>278.0</real>
+              <real>566.0</real>
+            </array>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor50__Anchor50</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>435.5208</real>
+              <integer>566</integer>
+            </array>
+            <key>semanticRole</key>
+            <string>side</string>
+            <key>sourceBodyCoordinate</key>
+            <array>
+              <real>0.0</real>
+              <real>0.0</real>
+            </array>
+          </dict>
+          <dict>
+            <key>name</key>
+            <string>base__Extension52__Anchor51__Anchor51</string>
+            <key>newCoordinate</key>
+            <array>
+              <real>215.44644185783008</real>
+              <real>283.0</real>
+            </array>
+            <key>semanticRole</key>
+            <string>middle</string>
+            <key>sourceBodyCoordinate</key>
+            <array>
+              <real>0.0</real>
+              <real>0.0</real>
+            </array>
+          </dict>
+        </array>
+        <key>caseBoundary</key>
+        <string>The real formal capital is absent from the frozen cmap. This unit proposes only the actual lowercase smcp target and does not invent, encode or alias a capital input.</string>
+        <key>construction</key>
+        <string>Use the existing genuine same-cut small-cap body in the orientation required by the actual formal case pair. Turning preserves its complete native curves and stroke weights; reflection is within the actual genuine italic axis. No whole capital reduction, upright-to-italic synthesis or new donor. Opposite source edge-spacing roles are retained with one whole translation and an adjusted advance.</string>
+        <key>frame</key>
+        <integer>566</integer>
+        <key>kind</key>
+        <string>Native formally cased reversed-open small-cap construction</string>
+        <key>nativeItalicAngle</key>
+        <real>-8.0</real>
+        <key>nativeScBody</key>
+        <string>uni025B.sc</string>
+        <key>nativeScRouteControl</key>
+        <array>
+          <dict>
+            <key>advance</key>
+            <array>
+              <integer>470</integer>
+              <integer>0</integer>
+            </array>
+            <key>cluster</key>
+            <integer>0</integer>
+            <key>glyph</key>
+            <string>uni025B.sc</string>
+            <key>offset</key>
+            <array>
+              <integer>0</integer>
+              <integer>0</integer>
+            </array>
+          </dict>
+        </array>
+        <key>noGlyphScaling</key>
+        <true/>
+        <key>noNewParent</key>
+        <true/>
+        <key>noSyntheticItalic</key>
+        <true/>
+        <key>orientation</key>
+        <string>reflect</string>
+        <key>orientationMatrix</key>
+        <array>
+          <integer>-1</integer>
+          <integer>0</integer>
+          <real>0.2810816694047829</real>
+          <integer>1</integer>
+          <real>424.76958551156275</real>
+          <integer>0</integer>
+        </array>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>530768</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-MediumItalic.ttf</string>
+          <key>sha256</key>
+          <string>425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c</string>
+        </dict>
+        <key>sources</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>uni025C</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>911</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni025C_.glif</string>
+              <key>sha256</key>
+              <string>1447e6278cf617706da18d89269bd97fc0583ec1dc428e3cca1adb6f8e3d2b06</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>uni025B.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2596</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni025B_.sc.glif</string>
+              <key>sha256</key>
+              <string>8642403205efcef71b738592148f9b8f2707900fd610ef74a6090e7bea78f160</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1561</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>620ea2b8b24a60b00be19d913e43a5cb19cde850c66771369eb441a52833d095</string>
+            </dict>
+          </dict>
+        </array>
+        <key>wholeTranslationX</key>
+        <integer>-23</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>2e8d0952a269f01e214d672167637853d49813e149ad59b9c0fdb685df302315</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-FIVE-CASE-ORIENTATION-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>654a03a1c1a7eac0ede40a9c568ee8473c7b91d847944c0e06affd9a385fcc83</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

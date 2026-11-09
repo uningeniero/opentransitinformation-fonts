@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA7AC.sc" format="2">
+  <advance width="575"/>
+  <anchor x="288" y="566" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="289" y="-206" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="289" y="-206" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="288" y="283" name="base__Extension52__Anchor51__Anchor51"/>
+  <anchor x="533" y="566" name="base__Extension52__Anchor50__Anchor50"/>
+  <outline>
+    <contour>
+      <point x="533" y="-14" type="qcurve"/>
+      <point x="533" y="566" type="line"/>
+      <point x="422" y="566" type="line"/>
+      <point x="414" y="511" type="line"/>
+      <point x="387" y="544"/>
+      <point x="320" y="578"/>
+      <point x="274" y="578" type="qcurve" smooth="yes"/>
+      <point x="204" y="578"/>
+      <point x="99" y="502"/>
+      <point x="43" y="364"/>
+      <point x="43" y="186"/>
+      <point x="96" y="55"/>
+      <point x="194" y="-15"/>
+      <point x="260" y="-15" type="qcurve" smooth="yes"/>
+      <point x="311" y="-15"/>
+      <point x="350" y="6" type="qcurve" smooth="yes"/>
+      <point x="381" y="22"/>
+      <point x="406" y="49" type="qcurve"/>
+      <point x="406" y="-2" type="line" smooth="yes"/>
+      <point x="406" y="-9"/>
+      <point x="406" y="-16" type="qcurve" smooth="yes"/>
+      <point x="406" y="-17"/>
+      <point x="406" y="-18" type="qcurve"/>
+      <point x="406" y="-18" type="line"/>
+      <point x="402" y="-69"/>
+      <point x="376" y="-92" type="qcurve" smooth="yes"/>
+      <point x="346" y="-120"/>
+      <point x="278" y="-120" type="qcurve" smooth="yes"/>
+      <point x="237" y="-120"/>
+      <point x="158" y="-100"/>
+      <point x="131" y="-85" type="qcurve"/>
+      <point x="91" y="-167" type="line"/>
+      <point x="125" y="-187"/>
+      <point x="228" y="-218"/>
+      <point x="288" y="-218" type="qcurve" smooth="yes"/>
+      <point x="407" y="-218"/>
+      <point x="470" y="-160" type="qcurve" smooth="yes"/>
+      <point x="525" y="-110"/>
+      <point x="532" y="-18" type="qcurve"/>
+      <point x="532" y="-17"/>
+      <point x="532" y="-16" type="qcurve" smooth="yes"/>
+      <point x="532" y="-15"/>
+      <point x="532" y="-14" type="qcurve"/>
+      <point x="533" y="-14"/>
+    </contour>
+    <contour>
+      <point x="406" y="145" type="line"/>
+      <point x="382" y="113"/>
+      <point x="327" y="82"/>
+      <point x="288" y="82" type="qcurve" smooth="yes"/>
+      <point x="235" y="82"/>
+      <point x="177" y="171"/>
+      <point x="177" y="276" type="qcurve" smooth="yes"/>
+      <point x="177" y="381"/>
+      <point x="241" y="482"/>
+      <point x="299" y="482" type="qcurve" smooth="yes"/>
+      <point x="332" y="482"/>
+      <point x="382" y="455"/>
+      <point x="405" y="427" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.scriptGSmallcapConstruction</key>
+      <dict>
+        <key>construction</key>
+        <string>Retain the genuine same-cut closed SC bowl and its exact counter. Remove only the outward alpha foot beyond the actual right-stem line. Fit the upper native script-g descender to the actual extrapolated SC stem, blending back to the translated native descender below zero; the deep hook stays unchanged below the joining band. No ordinary capital G alias or whole-glyph scaling.</string>
+        <key>contourCountBeforeOutputRounding</key>
+        <integer>2</integer>
+        <key>counterConstruction</key>
+        <string>Restore the exact native SC counter contour with the opposite winding to the boolean outer contour. This removes the unintentional overlap-ink notch without changing the native counter curves.</string>
+        <key>frame</key>
+        <integer>566</integer>
+        <key>guideY</key>
+        <real>198.1</real>
+        <key>joiningBandHorizontalFitFactorAtGuide</key>
+        <real>0.9936585937500002</real>
+        <key>joiningBandRange</key>
+        <array>
+          <real>-67.92</real>
+          <real>198.1</real>
+        </array>
+        <key>missingTrimmedScBodyArea</key>
+        <real>0.0</real>
+        <key>nativeAlphaOutwardFootRemovalPolygon</key>
+        <array>
+          <array>
+            <real>533.0</real>
+            <integer>-16</integer>
+          </array>
+          <array>
+            <integer>579</integer>
+            <integer>-16</integer>
+          </array>
+          <array>
+            <integer>579</integer>
+            <real>198.1</real>
+          </array>
+          <array>
+            <real>533.0</real>
+            <real>198.1</real>
+          </array>
+        </array>
+        <key>nativeExtendedGlyph</key>
+        <string>uni0261</string>
+        <key>nativeOverlapWitnessBox</key>
+        <array>
+          <real>371.2</real>
+          <integer>-18</integer>
+          <real>524.8</real>
+          <real>198.1</real>
+        </array>
+        <key>nativeScBody</key>
+        <string>uni0251.sc</string>
+        <key>newLatinPositionsBeforeOutputRounding</key>
+        <dict>
+          <key>bottom</key>
+          <array>
+            <real>289.40585</real>
+            <real>-206.0</real>
+          </array>
+          <key>middle</key>
+          <array>
+            <real>288.0</real>
+            <real>283.0</real>
+          </array>
+          <key>ogonek</key>
+          <array>
+            <real>289.40585</real>
+            <real>-206.0</real>
+          </array>
+          <key>side</key>
+          <array>
+            <real>533.0</real>
+            <integer>566</integer>
+          </array>
+          <key>top</key>
+          <array>
+            <real>288.0</real>
+            <integer>566</integer>
+          </array>
+        </dict>
+        <key>ordinaryLowercaseControl</key>
+        <string>uni0251</string>
+        <key>prototypeCorrection</key>
+        <string>The rejected12% guide intersected the lower bowl/foot flare. The first35% successor repaired that topology but introduced small internal notches and italic baseline steps. This successor restores the exact SC counter and matches both stem edges through the baseline, blending to the unmodified deep tail.</string>
+        <key>roleRationale</key>
+        <string>The SC bowl has no inherited anchors. Add all five active Latin roles explicitly. Top/side/middle follow the actual SC frame/body; bottom follows the unchanged native descender ink-relative role and its x translation. The ogonek role deliberately shares that below-tail position. All new roles remain candidate hypotheses for actual mark/stack testing.</string>
+        <key>scGuideInterval</key>
+        <array>
+          <real>405.8117</real>
+          <real>533.0</real>
+        </array>
+        <key>scSecondGuideInterval</key>
+        <array>
+          <real>405.611</real>
+          <real>533.0</real>
+        </array>
+        <key>secondGuideY</key>
+        <real>254.7</real>
+        <key>semanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>529776</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-Medium.ttf</string>
+          <key>sha256</key>
+          <string>67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4</string>
+        </dict>
+        <key>sourceGuideInterval</key>
+        <array>
+          <real>384.0</real>
+          <real>512.0</real>
+        </array>
+        <key>sourceSecondGuideInterval</key>
+        <array>
+          <real>384.0</real>
+          <real>512.0</real>
+        </array>
+        <key>sources</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>uni0261</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>917</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni0261.glif</string>
+              <key>sha256</key>
+              <string>3eea62cef080c8066a13ab6e4965fb4fdcac7bd5d5aab69143e976dcca22b128</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>uni0251.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2682</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni0251.sc.glif</string>
+              <key>sha256</key>
+              <string>5f0735cdc4a99cd12258c5c317818280a25f8a03eb4db50d796023236979be1e</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>uni0251</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2995</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni0251.glif</string>
+              <key>sha256</key>
+              <string>cc84480a7c899b4db61f2974b81ad97a5f5664908a1df3b815319553d5b00689</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1559</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>30b7627378c19e650c296bebe8c389e5deeab9bb4c1e807ab9577b77f474f711</string>
+            </dict>
+          </dict>
+        </array>
+        <key>spacingPolicy</key>
+        <string>Preserve the actual native SC alpha ink-edge side bearings after removing its outward foot. The upright advance therefore decreases by the removed horizontal extent; italic whole translation and its resulting extent remain accounted for. Do not retain a hidden foot-sized right-side gap.</string>
+        <key>tailCutY</key>
+        <integer>-16</integer>
+        <key>tailTranslationX</key>
+        <real>21.405849999999987</real>
+        <key>trimmedBodyBounds</key>
+        <array>
+          <real>43.0</real>
+          <real>-15.0</real>
+          <real>533.0</real>
+          <real>578.0</real>
+        </array>
+        <key>wholeTranslationX</key>
+        <integer>0</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>88d8ba80bbb2127aae6791c9896e0d25ecf4bb938c78af0a38e9a961c73a125d</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-LATIN-SCRIPT-G-SMALLCAP-R3-2026-11-07</string>
+        <key>planSha256</key>
+        <string>d9ac4d8c663050feea4d566eb60f1e263b764b0a7d5f0e9bafb37755e958b224</string>
+        <key>reviewSha256</key>
+        <string>88a549f48fffadc9c4d6e2cbca0395c6f603b66484feb11534d2977a7b3f2913</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

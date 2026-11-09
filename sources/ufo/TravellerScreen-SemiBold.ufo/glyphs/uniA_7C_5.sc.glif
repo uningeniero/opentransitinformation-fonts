@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA7C5.sc" format="2">
+  <advance width="511"/>
+  <anchor x="265" y="567" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="242" y="-208" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="242" y="-208" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="265" y="284" name="base__Extension52__Anchor51__Anchor51"/>
+  <anchor x="467" y="567" name="base__Extension52__Anchor50__Anchor50"/>
+  <outline>
+    <contour>
+      <point x="472" y="506" type="qcurve"/>
+      <point x="406" y="430" type="line"/>
+      <point x="344" y="477"/>
+      <point x="275" y="477" type="qcurve" smooth="yes"/>
+      <point x="236" y="477"/>
+      <point x="191" y="450"/>
+      <point x="191" y="424" type="qcurve" smooth="yes"/>
+      <point x="191" y="407"/>
+      <point x="209" y="385"/>
+      <point x="255" y="365"/>
+      <point x="305" y="350" type="qcurve" smooth="yes"/>
+      <point x="395" y="322"/>
+      <point x="482" y="239"/>
+      <point x="482" y="166" type="qcurve" smooth="yes"/>
+      <point x="482" y="113"/>
+      <point x="425" y="31"/>
+      <point x="318" y="-14"/>
+      <point x="245" y="-14" type="qcurve" smooth="yes"/>
+      <point x="185" y="-14"/>
+      <point x="141" y="5" type="qcurve"/>
+      <point x="140" y="-50" type="line" smooth="yes"/>
+      <point x="139" y="-114"/>
+      <point x="205" y="-114" type="qcurve" smooth="yes"/>
+      <point x="229" y="-114"/>
+      <point x="263" y="-103"/>
+      <point x="284" y="-92" type="qcurve"/>
+      <point x="334" y="-178" type="line"/>
+      <point x="276" y="-219"/>
+      <point x="196" y="-219" type="qcurve" smooth="yes"/>
+      <point x="109" y="-219"/>
+      <point x="13" y="-127"/>
+      <point x="13" y="-36" type="qcurve" smooth="yes"/>
+      <point x="13" y="69" type="line"/>
+      <point x="84" y="147" type="line"/>
+      <point x="154" y="90"/>
+      <point x="240" y="90" type="qcurve" smooth="yes"/>
+      <point x="284" y="90"/>
+      <point x="335" y="125"/>
+      <point x="335" y="155" type="qcurve" smooth="yes"/>
+      <point x="335" y="184"/>
+      <point x="292" y="217"/>
+      <point x="228" y="236" type="qcurve" smooth="yes"/>
+      <point x="127" y="266"/>
+      <point x="44" y="350"/>
+      <point x="44" y="414" type="qcurve" smooth="yes"/>
+      <point x="44" y="465"/>
+      <point x="103" y="541"/>
+      <point x="204" y="580"/>
+      <point x="265" y="580" type="qcurve" smooth="yes"/>
+      <point x="392" y="580"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.sTerminalSmallcapConstruction</key>
+      <dict>
+        <key>bodyEndSelection</key>
+        <string>First lowest-body arrival after the native lower terminal cut, before its defining terminal chain.</string>
+        <key>boundary</key>
+        <string>New source hypothesis. A bounded control-point field is not a C1 curve or raster guarantee. Inspect rounded joins, actual native terminal identity, weight, spacing and compiled mark/feature/target-size behaviour separately.</string>
+        <key>bounds</key>
+        <array>
+          <real>13.0</real>
+          <real>-219.0</real>
+          <integer>482</integer>
+          <integer>580</integer>
+        </array>
+        <key>construction</key>
+        <string>Replace only the genuine SC S lower-left terminal curve/cut by the full purpose-coded native terminal chain. All three connection points are exact; independent vertical fitting keeps baseline-level first controls horizontal. Local bounded horizontal fitting avoids extrapolated stem deformation. No whole-capital scaling, ordinary S alias, clipped fragment pasted under a retained foot or external outline.</string>
+        <key>correction</key>
+        <string>The earlier full affine extrapolation produced an outer-stem detour in hooked BoldItalic, even after changing its deep translation anchor. Bound x displacement to the actual connection triangle. Use the outer cut to align the deep hook; use the bottom-bowl connection for the flowing swash. Preserve every other SC S body segment and every deep native terminal control through translation.</string>
+        <key>deepTerminalTranslationX</key>
+        <integer>2</integer>
+        <key>heldAffineDeepTranslationX</key>
+        <integer>5</integer>
+        <key>horizontalFit</key>
+        <string>Barycentric displacement inside the three actual connection points. Outside that triangle use the nearest edge displacement, rather than extrapolating the affine x map into the native hook stem. Deep native controls retain one horizontal translation.</string>
+        <key>joiningBlendRange</key>
+        <array>
+          <real>-68.03999999999999</real>
+          <integer>-16</integer>
+        </array>
+        <key>nativeDefiningExtendedSource</key>
+        <string>uni0282</string>
+        <key>nativeFrame</key>
+        <integer>567</integer>
+        <key>nativeScBody</key>
+        <string>s.sc</string>
+        <key>nativeScReplacedTerminalSegmentIndexes</key>
+        <array>
+          <integer>6</integer>
+          <integer>7</integer>
+        </array>
+        <key>nativeTerminalChainSegmentIndexes</key>
+        <array>
+          <integer>20</integer>
+          <integer>0</integer>
+          <integer>1</integer>
+          <integer>2</integer>
+          <integer>3</integer>
+          <integer>4</integer>
+          <integer>5</integer>
+          <integer>6</integer>
+          <integer>7</integer>
+        </array>
+        <key>newLatinPositionsBeforeRounding</key>
+        <dict>
+          <key>bottom</key>
+          <array>
+            <real>242.0</real>
+            <real>-208.0</real>
+          </array>
+          <key>middle</key>
+          <array>
+            <real>265.0</real>
+            <real>283.5</real>
+          </array>
+          <key>ogonek</key>
+          <array>
+            <real>242.0</real>
+            <real>-208.0</real>
+          </array>
+          <key>side</key>
+          <array>
+            <real>467.2342</real>
+            <integer>567</integer>
+          </array>
+          <key>top</key>
+          <array>
+            <real>265.0</real>
+            <real>567.0</real>
+          </array>
+        </dict>
+        <key>roleRationale</key>
+        <string>Keep the genuine SC S top position through whole-source translation. Translate the defining native below-tail role with the deep terminal and use that same below-tail point for ogonek. Set middle/side explicitly on the unchanged SC frame/body. Native zero roles are not treated as inactive. These are source hypotheses requiring actual attachment and finite-stack review.</string>
+        <key>sameHeightBodyEndCandidates</key>
+        <array>
+          <integer>19</integer>
+        </array>
+        <key>scConnectionTriangle</key>
+        <array>
+          <array>
+            <integer>245</integer>
+            <integer>-14</integer>
+          </array>
+          <array>
+            <integer>13</integer>
+            <integer>69</integer>
+          </array>
+          <array>
+            <integer>84</integer>
+            <integer>147</integer>
+          </array>
+        </array>
+        <key>semanticRoleSource</key>
+        <dict>
+          <key>bytes</key>
+          <integer>359325</integer>
+          <key>sha256</key>
+          <string>299abfac2ff8ecd7bd45733d4aa41ad1ac30cee19207a05b9c9a8cece6fe7a6a</string>
+          <key>sourceRecordId</key>
+          <string>OTI-DESIGN-DOTTED-CIRCLE-R2-2026-11-07</string>
+        </dict>
+        <key>sourceConnectionTriangle</key>
+        <array>
+          <array>
+            <integer>240</integer>
+            <integer>-16</integer>
+          </array>
+          <array>
+            <integer>11</integer>
+            <integer>61</integer>
+          </array>
+          <array>
+            <integer>71</integer>
+            <integer>129</integer>
+          </array>
+        </array>
+        <key>sourceFont</key>
+        <dict>
+          <key>bytes</key>
+          <integer>562072</integer>
+          <key>path</key>
+          <string>fonts/travellerscreen/TravellerScreen-SemiBold.ttf</string>
+          <key>sha256</key>
+          <string>3bab32b938c638d9c79df61a6c486a6288e5b988245c527a9913a7dadbf45a05</string>
+        </dict>
+        <key>sourceGlifs</key>
+        <array>
+          <dict>
+            <key>glyph</key>
+            <string>s.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2484</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-SemiBold.ufo/glyphs/s.sc.glif</string>
+              <key>sha256</key>
+              <string>bce2869483c9bce7211c78224c59c3608082bb5aaefd1f824e79d6c66d4cd789</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>uni0282</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>3398</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-SemiBold.ufo/glyphs/uni0282.glif</string>
+              <key>sha256</key>
+              <string>817cd10d0e462e7f4bbd45352a6eb99fafbe880c7dbb670e58b713d1b8e1fe44</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>s</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>2830</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-SemiBold.ufo/glyphs/s.glif</string>
+              <key>sha256</key>
+              <string>f22bc1c4b3d1ed3baced763c8f25f9b2a8410c0ba2125f7fe5c50893f6c815de</string>
+            </dict>
+          </dict>
+          <dict>
+            <key>glyph</key>
+            <string>h.sc</string>
+            <key>source</key>
+            <dict>
+              <key>bytes</key>
+              <integer>1559</integer>
+              <key>path</key>
+              <string>sources/ufo/TravellerScreen-SemiBold.ufo/glyphs/h.sc.glif</string>
+              <key>sha256</key>
+              <string>e7bc96d7c9c28e5862b5e44d82fb6f929f76a644bac29cacf50b1095bc9d1af5</string>
+            </dict>
+          </dict>
+        </array>
+        <key>sourceTerminalSegmentCount</key>
+        <integer>9</integer>
+        <key>wholeTranslationX</key>
+        <integer>0</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>3e97c23f653c63cc302b5143662a125c241ba3b738048dd6ea25e97e286e7da3</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-LATIN-S-SWASH-AND-HOOK-SMALLCAPS-2026-11-07</string>
+        <key>planSha256</key>
+        <string>c5fedddc70d02ce5e3ba73686097861837ef884062f850a6c01d57a146bbd587</string>
+        <key>reviewSha256</key>
+        <string>8ca4e9d954a46d901c0d1e336d8920e0913c4377221d93c70659c34dbafa701e</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

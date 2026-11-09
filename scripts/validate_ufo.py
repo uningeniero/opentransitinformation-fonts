@@ -12,6 +12,7 @@ from _common import ROOT,read,rec
 from _shaping import shape
 from build_ufo import source_tree
 from _function_checks import check_functions
+from _successor_checks import check_successor
 
 
 def contours(font,name):
@@ -43,12 +44,18 @@ def predecessor():
     return zipfile.ZipFile(BytesIO(raw)),policy
 
 
-def validate(folder):
+def validate(folder,selected_family='all'):
     manifest=read(folder/'build-manifest.json');spec=read(ROOT/'tests/validation-spec.json');policy=read(ROOT/'release.json')
+    successor_path=spec['currentProduction'].get('successorInputs')
+    successor=read(ROOT/successor_path) if successor_path else None
     prior,prior_policy=predecessor();checks=[];function_cases=read(ROOT/'tests/font-function-cases.json')
     def check(condition,case,**detail):checks.append({'case':case,'passed':bool(condition),**detail})
     check(manifest['version']==policy['version'] and manifest['fontVersion']==policy['fontVersion'],'manifest-version')
-    check(len(manifest['cuts'])==12 and len(manifest['companions'])==4,'resource-counts')
+    check(bool(manifest.get('implementationSources')) and all(rec(ROOT/r['path'])==r for r in manifest['implementationSources']),'build-implementation-bindings')
+    expected_roles=['screen','sign'] if selected_family=='all' else [selected_family]
+    expected_cuts=sum(8 if role=='screen' else 4 for role in expected_roles)
+    check(manifest.get('selectedFamilies',['screen','sign'])==expected_roles and len(manifest['cuts'])==expected_cuts and len(manifest['companions'])==4,'resource-counts')
+    check(all(sum(c['role']==role for c in manifest['cuts'])==(8 if role=='screen' else 4) for role in expected_roles),'complete-selected-families')
     core_path=ROOT/'tests/data/GF_Latin_Core.nam'
     core={int(line.split()[0],16) for line in core_path.read_text(encoding='utf-8').splitlines() if line and not line.startswith('#')}
     check(len(core)==319,'pinned-latin-core-size')
@@ -92,6 +99,8 @@ def validate(folder):
         for i,(text,features,lang) in enumerate(fixtures):
             check(normalized(old,old_data,text,lang,features=features)==normalized(font,data,text,lang,features=features),label+'-retained-layout-'+str(i))
         check_functions(font,data,old,old_data,role,style,function_cases,check,label)
+        if successor is not None:
+            check_successor(font,data,role,style,successor,check,label)
         if role=='sign':
             text='0123456789';default=normalized(font,data,text);tabular=normalized(font,data,text,features={'tnum':1});proportional=normalized(font,data,text,features={'tnum':1,'pnum':1})
             check([r[1] for r in tabular]==[1412]*10,label+'-tnum-ten-equal-advances')
@@ -117,7 +126,8 @@ def validate(folder):
         for key in ['ttf','woff2']:
             row=cut[key];check(row['sha256']==expected[Path(row['path']).name]['sha256'] and rec(ROOT/row['path'])==row,Path(row['path']).name+'-unchanged-official-companion')
     prior.close()
-    output={'spdxLicense':'CC-BY-4.0','manifest':rec(folder/'build-manifest.json'),'predecessor':prior_policy,'spec':rec(ROOT/'tests/validation-spec.json'),
+    implementation=[rec(ROOT/path) for path in ['scripts/validate_ufo.py','scripts/_successor_checks.py','scripts/_function_checks.py','scripts/_j_caron_checks.py','scripts/_shaping.py']]
+    output={'spdxLicense':'CC-BY-4.0','manifest':rec(folder/'build-manifest.json'),'predecessor':prior_policy,'spec':rec(ROOT/'tests/validation-spec.json'),'implementationSources':implementation,
             'checks':checks,'total':len(checks),'failures':sum(not r['passed'] for r in checks)}
     dest=folder/'validation.json';dest.write_text(json.dumps(output,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(json.dumps({'receipt':rec(dest),'total':len(checks),'failures':[r for r in checks if not r['passed']]}))
@@ -125,4 +135,4 @@ def validate(folder):
 
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('folder',type=Path);args=p.parse_args();sys.exit(0 if validate(args.folder.resolve()) else 1)
+    p=argparse.ArgumentParser();p.add_argument('folder',type=Path);p.add_argument('--family',choices=['all','sign','screen'],default='all');args=p.parse_args();sys.exit(0 if validate(args.folder.resolve(),args.family) else 1)

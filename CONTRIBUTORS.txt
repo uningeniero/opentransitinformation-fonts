@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: CC-BY-4.0
+# Contributor roles; copyright notices remain in AUTHORS.txt and the family OFLs.
+Álvaro Marín Abril (https://github.com/uningeniero) - Traveller source construction and release engineering coordination for Open Transit Information (https://opentransitinformation.org).
+# Original Cabin contributor records and supplied public contacts: licenses/cabin/CONTRIBUTORS.txt
+Pablo Impallari
+Marc Foley
+Kalapi Gajjar-Bordawekar
+Igino Marini
+Lasse Fister
+# Fira source design credits retained in source name tables and licenses/fira/
+bBox Type GmbH
+Carrois Corporate GbR
+Edenspiekermann AG
+# Lato attribution: licenses/lato/OFL.txt
+Lukasz Dziedzic
+# Adobe's separate Source Sans 3 authorship and contributors: companions/source-sans-3/LICENSE.md
+# AI coding tools assisted conversion, build implementation and QA analysis. They are not human authors or copyright holders.

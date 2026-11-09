@@ -1,0 +1,3 @@
+# SPDX-License-Identifier: Apache-2.0
+# Direct production dependencies. The full, hashed resolution is requirements-build.lock.
+-r requirements-build.in

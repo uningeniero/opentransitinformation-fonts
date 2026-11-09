@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA64D" format="2">
+  <advance width="946"/>
+  <unicode hex="A64D"/>
+  <anchor x="433" y="-12" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="507" y="539" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="526" y="481" type="qcurve"/>
+      <point x="558" y="424" type="line"/>
+      <point x="588" y="445"/>
+      <point x="641" y="463"/>
+      <point x="672" y="463" type="qcurve" smooth="yes"/>
+      <point x="734" y="463"/>
+      <point x="788" y="380"/>
+      <point x="787" y="258"/>
+      <point x="769" y="196" type="qcurve" smooth="yes"/>
+      <point x="733" y="66"/>
+      <point x="626" y="66" type="qcurve" smooth="yes"/>
+      <point x="593" y="66"/>
+      <point x="543" y="86"/>
+      <point x="515" y="107" type="qcurve"/>
+      <point x="488" y="75" type="line"/>
+      <point x="529" y="367" type="line"/>
+      <point x="441" y="367" type="line"/>
+      <point x="400" y="75" type="line"/>
+      <point x="381" y="107" type="line"/>
+      <point x="347" y="86"/>
+      <point x="292" y="66"/>
+      <point x="259" y="66" type="qcurve" smooth="yes"/>
+      <point x="152" y="66"/>
+      <point x="152" y="196" type="qcurve" smooth="yes"/>
+      <point x="152" y="258"/>
+      <point x="185" y="380"/>
+      <point x="262" y="463"/>
+      <point x="324" y="463" type="qcurve" smooth="yes"/>
+      <point x="355" y="463"/>
+      <point x="403" y="445"/>
+      <point x="427" y="424" type="qcurve"/>
+      <point x="476" y="481" type="line"/>
+      <point x="415" y="539"/>
+      <point x="323" y="539" type="qcurve" smooth="yes"/>
+      <point x="232" y="539"/>
+      <point x="112" y="434"/>
+      <point x="56" y="279"/>
+      <point x="56" y="203" type="qcurve" smooth="yes"/>
+      <point x="56" y="101"/>
+      <point x="159" y="-12"/>
+      <point x="253" y="-12" type="qcurve" smooth="yes"/>
+      <point x="341" y="-12"/>
+      <point x="418" y="43" type="qcurve"/>
+      <point x="460" y="43" type="line"/>
+      <point x="522" y="-12"/>
+      <point x="610" y="-12" type="qcurve" smooth="yes"/>
+      <point x="704" y="-12"/>
+      <point x="839" y="101"/>
+      <point x="867" y="203" type="qcurve" smooth="yes"/>
+      <point x="889" y="279"/>
+      <point x="876" y="434"/>
+      <point x="786" y="539"/>
+      <point x="695" y="539" type="qcurve" smooth="yes"/>
+      <point x="603" y="539"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.historicalCyrillicConstruction</key>
+      <dict>
+        <key>caseSpecificBowlSource</key>
+        <string>uni0441</string>
+        <key>construction</key>
+        <string>Use two genuine same-cut, same-case Cyrillic Es bowls facing inward, preserving all bowl curves, stroke weights and terminal cuts. Join their lower terminals with a native-omega-weight rising middle stroke. Reflection is performed in the native italic axis and returned to that same axis; no upright is used as a synthetic italic. This open-top broad omega differs from the existing W-like Cyrillic omega. No source glyph is scaled.</string>
+        <key>kind</key>
+        <string>Native broad omega with inward bowls and rising middle stroke</string>
+        <key>lowerBowlTerminal</key>
+        <array>
+          <array>
+            <real>361.9621306868441</real>
+            <integer>107</integer>
+          </array>
+          <array>
+            <real>407.9567441077972</real>
+            <integer>43</integer>
+          </array>
+        </array>
+        <key>middleStrokeAndSpacingSource</key>
+        <string>uni0461</string>
+        <key>middleStrokeBottomAndTop</key>
+        <array>
+          <integer>43</integer>
+          <integer>367</integer>
+        </array>
+        <key>nativeItalicAngle</key>
+        <real>-8.0</real>
+        <key>nativeMiddleStrokeWidth</key>
+        <real>88.3135099835713</real>
+        <key>noGlyphScaling</key>
+        <true/>
+        <key>noNewDonor</key>
+        <true/>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>528800</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-Italic.ttf</string>
+            <key>sha256</key>
+            <string>c99a0a7eeca7eea3c9a16e78d34cbf0501e83fde84c090a4f4fdfbf07ce559ac</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>uni0441</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>909</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni0441.glif</string>
+                <key>sha256</key>
+                <string>fea1a9997ef6fd87e6fba0c436d2fa1fe43126d6943ff17985922982e74f6665</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni0461</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>909</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uni0461.glif</string>
+                <key>sha256</key>
+                <string>ca8920c1b36035fb87ead48f72218cd3575cfa619edfa315ac3d4927e48f4b17</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+        <key>spacingPolicy</key>
+        <string>Preserve the genuine same-cut native omega edge-spacing roles, with a new advance for the broad two-bowl drawing.</string>
+        <key>unshearedCentre</key>
+        <real>429.1519865038543</real>
+        <key>wholeTranslationX</key>
+        <integer>4</integer>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>44b21d0bf48f7b7398547972d0de5d03d6fc309d75bef100be080fb6bf3f9995</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-HISTORICAL-CYRILLIC-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>99fb8d104a9a51da690f3e65e2a911901a40318e68e473c1cfd2666d007045fc</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

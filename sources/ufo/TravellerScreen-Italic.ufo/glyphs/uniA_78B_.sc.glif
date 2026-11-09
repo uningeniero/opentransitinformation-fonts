@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA78B.sc" format="2">
+  <advance width="217"/>
+  <anchor x="71" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="106" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="151" y="564" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="102" y="564" type="line"/>
+      <point x="201" y="564" type="line"/>
+      <point x="145" y="282" type="line"/>
+      <point x="76" y="282" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.successorSmallcapDesign</key>
+      <dict>
+        <key>geometry</key>
+        <dict>
+          <key>construction</key>
+          <string>An individual optical Saltillo form in the native small-cap frame. Retain native taper and italic axis; set the raised half-height endpoints explicitly and match native small-cap stem weight. Default Saltillo drawings remain unchanged.</string>
+          <key>nativeItalicAngle</key>
+          <real>-8.0</real>
+          <key>nativeSource</key>
+          <string>uniA78B</string>
+          <key>smallcapBottom</key>
+          <real>282.0</real>
+          <key>smallcapTop</key>
+          <integer>564</integer>
+          <key>transverseWeightRatioFromActualNativeHAndHSmallcap</key>
+          <real>0.9719748944873224</real>
+        </dict>
+        <key>kind</key>
+        <string>Same-cut genuine native small-cap construction</string>
+        <key>noCapitalScaling</key>
+        <true/>
+        <key>noSyntheticItalic</key>
+        <true/>
+        <key>rounding</key>
+        <string>Only output contour coordinates and new intersection points are rounded with otRound, at most 0.5 unit per coordinate.</string>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>528800</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-Italic.ttf</string>
+            <key>sha256</key>
+            <string>c99a0a7eeca7eea3c9a16e78d34cbf0501e83fde84c090a4f4fdfbf07ce559ac</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>i.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1125</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/i.sc.glif</string>
+                <key>sha256</key>
+                <string>5c48472ea788a2d350227b446d0200a5cead1df00b35c632827395348ab11687</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uniA78B</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>807</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Italic.ufo/glyphs/uniA_78B_.glif</string>
+                <key>sha256</key>
+                <string>eb1305b423230e5a6c4c2157ddaddf4e49af2fb6a59fb3ea8c1862ba09190749</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>146fc7b0a7bccb33228326a74bcb05a682916b89488b10a3234f306e29fd8040</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-SCREEN-NATIVE-SMALLCAPS-2026-11-07</string>
+        <key>planSha256</key>
+        <string>dc99b52a8d6e8d8da0cca112965d43939e65ea2e077c5dee9d59b987db23f0c7</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

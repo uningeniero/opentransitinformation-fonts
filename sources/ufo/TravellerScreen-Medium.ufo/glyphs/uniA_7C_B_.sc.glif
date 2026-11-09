@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA7CB.sc" format="2">
+  <advance width="587"/>
+  <anchor x="294" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="394" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="294" y="566" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="498" y="566" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="360" y="275" type="line"/>
+      <point x="394" y="220"/>
+      <point x="424" y="141"/>
+      <point x="424" y="98" type="qcurve" smooth="yes"/>
+      <point x="424" y="46"/>
+      <point x="357" y="-13"/>
+      <point x="293" y="-13" type="qcurve" smooth="yes"/>
+      <point x="227" y="-13"/>
+      <point x="161" y="46"/>
+      <point x="161" y="98" type="qcurve" smooth="yes"/>
+      <point x="161" y="136"/>
+      <point x="191" y="217"/>
+      <point x="225" y="274" type="qcurve"/>
+      <point x="138" y="445" type="line" smooth="yes"/>
+      <point x="126" y="469"/>
+      <point x="107" y="486"/>
+      <point x="94" y="486" type="qcurve" smooth="yes"/>
+      <point x="82" y="486"/>
+      <point x="66" y="481"/>
+      <point x="55" y="476" type="qcurve"/>
+      <point x="17" y="549" type="line"/>
+      <point x="37" y="563"/>
+      <point x="79" y="578"/>
+      <point x="106" y="578" type="qcurve" smooth="yes"/>
+      <point x="156" y="578"/>
+      <point x="215" y="524"/>
+      <point x="240" y="464" type="qcurve" smooth="yes"/>
+      <point x="293" y="352" type="line"/>
+      <point x="348" y="464" type="line"/>
+      <point x="374" y="526"/>
+      <point x="431" y="578"/>
+      <point x="481" y="578" type="qcurve" smooth="yes"/>
+      <point x="508" y="578"/>
+      <point x="549" y="563"/>
+      <point x="570" y="549" type="qcurve"/>
+      <point x="532" y="476" type="line"/>
+      <point x="521" y="481"/>
+      <point x="505" y="486"/>
+      <point x="493" y="486" type="qcurve" smooth="yes"/>
+      <point x="479" y="486"/>
+      <point x="461" y="469"/>
+      <point x="449" y="445" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="293" y="202" type="qcurve"/>
+      <point x="277" y="170"/>
+      <point x="262" y="125"/>
+      <point x="262" y="104" type="qcurve" smooth="yes"/>
+      <point x="262" y="89"/>
+      <point x="278" y="72"/>
+      <point x="293" y="72" type="qcurve" smooth="yes"/>
+      <point x="323" y="72"/>
+      <point x="323" y="105" type="qcurve" smooth="yes"/>
+      <point x="323" y="126"/>
+      <point x="309" y="169"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.successorSmallcapDesign</key>
+      <dict>
+        <key>geometry</key>
+        <dict>
+          <key>construction</key>
+          <string>Keep the same-cut native small-cap loop and counter at the normal round baseline; preserve the genuine native phonetic curved horns at the small-cap round top. Connect the four native joins explicitly. No descending gamma alias, generic glyph scaling or synthetic italic.</string>
+          <key>hornTranslation</key>
+          <array>
+            <real>-0.0</real>
+            <integer>34</integer>
+          </array>
+          <key>loopTranslation</key>
+          <array>
+            <real>19.0</real>
+            <integer>205</integer>
+          </array>
+          <key>nativeCurvedTerminals</key>
+          <string>uni0264</string>
+          <key>nativeLoop</key>
+          <string>uni0194.sc</string>
+          <key>roundBottom</key>
+          <integer>-13</integer>
+          <key>roundTop</key>
+          <integer>578</integer>
+          <key>smallcapFlatHeight</key>
+          <integer>566</integer>
+          <key>sourceOuterLineRoleIndices</key>
+          <dict>
+            <key>gamma</key>
+            <array>
+              <integer>5</integer>
+              <integer>6</integer>
+              <integer>7</integer>
+              <integer>8</integer>
+              <integer>9</integer>
+            </array>
+            <key>ramsHorn</key>
+            <array>
+              <integer>1</integer>
+              <integer>4</integer>
+              <integer>9</integer>
+              <integer>12</integer>
+              <integer>15</integer>
+              <integer>16</integer>
+            </array>
+          </dict>
+          <key>spacingRevision</key>
+          <dict>
+            <key>drawingTranslateX</key>
+            <integer>22</integer>
+            <key>leftBearing</key>
+            <integer>17</integer>
+            <key>newAdvance</key>
+            <integer>587</integer>
+            <key>previousAdvance</key>
+            <integer>543</integer>
+            <key>previousBounds</key>
+            <array>
+              <integer>-5</integer>
+              <integer>-13</integer>
+              <integer>548</integer>
+              <integer>578</integer>
+            </array>
+            <key>reason</key>
+            <string>The lowercase phonetic source bearings caused actual repeated-ink intersections in six cuts. Native y.sc itself has negative pair margins in heavier cuts, so it does not close the observed issue. Use the native w.sc outer-edge frame, retaining genuine italic overhang and a positive repeated pair gap without changing the drawing.</string>
+            <key>reference</key>
+            <string>Same-cut native w.sc outer-edge bearing roles</string>
+            <key>rightBearing</key>
+            <integer>17</integer>
+            <key>strokeLoopAndHornGeometryOtherwiseUnchanged</key>
+            <true/>
+          </dict>
+        </dict>
+        <key>kind</key>
+        <string>Same-cut genuine native small-cap construction</string>
+        <key>noCapitalScaling</key>
+        <true/>
+        <key>noSyntheticItalic</key>
+        <true/>
+        <key>rounding</key>
+        <string>Only output contour coordinates and new intersection points are rounded with otRound, at most 0.5 unit per coordinate.</string>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>529776</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-Medium.ttf</string>
+            <key>sha256</key>
+            <string>67765da6b6303c002177f63837cc9a5636882c018911530799a8a4231b41b7b4</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>o.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>2029</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/o.sc.glif</string>
+                <key>sha256</key>
+                <string>29468c1634d6400774775322b80c153de6199d65470c646bdf7bc5cee6bc26bc</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni0264</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>3092</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni0264.glif</string>
+                <key>sha256</key>
+                <string>aceb31de3876d93d475269f168b7ba6201e9fe50b10ec3484f23e5f54ed0ec39</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni0194.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>2212</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/uni0194.sc.glif</string>
+                <key>sha256</key>
+                <string>7343d21aa634f23db34759e40dccd3388c7b131958efd313965350ac2ecc7387</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>w.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1603</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Medium.ufo/glyphs/w.sc.glif</string>
+                <key>sha256</key>
+                <string>16285010879101baf07d85cbdd0d9fc60085fafbeb2835c058a7492cc9044125</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>67cdf8cc88203fd0cca79f00f46724788112c320e2450d64db42ae3b24fb2c4b</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-SCREEN-NATIVE-SMALLCAPS-2026-11-07</string>
+        <key>planSha256</key>
+        <string>afe623732b58464222d13a326e0b7de7843f163101f9409ab8ff6aa4ec0b609c</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

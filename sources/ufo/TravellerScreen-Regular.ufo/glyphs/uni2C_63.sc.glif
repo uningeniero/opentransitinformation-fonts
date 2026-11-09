@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uni2C63.sc" format="2">
+  <advance width="530"/>
+  <anchor x="146" y="0" name="base__Extension52__Anchor47__Anchor47"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor48__Anchor48"/>
+  <anchor x="265" y="564" name="base__Extension52__Anchor49__Anchor49"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor50__Anchor50"/>
+  <anchor x="0" y="0" name="base__Extension52__Anchor51__Anchor51"/>
+  <outline>
+    <contour>
+      <point x="498" y="387" type="qcurve" smooth="yes"/>
+      <point x="498" y="475"/>
+      <point x="375" y="564"/>
+      <point x="263" y="564" type="qcurve" smooth="yes"/>
+      <point x="100" y="564" type="line"/>
+      <point x="100" y="421" type="line"/>
+      <point x="3" y="421" type="line"/>
+      <point x="3" y="346" type="line"/>
+      <point x="100" y="346" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="192" y="0" type="line"/>
+      <point x="192" y="203" type="line"/>
+      <point x="266" y="203" type="line" smooth="yes"/>
+      <point x="371" y="203"/>
+      <point x="498" y="293"/>
+    </contour>
+    <contour>
+      <point x="401" y="386" type="qcurve" smooth="yes"/>
+      <point x="401" y="322"/>
+      <point x="330" y="273"/>
+      <point x="261" y="273" type="qcurve" smooth="yes"/>
+      <point x="192" y="273" type="line"/>
+      <point x="192" y="346" type="line"/>
+      <point x="264" y="346" type="line"/>
+      <point x="264" y="421" type="line"/>
+      <point x="192" y="421" type="line"/>
+      <point x="192" y="494" type="line"/>
+      <point x="262" y="494" type="line" smooth="yes"/>
+      <point x="401" y="494"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.successorSmallcapDesign</key>
+      <dict>
+        <key>geometry</key>
+        <dict>
+          <key>barCentreY</key>
+          <real>383.5</real>
+          <key>barEndInCounterFraction</key>
+          <real>0.34545454545454546</real>
+          <key>barPoints</key>
+          <array>
+            <array>
+              <real>3.0</real>
+              <real>346.0</real>
+            </array>
+            <array>
+              <real>264.2</real>
+              <real>346.0</real>
+            </array>
+            <array>
+              <real>264.2</real>
+              <real>421.0</real>
+            </array>
+            <array>
+              <real>3.0</real>
+              <real>421.0</real>
+            </array>
+          </array>
+          <key>barThickness</key>
+          <integer>75</integer>
+          <key>counterClosurePreventedByInternalBarEnd</key>
+          <true/>
+          <key>leftBearingSource</key>
+          <string>Same-cut released P-with-stroke outline bounds</string>
+          <key>nativeBody</key>
+          <string>p.sc</string>
+          <key>nativeCounter</key>
+          <array>
+            <integer>192</integer>
+            <integer>273</integer>
+            <integer>401</integer>
+            <integer>494</integer>
+          </array>
+          <key>nativeItalicAngle</key>
+          <real>0.0</real>
+          <key>nativeStemWidth</key>
+          <real>92.0</real>
+          <key>nativeTransverseWeightSource</key>
+          <string>h.sc</string>
+        </dict>
+        <key>kind</key>
+        <string>Same-cut genuine native small-cap construction</string>
+        <key>noCapitalScaling</key>
+        <true/>
+        <key>noSyntheticItalic</key>
+        <true/>
+        <key>rounding</key>
+        <string>Only output contour coordinates and new intersection points are rounded with otRound, at most 0.5 unit per coordinate.</string>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>528104</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-Regular.ttf</string>
+            <key>sha256</key>
+            <string>0f388a18474fdac15af1af4d6e12d6924abea889da38bad2e205c7c6a28bf236</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>p.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1888</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Regular.ufo/glyphs/p.sc.glif</string>
+                <key>sha256</key>
+                <string>bd8134a0ab3eff54724ab268bdee2e736e0c3a238cd388e9b82325ef599c8a48</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>h.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1563</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Regular.ufo/glyphs/h.sc.glif</string>
+                <key>sha256</key>
+                <string>4035ea655ba1be4850d93de0018008088048eb4f5666c73482f23f889aeb3f09</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>0b18abd365d0aecd73f7bbbfd5d54a349acaa4ee48ebbd557a259806d3ca2445</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-SCREEN-NATIVE-SMALLCAPS-2026-11-07</string>
+        <key>planSha256</key>
+        <string>dc99b52a8d6e8d8da0cca112965d43939e65ea2e077c5dee9d59b987db23f0c7</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

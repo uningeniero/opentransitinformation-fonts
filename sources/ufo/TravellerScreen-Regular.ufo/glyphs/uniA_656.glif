@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA656" format="2">
+  <advance width="800"/>
+  <unicode hex="A656"/>
+  <anchor x="400" y="0" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="537" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="400" y="689" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="100" y="0" type="line"/>
+      <point x="195" y="0" type="line"/>
+      <point x="195" y="173" type="line"/>
+      <point x="288" y="173" type="line"/>
+      <point x="233" y="0" type="line"/>
+      <point x="329" y="0" type="line"/>
+      <point x="381" y="173" type="line"/>
+      <point x="642" y="173" type="line"/>
+      <point x="694" y="0" type="line"/>
+      <point x="794" y="0" type="line"/>
+      <point x="574" y="689" type="line"/>
+      <point x="454" y="689" type="line"/>
+      <point x="313" y="250" type="line"/>
+      <point x="195" y="250" type="line"/>
+      <point x="195" y="689" type="line"/>
+      <point x="100" y="689" type="line"/>
+    </contour>
+    <contour>
+      <point x="619" y="250" type="line"/>
+      <point x="404" y="250" type="line"/>
+      <point x="512" y="610" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.historicalCyrillicConstruction</key>
+      <dict>
+        <key>anchorPolicy</key>
+        <string>Reuse the exact same-cut iotified-E versus E attachment-coordinate difference on the new A body. Keep zero placeholders inactive; prove actual candidate marks.</string>
+        <key>body</key>
+        <string>uni0410</string>
+        <key>bodyTranslationX</key>
+        <integer>227</integer>
+        <key>bridgeRightAtCentre</key>
+        <real>348.3396</real>
+        <key>bridgeRule</key>
+        <string>Meet the actual native A crossbar. Change only the iotifier bridge level; do not scale the native body or stem.</string>
+        <key>construction</key>
+        <string>Use the exact native iotifier stem, the independently drawn native Cyrillic A/a/A.sc body and a native-weight bridge at its appropriate case-specific level. The result is a distinct iotified letter with unchanged default source drawings.</string>
+        <key>existingIotifiedBodyControl</key>
+        <string>uni0404</string>
+        <key>iotifierSource</key>
+        <string>uni0464</string>
+        <key>kind</key>
+        <string>Same-cut native Cyrillic iotified A construction</string>
+        <key>nativeBridgeY</key>
+        <array>
+          <integer>173</integer>
+          <integer>250</integer>
+        </array>
+        <key>nativeIStemCorners</key>
+        <array>
+          <array>
+            <integer>100</integer>
+            <integer>0</integer>
+          </array>
+          <array>
+            <integer>195</integer>
+            <integer>0</integer>
+          </array>
+          <array>
+            <integer>195</integer>
+            <integer>689</integer>
+          </array>
+          <array>
+            <integer>100</integer>
+            <integer>689</integer>
+          </array>
+        </array>
+        <key>noGlyphScaling</key>
+        <true/>
+        <key>noSyntheticItalic</key>
+        <true/>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>528104</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-Regular.ttf</string>
+            <key>sha256</key>
+            <string>0f388a18474fdac15af1af4d6e12d6924abea889da38bad2e205c7c6a28bf236</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>uni0410</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>907</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Regular.ufo/glyphs/uni0410.glif</string>
+                <key>sha256</key>
+                <string>4a5f2f321708c32195283831dd347ce80ac5640b8902b8b688ba01d145e92499</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni0464</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>2912</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Regular.ufo/glyphs/uni0464.glif</string>
+                <key>sha256</key>
+                <string>774cbefae5a682796d52ca762f532f8947760f262ea249e6c40d93ac0da36718</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni0404</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>2255</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-Regular.ufo/glyphs/uni0404.glif</string>
+                <key>sha256</key>
+                <string>6cabc260f2b3b60d6266f541d7ef7acab677e78bcb012e156fb4b7f2109f317e</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>885684abd9e05248560dde1874b70709737c6cad5b3893a013e27f0c5f9d09b3</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-HISTORICAL-CYRILLIC-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>53b50df1024449ff04626dca680639771282392c7de226505bd7d7278b4226e7</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

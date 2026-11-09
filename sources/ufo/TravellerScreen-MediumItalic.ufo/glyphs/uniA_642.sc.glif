@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- SPDX-License-Identifier: OFL-1.1 -->
+<glyph name="uniA642.sc" format="2">
+  <advance width="559"/>
+  <anchor x="287" y="-218" name="base__Extension38__Anchor33__Anchor33"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor34__Anchor34"/>
+  <anchor x="367" y="566" name="base__Extension38__Anchor35__Anchor35"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor36__Anchor36"/>
+  <anchor x="0" y="0" name="base__Extension38__Anchor37__Anchor37"/>
+  <outline>
+    <contour>
+      <point x="553" y="473" type="line"/>
+      <point x="566" y="566" type="line"/>
+      <point x="181" y="566" type="line"/>
+      <point x="166" y="467" type="line"/>
+      <point x="415" y="467" type="line"/>
+      <point x="299" y="335" type="line"/>
+      <point x="152" y="335" type="line"/>
+      <point x="139" y="245" type="line"/>
+      <point x="220" y="245" type="line"/>
+      <point x="86" y="93" type="line"/>
+      <point x="74" y="0" type="line"/>
+      <point x="344" y="0" type="line"/>
+      <point x="336" y="-44"/>
+      <point x="307" y="-75" type="qcurve" smooth="yes"/>
+      <point x="267" y="-118"/>
+      <point x="197" y="-118" type="qcurve" smooth="yes"/>
+      <point x="155" y="-118"/>
+      <point x="94" y="-89"/>
+      <point x="61" y="-55" type="qcurve"/>
+      <point x="-15" y="-119" type="line"/>
+      <point x="21" y="-167"/>
+      <point x="123" y="-218"/>
+      <point x="195" y="-218" type="qcurve" smooth="yes"/>
+      <point x="276" y="-218"/>
+      <point x="405" y="-154"/>
+      <point x="442" y="-96" type="qcurve" smooth="yes"/>
+      <point x="469" y="-53"/>
+      <point x="476" y="0" type="qcurve"/>
+      <point x="503" y="102" type="line"/>
+      <point x="226" y="102" type="line"/>
+      <point x="352" y="245" type="line"/>
+      <point x="495" y="245" type="line"/>
+      <point x="508" y="335" type="line"/>
+      <point x="431" y="335" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.opentransitinformation.historicalCyrillicConstruction</key>
+      <dict>
+        <key>anchorNamespaceDonor</key>
+        <string>uni0437.sc</string>
+        <key>anchorPolicy</key>
+        <string>Keep the native Z-body coordinate for each active semantic role, translate it with the drawing, and use the corresponding existing Cyrillic mark class. Move only the bottom role below the actual new return. Zero placeholders are not promoted to active coordinates.</string>
+        <key>body</key>
+        <string>uni01B6.sc</string>
+        <key>construction</key>
+        <string>Retain the actual case-specific native Z or stroked-Z body and join the same-cut Cyrillic lower return curve below the baseline. This creates the historical returning hook, not a modern Ze/Dze whole-glyph alias. No glyph scaling or synthetic italic.</string>
+        <key>kind</key>
+        <string>Native-stroke historical Zemlya/Dzelo construction</string>
+        <key>nativeLowerBarRight</key>
+        <integer>387</integer>
+        <key>noGlyphScaling</key>
+        <true/>
+        <key>returnClipTop</key>
+        <integer>0</integer>
+        <key>returnCurveSource</key>
+        <string>uni04E1</string>
+        <key>returnTranslateX</key>
+        <real>-42.57275390625</real>
+        <key>semanticLatinToCyrillicAnchorRoles</key>
+        <dict>
+          <key>33</key>
+          <integer>47</integer>
+          <key>34</key>
+          <integer>48</integer>
+          <key>35</key>
+          <integer>49</integer>
+          <key>36</key>
+          <integer>51</integer>
+          <key>37</key>
+          <integer>50</integer>
+        </dict>
+        <key>source</key>
+        <dict>
+          <key>font</key>
+          <dict>
+            <key>bytes</key>
+            <integer>530768</integer>
+            <key>path</key>
+            <string>fonts/travellerscreen/TravellerScreen-MediumItalic.ttf</string>
+            <key>sha256</key>
+            <string>425511fb6a431121aeb1b5da16dbf448d9f74a698c2777973dd45f713db5f32c</string>
+          </dict>
+          <key>glyphs</key>
+          <array>
+            <dict>
+              <key>name</key>
+              <string>uni01B6.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>1884</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni01B_6.sc.glif</string>
+                <key>sha256</key>
+                <string>917df77fcd4e98349675b408a84c0544a99a1deb470515a8ddbe7fdc99c05f99</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni04E1</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>914</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni04E_1.glif</string>
+                <key>sha256</key>
+                <string>41ed04deea604c86eca7dd021d945cf1f962fecbf7247875b323678c8aaee749</string>
+              </dict>
+            </dict>
+            <dict>
+              <key>name</key>
+              <string>uni0437.sc</string>
+              <key>source</key>
+              <dict>
+                <key>bytes</key>
+                <integer>2693</integer>
+                <key>path</key>
+                <string>sources/ufo/TravellerScreen-MediumItalic.ufo/glyphs/uni0437.sc.glif</string>
+                <key>sha256</key>
+                <string>78b5335d49c1a05585307cec4299f2a3528f99b32481d82645e0636788279b3c</string>
+              </dict>
+            </dict>
+          </array>
+        </dict>
+        <key>wholeDrawingTranslateX</key>
+        <real>88.57275390625</real>
+      </dict>
+      <key>org.opentransitinformation.successorSource</key>
+      <dict>
+        <key>fragmentSha256</key>
+        <string>7bf57a6083ef0c67ce38e13cd2a5d0f3207491b8638f43582761d205aace8a07</string>
+        <key>planId</key>
+        <string>OTI-DESIGN-HISTORICAL-CYRILLIC-SOURCES-2026-11-07</string>
+        <key>planSha256</key>
+        <string>53b50df1024449ff04626dca680639771282392c7de226505bd7d7278b4226e7</string>
+        <key>sourceRelease</key>
+        <string>v1.1.0</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
