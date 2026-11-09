@@ -19616,7 +19616,6 @@ lookup Traveller120SoftDots {
     sub i' @Traveller120SoftDotAbove by dotlessi;
     sub iogonek' @Traveller120SoftDotAbove by oti.012F.dotless120;
     sub j' @Traveller120SoftDotAbove by oti.006A.dotless120;
-    sub uni1ECB' @Traveller120SoftDotAbove by oti.uni1ECB.dotless;
 } Traveller120SoftDots;
 
 feature aalt {
@@ -19831,9 +19830,8 @@ feature ccmp {
 
 feature ccmp {
     script latn;
-    language LTH;
+    language LTH exclude_dflt;
     lookup ChainedContextualGSUB3;
-    lookup Traveller120SoftDots;
 } ccmp;
 
 feature ccmp {
@@ -19915,9 +19913,8 @@ feature ccmp {
 
 feature ccmp {
     script latn;
-    language LTH;
+    language LTH exclude_dflt;
     lookup ChainedContextualGSUB6;
-    lookup Traveller120SoftDots;
 } ccmp;
 
 feature ccmp {
@@ -19999,9 +19996,8 @@ feature ccmp {
 
 feature ccmp {
     script latn;
-    language LTH;
+    language LTH exclude_dflt;
     lookup LigatureSubstitution36;
-    lookup Traveller120SoftDots;
 } ccmp;
 
 feature ccmp {
@@ -20083,9 +20079,8 @@ feature ccmp {
 
 feature ccmp {
     script latn;
-    language LTH;
+    language LTH exclude_dflt;
     lookup LigatureSubstitution37;
-    lookup Traveller120SoftDots;
 } ccmp;
 
 feature ccmp {
@@ -20132,16 +20127,14 @@ feature ccmp {
 
 feature ccmp {
     script latn;
-    language LTH;
+    language LTH exclude_dflt;
     lookup LigatureSubstitution9;
-    lookup Traveller120SoftDots;
 } ccmp;
 
 feature ccmp {
     script latn;
-    language LTH;
+    language LTH exclude_dflt;
     lookup ChainedContextualGSUB39;
-    lookup Traveller120SoftDots;
 } ccmp;
 
 feature dnom {
@@ -21634,7 +21627,6 @@ feature mark {
 
 feature ccmp {
     sub uni1ECB' [gravecomb acutecomb] by oti.uni1ECB.dotless;
-    lookup Traveller120SoftDots;
 } ccmp;
 
 lookup SourceSignXDot {

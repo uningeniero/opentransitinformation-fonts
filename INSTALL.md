@@ -3,7 +3,7 @@
 
 Traveller Sign and Traveller Screen are transport typeface families from [Open Transit Information](https://opentransitinformation.org). The font software version is 1.100.
 
-Install the required TTF files from `fonts/travellersign/` or `fonts/travellerscreen/` using the operating system font installer. Sign has four upright weights; Screen has four upright weights and their genuine italics. Select the actual style in the application.
+Install the required TTF files from `fonts/ttf/travellersign/` or `fonts/ttf/travellerscreen/` using the operating system font installer. Sign has four upright weights; Screen has four upright weights and their genuine italics. Select the actual style in the application.
 
 For a website, serve the WOFF2 files and use `examples/fonts.css`. Open `examples/index.html` for the included specimens. Sign offers optional `tnum` tabular figures and `pnum` proportional figures. Screen offers the optional `ss20` numeral profile.
 
